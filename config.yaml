@@ -1,0 +1,30 @@
+# Elenco dei cinema da interrogare.
+# type: "tickets18" oppure "wp_remotefilm" (vedi cartella scrapers/)
+cinemas:
+  - name: "Cineplex Moderno (Due Carrare)"
+    type: tickets18
+    url: "https://pd.cineplexmoderno.cineplexmoderno.it/"
+    enabled: true
+
+  - name: "Multiastra"
+    type: wp_remotefilm
+    url: "https://multiastra.it/"
+    enabled: true
+
+  - name: "Porto Astra"
+    type: wp_remotefilm
+    url: "https://portoastra.it/"
+    enabled: true
+
+  # Non ancora supportati in questa v1 (vedi README > Limiti noti):
+  # - Fronte del Porto Padova: il sito vieta lo scraping via robots.txt
+  # - The Space Cinema (Limena) e Cinema Rex: orari caricati via JavaScript,
+  #   serve un browser headless (Playwright), non incluso in questa versione.
+  # - MovieConnection (il Lux): struttura statica e facile da leggere, ma non
+  #   ancora collegata a uno scraper dedicato in questa v1.
+
+# Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/
+# locandina/trailer quando il sito del cinema non li fornisce gia'.
+# In GitHub Actions viene passata come variabile d'ambiente TMDB_API_KEY
+# (vedi README); questo campo serve solo come comodo fallback per test in locale.
+tmdb_api_key: null
