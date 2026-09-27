@@ -1,0 +1,39 @@
+name: Aggiorna programmazione cinema
+
+on:
+  workflow_dispatch: {}
+  # Nessuno "schedule" automatico di proposito: il progetto e' pensato per
+  # essere lanciato a mano, quando serve, anche dal telefono tramite l'app
+  # GitHub (Actions -> Aggiorna programmazione cinema -> Run workflow).
+
+permissions:
+  contents: write
+  issues: write   # per leggere le issue "evento" e chiudere quelle passate
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Esegui lo scraper e genera la pagina
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python main.py
+
+      - name: Pubblica la pagina aggiornata (commit di docs/)
+        run: |
+          git config user.name "cinema-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs
+          git diff --quiet --cached || git commit -m "Aggiorna programmazione $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
