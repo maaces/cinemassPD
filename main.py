@@ -7,13 +7,22 @@ import yaml
 from custom_events import fetch_custom_events
 from enrich_tmdb import enrich_movies
 from render_html import render
-from scrapers import tickets18, wp_remotefilm
+from scrapers import tickets18, wp_remotefilm, movieconnection
 from utils import merge_movies
+try:
+    from scrapers import playwright_headless
+    PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    PLAYWRIGHT_AVAILABLE = False
 
 SCRAPER_MAP = {
     "tickets18": tickets18.scrape,
     "wp_remotefilm": wp_remotefilm.scrape,
+    "movieconnection": movieconnection.scrape,
 }
+if PLAYWRIGHT_AVAILABLE:
+    SCRAPER_MAP["playwright"] = playwright_headless.scrape_space_cinema
+    SCRAPER_MAP["cinema_rex"] = playwright_headless.scrape_cinema_rex
 
 
 def load_config(path: str = "config.yaml") -> dict:

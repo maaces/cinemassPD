@@ -1,5 +1,6 @@
 # Elenco dei cinema da interrogare.
-# type: "tickets18" oppure "wp_remotefilm" (vedi cartella scrapers/)
+# type: "tickets18", "wp_remotefilm", "movieconnection", "playwright", "cinema_rex"
+# (vedi cartella scrapers/ per i dettagli)
 cinemas:
   - name: "Cineplex Moderno (Due Carrare)"
     type: tickets18
@@ -16,12 +17,27 @@ cinemas:
     url: "https://portoastra.it/"
     enabled: true
 
-  # Non ancora supportati in questa v1 (vedi README > Limiti noti):
-  # - Fronte del Porto Padova: il sito vieta lo scraping via robots.txt
-  # - The Space Cinema (Limena) e Cinema Rex: orari caricati via JavaScript,
-  #   serve un browser headless (Playwright), non incluso in questa versione.
-  # - MovieConnection (il Lux): struttura statica e facile da leggere, ma non
-  #   ancora collegata a uno scraper dedicato in questa v1.
+  - name: "MovieConnection (il Lux)"
+    type: movieconnection
+    url: "https://www.movieconnection.it/lux/"
+    enabled: true
+
+  # I prossimi due sono disabilitati per default perchè richiedono Playwright:
+  # per abilitarli, aggiungi "pip install playwright" e "playwright install" al workflow.
+  # Vedi README > Sezione GitHub Actions per i dettagli.
+
+  - name: "The Space Cinema (Limena)"
+    type: playwright
+    url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
+    enabled: false
+
+  - name: "Cinema Rex"
+    type: cinema_rex
+    url: "https://www.cinemarex.it/"
+    enabled: false
+
+  # Non incluso per policy (il sito vieta esplicitamente l'accesso automatico):
+  # - Fronte del Porto Padova
 
 # Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/
 # locandina/trailer quando il sito del cinema non li fornisce gia'.

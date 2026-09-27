@@ -93,28 +93,56 @@ dei cinema. Il modo più semplice per ottenere comunque il risultato: usa la
 funzione "Aggiungi una foto/promemoria" qui sopra ogni volta che vedi
 qualcosa di interessante su quel profilo.
 
-## Limiti noti (importante)
+## Stato dei cinema supportati
 
-- **The Space Cinema (Limena)** e **Cinema Rex**: i loro orari sono
-  caricati via JavaScript dopo il caricamento della pagina, quindi non sono
-  visibili a un semplice scraper HTTP. Per supportarli servirebbe
-  aggiungere **Playwright** (browser headless) al workflow — fattibile su
-  GitHub Actions (impossibile invece su Termux/telefono), ma non incluso in
-  questa prima versione per tenerla semplice. Se vuoi, è il prossimo passo
-  naturale.
-- **Fronte del Porto Padova**: il sito dichiara esplicitamente nel suo
-  `robots.txt` di non voler essere letto da bot automatici. Ho scelto di
-  non includerlo per rispetto di quella policy; se gestisci tu quel sito o
-  hai un accordo per l'accesso, si può aggiungere.
-- **MovieConnection (il Lux)**: struttura statica e semplice da leggere, ma
-  non ancora collegata a uno scraper dedicato in questa v1 — si può
-  aggiungere facilmente su richiesta.
-- **Selettori "best effort"**: gli scraper di Multiastra/Porto Astra
-  (file `scrapers/wp_remotefilm.py`) individuano i giorni tramite le "tab"
-  del sito assumendo una struttura comune (Bootstrap); se al primo vero
-  avvio qualcosa risultasse mancante o con date sbagliate, usa
-  `python tools/debug_dump.py <url> dump.html` per salvare l'HTML reale e
-  mandamelo: sistemo i selettori in pochi minuti.
+| Cinema | Implementato? | Stato | Note |
+|--------|---------------|-------|------|
+| **Cineplex Moderno** (Due Carrare) | ✅ Sì | ✅ Dati completi | Piattaforma 18tickets |
+| **Multiastra** | ✅ Sì | ✅ Funzionante | Plugin WordPress remotefilm |
+| **Porto Astra** | ✅ Sì | ✅ Funzionante | Plugin WordPress remotefilm |
+| **MovieConnection** (il Lux) | ✅ Sì | ✅ Funzionante | WordPress statico |
+| **The Space Cinema** (Limena) | ✅ Sì* | ⚠️ Facoltativo | Richiede Playwright (disabilitato di default) |
+| **Cinema Rex** | ✅ Sì* | ⚠️ Facoltativo | Richiede Playwright (disabilitato di default) |
+| **Fronte del Porto Padova** | ❌ No | ❌ Escluso | Il sito vieta accesso automatico (robots.txt) |
+
+_* Implementato ma richiede Playwright, che non è incluso per difetto (rende il progetto più pesante). Vedi sotto come abilitare._
+
+### Abilitare Playwright per The Space Cinema e Cinema Rex
+
+Se vuoi includere questi due cinema, devi abilitare Playwright nel workflow di GitHub Actions:
+
+1. **Nel file `.github/workflows/scrape.yml`**, cambia il passaggio "Installa dipendenze" da:
+   ```yaml
+   - name: Installa dipendenze
+     run: pip install -r requirements.txt
+   ```
+   in:
+   ```yaml
+   - name: Installa dipendenze
+     run: pip install -r requirements.txt && pip install playwright && playwright install
+   ```
+
+2. **Nel file `config.yaml`**, cambia `enabled: false` in `enabled: true` per i cinema di interesse:
+   ```yaml
+   - name: "The Space Cinema (Limena)"
+     type: playwright
+     url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
+     enabled: true   # ← cambia questo
+   ```
+
+3. Lancia il prossimo workflow: GitHub Actions installerà Playwright e userà un browser headless per caricare gli orari.
+
+**Nota importante**: Playwright è più lento e consuma più risorse. Se non ti servono questi due cinema, è meglio lasciare disabilitato.
+
+## Limiti noti e consigli di calibrazione
+
+- **Selettori CSS/HTML "best effort"**: gli scraper di Multiastra/Porto Astra/MovieConnection
+  si basano su pattern generici. Se al primo run reale un sito cambia struttura,
+  usa `python tools/debug_dump.py <url> dump.html` per salvare l'HTML vero,
+  ispezionalo e mandamelo: sistemo i selettori in pochi minuti.
+- **Fronte del Porto Padova**: il sito dichiara esplicitamente nel suo `robots.txt`
+  di non voler essere letto da bot automatici. Ho scelto di non includerlo per
+  rispetto; se gestisci tu quel sito o hai un accordo, si può aggiungere.
 - Se un film compare su più cinema, viene unito in un'unica scheda con
   tutti gli orari (il confronto è per titolo normalizzato).
 
