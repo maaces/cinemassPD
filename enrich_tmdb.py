@@ -1,10 +1,15 @@
-"""Arricchisce le schede Movie con dati mancanti usando TMDB
-(https://www.themoviedb.org/), e aggiunge un link di ricerca Letterboxd.
+"""Arricchisce le schede Movie:
 
-TMDB e' gratuito per uso personale: serve solo registrarsi e creare una
-API key (vedi README.md). Se non viene fornita nessuna chiave, questo
-modulo non fa nulla (i film restano con i soli dati raccolti dagli
-scraper) — il resto della pipeline funziona comunque.
+- Link SEMPRE disponibili, senza bisogno di alcuna API key:
+    - letterboxd_url: link di RICERCA Letterboxd (Letterboxd non offre una
+      API di ricerca pubblica gratuita, quindi non possiamo garantire un
+      link diretto affidabile: la ricerca e' la scelta piu' robusta).
+    - trailer_search_url: link di RICERCA YouTube ("<titolo> trailer").
+
+- Link/dati PIU' precisi se fornisci una TMDB_API_KEY (gratuita, vedi
+  README): tmdb_url (link diretto alla scheda del film), e per completare
+  regista/durata/locandina/trailer quando il sito del cinema non li da'
+  gia' (es. Multiastra e Porto Astra non pubblicano il regista in home).
 """
 import time
 import urllib.parse
@@ -19,10 +24,10 @@ POSTER_BASE = "https://image.tmdb.org/t/p/w500"
 
 
 def _clean_title_for_search(title: str) -> str:
-    # Toglie suffissi comuni che confondono la ricerca (es. "(Ried.)", "V.O.S")
+    t = title.lower()
     for junk in ["(ried.)", "(riedizione)", "v.o.s", "v.o.", "extra"]:
-        title = title.lower().replace(junk, "")
-    return title.strip(" -–—")
+        t = t.replace(junk, "")
+    return t.strip(" -–—")
 
 
 def _tmdb_search(session: requests.Session, api_key: str, title: str) -> Optional[dict]:
@@ -47,42 +52,44 @@ def enrich_movies(movies: List[Movie], tmdb_api_key: Optional[str]) -> None:
     session = requests.Session()
 
     for m in movies:
-        # Link di ricerca Letterboxd: sempre valido, non richiede API.
+        # --- Fallback universali: nessuna rete/API richiesta ---
         if not m.letterboxd_url:
             q = urllib.parse.quote(_clean_title_for_search(m.title))
             m.letterboxd_url = f"https://letterboxd.com/search/films/{q}/"
+        if not m.trailer_search_url:
+            q = urllib.parse.quote(f"{m.title} trailer")
+            m.trailer_search_url = f"https://www.youtube.com/results?search_query={q}"
 
-        needs_lookup = not m.director or not m.duration_min or not m.poster_url or not m.trailer_url
-        if not (tmdb_api_key and needs_lookup):
+        if not tmdb_api_key:
             continue
 
         try:
             hit = _tmdb_search(session, tmdb_api_key, m.title)
             if not hit:
                 continue
-            details = _tmdb_details(session, tmdb_api_key, hit["id"])
-            if not details:
-                continue
 
-            if not m.director:
-                crew = (details.get("credits") or {}).get("crew") or []
-                directors = [c["name"] for c in crew if c.get("job") == "Director"]
-                if directors:
-                    m.director = ", ".join(directors)
+            if not m.tmdb_url:
+                m.tmdb_url = f"https://www.themoviedb.org/movie/{hit['id']}"
 
-            if not m.duration_min and details.get("runtime"):
-                m.duration_min = details["runtime"]
+            needs_details = not (m.director and m.duration_min and m.poster_url and m.trailer_url)
+            if needs_details:
+                details = _tmdb_details(session, tmdb_api_key, hit["id"])
+                if details:
+                    if not m.director:
+                        crew = (details.get("credits") or {}).get("crew") or []
+                        directors = [c["name"] for c in crew if c.get("job") == "Director"]
+                        if directors:
+                            m.director = ", ".join(directors)
+                    if not m.duration_min and details.get("runtime"):
+                        m.duration_min = details["runtime"]
+                    if not m.poster_url and details.get("poster_path"):
+                        m.poster_url = POSTER_BASE + details["poster_path"]
+                    if not m.trailer_url:
+                        videos = (details.get("videos") or {}).get("results") or []
+                        yt = [v for v in videos if v.get("site") == "YouTube" and v.get("type") == "Trailer"]
+                        if yt:
+                            m.trailer_url = f"https://www.youtube.com/watch?v={yt[0]['key']}"
 
-            if not m.poster_url and details.get("poster_path"):
-                m.poster_url = POSTER_BASE + details["poster_path"]
-
-            if not m.trailer_url:
-                videos = (details.get("videos") or {}).get("results") or []
-                yt = [v for v in videos if v.get("site") == "YouTube" and v.get("type") == "Trailer"]
-                if yt:
-                    m.trailer_url = f"https://www.youtube.com/watch?v={yt[0]['key']}"
-
-            time.sleep(0.3)  # rispetto dei rate limit TMDB
+            time.sleep(0.25)  # rispetto dei rate limit TMDB
         except requests.RequestException:
-            # Se TMDB non risponde, semplicemente non arricchiamo questo film.
-            continue
+            continue  # se TMDB non risponde, il film resta con i soli dati dello scraper

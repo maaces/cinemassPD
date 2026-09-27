@@ -23,9 +23,11 @@ class Movie:
     cast: List[str] = field(default_factory=list)
     duration_min: Optional[int] = None
     poster_url: Optional[str] = None
-    trailer_url: Optional[str] = None
-    letterboxd_url: Optional[str] = None
-    detail_url: Optional[str] = None
+    trailer_url: Optional[str] = None          # link diretto (se lo troviamo con certezza)
+    trailer_search_url: Optional[str] = None   # fallback: link di ricerca YouTube, sempre disponibile
+    letterboxd_url: Optional[str] = None       # link di ricerca Letterboxd, sempre disponibile
+    tmdb_url: Optional[str] = None             # link diretto alla scheda TMDB (richiede TMDB_API_KEY)
+    detail_url: Optional[str] = None           # pagina del film sul sito del cinema
     showtimes: List[Showtime] = field(default_factory=list)
 
     def norm_key(self) -> str:

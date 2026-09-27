@@ -4,6 +4,7 @@ import os
 
 import yaml
 
+from custom_events import fetch_custom_events
 from enrich_tmdb import enrich_movies
 from render_html import render
 from scrapers import tickets18, wp_remotefilm
@@ -50,10 +51,14 @@ def main() -> None:
     else:
         print("[i] Nessuna TMDB_API_KEY impostata: regista/durata/locandina mancanti "
               "resteranno vuoti se il sito del cinema non li fornisce gia'.")
-    enrich_movies(merged, tmdb_key)  # imposta comunque i link Letterboxd anche senza chiave
+    enrich_movies(merged, tmdb_key)  # imposta comunque i link Letterboxd/YouTube anche senza chiave
+
+    print("-> Lettura eventi personalizzati (Issue GitHub con label 'evento') ...")
+    custom_events = fetch_custom_events()
+    print(f"   trovati {len(custom_events)} eventi personalizzati")
 
     out_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
-    render(merged, out_dir, cinemas_note=" ".join(notes))
+    render(merged, custom_events, out_dir, cinemas_note=" ".join(notes))
     print(f"-> Pagina generata in {out_dir}/index.html")
 
 

@@ -61,6 +61,38 @@ sulla home). Ogni film mostra i suoi orari con i pulsanti per aggiungerli
 al calendario — esattamente il tipo di aggiornamento "on demand" che
 volevi, senza automatismi in background.
 
+## Aggiungere una foto/promemoria tuo (con data, ora e testo libero)
+
+Usiamo le **Issue di GitHub** come casella di posta, così puoi farlo dal
+telefono senza bisogno di alcun backend:
+
+1. Una volta sola: nel repository vai su *Issues → Labels → New label* e
+   crea una label chiamata esattamente `evento`.
+2. Dall'app GitHub (Android o iPhone): apri il repo → tab *Issues* → **+**.
+3. Titolo: una breve descrizione (es. "Proiezione speciale in giardino").
+4. Nel corpo, **sulla prima riga** scrivi data e ora così:
+   `GG/MM/AAAA HH:MM` (es. `30/09/2026 20:30`). Dalla riga successiva in poi
+   scrivi il testo libero che vuoi, poi allega una foto dalla libreria
+   (basta trascinarla/incollarla, GitHub la carica da solo).
+5. Aggiungi la label `evento` e pubblica la issue.
+6. Al prossimo "Run workflow" comparirà nella pagina, nel punto cronologico
+   giusto, foto compresa — e con lo stesso pulsante "Aggiungi al Calendar"
+   degli altri film.
+
+Per toglierla, chiudi semplicemente la issue (*Close issue*).
+
+## Nota su Instagram (richiesto ma non incluso)
+
+Avevi chiesto di mostrare l'ultima foto pubblicata da un profilo Instagram
+pubblico. Non l'ho implementato perché **Instagram vieta esplicitamente
+l'accesso automatico nel suo `robots.txt`**, oltre a essere un sito
+fortemente basato su JavaScript con login-wall anche per contenuti
+pubblici; la sua API ufficiale, inoltre, non permette di leggere i post di
+un account che non è il tuo. È un caso diverso (e più delicato) dei siti
+dei cinema. Il modo più semplice per ottenere comunque il risultato: usa la
+funzione "Aggiungi una foto/promemoria" qui sopra ogni volta che vedi
+qualcosa di interessante su quel profilo.
+
 ## Limiti noti (importante)
 
 - **The Space Cinema (Limena)** e **Cinema Rex**: i loro orari sono
