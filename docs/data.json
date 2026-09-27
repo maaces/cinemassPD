@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:25:47.657948",
+  "generated_at": "2026-09-27T15:30:58.060966",
   "movies": [
     {
       "title": "COYOTE VS ACME",
@@ -41,74 +41,6 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "AVENGERS: ENDGAME EXTRA",
-      "director": "Anthony Russo, Joe Russo Con: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 17:30 Sala 1 18:20 Sala 6 20:35 Sala 5 21:15 Sala 1 22:00 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 21:30 Sala 1 22:05 Sala 6",
-      "duration_min": 181,
-      "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
-      "letterboxd_url": "https://letterboxd.com/search/films/avengers%3A%20endgame/",
-      "tmdb_url": "https://www.themoviedb.org/movie/299534",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/132755",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "15:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
           "date_uncertain": true
         }
       ]
@@ -221,6 +153,74 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "AVENGERS: ENDGAME EXTRA",
+      "director": "Anthony Russo, Joe Russo Con: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 18:20 Sala 6 20:35 Sala 5 21:15 Sala 1 22:00 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 21:30 Sala 1 22:05 Sala 6",
+      "duration_min": 181,
+      "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
+      "letterboxd_url": "https://letterboxd.com/search/films/avengers%3A%20endgame/",
+      "tmdb_url": "https://www.themoviedb.org/movie/299534",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/132755",
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "15:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "21:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
           "date_uncertain": true
         }
       ]
