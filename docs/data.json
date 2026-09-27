@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:30:58.060966",
+  "generated_at": "2026-09-27T16:57:10.909493",
   "movies": [
     {
       "title": "COYOTE VS ACME",
@@ -47,7 +47,7 @@
     },
     {
       "title": "HEART OF THE  BEAST - NEL PROFONDO SELVAGGIO",
-      "director": "David Ayer Con: Brad Pitt, J.K. Simmons Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 17:35 Sala 2 19:20 Sala 10 19:50 Sala 2 20:45 Sala 8 21:25 Sala 9 22:05 Sala 2 22:15 Sala 7 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2 22:45 Sala 8 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2 22:45 Sala 8 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2",
+      "director": "David Ayer Con: Brad Pitt, J.K. Simmons Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 19:20 Sala 10 19:50 Sala 2 20:45 Sala 8 21:25 Sala 9 22:05 Sala 2 22:15 Sala 7 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2 22:45 Sala 8 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2 22:45 Sala 8 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2",
       "duration_min": 95,
       "poster_url": "https://image.tmdb.org/t/p/w500/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
@@ -106,18 +106,18 @@
       ]
     },
     {
-      "title": "THE INVITE – IL PIACERE È TUTTO NOSTRO",
-      "director": "Olivia Wilde Con: Seth Rogen, Olivia Wilde, Penélope Cruz, Edward Norton Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 18:10 Sala 5 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5",
-      "duration_min": 107,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20%E2%80%93%20il%20piacere%20%C3%A8%20tutto%20nostro/",
-      "tmdb_url": "https://www.themoviedb.org/movie/950028",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138696",
+      "title": "L'ISOLA DEI RICORDI (FORGOTTEN ISLAND)",
+      "director": "Januel Mercado, Joel Crawford Con: H.E.R., Liza Soberano, Dave Franco, Lea Salonga, Jenny Slate Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 19:30 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4",
+      "duration_min": 109,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi%20%28forgotten%20island%29/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143084",
       "showtimes": [
         {
           "date": "data-da-verificare",
-          "time": "14:50",
+          "time": "14:55",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -125,7 +125,7 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "19:30",
+          "time": "17:15",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -133,23 +133,31 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "21:00",
+          "time": "18:45",
           "cinema": "Porto Astra",
           "price": null,
-          "note": "V.O.S",
+          "note": null,
           "date_uncertain": true
         },
         {
           "date": "data-da-verificare",
-          "time": "21:40",
+          "time": "19:05",
           "cinema": "Porto Astra",
           "price": null,
-          "note": "V.O.S",
+          "note": null,
           "date_uncertain": true
         },
         {
           "date": "data-da-verificare",
-          "time": "22:15",
+          "time": "19:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "19:05",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -159,7 +167,7 @@
     },
     {
       "title": "AVENGERS: ENDGAME EXTRA",
-      "director": "Anthony Russo, Joe Russo Con: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 18:20 Sala 6 20:35 Sala 5 21:15 Sala 1 22:00 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 21:30 Sala 1 22:05 Sala 6",
+      "director": "Anthony Russo, Joe Russo Con: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 20:35 Sala 5 21:15 Sala 1 22:00 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 21:30 Sala 1 22:05 Sala 6",
       "duration_min": 181,
       "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
@@ -221,66 +229,6 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "L'ISOLA DEI RICORDI (FORGOTTEN ISLAND)",
-      "director": "Januel Mercado, Joel Crawford Con: H.E.R., Liza Soberano, Dave Franco, Lea Salonga, Jenny Slate Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 19:30 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4",
-      "duration_min": 109,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi%20%28forgotten%20island%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143084",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "14:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "18:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
           "date_uncertain": true
         }
       ]
@@ -434,6 +382,58 @@
       ]
     },
     {
+      "title": "THE INVITE – IL PIACERE È TUTTO NOSTRO",
+      "director": "Olivia Wilde Con: Seth Rogen, Olivia Wilde, Penélope Cruz, Edward Norton Lingua: Italiano Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5",
+      "duration_min": 107,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20%E2%80%93%20il%20piacere%20%C3%A8%20tutto%20nostro/",
+      "tmdb_url": "https://www.themoviedb.org/movie/950028",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138696",
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "14:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "19:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "21:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "21:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "22:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
       "title": "ODISSEA",
       "director": "Christopher Nolan Con: Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Charlize Theron, Zendaya Lingua: Italiano Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 21:40 Sala 9 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 21:40 Sala 9 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 21:40 Sala 9",
       "duration_min": 173,
@@ -482,6 +482,62 @@
       ]
     },
     {
+      "title": "Santiago - Un Cammino Per Ricominciare",
+      "director": "Yann Samuell",
+      "duration_min": 113,
+      "poster_url": "https://image.tmdb.org/t/p/w500/sKkVmciht8qqC0wmAfUdVCTaeMz.jpg",
+      "trailer_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20Cammino%20Per%20Ricominciare%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "18:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Calle Malaga",
+      "director": "Maryam Touzani",
+      "duration_min": 116,
+      "poster_url": "https://image.tmdb.org/t/p/w500/azbn8uDQ7kAyDX57EKjsrUFSCSr.jpg",
+      "trailer_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1399462",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": "5,50 €",
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
       "title": "Ritorno A Buenos Aires",
       "director": "Marco Bechis",
       "duration_min": 104,
@@ -502,14 +558,6 @@
         {
           "date": "data-da-verificare",
           "time": "17:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:45",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -569,14 +617,6 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "18:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
           "time": "20:00",
           "cinema": "Multiastra",
           "price": null,
@@ -596,62 +636,6 @@
           "time": "21:20",
           "cinema": "Porto Astra",
           "price": "6,50 €",
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Santiago - Un Cammino Per Ricominciare",
-      "director": "Yann Samuell",
-      "duration_min": 113,
-      "poster_url": "https://image.tmdb.org/t/p/w500/sKkVmciht8qqC0wmAfUdVCTaeMz.jpg",
-      "trailer_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20Cammino%20Per%20Ricominciare%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "18:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Calle Malaga",
-      "director": "Maryam Touzani",
-      "duration_min": 116,
-      "poster_url": "https://image.tmdb.org/t/p/w500/azbn8uDQ7kAyDX57EKjsrUFSCSr.jpg",
-      "trailer_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1399462",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": "5,50 €",
           "note": null,
           "date_uncertain": true
         }
