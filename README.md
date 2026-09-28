@@ -93,73 +93,43 @@ dei cinema. Il modo più semplice per ottenere comunque il risultato: usa la
 funzione "Aggiungi una foto/promemoria" qui sopra ogni volta che vedi
 qualcosa di interessante su quel profilo.
 
-## Stato dei cinema supportati
+## Stato dei cinema (onesto)
 
-| Cinema | Implementato? | Stato | Note |
-|--------|---------------|-------|------|
-| **Cineplex Moderno** (Due Carrare) | ✅ Sì | ✅ Funzionante | Ora usa Playwright (tipo cambiato da tickets18) |
-| **Multiastra** | ✅ Sì | ✅ Funzionante | Plugin WordPress remotefilm |
-| **Porto Astra** | ✅ Sì | ✅ Funzionante | Plugin WordPress remotefilm |
-| **MovieConnection** (il Lux) | ✅ Sì | ✅ Funzionante | WordPress statico |
-| **Fronte del Porto Padova** | ✅ Sì | ✅ Funzionante | Ignora robots.txt (vedi nota sotto) |
-| **The Space Cinema** (Limena) | ✅ Sì* | ⚠️ Facoltativo | Richiede Playwright (disabilitato di default) |
-| **Cinema Rex** | ✅ Sì* | ⚠️ Facoltativo | Richiede Playwright (disabilitato di default) |
+"Verificato" = ho visto dati reali uscire dalla pagina generata; "abbozzo" = scritto
+senza aver mai visto l'HTML vero del sito, da calibrare con la diagnostica.
 
-_* Implementato ma richiede Playwright, che non è incluso per difetto. Vedi sezione "Abilitare Playwright" per attivarli._
+| Cinema | Scraper | Stato |
+|--------|---------|-------|
+| **Porto Astra** | `wp_remotefilm` | Film, orari, note (V.O.S), locandine: verificato. Riconoscimento dei giorni: rifatto, da riverificare al prossimo run |
+| **Multiastra** | `wp_remotefilm` | Come Porto Astra |
+| **Cineplex Moderno** | `tickets18` | Da verificare (nel run precedente era stato disattivato per errore) |
+| **MovieConnection (il Lux)** | `movieconnection` | Abbozzo, nessun dato visto finora |
+| **Fronte del Porto Padova** | `fronte_del_porto` | Abbozzo, nessun dato visto finora. Ignora il robots.txt del sito (vedi sotto) |
+| **The Space Cinema (Limena)** | `playwright` | Abbozzo, disabilitato: orari caricati via JavaScript |
+| **Cinema Rex** | `cinema_rex` | Abbozzo, disabilitato: orari caricati via JavaScript |
+
+### Diagnostica: come si calibra uno scraper
+
+Ogni esecuzione scrive `docs/debug/report.txt` (linkato in fondo alla pagina,
+"diagnostica"): per ogni cinema quanti film e orari ha trovato, quanti con data
+non riconosciuta, eventuali errori, e l'HTML ripulito della pagina scaricata
+(`docs/debug/<cinema>.txt`). Se un cinema risulta vuoto o sbagliato, basta
+mandare a Claude il link al report: con l'HTML vero davanti si sistemano i
+selettori in un colpo solo. La testata della pagina elenca anche i cinema
+per cui non e' stato trovato nessun orario.
 
 ### Nota su Fronte del Porto Padova
 
-Il sito dichiara nel suo `robots.txt` di vietare l'accesso automatico. Questo scraper lo **ignora consapevolmente**, perché:
-- Tu (proprietario del repository) lo richiedi esplicitamente
-- Lo scraping è occasionale, non sistematico (max 1x al giorno)
-- Non viene usato per scopi commerciali
-- Rimaniamo "educati": User-Agent identificabile, delay tra richieste
+Il sito dichiara nel suo `robots.txt` di vietare l'accesso automatico. Lo scraper
+lo ignora per scelta dell'utente (uso personale, una richiesta per aggiornamento).
+Se il gestore chiedesse di smettere, imposta `enabled: false` in `config.yaml`.
 
-Se il gestore comunica che preferisce non essere scrapato, disabilita questo cinema nel `config.yaml`:
-```yaml
-  - name: "Fronte del Porto Padova"
-    type: fronte_del_porto
-    url: "https://www.frontedelportopadova.it/eventi/"
-    enabled: false   # ← cambia questo
-```
+### The Space Cinema e Cinema Rex (Playwright)
 
-### Abilitare Playwright per The Space Cinema e Cinema Rex
-
-Se vuoi includere questi due cinema, devi abilitare Playwright nel workflow di GitHub Actions:
-
-1. **Nel file `.github/workflows/scrape.yml`**, cambia il passaggio "Installa dipendenze" da:
-   ```yaml
-   - name: Installa dipendenze
-     run: pip install -r requirements.txt
-   ```
-   in:
-   ```yaml
-   - name: Installa dipendenze
-     run: pip install -r requirements.txt && pip install playwright && playwright install
-   ```
-
-2. **Nel file `config.yaml`**, cambia `enabled: false` in `enabled: true` per i cinema di interesse:
-   ```yaml
-   - name: "The Space Cinema (Limena)"
-     type: playwright
-     url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
-     enabled: true   # ← cambia questo
-   ```
-
-3. Lancia il prossimo workflow: GitHub Actions installerà Playwright e userà un browser headless per caricare gli orari.
-
-**Nota importante**: Playwright è più lento e consuma più risorse. Se non ti servono questi due cinema, è meglio lasciare disabilitato.
-
-## Limiti noti e consigli di calibrazione
-
-### Limitazioni tecniche note
-
-- **Selettori CSS/HTML "best effort"**: gli scraper di Multiastra/Porto Astra/MovieConnection/Fronte del Porto
-  si basano su pattern generici. Se al primo run reale un sito cambia struttura,
-  usa `python tools/debug_dump.py <url> dump.html` per salvare l'HTML vero,
-  ispezionalo e mandamelo: sistemo i selettori in pochi minuti.
-- Se un film compare su più cinema, viene unito in un'unica scheda con
-  tutti gli orari (il confronto è per titolo normalizzato).
+Non servono a Cineplex (che e' HTML statico). Per provare gli abbozzi di Space/Rex:
+in `.github/workflows/scrape.yml` sostituisci il comando di installazione con
+`pip install -r requirements.txt && pip install playwright && playwright install --with-deps chromium`
+e metti `enabled: true` nei due cinema in `config.yaml`. Richiedono comunque calibrazione.
 
 ## Aggiungere un altro cinema della stessa piattaforma
 

@@ -7,6 +7,10 @@ import requests
 
 from models import Movie
 
+# Pagine HTML grezze scaricate durante lo scraping del cinema corrente:
+# main.py le salva (ripulite) in docs/debug/ per poter calibrare gli scraper.
+DEBUG_PAGES = {}
+
 USER_AGENT = (
     "Mozilla/5.0 (compatible; CinemaScheduleBot/1.0; "
     "uso personale, non commerciale)"
@@ -26,6 +30,7 @@ def polite_get(session: requests.Session, url: str, delay: float = 1.0, **kwargs
     """GET con timeout e una piccola pausa per non martellare il server."""
     resp = session.get(url, timeout=25, **kwargs)
     resp.raise_for_status()
+    DEBUG_PAGES[url] = resp.text
     time.sleep(delay)
     return resp
 
@@ -62,7 +67,34 @@ def merge_movies(movie_lists: List[List[Movie]]) -> List[Movie]:
                 existing.trailer_url = existing.trailer_url or m.trailer_url
                 existing.cast = existing.cast or m.cast
                 existing.detail_url = existing.detail_url or m.detail_url
-    # Ordina le proiezioni di ogni film per data e ora
+    # Elimina le proiezioni identiche (stessa data, ora, cinema, nota) e ordina
     for m in merged.values():
-        m.showtimes.sort(key=lambda s: (s.date or "9999", s.time or "99:99"))
+        seen = set()
+        unique = []
+        for st in m.showtimes:
+            key = (st.date, st.time, st.cinema, st.note or "")
+            if key in seen:
+                continue
+            seen.add(key)
+            unique.append(st)
+        m.showtimes = sorted(unique, key=lambda s: (s.date or "9999", s.time or "99:99"))
     return list(merged.values())
+
+
+def clean_html_for_dump(html_text: str, max_chars: int = 600_000) -> str:
+    """Toglie da un HTML tutto cio' che non serve a capirne la struttura
+    (script, stili, svg, commenti, campi nascosti) cosi' il dump resta leggero."""
+    from bs4 import BeautifulSoup, Comment
+    soup = BeautifulSoup(html_text, "html.parser")
+    for tag in soup(["script", "style", "svg", "noscript", "link", "meta", "iframe"]):
+        tag.decompose()
+    for tag in soup.find_all("input", attrs={"type": "hidden"}):
+        tag.decompose()
+    for c in soup.find_all(string=lambda t: isinstance(t, Comment)):
+        c.extract()
+    for tag in soup.find_all(True):
+        for attr in ("style", "srcset", "sizes", "data-srcset"):
+            if attr in tag.attrs:
+                del tag.attrs[attr]
+    out = re.sub(r"\n\s*\n+", "\n", soup.prettify())
+    return out[:max_chars]

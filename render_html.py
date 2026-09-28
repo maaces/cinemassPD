@@ -16,6 +16,7 @@ import os
 import re
 from collections import defaultdict
 from typing import List, Optional
+from zoneinfo import ZoneInfo
 
 from calendar_links import google_calendar_link, ics_content
 from custom_events import CustomEvent
@@ -70,7 +71,7 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
 
     poster_html = (f'<img class="poster" src="{_esc(m.poster_url)}" alt="" loading="lazy">'
                    if m.poster_url else '<div class="poster poster-placeholder">🎬</div>')
-    director_html = f'<div class="director">Regia: {_esc(m.director)}</div>' if m.director else ""
+    director_html = f'<div class="director">Regia: <bdi>{_esc(m.director)}</bdi></div>' if m.director else ""
     duration_html = f'{m.duration_min} min' if m.duration_min else ""
     price_note = " · ".join(x for x in [st.price, st.note] if x)
 
@@ -202,7 +203,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
           <div class="time-row"><div class="time-items">{''.join(uncertain_html)}</div></div>
         </section>""")
 
-    now = dt.datetime.now().strftime("%d/%m/%Y alle %H:%M")
+    now = dt.datetime.now(ZoneInfo("Europe/Rome")).strftime("%d/%m/%Y alle %H:%M")
     html_doc = f"""<!DOCTYPE html>
 <html lang="it">
 <head>
@@ -260,7 +261,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   <p>Aggiornato il {now}. {_esc(cinemas_note)}</p>
 </header>
 {''.join(sections) if sections else '<p>Nessun film trovato in questo aggiornamento.</p>'}
-<footer>Generato automaticamente · dati raccolti dai siti dei singoli cinema</footer>
+<footer>Generato automaticamente · dati raccolti dai siti dei singoli cinema · <a href="debug/report.txt">diagnostica</a></footer>
 </body>
 </html>"""
 

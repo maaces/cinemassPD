@@ -3,7 +3,7 @@
 # (vedi cartella scrapers/ per i dettagli)
 cinemas:
   - name: "Cineplex Moderno (Due Carrare)"
-    type: playwright
+    type: tickets18
     url: "https://pd.cineplexmoderno.cineplexmoderno.it/"
     enabled: true
 
@@ -27,9 +27,9 @@ cinemas:
     url: "https://www.frontedelportopadova.it/eventi/"
     enabled: true
 
-  # Disabilitati per default: richiedono Playwright
-  # per abilitarli, aggiungi "pip install playwright" e "playwright install" al workflow.
-  # Vedi README > Sezione GitHub Actions per i dettagli.
+  # Disabilitati: orari caricati via JavaScript, richiederebbero Playwright
+  # (pip install playwright && playwright install nel workflow). Gli scraper
+  # relativi sono ancora solo abbozzi NON verificati sui siti reali.
 
   - name: "The Space Cinema (Limena)"
     type: playwright
@@ -40,9 +40,6 @@ cinemas:
     type: cinema_rex
     url: "https://www.cinemarex.it/"
     enabled: false
-
-  # Non incluso per policy (il sito vieta esplicitamente l'accesso automatico):
-  # - Fronte del Porto Padova
 
 # Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/
 # locandina/trailer quando il sito del cinema non li fornisce gia'.
