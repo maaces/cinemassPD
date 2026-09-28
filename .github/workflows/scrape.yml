@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
 
       - name: Installa dipendenze
-        run: pip install -r requirements.txt
+        run: pip install -r requirements.txt && pip install playwright && playwright install
 
       - name: Esegui lo scraper e genera la pagina
         env:
