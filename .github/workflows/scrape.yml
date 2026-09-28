@@ -14,14 +14,14 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
       - name: Installa dipendenze
-        run: pip install -r requirements.txt && pip install playwright && playwright install
+        run: pip install -r requirements.txt
 
       - name: Esegui lo scraper e genera la pagina
         env:
@@ -36,4 +36,3 @@ jobs:
           git add docs
           git diff --quiet --cached || git commit -m "Aggiorna programmazione $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
-
