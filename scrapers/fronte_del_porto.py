@@ -23,7 +23,7 @@ from typing import List, Optional
 from bs4 import BeautifulSoup
 
 from models import Movie, Showtime
-from utils import polite_get
+from utils import DEBUG_PAGES
 
 # User-Agent neutro che identifica il nostro scraper (educato)
 UA_OVERRIDE = (
@@ -53,6 +53,7 @@ def scrape(base_url: str, cinema_name: str) -> List[Movie]:
         # timeout generoso (25s), delay 1.5s tra richieste
         resp = session.get(base_url, timeout=25)
         resp.raise_for_status()
+        DEBUG_PAGES[base_url] = resp.text
     except Exception as e:
         print(f"[!] Errore scaricamento {cinema_name}: {e}")
         return []

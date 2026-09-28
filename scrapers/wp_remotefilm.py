@@ -21,6 +21,7 @@ segnalate come "data da verificare").
 import datetime
 import re
 from typing import Dict, List, Optional
+from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 
@@ -72,23 +73,156 @@ def _extract_listing(soup: BeautifulSoup) -> Dict[str, Dict]:
     return listing
 
 
+LABEL_RE_1 = re.compile(r"^(\d{1,2})/(\d{1,2})(?:/\d{2,4})?(?:\s+\S+)?$")   # "26/09 Sabato"
+LABEL_RE_2 = re.compile(r"^\S+\s+(\d{1,2})/(\d{1,2})(?:/\d{2,4})?$")           # "Sabato 26/09"
+_TEXT_DATE_HINT = re.compile(r"\d{1,2}/\d{1,2}")
+
+
+def _norm_text(el) -> str:
+    return " ".join(el.stripped_strings)
+
+
+def _label_date(el):
+    """Se il testo dell'elemento e' una 'etichetta giorno' (es. '26/09 Sabato')
+    ritorna (giorno, mese), altrimenti None."""
+    text = _norm_text(el)
+    if len(text) > 30:
+        return None
+    m = LABEL_RE_1.match(text) or LABEL_RE_2.match(text)
+    if not m:
+        return None
+    gg, mm = int(m.group(1)), int(m.group(2))
+    return (gg, mm) if 1 <= gg <= 31 and 1 <= mm <= 12 else None
+
+
+def _find_date_labels(soup):
+    """Trova gli elementi-etichetta dei giorni. Ritorna lista di (elemento, (gg, mm))
+    in ordine di documento, senza ripetere lo stesso elemento."""
+    labels, seen_ids = [], set()
+    for s in soup.find_all(string=_TEXT_DATE_HINT):
+        el = s.parent
+        for _ in range(3):  # sale al massimo di 3 livelli cercando il testo completo
+            if el is None or el.name in ("body", "html"):
+                break
+            d = _label_date(el)
+            if d:
+                if id(el) not in seen_ids:
+                    seen_ids.add(id(el))
+                    labels.append((el, d))
+                break
+            el = el.parent
+    return labels
+
+
+def _time_anchors(root):
+    return [a for a in root.find_all("a") if TIME_RE.match(a.get_text(" ", strip=True))]
+
+
+def _ancestor(node, levels):
+    for _ in range(levels):
+        node = node.parent
+        if node is None:
+            return None
+    return node
+
+
+def _strategy_attributes(soup, labels, unique_dates):
+    """Strategia A: le etichette sono tab (href="#id", data-target, aria-controls...)
+    che puntano al contenitore del giorno tramite id."""
+    attrs = ("href", "data-target", "data-bs-target", "data-href", "aria-controls", "data-tab", "data-day")
+    by_date = {}
+    for el, d in labels:
+        node = el
+        for _ in range(5):
+            if node is None:
+                break
+            for a in attrs:
+                v = node.get(a) if hasattr(node, "get") else None
+                if isinstance(v, list):
+                    v = " ".join(v)
+                if v:
+                    target = soup.find(id=v.lstrip("#"))
+                    if target is not None and _time_anchors(target):
+                        by_date.setdefault(d, target)
+                        break
+            else:
+                node = node.parent
+                continue
+            break
+    if all(d in by_date for d in unique_dates):
+        return [(by_date[d], d) for d in unique_dates]
+    return None
+
+
+def _partition_levels(anchors, max_depth=15):
+    """Per ogni profondita' calcola i gruppi di antenati (in ordine di documento)."""
+    for depth in range(1, max_depth + 1):
+        groups = []
+        seen = set()
+        for a in anchors:
+            anc = _ancestor(a, depth)
+            if anc is None:
+                return
+            if id(anc) not in seen:
+                seen.add(id(anc))
+                groups.append(anc)
+        if len(groups) < 2:
+            return
+        yield depth, groups
+
+
+def _strategy_partition_equal(soup, anchors, unique_dates):
+    """Strategia B: i contenitori dei giorni sono fratelli e il loro numero coincide
+    con il numero di etichette-giorno trovate (nell'ordine dei tab)."""
+    n = len(unique_dates)
+    for depth, groups in _partition_levels(anchors):
+        if len(groups) == n and len({id(g.parent) for g in groups}) == 1:
+            return list(zip(groups, unique_dates))
+    return None
+
+
+def _strategy_partition_labelled(soup, anchors, labels):
+    """Strategia C: ogni contenitore-giorno contiene al suo interno la propria
+    etichetta (es. un titolo '26/09 Sabato' sopra l'elenco dei film)."""
+    for depth, groups in _partition_levels(anchors):
+        if len({id(g.parent) for g in groups}) != 1:
+            continue
+        result = []
+        for g in groups:
+            inside = [d for el, d in labels if g in el.parents]
+            if len(set(inside)) != 1:
+                result = None
+                break
+            result.append((g, inside[0]))
+        if result and len({d for _, d in result}) == len(result):
+            return result
+    return None
+
+
 def _find_day_tabs(soup: BeautifulSoup, today: datetime.date):
-    """Cerca link tipo <a href="#qualcosa">26/09 ... Sabato</a> e i relativi
-    contenitori. Ritorna una lista di (contenitore_tag, "YYYY-MM-DD")."""
-    tabs = []
-    for a in soup.find_all("a", href=re.compile(r"^#")):
-        label = a.get_text(" ", strip=True)
-        m = DATE_TAB_RE.search(label)
-        if not m:
-            continue
-        gg, mm = int(m.group(1)), int(m.group(2))
-        anchor_id = a["href"].lstrip("#")
-        container = soup.find(id=anchor_id)
-        if container is None:
-            continue
-        year = _guess_year(gg, mm, today)
-        tabs.append((container, f"{year:04d}-{mm:02d}-{gg:02d}"))
-    return tabs
+    """Ritorna (lista di (contenitore, 'YYYY-MM-DD'), nome_strategia) oppure ([], None)."""
+    labels = _find_date_labels(soup)
+    anchors = _time_anchors(soup)
+    if not labels or not anchors:
+        return [], None
+
+    unique_dates = []
+    for _, d in labels:
+        if d not in unique_dates:
+            unique_dates.append(d)
+
+    for name, result in (
+        ("attributi/id", _strategy_attributes(soup, labels, unique_dates)),
+        ("contenitori fratelli", _strategy_partition_equal(soup, anchors, unique_dates)),
+        ("etichetta dentro il contenitore", _strategy_partition_labelled(soup, anchors, labels)),
+    ):
+        if result:
+            out = []
+            for container, (gg, mm) in result:
+                year = _guess_year(gg, mm, today)
+                out.append((container, f"{year:04d}-{mm:02d}-{gg:02d}"))
+            return out, name
+    return [], None
 
 
 def _parse_schedule_block(container, cinema_name: str, date_str: Optional[str],
@@ -145,12 +279,13 @@ def scrape(base_url: str, cinema_name: str) -> List[Movie]:
     session = get_session()
     resp = polite_get(session, base_url)
     soup = BeautifulSoup(resp.text, "html.parser")
-    today = datetime.date.today()
+    today = datetime.datetime.now(ZoneInfo("Europe/Rome")).date()
 
     listing = _extract_listing(soup)
     movies: Dict[str, Movie] = {}
 
-    tabs = _find_day_tabs(soup, today)
+    tabs, strategy = _find_day_tabs(soup, today)
+    print(f"   giorni riconosciuti: {len(tabs)} (strategia: {strategy or 'nessuna -> date da verificare'})")
     if tabs:
         for container, date_str in tabs:
             _parse_schedule_block(container, cinema_name, date_str,
