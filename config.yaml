@@ -3,7 +3,7 @@
 # (vedi cartella scrapers/ per i dettagli)
 cinemas:
   - name: "Cineplex Moderno (Due Carrare)"
-    type: tickets18
+    type: playwright
     url: "https://pd.cineplexmoderno.cineplexmoderno.it/"
     enabled: true
 
@@ -22,7 +22,12 @@ cinemas:
     url: "https://www.movieconnection.it/lux/"
     enabled: true
 
-  # I prossimi due sono disabilitati per default perchè richiedono Playwright:
+  - name: "Fronte del Porto Padova"
+    type: fronte_del_porto
+    url: "https://www.frontedelportopadova.it/eventi/"
+    enabled: true
+
+  # Disabilitati per default: richiedono Playwright
   # per abilitarli, aggiungi "pip install playwright" e "playwright install" al workflow.
   # Vedi README > Sezione GitHub Actions per i dettagli.
 

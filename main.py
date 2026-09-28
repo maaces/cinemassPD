@@ -7,7 +7,7 @@ import yaml
 from custom_events import fetch_custom_events
 from enrich_tmdb import enrich_movies
 from render_html import render
-from scrapers import tickets18, wp_remotefilm, movieconnection
+from scrapers import tickets18, wp_remotefilm, movieconnection, fronte_del_porto
 from utils import merge_movies
 try:
     from scrapers import playwright_headless
@@ -19,6 +19,7 @@ SCRAPER_MAP = {
     "tickets18": tickets18.scrape,
     "wp_remotefilm": wp_remotefilm.scrape,
     "movieconnection": movieconnection.scrape,
+    "fronte_del_porto": fronte_del_porto.scrape,
 }
 if PLAYWRIGHT_AVAILABLE:
     SCRAPER_MAP["playwright"] = playwright_headless.scrape_space_cinema

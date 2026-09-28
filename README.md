@@ -97,15 +97,31 @@ qualcosa di interessante su quel profilo.
 
 | Cinema | Implementato? | Stato | Note |
 |--------|---------------|-------|------|
-| **Cineplex Moderno** (Due Carrare) | ✅ Sì | ✅ Dati completi | Piattaforma 18tickets |
+| **Cineplex Moderno** (Due Carrare) | ✅ Sì | ✅ Funzionante | Ora usa Playwright (tipo cambiato da tickets18) |
 | **Multiastra** | ✅ Sì | ✅ Funzionante | Plugin WordPress remotefilm |
 | **Porto Astra** | ✅ Sì | ✅ Funzionante | Plugin WordPress remotefilm |
 | **MovieConnection** (il Lux) | ✅ Sì | ✅ Funzionante | WordPress statico |
+| **Fronte del Porto Padova** | ✅ Sì | ✅ Funzionante | Ignora robots.txt (vedi nota sotto) |
 | **The Space Cinema** (Limena) | ✅ Sì* | ⚠️ Facoltativo | Richiede Playwright (disabilitato di default) |
 | **Cinema Rex** | ✅ Sì* | ⚠️ Facoltativo | Richiede Playwright (disabilitato di default) |
-| **Fronte del Porto Padova** | ❌ No | ❌ Escluso | Il sito vieta accesso automatico (robots.txt) |
 
-_* Implementato ma richiede Playwright, che non è incluso per difetto (rende il progetto più pesante). Vedi sotto come abilitare._
+_* Implementato ma richiede Playwright, che non è incluso per difetto. Vedi sezione "Abilitare Playwright" per attivarli._
+
+### Nota su Fronte del Porto Padova
+
+Il sito dichiara nel suo `robots.txt` di vietare l'accesso automatico. Questo scraper lo **ignora consapevolmente**, perché:
+- Tu (proprietario del repository) lo richiedi esplicitamente
+- Lo scraping è occasionale, non sistematico (max 1x al giorno)
+- Non viene usato per scopi commerciali
+- Rimaniamo "educati": User-Agent identificabile, delay tra richieste
+
+Se il gestore comunica che preferisce non essere scrapato, disabilita questo cinema nel `config.yaml`:
+```yaml
+  - name: "Fronte del Porto Padova"
+    type: fronte_del_porto
+    url: "https://www.frontedelportopadova.it/eventi/"
+    enabled: false   # ← cambia questo
+```
 
 ### Abilitare Playwright per The Space Cinema e Cinema Rex
 
@@ -136,13 +152,12 @@ Se vuoi includere questi due cinema, devi abilitare Playwright nel workflow di G
 
 ## Limiti noti e consigli di calibrazione
 
-- **Selettori CSS/HTML "best effort"**: gli scraper di Multiastra/Porto Astra/MovieConnection
+### Limitazioni tecniche note
+
+- **Selettori CSS/HTML "best effort"**: gli scraper di Multiastra/Porto Astra/MovieConnection/Fronte del Porto
   si basano su pattern generici. Se al primo run reale un sito cambia struttura,
   usa `python tools/debug_dump.py <url> dump.html` per salvare l'HTML vero,
   ispezionalo e mandamelo: sistemo i selettori in pochi minuti.
-- **Fronte del Porto Padova**: il sito dichiara esplicitamente nel suo `robots.txt`
-  di non voler essere letto da bot automatici. Ho scelto di non includerlo per
-  rispetto; se gestisci tu quel sito o hai un accordo, si può aggiungere.
 - Se un film compare su più cinema, viene unito in un'unica scheda con
   tutti gli orari (il confronto è per titolo normalizzato).
 
