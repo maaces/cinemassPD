@@ -1,12 +1,40 @@
 {
-  "generated_at": "2026-09-28T09:28:59.786564",
+  "generated_at": "2026-09-28T09:37:28.390729",
   "movies": [
     {
-      "title": "Naza",
+      "title": "COYOTE VS ACME",
+      "director": "Dave Green",
+      "duration_min": 98,
+      "poster_url": "https://image.tmdb.org/t/p/w500/x2AtkVKU8IDgeScz354aqoYjUQG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=eX_ficWckMI",
+      "letterboxd_url": "https://letterboxd.com/search/films/coyote%20vs%20acme/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1204680",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "18:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "NAZA",
       "director": "يوفال إبراهيم, Rachel Szor",
       "duration_min": 80,
       "poster_url": "https://image.tmdb.org/t/p/w500/qfdNOEmMroHjPLpZhNkORcVzgrQ.jpg",
-      "trailer_url": "https://www.youtube.com/results?search_query=Naza%20trailer",
+      "trailer_url": "https://www.youtube.com/results?search_query=NAZA%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/naza/",
       "tmdb_url": "https://www.themoviedb.org/movie/1755291",
       "detail_url": null,
@@ -151,6 +179,198 @@
           "date": "data-da-verificare",
           "time": "22:00",
           "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "L'ISOLA DEI RICORDI (FORGOTTEN ISLAND)",
+      "director": "Januel Mercado, Joel Crawford",
+      "duration_min": 109,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi%20%28forgotten%20island%29/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "19:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "19:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "19:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "AVENGERS: ENDGAME EXTRA",
+      "director": "Joe Russo, Anthony Russo",
+      "duration_min": 181,
+      "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
+      "letterboxd_url": "https://letterboxd.com/search/films/avengers%3A%20endgame/",
+      "tmdb_url": "https://www.themoviedb.org/movie/299534",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "HEART OF THE  BEAST - NEL PROFONDO SELVAGGIO",
+      "director": "David Ayer",
+      "duration_min": 95,
+      "poster_url": "https://image.tmdb.org/t/p/w500/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
+      "letterboxd_url": "https://letterboxd.com/search/films/heart%20of%20the%20%20beast%20-%20nel%20profondo%20selvaggio/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "21:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "THE INVITE – IL PIACERE È TUTTO NOSTRO",
+      "director": "Olivia Wilde",
+      "duration_min": 107,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20%E2%80%93%20il%20piacere%20%C3%A8%20tutto%20nostro/",
+      "tmdb_url": "https://www.themoviedb.org/movie/950028",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "21:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "22:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "ODISSEA",
+      "director": "Christopher Nolan",
+      "duration_min": 173,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qQhInj9fw3S2bMbiEujVldthgKe.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=A7OOx5-0iq8",
+      "letterboxd_url": "https://letterboxd.com/search/films/odissea/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1368337",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "DIO RIDE",
+      "director": "Giovanni Veronesi",
+      "duration_min": 114,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=GyQz-5xlIsc",
+      "letterboxd_url": "https://letterboxd.com/search/films/dio%20ride/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1506710",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "20:00",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": true
@@ -414,58 +634,6 @@
       ]
     },
     {
-      "title": "Avengers Endgame - Extra",
-      "director": "Joe Russo, Anthony Russo",
-      "duration_min": 181,
-      "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
-      "letterboxd_url": "https://letterboxd.com/search/films/avengers%20endgame/",
-      "tmdb_url": "https://www.themoviedb.org/movie/299534",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
       "title": "The Echo Chamber",
       "director": "Andrea Pallaoro",
       "duration_min": 123,
@@ -554,106 +722,6 @@
       ]
     },
     {
-      "title": "L'Isola Dei Ricordi",
-      "director": "Januel Mercado, Joel Crawford",
-      "duration_min": 109,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Heart Of The Beast - Nel Profondo Selvaggio",
-      "director": "David Ayer",
-      "duration_min": 95,
-      "poster_url": "https://image.tmdb.org/t/p/w500/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
-      "letterboxd_url": "https://letterboxd.com/search/films/heart%20of%20the%20beast%20-%20nel%20profondo%20selvaggio/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Coyote Vs Acme",
-      "director": "Dave Green",
-      "duration_min": 98,
-      "poster_url": "https://image.tmdb.org/t/p/w500/x2AtkVKU8IDgeScz354aqoYjUQG.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=eX_ficWckMI",
-      "letterboxd_url": "https://letterboxd.com/search/films/coyote%20vs%20acme/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1204680",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "18:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
       "title": "I Figli Della Scimmia",
       "director": "Tommaso Landucci",
       "duration_min": 110,
@@ -674,74 +742,6 @@
         {
           "date": "data-da-verificare",
           "time": "22:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "The Invite - Il Piacere È Tutto Nostro",
-      "director": "Olivia Wilde",
-      "duration_min": 107,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
-      "tmdb_url": "https://www.themoviedb.org/movie/950028",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "22:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Odissea",
-      "director": "Christopher Nolan",
-      "duration_min": 173,
-      "poster_url": "https://image.tmdb.org/t/p/w500/qQhInj9fw3S2bMbiEujVldthgKe.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=A7OOx5-0iq8",
-      "letterboxd_url": "https://letterboxd.com/search/films/odissea/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1368337",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "20:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Dio Ride",
-      "director": "Giovanni Veronesi",
-      "duration_min": 114,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=GyQz-5xlIsc",
-      "letterboxd_url": "https://letterboxd.com/search/films/dio%20ride/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1506710",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "20:00",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
