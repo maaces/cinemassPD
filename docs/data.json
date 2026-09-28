@@ -1,247 +1,15 @@
 {
-  "generated_at": "2026-09-27T16:57:10.909493",
+  "generated_at": "2026-09-28T09:28:59.786564",
   "movies": [
     {
-      "title": "COYOTE VS ACME",
-      "director": "Dave Green Lingua: Italiano Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:05 Sala 5 20:10 Sala 10 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:05 Sala 5 20:10 Sala 10 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:05 Sala 5 20:10 Sala 10",
-      "duration_min": 98,
-      "poster_url": "https://image.tmdb.org/t/p/w500/x2AtkVKU8IDgeScz354aqoYjUQG.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=HROwYhJGgpw",
-      "letterboxd_url": "https://letterboxd.com/search/films/coyote%20vs%20acme/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1204680",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/130907",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "18:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "HEART OF THE  BEAST - NEL PROFONDO SELVAGGIO",
-      "director": "David Ayer Con: Brad Pitt, J.K. Simmons Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 19:20 Sala 10 19:50 Sala 2 20:45 Sala 8 21:25 Sala 9 22:05 Sala 2 22:15 Sala 7 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2 22:45 Sala 8 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2 22:45 Sala 8 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:15 Sala 2 19:30 Sala 2 21:45 Sala 2",
-      "duration_min": 95,
-      "poster_url": "https://image.tmdb.org/t/p/w500/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
-      "letterboxd_url": "https://letterboxd.com/search/films/heart%20of%20the%20%20beast%20-%20nel%20profondo%20selvaggio/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "15:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:45",
-          "cinema": "Porto Astra",
-          "price": "6,50 €",
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "L'ISOLA DEI RICORDI (FORGOTTEN ISLAND)",
-      "director": "Januel Mercado, Joel Crawford Con: H.E.R., Liza Soberano, Dave Franco, Lea Salonga, Jenny Slate Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 19:30 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:00 Sala 4 19:20 Sala 4",
-      "duration_min": 109,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi%20%28forgotten%20island%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143084",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "14:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "18:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "AVENGERS: ENDGAME EXTRA",
-      "director": "Anthony Russo, Joe Russo Con: Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson Lingua: Italiano Domenica 27/09/2026 Cineplex Moderno Due Carrare Padova 20:35 Sala 5 21:15 Sala 1 22:00 Sala 4 Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 20:50 Sala 7 21:30 Sala 1 22:05 Sala 6 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 17:10 Sala 7 21:30 Sala 1 22:05 Sala 6",
-      "duration_min": 181,
-      "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
-      "letterboxd_url": "https://letterboxd.com/search/films/avengers%3A%20endgame/",
-      "tmdb_url": "https://www.themoviedb.org/movie/299534",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/132755",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "15:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "NAZA",
+      "title": "Naza",
       "director": "يوفال إبراهيم, Rachel Szor",
       "duration_min": 80,
       "poster_url": "https://image.tmdb.org/t/p/w500/qfdNOEmMroHjPLpZhNkORcVzgrQ.jpg",
-      "trailer_url": "https://www.youtube.com/results?search_query=NAZA%20trailer",
+      "trailer_url": "https://www.youtube.com/results?search_query=Naza%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/naza/",
       "tmdb_url": "https://www.themoviedb.org/movie/1755291",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
+      "detail_url": null,
       "showtimes": [
         {
           "date": "data-da-verificare",
@@ -378,103 +146,11 @@
           "price": null,
           "note": "V.O.S",
           "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "THE INVITE – IL PIACERE È TUTTO NOSTRO",
-      "director": "Olivia Wilde Con: Seth Rogen, Olivia Wilde, Penélope Cruz, Edward Norton Lingua: Italiano Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 19:35 Sala 5",
-      "duration_min": 107,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20%E2%80%93%20il%20piacere%20%C3%A8%20tutto%20nostro/",
-      "tmdb_url": "https://www.themoviedb.org/movie/950028",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138696",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "14:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
         },
         {
           "date": "data-da-verificare",
-          "time": "19:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "22:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "ODISSEA",
-      "director": "Christopher Nolan Con: Matt Damon, Tom Holland, Anne Hathaway, Robert Pattinson, Lupita Nyong'o, Charlize Theron, Zendaya Lingua: Italiano Lunedì 28/09/2026 Cineplex Moderno Due Carrare Padova 21:40 Sala 9 Martedì 29/09/2026 Cineplex Moderno Due Carrare Padova 21:40 Sala 9 Mercoledì 30/09/2026 Cineplex Moderno Due Carrare Padova 21:40 Sala 9",
-      "duration_min": 173,
-      "poster_url": "https://image.tmdb.org/t/p/w500/qQhInj9fw3S2bMbiEujVldthgKe.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=9R58AyRe1RI",
-      "letterboxd_url": "https://letterboxd.com/search/films/odissea/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1368337",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/109295",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "DIO RIDE",
-      "director": "Giovanni Veronesi",
-      "duration_min": 114,
-      "poster_url": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=GyQz-5xlIsc",
-      "letterboxd_url": "https://letterboxd.com/search/films/dio%20ride/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1506710",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "20:00",
-          "cinema": "Porto Astra",
+          "time": "22:00",
+          "cinema": "Multiastra",
           "price": null,
           "note": null,
           "date_uncertain": true
@@ -506,34 +182,6 @@
           "price": null,
           "note": null,
           "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "18:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        }
-      ]
-    },
-    {
-      "title": "Calle Malaga",
-      "director": "Maryam Touzani",
-      "duration_min": 116,
-      "poster_url": "https://image.tmdb.org/t/p/w500/azbn8uDQ7kAyDX57EKjsrUFSCSr.jpg",
-      "trailer_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1399462",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": "5,50 €",
-          "note": null,
-          "date_uncertain": true
         }
       ]
     },
@@ -560,14 +208,6 @@
           "time": "17:30",
           "cinema": "Multiastra",
           "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": "5,50 €",
           "note": null,
           "date_uncertain": true
         },
@@ -622,22 +262,6 @@
           "price": null,
           "note": null,
           "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "20:30",
-          "cinema": "Multiastra",
-          "price": "5,50 €",
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:20",
-          "cinema": "Porto Astra",
-          "price": "6,50 €",
-          "note": null,
-          "date_uncertain": true
         }
       ]
     },
@@ -681,14 +305,6 @@
       "showtimes": [
         {
           "date": "data-da-verificare",
-          "time": "14:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
           "time": "16:50",
           "cinema": "Porto Astra",
           "price": null,
@@ -706,14 +322,6 @@
         {
           "date": "data-da-verificare",
           "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "19:10",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -742,12 +350,136 @@
           "price": null,
           "note": null,
           "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Nessun Dolore",
+      "director": "Gianni Amelio",
+      "duration_min": 96,
+      "poster_url": "https://image.tmdb.org/t/p/w500/kPDyWzS020AvrvrTFDAJfhTgUbU.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=NruSqSJN8n8",
+      "letterboxd_url": "https://letterboxd.com/search/films/nessun%20dolore/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1594043",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
         },
         {
           "date": "data-da-verificare",
-          "time": "21:30",
+          "time": "17:10",
           "cinema": "Porto Astra",
-          "price": "6,50 €",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Avengers Endgame - Extra",
+      "director": "Joe Russo, Anthony Russo",
+      "duration_min": 181,
+      "poster_url": "https://image.tmdb.org/t/p/w500/hj1xaEUGMiUxaFYoutlljtlkHSG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=15ytrpjhs9c",
+      "letterboxd_url": "https://letterboxd.com/search/films/avengers%20endgame/",
+      "tmdb_url": "https://www.themoviedb.org/movie/299534",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        },
+        {
+          "date": "data-da-verificare",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "The Echo Chamber",
+      "director": "Andrea Pallaoro",
+      "duration_min": 123,
+      "poster_url": "https://image.tmdb.org/t/p/w500/a2hxeonmr6A5SGD6qwIr18I9mGZ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=K5MGifjkW8w",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20echo%20chamber/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1576934",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
           "note": null,
           "date_uncertain": true
         }
@@ -763,14 +495,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1398486",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "14:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
         {
           "date": "data-da-verificare",
           "time": "17:30",
@@ -805,14 +529,6 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "20:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
           "time": "20:40",
           "cinema": "Porto Astra",
           "price": null,
@@ -834,62 +550,22 @@
           "price": null,
           "note": null,
           "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "21:50",
-          "cinema": "Porto Astra",
-          "price": "6,50 €",
-          "note": null,
-          "date_uncertain": true
         }
       ]
     },
     {
-      "title": "Nessun Dolore",
-      "director": "Gianni Amelio",
-      "duration_min": 96,
-      "poster_url": "https://image.tmdb.org/t/p/w500/kPDyWzS020AvrvrTFDAJfhTgUbU.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=NruSqSJN8n8",
-      "letterboxd_url": "https://letterboxd.com/search/films/nessun%20dolore/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1594043",
+      "title": "L'Isola Dei Ricordi",
+      "director": "Januel Mercado, Joel Crawford",
+      "duration_min": 109,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
       "detail_url": null,
       "showtimes": [
         {
           "date": "data-da-verificare",
-          "time": "15:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
-        {
-          "date": "data-da-verificare",
-          "time": "17:10",
+          "time": "19:05",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -905,7 +581,27 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "20:15",
+          "time": "19:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Heart Of The Beast - Nel Profondo Selvaggio",
+      "director": "David Ayer",
+      "duration_min": 95,
+      "poster_url": "https://image.tmdb.org/t/p/w500/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
+      "letterboxd_url": "https://letterboxd.com/search/films/heart%20of%20the%20beast%20-%20nel%20profondo%20selvaggio/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:20",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -913,7 +609,7 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "20:15",
+          "time": "20:30",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -921,7 +617,27 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "20:50",
+          "time": "21:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Coyote Vs Acme",
+      "director": "Dave Green",
+      "duration_min": 98,
+      "poster_url": "https://image.tmdb.org/t/p/w500/x2AtkVKU8IDgeScz354aqoYjUQG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=eX_ficWckMI",
+      "letterboxd_url": "https://letterboxd.com/search/films/coyote%20vs%20acme/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1204680",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "17:20",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -929,9 +645,9 @@
         },
         {
           "date": "data-da-verificare",
-          "time": "21:05",
+          "time": "18:45",
           "cinema": "Porto Astra",
-          "price": "6,50 €",
+          "price": null,
           "note": null,
           "date_uncertain": true
         }
@@ -947,14 +663,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1554129",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "data-da-verificare",
-          "time": "16:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": true
-        },
         {
           "date": "data-da-verificare",
           "time": "20:20",
@@ -974,26 +682,66 @@
       ]
     },
     {
-      "title": "The Echo Chamber",
-      "director": "Andrea Pallaoro",
-      "duration_min": 123,
-      "poster_url": "https://image.tmdb.org/t/p/w500/a2hxeonmr6A5SGD6qwIr18I9mGZ.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=K5MGifjkW8w",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20echo%20chamber/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1576934",
+      "title": "The Invite - Il Piacere È Tutto Nostro",
+      "director": "Olivia Wilde",
+      "duration_min": 107,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
+      "tmdb_url": "https://www.themoviedb.org/movie/950028",
       "detail_url": null,
       "showtimes": [
         {
           "date": "data-da-verificare",
-          "time": "17:20",
+          "time": "21:00",
           "cinema": "Porto Astra",
           "price": null,
-          "note": null,
+          "note": "V.O.S",
           "date_uncertain": true
         },
         {
           "date": "data-da-verificare",
-          "time": "19:20",
+          "time": "22:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Odissea",
+      "director": "Christopher Nolan",
+      "duration_min": 173,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qQhInj9fw3S2bMbiEujVldthgKe.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=A7OOx5-0iq8",
+      "letterboxd_url": "https://letterboxd.com/search/films/odissea/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1368337",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": true
+        }
+      ]
+    },
+    {
+      "title": "Dio Ride",
+      "director": "Giovanni Veronesi",
+      "duration_min": 114,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=GyQz-5xlIsc",
+      "letterboxd_url": "https://letterboxd.com/search/films/dio%20ride/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1506710",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "data-da-verificare",
+          "time": "20:00",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
