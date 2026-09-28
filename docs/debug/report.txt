@@ -1,0 +1,42 @@
+Report generato il 28/09/2026 18:09 (ora italiana)
+============================================================
+
+## Cineplex Moderno (Due Carrare)
+URL: https://pd.cineplexmoderno.cineplexmoderno.it/
+Scraper: tickets18
+Film trovati: 25
+Orari trovati: 0 (di cui con data non riconosciuta: 0)
+Errore: nessuno
+HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/cineplex-moderno-due-carrare.txt
+
+## Multiastra
+URL: https://multiastra.it/
+Scraper: wp_remotefilm
+Film trovati: 5
+Orari trovati: 14 (di cui con data non riconosciuta: 0)
+Errore: nessuno
+HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/multiastra.txt
+
+## Porto Astra
+URL: https://portoastra.it/
+Scraper: wp_remotefilm
+Film trovati: 14
+Orari trovati: 53 (di cui con data non riconosciuta: 0)
+Errore: nessuno
+HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/porto-astra.txt
+
+## MovieConnection (il Lux)
+URL: https://www.movieconnection.it/lux/
+Scraper: movieconnection
+Film trovati: 0
+Orari trovati: 0 (di cui con data non riconosciuta: 0)
+Errore: nessuno
+HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/movieconnection-il-lux.txt
+
+## Fronte del Porto Padova
+URL: https://www.frontedelportopadova.it/eventi/
+Scraper: fronte_del_porto
+Film trovati: 36
+Orari trovati: 0 (di cui con data non riconosciuta: 0)
+Errore: nessuno
+HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/fronte-del-porto-padova.txt
