@@ -804,14 +804,8 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="2ed575b68dfea781f2f84efa469ff740" data-token-time="1790664606" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="2ed575b68dfea781f2f84efa469ff740" data-token-time="1790666887" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
-                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
-                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Email Privacy Informativa
-                 </label>
-                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
-                </div>
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-10219-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_2">
                   Email
@@ -820,6 +814,12 @@
                   </span>
                  </label>
                  <input class="wpforms-field-large wpforms-field-required" id="wpforms-10219-field_2" name="wpforms[fields][2]" required="" spellcheck="false" type="email"/>
+                </div>
+                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
+                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
+                  Email Privacy Informativa
+                 </label>
+                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
                 <div class="wpforms-field wpforms-field-gdpr-checkbox" data-field-id="3" data-field-type="gdpr-checkbox" id="wpforms-10219-field_3-container">
                  <label class="wpforms-field-label">
