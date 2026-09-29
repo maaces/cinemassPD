@@ -1,18 +1,28 @@
-"""Scraper per MovieConnection (es. il Lux di Padova).
+"""Scraper per MovieConnection / il Lux (Padova).
 
-Sito: https://www.movieconnection.it/lux/
-Struttura: WordPress statico con film in un elenco, titoli linkati a schede
-con dettagli (regia, paese, anno, durata) e link agli orari/prenotazioni.
+Verificato sull'HTML reale (https://www.movieconnection.it/lux/): il sito usa
+il plugin WordPress "The Events Calendar" (tribe-events). Ogni PROIEZIONE (non
+ogni film) e' una riga <li class="tribe-events-calendar-list__event-row">
+con data (attributo datetime="YYYY-MM-DD", affidabile) e un titolo nel
+formato "TITOLO – Regista # Paese Anno (durata′)". Proiezioni ripetute dello
+stesso film (es. NAZA su piu' giorni) sono righe separate: le raggruppiamo
+per titolo.
 """
 import re
-from typing import List, Optional
+from typing import List
 
 from bs4 import BeautifulSoup
 
 from models import Movie, Showtime
-from utils import get_session, polite_get, clean_youtube_url
+from utils import get_session, polite_get
 
-DETAIL_LINK_RE = re.compile(r"/film/[^/?]+/?$")
+# "ALICE NELLE CITTÀ – Wim Wenders # Germania Ovest 1973 (110′)"
+# "DUEL – Steven Spielberg # USA 1971"   (durata non sempre presente)
+TITLE_RE = re.compile(
+    r"^(?P<title>.+?)\s*[–-]\s*(?P<director>.+?)\s*#\s*(?P<country>.+?)\s+"
+    r"(?P<year>\d{4})(?:\s*\((?P<duration>\d+)[′'\u2032]\))?\s*$"
+)
+TIME_RE = re.compile(r"(\d{1,2}):(\d{2})\s*$")
 
 
 def scrape(base_url: str, cinema_name: str) -> List[Movie]:
@@ -21,66 +31,45 @@ def scrape(base_url: str, cinema_name: str) -> List[Movie]:
     soup = BeautifulSoup(resp.text, "html.parser")
 
     movies = {}
-    
-    # Cerca elenco di film: di solito in un <ul>/<li> o una griglia di div
-    for film_elem in soup.find_all(["li", "div"], class_=re.compile("film|movie|post", re.I)):
-        title_link = film_elem.find("a", href=DETAIL_LINK_RE)
+
+    for row in soup.find_all("li", class_="tribe-events-calendar-list__event-row"):
+        article = row.find("article")
+        if not article:
+            continue
+
+        title_link = article.select_one("h4.tribe-events-calendar-list__event-title a")
         if not title_link:
             continue
-        
-        title = title_link.get_text(strip=True)
-        if not title or len(title) < 2:
-            continue
-        
-        if title not in movies:
-            detail_url = title_link.get("href", "")
-            if not detail_url.startswith("http"):
-                detail_url = base_url.rstrip("/") + "/" + detail_url.lstrip("/")
-            
-            # Estrai immagine (locandina)
-            poster_url = None
-            img = film_elem.find("img")
-            if img:
-                poster_url = img.get("src")
-                if poster_url and not poster_url.startswith("http"):
-                    poster_url = base_url.rstrip("/") + "/" + poster_url.lstrip("/")
-            
-            # Estrai metadati dal testo (regia, anno, paese, durata)
-            director = None
-            duration_min = None
-            text = film_elem.get_text(" ", strip=True)
-            
-            # Cerca "Regia: NomeRegista"
-            regia_m = re.search(r"Regia:\s*([^,\n]+)", text, re.I)
-            if regia_m:
-                director = regia_m.group(1).strip()
-            
-            # Cerca "XXX min"
-            dur_m = re.search(r"(\d{1,3})\s*min", text)
-            if dur_m:
-                duration_min = int(dur_m.group(1))
-            
-            movies[title] = Movie(
-                title=title,
-                director=director,
-                duration_min=duration_min,
-                poster_url=poster_url,
-                detail_url=detail_url,
-            )
-        
-        # Cerca orari (tipicamente link "Orari", "Prenota", ecc.)
-        # Se non ci sono inline, useremo la pagina di dettaglio
-        for time_link in film_elem.find_all("a", href=re.compile("orari|prenota", re.I)):
-            label = time_link.get_text(strip=True)
-            # Se il label contiene un orario (es. "17:00" o "20.30")
-            tm = re.search(r"(\d{1,2})[:.](\d{2})", label)
+        full_title = title_link.get_text(strip=True)
+        detail_url = title_link.get("href")
+
+        m = TITLE_RE.match(full_title)
+        if m:
+            title = m.group("title").strip()
+            director = m.group("director").strip()
+            duration = int(m.group("duration")) if m.group("duration") else None
+        else:
+            title, director, duration = full_title, None, None
+
+        key = title.lower()
+        if key not in movies:
+            img = article.select_one(".tribe-events-calendar-list__event-featured-image-wrapper img")
+            poster_url = img.get("src") if img else None
+            movies[key] = Movie(title=title, director=director, duration_min=duration,
+                                 poster_url=poster_url, detail_url=detail_url)
+
+        time_el = article.select_one("time.tribe-events-calendar-list__event-datetime")
+        date_str = time_el.get("datetime") if time_el else None
+        start_span = article.select_one(".tribe-event-date-start")
+        time_str = None
+        if start_span:
+            tm = TIME_RE.search(start_span.get_text(strip=True))
             if tm:
-                movies[title].showtimes.append(Showtime(
-                    date="data-da-verificare",  # MovieConnection non sempre mostra la data nella lista
-                    time=f"{int(tm.group(1)):02d}:{tm.group(2)}",
-                    cinema=cinema_name,
-                    booking_url=time_link.get("href"),
-                    date_uncertain=True,
-                ))
-    
+                time_str = f"{int(tm.group(1)):02d}:{tm.group(2)}"
+
+        if date_str and time_str:
+            movies[key].showtimes.append(Showtime(
+                date=date_str, time=time_str, cinema=cinema_name, booking_url=detail_url,
+            ))
+
     return list(movies.values())
