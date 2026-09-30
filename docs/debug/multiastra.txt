@@ -5,7 +5,12 @@
    Multiastra | Via Tiziano Aspetti, 21 – Padova
   </title>
  </head>
- <body class="home wp-singular page-template page-template-template-blank-4 page-template-template-blank-4-php page page-id-13246 wp-theme-pro wp-child-theme-pro-child x-integrity x-integrity-light x-child-theme-active x-full-width-layout-active x-content-sidebar-active x-post-meta-disabled pro-v6_8_10">
+ <body class="home wp-singular page-template page-template-template-blank-4 page-template-template-blank-4-php page page-id-13246 wp-theme-pro wp-child-theme-pro-child x-integrity x-integrity-light x-child-theme-active x-full-width-layout-active x-content-sidebar-active x-post-meta-disabled pro-v6_9_6">
+  <div class="x-skip-links">
+   <a class="x-skip-link" href="#x-main">
+    Skip to content
+   </a>
+  </div>
   <div class="x-root" id="x-root">
    <div class="x-site site" id="x-site">
     <header class="x-masthead" role="banner">
@@ -25,7 +30,7 @@
           Via Tiziano Aspetti, 21 - Padova - Tel 049604078
          </p>
         </div>
-        <ul class="x-menu-first-level x-menu x-menu-inline e385-e7 map-l map-m map-o map-p" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' id="menuLeft">
+        <ul class="x-menu-first-level x-menu x-menu-inline e385-e7 map-l map-m map-o map-p" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' id="menuLeft" role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13246 current_page_item menu-item-13273" id="menu-item-13273">
           <a class="x-anchor x-anchor-menu-item map-t map-u map-v map-w map-x map-y map-z map-10 x-always-active" href="https://multiastra.it/" tabindex="0">
            <div class="x-anchor-content">
@@ -72,6 +77,9 @@
               </i>
              </span>
             </div>
+            <span class="x-new-tab-notice">
+             (opens in a new tab)
+            </span>
            </a>
            <a class="x-anchor x-anchor-button has-graphic e385-e12 map-t map-u map-w map-15 map-16" href="https://www.instagram.com/cinema_multiastra/" rel="noopener noreferrer" tabindex="0" target="_blank">
             <div class="x-anchor-content">
@@ -80,11 +88,14 @@
               </i>
              </span>
             </div>
+            <span class="x-new-tab-notice">
+             (opens in a new tab)
+            </span>
            </a>
           </div>
          </div>
         </div>
-        <ul class="x-menu-first-level x-menu x-menu-inline e385-e13 map-l map-n map-o map-q" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' id="menuRight">
+        <ul class="x-menu-first-level x-menu x-menu-inline e385-e13 map-l map-n map-o map-q" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' id="menuRight" role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208" id="menu-item-208">
           <a class="x-anchor x-anchor-menu-item has-particle map-t map-u map-w map-x map-z map-10 map-11 map-17 map-18" href="https://multiastra.it/il-cinema/" tabindex="0">
            <span aria-hidden="true" class="x-particle is-primary" data-x-particle="scale-y inside-b_c">
@@ -180,7 +191,7 @@
       </div>
      </div>
     </header>
-    <div class="x-main full" role="main">
+    <div class="x-main full" id="x-main" role="main" tabindex="-1">
      <article class="post-13246 page type-page status-publish hentry no-post-thumbnail" id="post-13246">
       <div class="entry-content content">
        <div class="cs-content" id="cs-content">
@@ -191,6 +202,12 @@
             <div class="x-slide-container-viewport is-loading e13246-e4 ma7y-o" data-x-slide-container='{"keyboardNavigation":true,"autoplayStartInView":true,"snap":true,"scrollBySlide":true,"int":"drag off","direction":"forward","startingSlide":1,"autoplay":"interval","scrollWheel":true}'>
              <div class="x-slide-container-content">
               <div class="x-slide-container is-inline is-paged">
+               <div class="x-slide e13246-e5 ma7y-p" data-x-slide="">
+                <div aria-hidden="true" class="x-bg">
+                 <div class="x-bg-layer-lower-image">
+                 </div>
+                </div>
+               </div>
                <div class="x-slide e13246-e5 ma7y-p" data-x-slide="">
                 <div aria-hidden="true" class="x-bg">
                  <div class="x-bg-layer-lower-image">
@@ -238,14 +255,14 @@
             <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
-               <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/09/milmostrodidusseldorf.jpg"/>
+               <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/09/digger-1.jpg"/>
                <h5 class="filmTitle" id="titleHeight">
-                M - Il mostro di Düsseldorf
+                Digger
                </h5>
                <p class="desc">
-                Torna al cinema M - Il mostro di Düsseldorf di Fritz Lang. Un assassino di bambini semina il terrore. Polizia e criminali si lanciano in una caccia all'uomo senza precedenti.
+                L’uomo più potente del mondo intraprende una missione disperata per dimostrare di essere il salvatore dell’umanità, prima che il disastro da lui stesso provocato distrugga ogni cosa.
                </p>
-               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/m-il-mostro-di-dusseldorf" title="M - Il mostro di Düsseldorf">
+               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/digger" title="Digger">
                 <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
                 </i>
                 Scheda completa
@@ -253,14 +270,64 @@
               </div>
               <li class="x-block-grid-item">
                <div class="col3Min">
-                <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/09/naza.jpg"/>
+                <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/09/linfernalequinlan.jpg"/>
                 <h5 class="filmTitle" id="titleHeight">
-                 Naza
+                 L'infernale Quinlan
                 </h5>
                 <p class="desc">
-                 Durante conversazioni segrete sui tetti di Tel Aviv, gli stessi ideatori svelano i meccanismi alla base dello sterminio di massa pianificato da Israele contro i civili palestinesi a Gaza.
+                 Torna al cinema in versione restaurata L’infernale Quinlan di Orson Welles. Un omicidio al confine tra USA e Messico contrappone Vargas al corrotto capitano Quinlan e ai suoi metodi senza scrupoli.
                 </p>
-                <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/naza" title="Naza">
+                <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/linfernale-quinlan">
+                 <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
+                 </i>
+                 Scheda completa
+                </a>
+               </div>
+              </li>
+              <li class="x-block-grid-item">
+               <div class="col3Min">
+                <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/09/milmostrodidusseldorf.jpg"/>
+                <h5 class="filmTitle" id="titleHeight">
+                 M - Il mostro di Düsseldorf
+                </h5>
+                <p class="desc">
+                 Torna al cinema M - Il mostro di Düsseldorf di Fritz Lang. Un assassino di bambini semina il terrore. Polizia e criminali si lanciano in una caccia all'uomo senza precedenti.
+                </p>
+                <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/m-il-mostro-di-dusseldorf" title="M - Il mostro di Düsseldorf">
+                 <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
+                 </i>
+                 Scheda completa
+                </a>
+               </div>
+              </li>
+             </li>
+            </ul>
+            <ul class="x-block-grid three-up">
+             <li class="x-block-grid-item">
+              <div class="col3Min">
+               <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/09/IWP_NAZA_poster_web.jpg"/>
+               <h5 class="filmTitle" id="titleHeight">
+                Naza
+               </h5>
+               <p class="desc">
+                Durante conversazioni segrete sui tetti di Tel Aviv, gli stessi ideatori svelano i meccanismi alla base dello sterminio di massa pianificato da Israele contro i civili palestinesi a Gaza.
+               </p>
+               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/naza" title="Naza">
+                <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
+                </i>
+                Scheda completa
+               </a>
+              </div>
+              <li class="x-block-grid-item">
+               <div class="col3Min">
+                <img class="x-img" decoding="async" src="http://appalcinema.it/wp-content/uploads/2026/07/persilenzioevento.jpg"/>
+                <h5 class="filmTitle" id="titleHeight">
+                 Per Silenzio e Vento
+                </h5>
+                <p class="desc">
+                 Tra le Dolomiti, alpinisti, uno scrittore e la natura raccontano una montagna segnata dalla crisi climatica, invitando a riscoprire un rapporto più autentico con l'ambiente.
+                </p>
+                <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="http://www.multiastra.it/film/per-silenzio-e-vento" title="Per Silenzio e Vento">
                  <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
                  </i>
                  Scheda completa
@@ -349,15 +416,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               29/09
-               <br/>
-               <b>
-                Martedì
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                30/09
                <br/>
                <b>
@@ -366,11 +424,56 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
+               01/10
+               <br/>
+               <b>
+                Giovedì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+               02/10
+               <br/>
+               <b>
+                Venerdì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+               03/10
+               <br/>
+               <b>
+                Sabato
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
                04/10
                <br/>
                <b>
                 Domenica
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
+               06/10
+               <br/>
+               <b>
+                Martedì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-7" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-7" id="x-legacy-tab-7" role="tab">
+               07/10
+               <br/>
+               <b>
+                Mercoledì
                </b>
               </a>
              </li>
@@ -387,78 +490,6 @@
                </li>
                <li class="block_grid_item">
                 <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/834296#sala" target="_blank">
-                   <span class="">
-                    18.40
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-59cc46a0-14c2-4e91-af52-ba563f0d8973/834297#sala" target="_blank">
-                   <span class="time_OV">
-                    20.30
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13497">
-                  serpenti
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/serpenti_2026-575b8697-374a-44fe-8ef1-11ba5be1a7e9/834373#sala" target="_blank">
-                   <span class="">
-                    20.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13545">
-                  ritorno a buenos aires
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/834327#sala" target="_blank">
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
-                  naza
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
                  <span class="x-column x-sm">
                   <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/834298#sala" target="_blank">
                    <span class="">
@@ -482,8 +513,11 @@
                  </span>
                  <span class="x-column x-sm">
                   <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-59cc46a0-14c2-4e91-af52-ba563f0d8973/836512#sala" target="_blank">
-                   <span class="">
+                   <span class="time_OV">
                     22.00
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
                    </span>
                   </a>
                  </span>
@@ -554,7 +588,63 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13300">
+                  santiago - un cammino per ricominciare
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Gio">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/santiago-un-cammino-per-ricominciare-compostelle-_2026-656a6452-8b76-447b-9a12-c8862db0218e/840199#sala" target="_blank">
+                   <span class="time_Gio">
+                    17.15
+                    <span class="nb time_Gio nb1">
+                     Ingresso 4,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
+                  digger
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840172#sala" target="_blank">
+                   <span class="time_Gio">
+                    17.30
+                    <span class="nb time_Gio nb1">
+                     Ingresso 4,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger-v-o-_2026-68054a8a-6621-49e2-8034-9ae261b82b8d/840173#sala" target="_blank">
+                   <span class="time_OV">
+                    20.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -566,9 +656,711 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840184#sala" target="_blank">
+                   <span class="time_Gio">
+                    17.45
+                    <span class="nb time_Gio nb1">
+                     Ingresso 4,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840185#sala" target="_blank">
+                   <span class="">
+                    20.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13545">
+                  ritorno a buenos aires
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840206#sala" target="_blank">
+                   <span class="">
+                    20.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
+                  digger
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840176#sala" target="_blank">
+                   <span class="time_Ven">
+                    16.00
+                    <span class="nb time_Ven nb1">
+                     Ingresso 4,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840177#sala" target="_blank">
+                   <span class="">
+                    20.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13545">
+                  ritorno a buenos aires
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Ven">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840207#sala" target="_blank">
+                   <span class="time_Ven">
+                    16.15
+                    <span class="nb time_Ven nb1">
+                     Ingresso 4,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13300">
+                  santiago - un cammino per ricominciare
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/santiago-un-cammino-per-ricominciare-compostelle-_2026-656a6452-8b76-447b-9a12-c8862db0218e/840200#sala" target="_blank">
+                   <span class="time_Ven">
+                    16.30
+                    <span class="nb time_Ven nb1">
+                     Ingresso 4,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/santiago-un-cammino-per-ricominciare-compostelle-_2026-656a6452-8b76-447b-9a12-c8862db0218e/840201#sala" target="_blank">
+                   <span class="">
+                    18.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
+                  un po' di luce
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840186#sala" target="_blank">
+                   <span class="">
+                    18.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840187#sala" target="_blank">
+                   <span class="">
+                    20.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13497">
+                  serpenti
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/serpenti_2026-575b8697-374a-44fe-8ef1-11ba5be1a7e9/840196#sala" target="_blank">
+                   <span class="">
+                    18.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
+                  naza
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-59cc46a0-14c2-4e91-af52-ba563f0d8973/840076#sala" target="_blank">
+                   <span class="time_OV">
+                    20.45
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
+                  un po' di luce
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840188#sala" target="_blank">
+                   <span class="">
+                    15.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840189#sala" target="_blank">
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840190#sala" target="_blank">
+                   <span class="">
+                    20.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13545">
+                  ritorno a buenos aires
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840208#sala" target="_blank">
+                   <span class="">
+                    15.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840209#sala" target="_blank">
+                   <span class="">
+                    20.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13497">
+                  serpenti
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/serpenti_2026-575b8697-374a-44fe-8ef1-11ba5be1a7e9/840197#sala" target="_blank">
+                   <span class="">
+                    15.45
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
+                  digger
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840178#sala" target="_blank">
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840179#sala" target="_blank">
+                   <span class="">
+                    20.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13300">
+                  santiago - un cammino per ricominciare
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/santiago-un-cammino-per-ricominciare-compostelle-_2026-656a6452-8b76-447b-9a12-c8862db0218e/840202#sala" target="_blank">
+                   <span class="">
+                    17.45
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
+                  naza
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/840142#sala" target="_blank">
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13545">
+                  ritorno a buenos aires
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840210#sala" target="_blank">
+                   <span class="">
+                    15.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840211#sala" target="_blank">
+                   <span class="time_Dom">
+                    20.00
+                    <span class="nb time_Dom nb1">
+                     Ingresso 5,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13497">
+                  serpenti
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/serpenti_2026-575b8697-374a-44fe-8ef1-11ba5be1a7e9/840198#sala" target="_blank">
+                   <span class="">
+                    15.45
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13300">
+                  santiago - un cammino per ricominciare
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/santiago-un-cammino-per-ricominciare-compostelle-_2026-656a6452-8b76-447b-9a12-c8862db0218e/840204#sala" target="_blank">
+                   <span class="">
+                    16.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/santiago-un-cammino-per-ricominciare-compostelle-_2026-656a6452-8b76-447b-9a12-c8862db0218e/840203#sala" target="_blank">
+                   <span class="">
+                    17.45
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
+                  digger
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840180#sala" target="_blank">
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger-v-o-_2026-68054a8a-6621-49e2-8034-9ae261b82b8d/840174#sala" target="_blank">
+                   <span class="time_OV">
+                    20.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
+                  un po' di luce
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
                   <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026-9e5f45b2-eb4e-4693-bec7-720e9d5cb0bd/834329#sala" target="_blank">
                    <span class="">
                     18.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840191#sala" target="_blank">
+                   <span class="time_Dom">
+                    21.00
+                    <span class="nb time_Dom nb1">
+                     Ingresso 5,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
+                  naza
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/840143#sala" target="_blank">
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-59cc46a0-14c2-4e91-af52-ba563f0d8973/840145#sala" target="_blank">
+                   <span class="time_OV">
+                    20.00
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
+                  un po' di luce
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840192#sala" target="_blank">
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
+                  digger
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840181#sala" target="_blank">
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840182#sala" target="_blank">
+                   <span class="">
+                    20.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13545">
+                  ritorno a buenos aires
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/ritorno-a-buenos-aires_2026-20a96f1f-b5b7-4a8f-8d71-6f4dfd01b69e/840220#sala" target="_blank">
+                   <span class="">
+                    18.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13353">
+                  per silenzio e vento
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/per-silenzio-e-vento_2026/840294#sala" target="_blank">
+                   <span class="">
+                    21.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-7" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-7" id="x-legacy-panel-7" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
+                  un po' di luce
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840193#sala" target="_blank">
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/840194#sala" target="_blank">
+                   <span class="">
+                    18.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
+                  naza
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/840144#sala" target="_blank">
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-59cc46a0-14c2-4e91-af52-ba563f0d8973/840146#sala" target="_blank">
+                   <span class="">
+                    21.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
+                  digger
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/840183#sala" target="_blank">
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/digger-v-o-_2026-68054a8a-6621-49e2-8034-9ae261b82b8d/840175#sala" target="_blank">
+                   <span class="time_OV">
+                    20.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13659">
+                  l'infernale quinlan
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/l-infernale-quinlan-touch-of-evil-director-s-cut-_1958-897cfaef-fd54-46fd-b80a-c3c8a88d83c1/840195#sala" target="_blank">
+                   <span class="time_OV">
+                    20.00
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
                    </span>
                   </a>
                  </span>
@@ -593,6 +1385,9 @@
                </span>
               </div>
              </div>
+             <span class="x-new-tab-notice">
+              (opens in a new tab)
+             </span>
             </a>
             <div class="x-text x-text-headline e13246-e15 ma7y-r ma7y-s ma7y-v ma7y-w ma7y-x ma7y-10 ma7y-11 ma7y-12">
              <div class="x-text-content">
@@ -801,6 +1596,55 @@
                 </div>
                </span>
               </a>
+              <a class="x-col e13246-e17 ma7y-l ma7y-n ma7y-5 ma7y-6" data-x-effect='{"durationBase":"400ms"}' data-x-effect-provider="colors particles effects" href="https://multiastra.it/2025/09/10/linfernale-quinlan/">
+               <figure class="x-div e13246-e18 ma7y-1f ma7y-1g">
+                <span class="x-image e13246-e19 ma7y-1i">
+                 <img alt="Featured image for “Il Cinema Ritrovato -“L’infernale Quinlan”di Orson Welles in versione restaurata Director’s cut”" decoding="async" height="169" loading="lazy" src="https://multiastra.it/wp-content/uploads/2025/09/600x338-3.jpg" width="300"/>
+                </span>
+               </figure>
+               <article class="x-div e13246-e20 ma7y-1g ma7y-1h">
+                <div class="x-text x-text-headline e13246-e21 ma7y-q ma7y-r ma7y-t ma7y-v ma7y-x ma7y-11 ma7y-12 ma7y-13 ma7y-14 ma7y-5 ma7y-7">
+                 <div class="x-text-content">
+                  <div class="x-text-content-text">
+                   <h2 class="x-text-content-text-primary">
+                    Il Cinema Ritrovato -“L’infernale Quinlan”di Orson Welles in versione restaurata Director’s cut
+                   </h2>
+                  </div>
+                 </div>
+                </div>
+                <div class="x-text x-content e13246-e22 ma7y-17 ma7y-18 ma7y-1b">
+                 Mercoledì 07 ottobre alle 20.00 VOS “L’INFERNALE QUINLAN (Touch of Evil)” – Director’s cut (Usa -1958) Il film uscì nelle…
+                </div>
+                <div class="x-text x-text-headline has-graphic e13246-e23 ma7y-r ma7y-t ma7y-v ma7y-y ma7y-11 ma7y-14 ma7y-15 ma7y-5 ma7y-7">
+                 <div class="x-text-content">
+                  <span aria-hidden="true" class="x-graphic">
+                   <i aria-hidden="true" class="x-icon x-graphic-child x-graphic-icon x-graphic-primary x-flip-y" data-x-icon-o="">
+                   </i>
+                   <i aria-hidden="true" class="x-icon x-graphic-child x-graphic-icon x-graphic-secondary x-flip-y" data-x-icon-s="">
+                   </i>
+                  </span>
+                  <div class="x-text-content-text">
+                   <h1 class="x-text-content-text-primary">
+                    Arianna Abriani
+                   </h1>
+                  </div>
+                 </div>
+                </div>
+               </article>
+               <span class="x-anchor x-anchor-button has-graphic e13246-e24 ma7y-1d ma7y-1e" tabindex="0">
+                <div class="x-anchor-content">
+                 <span aria-hidden="true" class="x-graphic">
+                  <i aria-hidden="true" class="x-icon x-graphic-child x-graphic-icon x-graphic-primary" data-x-icon-s="">
+                  </i>
+                 </span>
+                 <div class="x-anchor-text">
+                  <span class="x-anchor-text-primary">
+                   LEGGI TUTTO
+                  </span>
+                 </div>
+                </div>
+               </span>
+              </a>
               <a class="x-col e13246-e17 ma7y-l ma7y-n ma7y-5 ma7y-6" data-x-effect='{"durationBase":"400ms"}' data-x-effect-provider="colors particles effects" href="https://multiastra.it/2022/10/06/in-sala-in-lingua-originale/">
                <figure class="x-div e13246-e18 ma7y-1f ma7y-1g">
                 <span class="x-image e13246-e19 ma7y-1i">
@@ -818,7 +1662,7 @@
                  </div>
                 </div>
                 <div class="x-text x-content e13246-e22 ma7y-17 ma7y-18 ma7y-1b">
-                 Dal 24 al 30 Settembre…
+                 Dal 01 al 07 ottobre in sala al MultiAstra .…
                 </div>
                 <div class="x-text x-text-headline has-graphic e13246-e23 ma7y-r ma7y-t ma7y-v ma7y-y ma7y-11 ma7y-14 ma7y-15 ma7y-5 ma7y-7">
                  <div class="x-text-content">
@@ -868,8 +1712,14 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="2ed575b68dfea781f2f84efa469ff740" data-token-time="1790699684" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="6b54750a251c345b27de2f2765bd7826" data-token-time="1790768952" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
+                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
+                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
+                  Informativa Privacy Email
+                 </label>
+                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
+                </div>
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-10219-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_2">
                   Email
@@ -878,12 +1728,6 @@
                   </span>
                  </label>
                  <input class="wpforms-field-large wpforms-field-required" id="wpforms-10219-field_2" name="wpforms[fields][2]" required="" spellcheck="false" type="email"/>
-                </div>
-                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
-                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Privacy Informativa Email
-                 </label>
-                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
                 <div class="wpforms-field wpforms-field-gdpr-checkbox" data-field-id="3" data-field-type="gdpr-checkbox" id="wpforms-10219-field_3-container">
                  <label class="wpforms-field-label">
@@ -937,7 +1781,7 @@
         </div>
        </div>
        <div class="x-bar-container e11-e4 mb-3 mb-4 mb-6">
-        <ul class="x-menu-first-level x-menu x-menu-inline e11-e5 mb-b mb-c mb-e mb-f" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' id="menuFooter">
+        <ul class="x-menu-first-level x-menu x-menu-inline e11-e5 mb-b mb-c mb-e mb-f" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' id="menuFooter" role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345" id="menu-item-345">
           <a class="x-anchor x-anchor-menu-item has-particle mb-h mb-i mb-j mb-k mb-l mb-m" href="https://multiastra.it/lavora-con-noi/" tabindex="0">
            <span aria-hidden="true" class="x-particle is-primary" data-x-particle="scale-x_y inside-b_c">
@@ -1013,7 +1857,7 @@
      <div class="x-bar x-bar-footer x-bar-h x-bar-relative x-bar-outer-spacers x-hide-lg x-hide-md x-hide-xl e11-e6 mb-1 mb-2" data-x-bar='{"id":"e11-e6","region":"footer","height":"15em"}'>
       <div class="e11-e6 x-bar-content">
        <div class="x-bar-container e11-e7 mb-3 mb-7">
-        <ul class="x-menu-first-level x-menu x-menu-inline e11-e8 mb-c mb-d mb-f mb-g" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}'>
+        <ul class="x-menu-first-level x-menu x-menu-inline e11-e8 mb-c mb-d mb-f mb-g" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345">
           <a class="x-anchor x-anchor-menu-item mb-h mb-i mb-l mb-m mb-p mb-q" href="https://multiastra.it/lavora-con-noi/" tabindex="0">
            <div class="x-anchor-content">
@@ -1074,7 +1918,7 @@
       </div>
      </div>
     </footer>
-    <ul aria-hidden="true" class="x-dropdown x-menu x-menu-dropdown map-r map-o map-s e385-e19" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' data-x-stem="" data-x-stem-root="" data-x-toggleable="e385-e19" id="e385-e19-dropdown">
+    <ul aria-hidden="true" class="x-dropdown x-menu x-menu-dropdown map-r map-o map-s e385-e19" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' data-x-stem="" data-x-stem-root="" data-x-toggleable="e385-e19" id="e385-e19-dropdown" role="navigation">
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13246 current_page_item menu-item-13265" id="menu-item-13265">
       <a class="x-anchor x-anchor-menu-item map-t map-u map-w map-x map-10 map-11 map-13 map-17 map-1a x-always-active" href="https://multiastra.it/" tabindex="0">
        <div class="x-anchor-content">

@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -49,15 +49,39 @@
                   Rassegne
                  </a>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346" id="menu-item-1346">
-                 <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
-                  Iscriviti
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2813" id="menu-item-2813">
+                 <a class="menu-link" href="https://www.frontedelportopadova.it/chi-siamo/">
+                  Chi siamo
                  </a>
                 </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2701" id="menu-item-2701">
-                 <a class="menu-link" href="https://www.frontedelportopadova.it/tessera-del-fronte-del-porto/">
-                  Tessera 26/27
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2817" id="menu-item-2817">
+                 <a aria-expanded="false" class="menu-link" href="#">
+                  Partecipa
+                  <span aria-expanded="false" aria-haspopup="true" aria-label="Attiva/disattiva menu" class="dropdown-menu-toggle ast-header-navigation-arrow" role="button" tabindex="0">
+                   <span class="ast-icon icon-arrow">
+                   </span>
+                  </span>
                  </a>
+                 <button aria-expanded="false" aria-label="Attiva/disattiva menu" class="ast-menu-toggle">
+                  <span class="ast-icon icon-arrow">
+                  </span>
+                 </button>
+                 <ul class="sub-menu">
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2701" id="menu-item-2701">
+                   <a class="menu-link" href="https://www.frontedelportopadova.it/tessera-del-fronte-del-porto/">
+                    <span class="ast-icon icon-arrow">
+                    </span>
+                    Tessera 26/27
+                   </a>
+                  </li>
+                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346" id="menu-item-1346">
+                   <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
+                    <span class="ast-icon icon-arrow">
+                    </span>
+                    Iscriviti
+                   </a>
+                  </li>
+                 </ul>
                 </li>
                </ul>
               </div>
@@ -139,15 +163,39 @@
               Rassegne
              </a>
             </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
-             <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
-              Iscriviti
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2813">
+             <a class="menu-link" href="https://www.frontedelportopadova.it/chi-siamo/">
+              Chi siamo
              </a>
             </li>
-            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2701">
-             <a class="menu-link" href="https://www.frontedelportopadova.it/tessera-del-fronte-del-porto/">
-              Tessera 26/27
+            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2817">
+             <a aria-expanded="false" class="menu-link" href="#">
+              Partecipa
+              <span aria-expanded="false" aria-haspopup="true" aria-label="Attiva/disattiva menu" class="dropdown-menu-toggle ast-header-navigation-arrow" role="button" tabindex="0">
+               <span class="ast-icon icon-arrow">
+               </span>
+              </span>
              </a>
+             <button aria-expanded="false" aria-label="Attiva/disattiva menu" class="ast-menu-toggle">
+              <span class="ast-icon icon-arrow">
+              </span>
+             </button>
+             <ul class="sub-menu">
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2701">
+               <a class="menu-link" href="https://www.frontedelportopadova.it/tessera-del-fronte-del-porto/">
+                <span class="ast-icon icon-arrow">
+                </span>
+                Tessera 26/27
+               </a>
+              </li>
+              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
+               <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
+                <span class="ast-icon icon-arrow">
+                </span>
+                Iscriviti
+               </a>
+              </li>
+             </ul>
             </li>
            </ul>
           </div>
@@ -240,6 +288,12 @@
            ✕
           </span>
          </button>
+         <button class="filtro-categoria-btn" data-categoria="spettacolo" data-categoria-name="Spettacolo">
+          Spettacolo
+          <span aria-hidden="true" class="filtro-pill-x">
+           ✕
+          </span>
+         </button>
          <button class="filtro-categoria-btn" data-categoria="talk" data-categoria-name="Talk">
           Talk
           <span aria-hidden="true" class="filtro-pill-x">
@@ -267,7 +321,7 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            DOMANI
+            OGGI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -324,7 +378,7 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            GIOVEDì, 1 OTTOBRE 2026
+            DOMANI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -537,10 +591,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=700967" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -593,10 +651,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=700969" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   6,50€ intero, 5€ ridotto
                  </div>
@@ -987,7 +1049,7 @@
               <div class="evento-card-new-right-column">
                <div class="evento-card-ora-grouped">
                 <span class="evento-card-new-ora">
-                 H 18:00
+                 H 17:30
                 </span>
                </div>
                <div class="evento-card-new-prenota">
@@ -997,6 +1059,52 @@
                  </button>
                  <div class="prenota-prog-prezzo" hidden="">
                   Offerta responsabile
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+            </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/terra-mia-terra-rubata/'">
+              <div class="evento-card-new-immagine">
+               <img alt="Terra mia, terra rubata" class="attachment-large size-large wp-post-image" decoding="async" height="1024" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Screenshot-2026-09-29-at-23.05.49-749x1024.png" width="749"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  Terra mia, terra rubata
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Poesia e musica, Italia, 2026
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Spettacolo
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 18:30
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  offerta responsabile
                  </div>
                 </div>
                </div>

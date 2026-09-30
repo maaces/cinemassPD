@@ -1,34 +1,34 @@
-Report generato il 29/09/2026 18:34 (ora italiana)
+Report generato il 30/09/2026 13:49 (ora italiana)
 ============================================================
 
 ## Cineplex Moderno (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 17
-Orari trovati: 49 (di cui con data non riconosciuta: 0)
+Film trovati: 23
+Orari trovati: 254 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/cineplex-moderno-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 6
-Orari trovati: 12 (di cui con data non riconosciuta: 0)
+Film trovati: 9
+Orari trovati: 55 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/multiastra.txt
 
 ## Porto Astra
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
-Film trovati: 13
-Orari trovati: 30 (di cui con data non riconosciuta: 0)
+Film trovati: 19
+Orari trovati: 166 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/porto-astra.txt
 
 ## MovieConnection (il Lux)
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 7
+Film trovati: 6
 Orari trovati: 12 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/movieconnection-il-lux.txt
@@ -37,6 +37,6 @@ HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/movieconnecti
 URL: https://www.frontedelportopadova.it/eventi/
 Scraper: fronte_del_porto
 Film trovati: 35
-Orari trovati: 39 (di cui con data non riconosciuta: 0)
+Orari trovati: 38 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/fronte-del-porto-padova.txt
