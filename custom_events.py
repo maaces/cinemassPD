@@ -8,22 +8,29 @@ Come aggiungerne uno dal telefono (Android o iPhone), passo per passo:
   3. Titolo: una breve descrizione (es. "Proiezione speciale in giardino").
   4. Corpo (Description): sulla PRIMA RIGA scrivi data e ora nel formato
          GG/MM/AAAA HH:MM        (es. 30/09/2026 20:30)
-     Dalla seconda riga in poi scrivi quello che vuoi (testo libero).
-     Poi tocca l'icona della fotocamera/galleria per allegare una foto:
-     GitHub la carica e la mostra automaticamente nel corpo della issue.
-  5. Aggiungi la label "evento" alla issue e pubblicala.
-  6. Al prossimo "Run workflow" l'evento comparira' nella pagina, nella
-     posizione cronologica corretta insieme ai film.
+     Dalla seconda riga in poi scrivi quello che vuoi, poi allega una foto.
+  5. Aggiungi la label "evento" alla issue. Puoi aggiungere ANCHE altre
+     label a piacere (es. "famiglia", "speciale"): diventano "flag"
+     selezionabili nei filtri della pagina.
+  6. Pubblica la issue. Al prossimo aggiornamento comparira' nella pagina.
 
 Per toglierlo dalla pagina puoi chiudere la issue a mano, oppure non fare
-nulla: gli eventi il cui orario e' gia' passato (con un margine di 2 ore)
-vengono chiusi automaticamente in automatico al primo aggiornamento
-successivo alla data dell'evento.
+nulla: gli eventi il cui orario e' gia' passato (con un margine di 5 ore)
+vengono chiusi automaticamente al primo aggiornamento successivo.
+
+NOTA SULLE FOTO: GitHub inserisce l'immagine caricata in una di tre forme
+diverse a seconda di come l'hai allegata (app mobile, trascinamento nel
+browser, copia-incolla nel browser):
+  1. markdown:  ![qualcosa](https://...)
+  2. tag HTML:  <img src="https://..." ...>
+  3. link semplice (raro): [qualcosa](https://....jpg)
+Le cerchiamo tutte e tre, in questo ordine, sia nel corpo della issue sia
+nei commenti successivi (nel caso l'avessi aggiunta dopo la creazione).
 """
 import datetime as dt
 import os
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Optional
 from zoneinfo import ZoneInfo
 
@@ -33,7 +40,12 @@ from calendar_links import DEFAULT_DURATION_MIN
 
 ROME = ZoneInfo("Europe/Rome")
 DATE_TIME_RE = re.compile(r"(\d{2})/(\d{2})/(\d{4})\s+(\d{1,2})[:.](\d{2})")
-IMAGE_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)\s]+)\)")
+
+IMAGE_MD_RE = re.compile(r"!\[[^\]]*\]\((https?://[^)\s]+)\)")
+IMAGE_HTML_RE = re.compile(r'<img\b[^>]*?src=["\'](https?://[^"\']+)["\'][^>]*>', re.IGNORECASE)
+IMAGE_LINK_RE = re.compile(
+    r"(?<!!)\[[^\]]*\]\((https?://[^)\s]+\.(?:png|jpe?g|gif|webp|heic|heif))\)", re.IGNORECASE
+)
 
 
 @dataclass
@@ -43,6 +55,7 @@ class CustomEvent:
     date: Optional[str]   # "YYYY-MM-DD"
     time: Optional[str]   # "HH:MM"
     photo_url: Optional[str]
+    flags: List[str] = field(default_factory=list)
     source_url: Optional[str] = None
 
 
@@ -58,7 +71,7 @@ def _is_past(date_str: Optional[str], time_str: Optional[str]) -> bool:
     except ValueError:
         return False
     start = dt.datetime(y, mo, d, h, mi, tzinfo=ROME)
-    end = start + dt.timedelta(hours=5)  # 5 ore di margine
+    end = start + dt.timedelta(hours=5)
     return end < dt.datetime.now(ROME)
 
 
@@ -73,6 +86,38 @@ def _close_issue(repo: str, token: str, issue_number: int, title: str) -> None:
             print(f"[!] Non sono riuscito a chiudere la issue #{issue_number}: {r.status_code}")
     except requests.RequestException as e:
         print(f"[!] Non sono riuscito a chiudere la issue #{issue_number}: {e}")
+
+
+def _find_first_image(*texts: str) -> Optional[str]:
+    """Cerca un'immagine nelle forme markdown / HTML / link semplice, nel
+    primo testo (tra quelli passati, nell'ordine dato) in cui la trova."""
+    for text in texts:
+        if not text:
+            continue
+        for pattern in (IMAGE_MD_RE, IMAGE_HTML_RE, IMAGE_LINK_RE):
+            m = pattern.search(text)
+            if m:
+                return m.group(1)
+    return None
+
+
+def _strip_images(text: str) -> str:
+    text = IMAGE_MD_RE.sub("", text)
+    text = IMAGE_HTML_RE.sub("", text)
+    text = IMAGE_LINK_RE.sub("", text)
+    return text
+
+
+def _fetch_comments(repo: str, token: str, issue_number: int) -> List[str]:
+    headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+    url = f"https://api.github.com/repos/{repo}/issues/{issue_number}/comments"
+    try:
+        r = requests.get(url, headers=headers, params={"per_page": 100}, timeout=15)
+        r.raise_for_status()
+        return [c.get("body") or "" for c in r.json()]
+    except requests.RequestException as e:
+        print(f"[!] Impossibile leggere i commenti della issue #{issue_number}: {e}")
+        return []
 
 
 def fetch_custom_events(label: str = "evento") -> List[CustomEvent]:
@@ -100,6 +145,7 @@ def fetch_custom_events(label: str = "evento") -> List[CustomEvent]:
     for issue in issues:
         if "pull_request" in issue:
             continue  # l'endpoint /issues restituisce anche le pull request
+        number = issue.get("number")
         body = issue.get("body") or ""
         lines = body.splitlines()
         date_str = time_str = None
@@ -113,16 +159,19 @@ def fetch_custom_events(label: str = "evento") -> List[CustomEvent]:
                 time_str = f"{int(hh):02d}:{mi}"
                 rest = "\n".join(lines[1:])
             else:
-                print(f"[!] Issue #{issue.get('number')} '{issue.get('title')}': "
-                      f"prima riga senza data/ora nel formato GG/MM/AAAA HH:MM, "
-                      f"la mostro senza orario (finira' in fondo alla pagina).")
+                print(f"[!] Issue #{number} '{issue.get('title')}': prima riga senza data/ora "
+                      f"nel formato GG/MM/AAAA HH:MM, la mostro senza orario "
+                      f"(finira' in fondo alla pagina).")
 
-        img_match = IMAGE_RE.search(body)
-        photo_url = img_match.group(1) if img_match else None
-        text = IMAGE_RE.sub("", rest).strip()
+        comments = _fetch_comments(repo, token, number) if number else []
+        photo_url = _find_first_image(body, *comments)
+        text = _strip_images(rest).strip()
+
+        flags = [lbl.get("name") for lbl in issue.get("labels", [])
+                 if lbl.get("name") and lbl.get("name") != label]
 
         if _is_past(date_str, time_str):
-            _close_issue(repo, token, issue["number"], issue.get("title") or "Evento")
+            _close_issue(repo, token, number, issue.get("title") or "Evento")
             continue  # non lo includiamo in questo aggiornamento della pagina
 
         events.append(CustomEvent(
@@ -131,6 +180,7 @@ def fetch_custom_events(label: str = "evento") -> List[CustomEvent]:
             date=date_str,
             time=time_str,
             photo_url=photo_url,
+            flags=flags,
             source_url=issue.get("html_url"),
         ))
     return events
