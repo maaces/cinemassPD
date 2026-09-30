@@ -1,0 +1,50 @@
+name: Controlla nuovi eventi personalizzati
+
+# Workflow VOLUTAMENTE separato da "Aggiorna programmazione cinema":
+# questo gira ogni 30 minuti e deve restare leggero e veloce (nessuna
+# richiesta ai siti dei cinema, nessuna chiamata TMDB), quindi riusa i
+# film dell'ultimo run completo (docs/data.json) e rigenera la pagina solo
+# con gli eventi personalizzati aggiornati. Se il workflow principale e
+# questo finissero per scrivere quasi nello stesso momento, il passaggio
+# "git pull --rebase" qui sotto evita quasi sempre un conflitto di push
+# (e se anche capitasse una volta, il giro successivo - al massimo 30
+# minuti dopo - si allinea comunque da solo).
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "*/30 * * * *"
+    # Nota: GitHub esegue gli schedule "a intervalli", non garantiti al
+    # minuto esatto (puo' ritardare di qualche minuto nei momenti di
+    # carico alto sui runner condivisi). Per il nostro scopo va benissimo.
+
+permissions:
+  contents: write
+  issues: write   # per leggere le issue "evento" e chiudere quelle passate
+
+jobs:
+  check-events:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+
+      - name: Installa dipendenze (solo quelle per leggere le Issue e generare la pagina)
+        run: pip install -r requirements.txt
+
+      - name: Aggiorna solo gli eventi personalizzati
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python update_events.py
+
+      - name: Pubblica se qualcosa e' cambiato
+        run: |
+          git config user.name "cinema-scraper-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs
+          git diff --quiet --cached || git commit -m "Aggiorna eventi personalizzati $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash || true
+          git push

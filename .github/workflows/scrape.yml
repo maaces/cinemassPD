@@ -2,9 +2,15 @@ name: Aggiorna programmazione cinema
 
 on:
   workflow_dispatch: {}
-  # Nessuno "schedule" automatico di proposito: il progetto e' pensato per
-  # essere lanciato a mano, quando serve, anche dal telefono tramite l'app
-  # GitHub (Actions -> Aggiorna programmazione cinema -> Run workflow).
+  schedule:
+    # GitHub Actions usa cron in UTC e non gestisce l'ora legale italiana:
+    # due righe per avvicinarsi comunque alle 14:30 locali tutto l'anno.
+    # Nei giorni di cambio ora (fine marzo / fine ottobre) puo' esserci
+    # fino a un'ora di scarto per qualche giorno: non e' un bug, e' un
+    # limite di cron. Se preferisci un solo orario fisso, tieni solo una
+    # delle due righe.
+    - cron: "30 12 4-10 * *"     # ~14:30 CEST (ora legale, aprile-ottobre)
+    - cron: "30 13 1-3,11-12 * *" # ~14:30 CET (ora solare, nov-marzo)
 
 permissions:
   contents: write
@@ -20,8 +26,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Installa dipendenze
-        run: pip install -r requirements.txt
+      - name: Installa dipendenze (incluso Playwright per Space Cinema/Rex)
+        run: |
+          pip install -r requirements.txt
+          pip install playwright
+          playwright install --with-deps chromium
 
       - name: Esegui lo scraper e genera la pagina
         env:
@@ -35,4 +44,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add docs
           git diff --quiet --cached || git commit -m "Aggiorna programmazione $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash || true
           git push
