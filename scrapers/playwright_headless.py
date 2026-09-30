@@ -1,86 +1,102 @@
-"""Scraper per siti che caricano orari via JavaScript (The Space Cinema, Cinema Rex).
+"""Scraper per siti che caricano gli orari via JavaScript (The Space Cinema,
+Cinema Rex): usano Playwright (browser headless), che gira senza problemi
+su GitHub Actions (impossibile invece su Termux/telefono).
 
-Usa Playwright (browser headless), che gira su GitHub Actions senza problemi.
-Questo modulo e' facoltativo: se Playwright non e' installato, il sistema
-continua comunque (saltera' il cinema con un warning).
+ONESTA' SUL LIVELLO DI CONFIDENZA: a differenza degli altri 5 scraper di
+questo progetto, questi due NON sono stati verificati su HTML reale, perche'
+lo strumento con cui ho ispezionato gli altri siti non esegue JavaScript e
+quindi non riesce a vedere cosa c'e' dietro questi due. L'estrazione qui
+sotto e' percio' "generica": cammina il DOM cercando testo nel formato
+HH:MM vicino a un'intestazione, che potrebbe non trovare nulla o trovare
+cose sbagliate a seconda della vera struttura del sito.
 
-Comandi GitHub Actions per abilitare:
-  - pip install playwright
-  - playwright install  (scarica i binari del browser)
+Quello che *e'* garantito: ad ogni esecuzione l'HTML della pagina COSI' COM'E'
+DOPO il rendering JavaScript viene salvato in docs/debug/<cinema>.txt (lo
+stesso meccanismo di diagnostica usato per gli altri cinema). Quindi anche
+se l'estrazione fallisce al primo giro, avremo finalmente l'HTML vero da
+cui scrivere uno scraper preciso, esattamente come e' stato fatto per
+Cineplex Moderno, MovieConnection e Fronte del Porto.
 """
-import datetime as dt
 import re
 from typing import List, Optional
 
 from models import Movie, Showtime
-from utils import get_session, clean_youtube_url
+from utils import DEBUG_PAGES
 
-DATE_RE = re.compile(r"(\d{2})/(\d{2})/(\d{4})")
-TIME_RE = re.compile(r"^(\d{1,2})[:.](\d{2})")
-PRICE_RE = re.compile(r"([\d]+[,.]\d{2})\s*€")
+TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})$")
+HEADING_TAGS = ("h1", "h2", "h3", "h4", "h5")
 
 
-def scrape_space_cinema(base_url: str, cinema_name: str) -> List[Movie]:
-    """The Space Cinema: orari caricati via JavaScript, tipicamente in una
-    tabella con data/sala e pulsanti con orario per ogni proiezione.
-    Esempio URL: https://www.thespacecinema.it/cinema/limena/al-cinema"""
+def _render_with_playwright(url: str) -> Optional[str]:
     try:
         from playwright.sync_api import sync_playwright
     except ImportError:
-        print(f"[!] Playwright non installato: {cinema_name} verra' saltato")
-        return []
+        print(f"[!] Playwright non installato: impossibile leggere {url}. "
+              f"Aggiungi 'pip install playwright && playwright install --with-deps chromium' "
+              f"al workflow (vedi README).")
+        return None
 
-    movies = {}
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
             page = browser.new_page()
-            page.goto(base_url, wait_until="networkidle", timeout=30000)
-            
-            # Legge il content HTML DOPO che JavaScript ha girato
+            page.goto(url, wait_until="networkidle", timeout=45000)
+            page.wait_for_timeout(2500)  # margine per rendering JS lento/lazy load
             html = page.content()
             browser.close()
-
-            # Simple scraping: cerca film che hanno link a scheda e orari
-            # (logica semplificata per non complicare troppo, qui e' il concetto)
-            from bs4 import BeautifulSoup
-            soup = BeautifulSoup(html, "html.parser")
-            
-            # The Space ha una struttura specifica. Qui usiamo pattern generici:
-            # se la struttura reale e' diversa, va calibrata con debug_dump
-            for film_section in soup.find_all("div", class_=re.compile("film|movie", re.I)):
-                title_elem = film_section.find(["h1", "h2", "h3", "a"])
-                if not title_elem:
-                    continue
-                title = title_elem.get_text(strip=True)
-                if not title or len(title) < 2:
-                    continue
-                if title not in movies:
-                    movies[title] = Movie(title=title)
-                
-                # Cerca orari (di solito sono link o button con orario)
-                for time_elem in film_section.find_all(["a", "button"], 
-                                                        string=re.compile(r"^\d{1,2}:\d{2}$")):
-                    text = time_elem.get_text(strip=True)
-                    m = TIME_RE.match(text)
-                    if m:
-                        # Assume data odierna (senza info precisa dai link, usiamo placeholder)
-                        today = dt.date.today()
-                        date_str = today.isoformat()
-                        movies[title].showtimes.append(Showtime(
-                            date=date_str,
-                            time=f"{int(m.group(1)):02d}:{m.group(2)}",
-                            cinema=cinema_name,
-                            date_uncertain=True,  # senza data esplicita dal sito
-                        ))
-
+            return html
     except Exception as e:
-        print(f"[!] Errore durante lo scraping di {cinema_name}: {e}")
-    
+        print(f"[!] Errore Playwright su {url}: {e}")
+        return None
+
+
+def _generic_extract(html: str, cinema_name: str) -> List[Movie]:
+    """Estrazione 'best effort' generica: l'ultima intestazione (h1-h5)
+    incontrata cammin facendo diventa il 'film corrente', e ogni testo nel
+    formato esatto HH:MM trovato dopo di essa (dentro link/bottoni/testo)
+    viene registrato come suo orario, con data segnata come 'da verificare'
+    perche' senza conoscere la struttura reale non sappiamo a quale giorno
+    appartenga. Va quasi certamente ricalibrata sull'HTML vero (vedi sopra)."""
+    from bs4 import BeautifulSoup
+    soup = BeautifulSoup(html, "html.parser")
+
+    movies = {}
+    current_title = None
+    for el in soup.find_all(HEADING_TAGS + ("a", "button", "span", "li")):
+        text = el.get_text(" ", strip=True)
+        if not text or len(text) > 200:
+            continue
+
+        if el.name in HEADING_TAGS and 2 < len(text) < 100:
+            current_title = text
+            if current_title not in movies:
+                movies[current_title] = Movie(title=current_title)
+            continue
+
+        if el.name in ("a", "button", "span", "li") and current_title:
+            m = TIME_RE.match(text)
+            if m:
+                movies[current_title].showtimes.append(Showtime(
+                    date="data-da-verificare",
+                    time=f"{int(m.group(1)):02d}:{m.group(2)}",
+                    cinema=cinema_name,
+                    date_uncertain=True,
+                ))
+
     return list(movies.values())
 
 
-def scrape_cinema_rex(base_url: str, cinema_name: str) -> List[Movie]:
-    """Cinema Rex: simile a The Space, orari caricati via JS.
-    URL di esempio: https://www.cinemarex.it/"""
-    return scrape_space_cinema(base_url, cinema_name)  # stessa logica per ora
+def _scrape_generic(url: str, cinema_name: str) -> List[Movie]:
+    html = _render_with_playwright(url)
+    if not html:
+        return []
+    DEBUG_PAGES[url] = html  # fondamentale: cosi' finisce nel report di diagnostica
+    return _generic_extract(html, cinema_name)
+
+
+def scrape_space_cinema(url: str, cinema_name: str) -> List[Movie]:
+    return _scrape_generic(url, cinema_name)
+
+
+def scrape_cinema_rex(url: str, cinema_name: str) -> List[Movie]:
+    return _scrape_generic(url, cinema_name)
