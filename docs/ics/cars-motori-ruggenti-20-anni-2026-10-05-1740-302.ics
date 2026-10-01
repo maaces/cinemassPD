@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4801238903761454757@cinema-scraper.local
+DTSTAMP:20261001T165532Z
+DTSTART:20261005T154000Z
+DTEND:20261005T174000Z
+SUMMARY:CARS: MOTORI RUGGENTI - 20 ANNI - J. Lasseter
+LOCATION:Cineplex Moderno (Due Carrare)
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/133811
+END:VEVENT
+END:VCALENDAR
