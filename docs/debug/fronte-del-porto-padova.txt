@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -325,59 +325,9 @@
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-bibi-files/'">
-              <div class="evento-card-new-immagine">
-               <img alt="The Bibi files" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-bibi-files-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  The Bibi files
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, USA, 2024, 83'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-citta-dei-bambini-lutopia-di-francesco-tonucci/'">
               <div class="evento-card-new-immagine">
-               <img alt="LA CITTA' DEI BAMBINI. L'UTOPIA DI FRANCESCO TONUCCI" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-citta-dei-bambini-l-utopia-di-francesco-tonucci-1-1024x576.jpg" width="1024"/>
+               <img alt="LA CITTA' DEI BAMBINI. L'UTOPIA DI FRANCESCO TONUCCI" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-citta-dei-bambini-l-utopia-di-francesco-tonucci-1-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">

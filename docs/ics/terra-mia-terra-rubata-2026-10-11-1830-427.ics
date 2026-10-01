@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4569364575948491533@cinema-scraper.local
+DTSTAMP:20261001T190021Z
+DTSTART:20261011T163000Z
+DTEND:20261011T183000Z
+SUMMARY:Terra mia\, terra rubata
+LOCATION:Fronte del Porto Padova
+DESCRIPTION:offerta responsabile\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://www.frontedelportopadova.it/eventi/terra-mia-terra-rubata/
+END:VEVENT
+END:VCALENDAR

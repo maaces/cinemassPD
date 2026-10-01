@@ -1,11 +1,11 @@
-Report generato il 01/10/2026 19:24 (ora italiana)
+Report generato il 01/10/2026 20:59 (ora italiana)
 ============================================================
 
 ## Cineplex Moderno (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 20
-Orari trovati: 220 (di cui con data non riconosciuta: 0)
+Film trovati: 19
+Orari trovati: 212 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/cineplex-moderno-due-carrare.txt
 
@@ -13,7 +13,7 @@ HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/cineplex-mode
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
 Film trovati: 8
-Orari trovati: 45 (di cui con data non riconosciuta: 0)
+Orari trovati: 44 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/multiastra.txt
 
@@ -28,7 +28,7 @@ HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/porto-astra.t
 ## MovieConnection (il Lux)
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 7
+Film trovati: 8
 Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://poci1312-hub.github.io/CinemasPadovas/debug/movieconnection-il-lux.txt

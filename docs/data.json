@@ -1,35 +1,6 @@
 {
-  "generated_at": "2026-10-01T17:26:58.082634",
+  "generated_at": "2026-10-01T19:00:21.375670",
   "movies": [
-    {
-      "title": "DIO RIDE",
-      "director": "Giovanni Veronesi",
-      "duration_min": 114,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/143348/standard_c29a2ffe-27a9-4498-9d5c-4c05585587ab.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=GyQz-5xlIsc",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=DIO%20RIDE%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/dio%20ride/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1506710",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
-      "showtimes": [
-        {
-          "date": "2026-10-01",
-          "time": "20:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": "CAST IN SALA!",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-01",
-          "time": "20:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
     {
       "title": "THE BIBI FILES",
       "director": "Alexis Bloom",
@@ -41,14 +12,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1353263",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141403",
       "showtimes": [
-        {
-          "date": "2026-10-01",
-          "time": "20:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-02",
           "time": "19:20",
@@ -881,14 +844,6 @@
       "showtimes": [
         {
           "date": "2026-10-01",
-          "time": "19:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-01",
           "time": "21:30",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -1012,14 +967,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1755291",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
       "showtimes": [
-        {
-          "date": "2026-10-01",
-          "time": "18:30",
-          "cinema": "MovieConnection (il Lux)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-01",
           "time": "20:30",
@@ -1197,14 +1144,6 @@
           "date": "2026-10-01",
           "time": "20:05",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-01",
-          "time": "20:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1528,14 +1467,6 @@
         },
         {
           "date": "2026-10-01",
-          "time": "19:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-01",
           "time": "22:30",
           "cinema": "Porto Astra",
           "price": null,
@@ -1851,14 +1782,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1493010",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144933",
       "showtimes": [
-        {
-          "date": "2026-10-01",
-          "time": "19:25",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-01",
           "time": "20:25",
@@ -2215,14 +2138,6 @@
       "showtimes": [
         {
           "date": "2026-10-01",
-          "time": "19:55",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-01",
           "time": "22:00",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -2346,14 +2261,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/950028",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138696",
       "showtimes": [
-        {
-          "date": "2026-10-01",
-          "time": "20:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-01",
           "time": "20:10",
@@ -2870,75 +2777,6 @@
       ]
     },
     {
-      "title": "Ritorno A Buenos Aires",
-      "director": "Marco Bechis",
-      "duration_min": 104,
-      "poster_url": "https://image.tmdb.org/t/p/w500/42yQnX3vuZkxSo44KmL051xCTKN.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ATjUWojp42k",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Ritorno%20A%20Buenos%20Aires%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/ritorno%20a%20buenos%20aires/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1597199",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-01",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-02",
-          "time": "16:15",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-04",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-04",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": "5,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "18:40",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Un Po' Di Luce",
       "director": "Ali Asgari",
       "duration_min": 87,
@@ -3031,6 +2869,67 @@
         },
         {
           "date": "2026-10-07",
+          "time": "18:40",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Ritorno A Buenos Aires",
+      "director": "Marco Bechis",
+      "duration_min": 104,
+      "poster_url": "https://image.tmdb.org/t/p/w500/42yQnX3vuZkxSo44KmL051xCTKN.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ATjUWojp42k",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Ritorno%20A%20Buenos%20Aires%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/ritorno%20a%20buenos%20aires/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1597199",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-02",
+          "time": "16:15",
+          "cinema": "Multiastra",
+          "price": "4,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-03",
+          "time": "15:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-03",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-04",
+          "time": "15:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-04",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": "5,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-06",
           "time": "18:40",
           "cinema": "Multiastra",
           "price": null,
@@ -3709,6 +3608,27 @@
       ]
     },
     {
+      "title": "Dio Ride",
+      "director": "Giovanni Veronesi",
+      "duration_min": 114,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p5cuENoUviYoK6IBHg2FS4oTRGD.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=GyQz-5xlIsc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Dio%20Ride%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/dio%20ride/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1506710",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-01",
+          "time": "20:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "I Grandi Maestri - Caravaggio",
       "director": null,
       "duration_min": null,
@@ -3909,6 +3829,27 @@
         {
           "date": "2026-10-06",
           "time": "18:30",
+          "cinema": "MovieConnection (il Lux)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "PALESTINE 36 – Annemarie Jacir # Palestina/UK/Qatar/Fra/Dan/Norv 2026 (120′) V.O.S.",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/09/palestine-36-poster-1.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=PALESTINE%2036%20%E2%80%93%20Annemarie%20Jacir%20%23%20Palestina/UK/Qatar/Fra/Dan/Norv%202026%20%28120%E2%80%B2%29%20V.O.S.%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/palestine%2036%20%E2%80%93%20annemarie%20jacir%20%23%20palestina/uk/qatar/fra/dan/norv%202026%20%28120%E2%80%B2%29%20./",
+      "tmdb_url": null,
+      "detail_url": "https://www.movieconnection.it/proiezione/palestine-36-3/",
+      "showtimes": [
+        {
+          "date": "2026-10-06",
+          "time": "21:00",
           "cinema": "MovieConnection (il Lux)",
           "price": null,
           "note": null,
