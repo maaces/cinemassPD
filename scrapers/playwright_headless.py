@@ -1,24 +1,22 @@
 """Scraper per siti che caricano gli orari via JavaScript (The Space Cinema,
 Cinema Rex): usano Playwright (browser headless), che gira senza problemi
-su GitHub Actions (impossibile invece su Termux/telefono).
+su GitHub Actions.
 
-ONESTA' SUL LIVELLO DI CONFIDENZA: a differenza degli altri 5 scraper di
-questo progetto, questi due NON sono stati verificati su HTML reale, perche'
-lo strumento con cui ho ispezionato gli altri siti non esegue JavaScript e
-quindi non riesce a vedere cosa c'e' dietro questi due. L'estrazione qui
-sotto e' percio' "generica": cammina il DOM cercando testo nel formato
-HH:MM vicino a un'intestazione, che potrebbe non trovare nulla o trovare
-cose sbagliate a seconda della vera struttura del sito.
+Questi due scraper NON sono ancora stati verificati su HTML reale:
+l'estrazione qui sotto e' "generica" (cerca testi HH:MM sotto
+un'intestazione) e va calibrata.
 
-Quello che *e'* garantito: ad ogni esecuzione l'HTML della pagina COSI' COM'E'
-DOPO il rendering JavaScript viene salvato in docs/debug/<cinema>.txt (lo
-stesso meccanismo di diagnostica usato per gli altri cinema). Quindi anche
-se l'estrazione fallisce al primo giro, avremo finalmente l'HTML vero da
-cui scrivere uno scraper preciso, esattamente come e' stato fatto per
-Cineplex Moderno, MovieConnection e Fronte del Porto.
+Cosa e' garantito: ad ogni esecuzione in docs/debug/ finisce SEMPRE
+qualcosa per questi cinema, anche se la pagina non carica:
+  - l'HTML renderizzato (anche parziale, se il caricamento va in timeout)
+  - oppure una pagina con l'errore esatto di Playwright
+Prima, se Playwright andava in errore (tipicamente un timeout di
+"networkidle", che su siti con analytics/pubblicita' non arriva mai) la
+funzione restituiva None e nel debug non compariva nulla.
 """
 import re
-from typing import List, Optional
+import traceback
+from typing import List, Optional, Tuple
 
 from models import Movie, Showtime
 from utils import DEBUG_PAGES
@@ -26,56 +24,69 @@ from utils import DEBUG_PAGES
 TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})$")
 HEADING_TAGS = ("h1", "h2", "h3", "h4", "h5")
 
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
 
-def _render_with_playwright(url: str) -> Optional[str]:
+
+def _render_with_playwright(url: str) -> Tuple[Optional[str], Optional[str]]:
+    """Restituisce (html, errore). Prova sempre a recuperare l'HTML, anche
+    se qualcosa va storto a meta' caricamento."""
     try:
         from playwright.sync_api import sync_playwright
-    except ImportError:
-        print(f"[!] Playwright non installato: impossibile leggere {url}. "
-              f"Aggiungi 'pip install playwright && playwright install --with-deps chromium' "
-              f"al workflow (vedi README).")
-        return None
+    except ImportError as e:
+        return None, f"Playwright non installato: {e}"
 
+    html, error = None, None
     try:
         with sync_playwright() as p:
-            browser = p.chromium.launch()
-            page = browser.new_page(
-                # Header realistico per evitare blocchi Cloudflare/WAF
-                user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+            browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+            context = browser.new_context(
+                user_agent=BROWSER_UA,
+                locale="it-IT",
+                timezone_id="Europe/Rome",
+                viewport={"width": 1366, "height": 900},
             )
-            # Nascondi il rilevamento di webdriver
-            page.add_init_script("""
-                Object.defineProperty(navigator, 'webdriver', {
-                    get: () => undefined,
-                });
-            """)
-            # Header HTTP realistici
-            page.set_extra_http_headers({
-                "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
-                "Accept-Encoding": "gzip, deflate, br",
-                "DNT": "1",
-                "Upgrade-Insecure-Requests": "1",
-                "Sec-Fetch-Dest": "document",
-                "Sec-Fetch-Mode": "navigate",
-                "Sec-Fetch-Site": "none",
-            })
-            page.goto(url, wait_until="networkidle", timeout=45000)
-            page.wait_for_timeout(2500)  # margine per rendering JS lento/lazy load
-            html = page.content()
+            context.add_init_script(
+                "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
+            )
+            page = context.new_page()
+            try:
+                # "domcontentloaded" invece di "networkidle": quest'ultimo su
+                # molti siti non arriva mai (tracker, chat, banner) e fa fallire tutto
+                resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                if resp is not None and resp.status >= 400:
+                    error = f"HTTP {resp.status} su {url}"
+                # tenta di chiudere un eventuale banner cookie (best effort)
+                for label in ("Accetta", "Accetta tutti", "Accetto", "Accept all", "OK"):
+                    try:
+                        page.get_by_role("button", name=label, exact=False).first.click(timeout=1500)
+                        break
+                    except Exception:
+                        pass
+                # attende che la rete si calmi, ma senza fallire se non succede
+                try:
+                    page.wait_for_load_state("networkidle", timeout=15000)
+                except Exception:
+                    pass
+                page.mouse.wheel(0, 3000)  # stimola eventuale lazy-load
+                page.wait_for_timeout(4000)
+            except Exception as e:
+                error = f"{type(e).__name__}: {e}"
+            # in ogni caso, prendi quello che c'e' in pagina
+            try:
+                html = page.content()
+            except Exception as e:
+                error = (error or "") + f" | content() fallito: {e}"
             browser.close()
-            return html
     except Exception as e:
-        print(f"[!] Errore Playwright su {url}: {e}")
-        return None
+        error = f"{type(e).__name__}: {e}\n{traceback.format_exc()}"
+    return html, error
 
 
 def _generic_extract(html: str, cinema_name: str) -> List[Movie]:
     """Estrazione 'best effort' generica: l'ultima intestazione (h1-h5)
-    incontrata cammin facendo diventa il 'film corrente', e ogni testo nel
-    formato esatto HH:MM trovato dopo di essa (dentro link/bottoni/testo)
-    viene registrato come suo orario, con data segnata come 'da verificare'
-    perche' senza conoscere la struttura reale non sappiamo a quale giorno
-    appartenga. Va quasi certamente ricalibrata sull'HTML vero (vedi sopra)."""
+    diventa il 'film corrente', e ogni testo HH:MM trovato dopo di essa
+    diventa un suo orario con data 'da verificare'. Da ricalibrare."""
     from bs4 import BeautifulSoup
     soup = BeautifulSoup(html, "html.parser")
 
@@ -85,14 +96,11 @@ def _generic_extract(html: str, cinema_name: str) -> List[Movie]:
         text = el.get_text(" ", strip=True)
         if not text or len(text) > 200:
             continue
-
         if el.name in HEADING_TAGS and 2 < len(text) < 100:
             current_title = text
-            if current_title not in movies:
-                movies[current_title] = Movie(title=current_title)
+            movies.setdefault(current_title, Movie(title=current_title))
             continue
-
-        if el.name in ("a", "button", "span", "li") and current_title:
+        if current_title:
             m = TIME_RE.match(text)
             if m:
                 movies[current_title].showtimes.append(Showtime(
@@ -101,16 +109,25 @@ def _generic_extract(html: str, cinema_name: str) -> List[Movie]:
                     cinema=cinema_name,
                     date_uncertain=True,
                 ))
-
-    return list(movies.values())
+    # scarta le intestazioni senza orari (menu, footer, ecc.)
+    return [m for m in movies.values() if m.showtimes]
 
 
 def _scrape_generic(url: str, cinema_name: str) -> List[Movie]:
-    html = _render_with_playwright(url)
-    if not html:
+    html, error = _render_with_playwright(url)
+    if error:
+        print(f"   [!] Playwright {cinema_name}: {error.splitlines()[0]}")
+    if html:
+        DEBUG_PAGES[url] = html
+    else:
+        # nessun HTML: salva comunque l'errore, cosi' compare in docs/debug/
+        DEBUG_PAGES[url] = f"<html><body><pre>ERRORE PLAYWRIGHT\n{error}</pre></body></html>"
         return []
-    DEBUG_PAGES[url] = html  # fondamentale: cosi' finisce nel report di diagnostica
-    return _generic_extract(html, cinema_name)
+    try:
+        return _generic_extract(html, cinema_name)
+    except Exception as e:
+        print(f"   [!] Estrazione fallita per {cinema_name}: {e}")
+        return []
 
 
 def scrape_space_cinema(url: str, cinema_name: str) -> List[Movie]:
