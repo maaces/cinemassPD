@@ -120,6 +120,11 @@ def main() -> None:
             "HTML ripulito: " + (", ".join(dump_files) if dump_files else "non disponibile"),
         ]
 
+    # il report va scritto SUBITO: se un passaggio successivo fallisse,
+    # la diagnostica dei cinema resterebbe comunque disponibile
+    with open(os.path.join(debug_dir, "report.txt"), "w", encoding="utf-8") as f:
+        f.write("\n".join(report) + "\n")
+
     merged = merge_movies(all_movies)
     print(f"Totale film unici: {len(merged)}")
 
@@ -128,14 +133,20 @@ def main() -> None:
     else:
         print("[i] Nessuna TMDB_API_KEY impostata: regista/durata/locandina mancanti "
               "resteranno vuoti se il sito del cinema non li fornisce gia'.")
-    enrich_movies(merged, tmdb_key)
+    try:
+        enrich_movies(merged, tmdb_key)
+    except Exception as e:
+        print(f"   [ERRORE] arricchimento TMDB: {type(e).__name__}: {e}")
+        traceback.print_exc()
 
     print("-> Lettura eventi personalizzati (Issue GitHub con label 'evento') ...")
-    custom_events = fetch_custom_events()
+    try:
+        custom_events = fetch_custom_events()
+    except Exception as e:
+        print(f"   [ERRORE] eventi personalizzati: {type(e).__name__}: {e}")
+        traceback.print_exc()
+        custom_events = []
     print(f"   trovati {len(custom_events)} eventi personalizzati")
-
-    with open(os.path.join(debug_dir, "report.txt"), "w", encoding="utf-8") as f:
-        f.write("\n".join(report) + "\n")
 
     note = ""
     if empty_cinemas:
