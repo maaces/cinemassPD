@@ -39,7 +39,26 @@ def _render_with_playwright(url: str) -> Optional[str]:
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
-            page = browser.new_page()
+            page = browser.new_page(
+                # Header realistico per evitare blocchi Cloudflare/WAF
+                user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+            )
+            # Nascondi il rilevamento di webdriver
+            page.add_init_script("""
+                Object.defineProperty(navigator, 'webdriver', {
+                    get: () => undefined,
+                });
+            """)
+            # Header HTTP realistici
+            page.set_extra_http_headers({
+                "Accept-Language": "it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7",
+                "Accept-Encoding": "gzip, deflate, br",
+                "DNT": "1",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none",
+            })
             page.goto(url, wait_until="networkidle", timeout=45000)
             page.wait_for_timeout(2500)  # margine per rendering JS lento/lazy load
             html = page.content()
