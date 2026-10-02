@@ -321,83 +321,13 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            OGGI
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-citta-dei-bambini-lutopia-di-francesco-tonucci/'">
-              <div class="evento-card-new-immagine">
-               <img alt="LA CITTA' DEI BAMBINI. L'UTOPIA DI FRANCESCO TONUCCI" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-citta-dei-bambini-l-utopia-di-francesco-tonucci-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  LA CITTA’ DEI BAMBINI. L’UTOPIA DI FRANCESCO TONUCCI
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2025, 55'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-                <span class="particolarita-label-prog">
-                 ★ Autore in sala
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:30
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.eventbrite.it/e/proiezione-del-documentario-la-citta-dei-bambini-tickets-2000008846298" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  gratuito
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/le-nuove-voci-del-cinema-documentario-italiano-26-27/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                Le nuove voci del cinema documentario italiano
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
             DOMENICA, 4 OTTOBRE 2026
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/song-of-the-sea/'">
               <div class="evento-card-new-immagine">
-               <img alt="Song of the Sea" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/song-of-the-sea-1-1024x576.jpg" width="1024"/>
+               <img alt="Song of the Sea" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/song-of-the-sea-1-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">
@@ -2788,13 +2718,6 @@
             Rassegne in Corso
            </h3>
            <div class="rassegne-lista">
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/le-nuove-voci-del-cinema-documentario-italiano-26-27/">
-             <span class="rassegna-nome">
-              Le nuove voci del cinema documentario italiano
-             </span>
-             <span class="rassegna-arrow">
-             </span>
-            </a>
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
              <span class="rassegna-nome">
               FP kids – proiezioni per famiglie
@@ -2819,6 +2742,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
              <span class="rassegna-nome">
               Questioni di classe?
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/le-nuove-voci-del-cinema-documentario-italiano-26-27/">
+             <span class="rassegna-nome">
+              Le nuove voci del cinema documentario italiano
              </span>
              <span class="rassegna-arrow">
              </span>
