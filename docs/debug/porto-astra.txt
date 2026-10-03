@@ -284,6 +284,22 @@
              </li>
              <li class="x-block-grid-item">
               <div class="col3Min">
+               <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/08/coyotevsacme-1.jpg"/>
+               <h5 class="filmTitle" id="titleHeight">
+                Coyote vs Acme
+               </h5>
+               <p class="desc">
+                Da decenni Willy il Coyote fallisce ogni tentativo di catturare Beep Beep. Stavolta decide di fare causa alla Acme, accusandola dei suoi prodotti disastrosamente difettosi.
+               </p>
+               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="https://portoastra.it/film/coyote-vs-acme" title="Coyote vs Acme">
+                <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
+                </i>
+                Scheda completa
+               </a>
+              </div>
+             </li>
+             <li class="x-block-grid-item">
+              <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/digger-1.jpg"/>
                <h5 class="filmTitle" id="titleHeight">
                 Digger
@@ -298,6 +314,8 @@
                </a>
               </div>
              </li>
+            </ul>
+            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/07/eramegliodomani.jpg"/>
@@ -314,8 +332,6 @@
                </a>
               </div>
              </li>
-            </ul>
-            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/06/heartofthebeastnelprofondoselvaggio.jpg"/>
@@ -332,6 +348,24 @@
                </a>
               </div>
              </li>
+             <li class="x-block-grid-item">
+              <div class="col3Min">
+               <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/08/isolaricordilocandina.jpeg"/>
+               <h5 class="filmTitle" id="titleHeight">
+                L'isola dei ricordi
+               </h5>
+               <p class="desc">
+                Jo e Raissa, amiche inseparabili, attraversano un portale e si ritrovano sull’isola fantastica di Nakali. Per tornare a casa scoprono che potrebbero dover rinunciare a un’intera vita di ricordi ed emozioni.
+               </p>
+               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="https://portoastra.it/film/lisola-dimenticata">
+                <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
+                </i>
+                Scheda completa
+               </a>
+              </div>
+             </li>
+            </ul>
+            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/lacittadeivivi.jpg"/>
@@ -364,8 +398,6 @@
                </a>
               </div>
              </li>
-            </ul>
-            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/IWP_NAZA_poster_web.jpg"/>
@@ -382,6 +414,8 @@
                </a>
               </div>
              </li>
+            </ul>
+            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/08/nessun-dolore-locandina-low.jpg"/>
@@ -414,8 +448,6 @@
                </a>
               </div>
              </li>
-            </ul>
-            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/07/theinviteilpiacereetuttonostro.jpg"/>
@@ -432,6 +464,8 @@
                </a>
               </div>
              </li>
+            </ul>
+            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/unastoria.jpg"/>
@@ -479,15 +513,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               02/10
-               <br/>
-               <b>
-                Venerdì
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                03/10
                <br/>
                <b>
@@ -496,7 +521,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                04/10
                <br/>
                <b>
@@ -505,7 +530,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
                05/10
                <br/>
                <b>
@@ -514,7 +539,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
                06/10
                <br/>
                <b>
@@ -523,7 +548,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
+              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
                07/10
                <br/>
                <b>
@@ -532,7 +557,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-7" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-7" id="x-legacy-tab-7" role="tab">
+              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
                09/10
                <br/>
                <b>
@@ -543,317 +568,6 @@
             </ul>
             <div class="x-tab-content orari">
              <div aria-hidden="false" aria-labelledby="x-legacy-tab-1" class="x-tab-pane fade in active" data-x-toggleable="x-legacy-tab-1" id="x-legacy-panel-1" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16673">
-                  digger
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6510&amp;performanceId=230765" ,"all")'>
-                   <span class="">
-                    16.40
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6510&amp;performanceId=230766" ,"all")'>
-                   <span class="">
-                    19.20
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6510&amp;performanceId=230767" ,"all")'>
-                   <span class="">
-                    22.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16663">
-                  avengers endgame - extra
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6502&amp;performanceId=230819" ,"all")'>
-                   <span class="">
-                    16.50
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16800">
-                  maigret - l'amore e la morte
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6500&amp;performanceId=230833" ,"all")'>
-                   <span class="">
-                    17.00
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6500&amp;performanceId=230834" ,"all")'>
-                   <span class="">
-                    19.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16856">
-                  nessun dolore
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6504&amp;performanceId=230753" ,"all")'>
-                   <span class="">
-                    17.10
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6504&amp;performanceId=230754" ,"all")'>
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6504&amp;performanceId=230755" ,"all")'>
-                   <span class="">
-                    22.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16692">
-                  era meglio domani
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6513&amp;performanceId=230791" ,"all")'>
-                   <span class="">
-                    17.20
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16900">
-                  una storia
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6499&amp;performanceId=230777" ,"all")'>
-                   <span class="">
-                    17.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16799">
-                  heart of the beast - nel profondo selvaggio
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6505&amp;performanceId=230805" ,"all")'>
-                   <span class="">
-                    17.40
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6505&amp;performanceId=230807" ,"all")'>
-                   <span class="">
-                    22.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16660">
-                  la città dei vivi
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6516&amp;performanceId=230778" ,"all")'>
-                   <span class="">
-                    19.50
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6516&amp;performanceId=230779" ,"all")'>
-                   <span class="">
-                    22.10
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16674">
-                  verity
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6514&amp;performanceId=230806" ,"all")'>
-                   <span class="">
-                    20.05
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6515&amp;performanceId=230793" ,"all")'>
-                   <span class="time_OV">
-                    22.25
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16853">
-                  the invite - il piacere è tutto nostro
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6493&amp;performanceId=230792" ,"all")'>
-                   <span class="">
-                    20.10
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16802">
-                  quasi vera
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6512&amp;performanceId=230820" ,"all")'>
-                   <span class="">
-                    20.25
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6512&amp;performanceId=230821" ,"all")'>
-                   <span class="">
-                    22.20
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17137">
-                  naza
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6508&amp;performanceId=230835" ,"all")'>
-                   <span class="time_OV">
-                    20.45
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1232,7 +946,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1613,7 +1327,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1888,7 +1602,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -2160,7 +1874,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -2487,7 +2201,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-7" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-7" id="x-legacy-panel-7" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -2752,8 +2466,14 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e16717-e30 mcwd-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-13852">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="13852" data-token="40bce6f6d184f59ccc13ab37a3acead8" data-token-time="1790928900" enctype="multipart/form-data" id="wpforms-form-13852" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="13852" data-token="0b4c2a7f4fde1b0e1ceada54c3764092" data-token-time="1791003611" enctype="multipart/form-data" id="wpforms-form-13852" method="post">
                <div class="wpforms-field-container">
+                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-13852-field_1-container">
+                 <label class="wpforms-field-label" for="wpforms-13852-field_1">
+                  Informativa Privacy Email
+                 </label>
+                 <input class="wpforms-field-medium" id="wpforms-13852-field_1" name="wpforms[fields][1]" type="text"/>
+                </div>
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-13852-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-13852-field_2">
                   Email
@@ -2762,12 +2482,6 @@
                   </span>
                  </label>
                  <input class="wpforms-field-large wpforms-field-required" id="wpforms-13852-field_2" name="wpforms[fields][2]" required="" spellcheck="false" type="email"/>
-                </div>
-                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-13852-field_1-container">
-                 <label class="wpforms-field-label" for="wpforms-13852-field_1">
-                  Email Informativa Privacy
-                 </label>
-                 <input class="wpforms-field-medium" id="wpforms-13852-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
                 <div class="wpforms-field wpforms-field-gdpr-checkbox" data-field-id="3" data-field-type="gdpr-checkbox" id="wpforms-13852-field_3-container">
                  <label class="wpforms-field-label">

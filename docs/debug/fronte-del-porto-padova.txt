@@ -321,7 +321,7 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            DOMENICA, 4 OTTOBRE 2026
+            DOMANI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -638,10 +638,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.eventbrite.com/e/totem-il-mio-sole-film-di-lila-aviles-messico-2023-95-tickets-2002838981308?aff=odcleoeventsincollection" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   Ingresso a offerta libera
                  </div>
@@ -764,17 +768,31 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.cifpadova.it/cineforum/" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
+                  ingresso cineforum CIF
                  </div>
                 </div>
                </div>
               </div>
              </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Cineforum CIF
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
             </div>
            </div>
           </div>
@@ -1460,17 +1478,31 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.cifpadova.it/cineforum/" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
+                  ingresso Cineforum CIF
                  </div>
                 </div>
                </div>
               </div>
              </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Cineforum CIF
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
             </div>
            </div>
           </div>
@@ -1748,10 +1780,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.eventbrite.com/e/after-life-film-di-koreeda-hirokazu-giappone-1998-118-tickets-2002840396541?aff=oddtdtcreator&amp;_gl=1*15fh1lv*_up*MQ..*_ga*NzE4NzI0MDM2LjE3OTA5NzU3NzQ.*_ga_TQVES5V6SH*czE3OTA5NzU3NzMkbzEkZzEkdDE3OTA5NzU4MTEkajIyJGwwJGgw&amp;keep_tld=true" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   Evento gratuito
                  </div>
@@ -2742,6 +2778,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
              <span class="rassegna-nome">
               Questioni di classe?
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/">
+             <span class="rassegna-nome">
+              Cineforum CIF
              </span>
              <span class="rassegna-arrow">
              </span>
