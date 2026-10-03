@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:03:11.623817",
+  "generated_at": "2026-10-03T14:14:04.652749",
   "movies": [
     {
       "title": "THE BIBI FILES",
@@ -152,22 +152,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1248832",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144804",
       "showtimes": [
-        {
-          "date": "2026-10-03",
-          "time": "14:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
-          "time": "15:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-03",
           "time": "16:40",
@@ -525,14 +509,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/299534",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/132755",
       "showtimes": [
-        {
-          "date": "2026-10-03",
-          "time": "14:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-03",
           "time": "16:45",
@@ -926,14 +902,6 @@
       "showtimes": [
         {
           "date": "2026-10-03",
-          "time": "14:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
           "time": "15:15",
           "cinema": "Porto Astra",
           "price": null,
@@ -1185,14 +1153,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
       "showtimes": [
-        {
-          "date": "2026-10-03",
-          "time": "14:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-03",
           "time": "16:15",
@@ -1722,14 +1682,6 @@
       "showtimes": [
         {
           "date": "2026-10-03",
-          "time": "14:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
           "time": "15:00",
           "cinema": "Porto Astra",
           "price": null,
@@ -1964,14 +1916,6 @@
       "showtimes": [
         {
           "date": "2026-10-03",
-          "time": "14:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
           "time": "17:15",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -2057,14 +2001,6 @@
       "showtimes": [
         {
           "date": "2026-10-03",
-          "time": "14:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-03",
           "time": "17:25",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -2117,14 +2053,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/129158",
       "showtimes": [
         {
-          "date": "2026-10-03",
-          "time": "14:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-04",
           "time": "13:15",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -2169,14 +2097,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1465063",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143084",
       "showtimes": [
-        {
-          "date": "2026-10-03",
-          "time": "14:50",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-03",
           "time": "16:30",
@@ -2256,6 +2176,14 @@
       "showtimes": [
         {
           "date": "2026-10-03",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-03",
           "time": "22:35",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -2275,6 +2203,14 @@
           "time": "19:35",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-04",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
           "note": null,
           "date_uncertain": false
         },
@@ -2335,9 +2271,57 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-10",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-11",
           "time": "20:30",
           "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "18:30",
+          "cinema": "Piccolo Teatro (cinema)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2545,7 +2529,7 @@
       "director": "Marco Zuin",
       "duration_min": 80,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/per-silenzio-e-vento-3-1024x576.jpg",
-      "trailer_url": null,
+      "trailer_url": "https://www.youtube.com/watch?v=JEb6MdWQViY",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Per%20Silenzio%20E%20Vento%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/per%20silenzio%20e%20vento/",
       "tmdb_url": "https://www.themoviedb.org/movie/1652113",
@@ -3857,6 +3841,14 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-14",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-12-18",
           "time": "20:45",
           "cinema": "Fronte del Porto Padova",
@@ -3975,7 +3967,7 @@
       "title": "I figli della scimmia",
       "director": "Tommaso Landucci",
       "duration_min": 110,
-      "poster_url": "https://image.tmdb.org/t/p/w500/c5tEquC2cAfxfFNIs86QmGzabmU.jpg",
+      "poster_url": "https://www.esperiapadova.it/data/img/840/figlidellascimmia.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=ulmC9ddq5Ng",
       "trailer_search_url": "https://www.youtube.com/results?search_query=I%20figli%20della%20scimmia%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/i%20figli%20della%20scimmia/",
@@ -3983,10 +3975,26 @@
       "detail_url": "https://www.cinemarex.it/evento?eventName=i_figli_della_scimmia",
       "showtimes": [
         {
+          "date": "2026-10-02",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-04",
           "time": "18:30",
           "cinema": "Cinema Rex",
           "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-04",
+          "time": "18:30",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
           "note": null,
           "date_uncertain": false
         },
@@ -4037,6 +4045,106 @@
           "time": "18:45",
           "cinema": "Cinema Rex",
           "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Tony – Diario di un giovane cuoco",
+      "director": "Matt Johnson",
+      "duration_min": 106,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/tony.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YOspkwoNT50",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Tony%20%E2%80%93%20Diario%20di%20un%20giovane%20cuoco%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/tony%20%E2%80%93%20diario%20di%20un%20giovane%20cuoco/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1329016",
+      "detail_url": "https://www.piccolo-padova.it/tony-diario-di-un-giovane-cuoco/",
+      "showtimes": [
+        {
+          "date": "2026-10-03",
+          "time": "21:15",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-04",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-04",
+          "time": "21:15",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "No good man",
+      "director": "Joe Rosenthal",
+      "duration_min": 8,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/nogood.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=No%20good%20man%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/no%20good%20man/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1211243",
+      "detail_url": "https://www.piccolo-padova.it/no-good-man/",
+      "showtimes": [
+        {
+          "date": "2026-10-07",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Noi due sconosciuti",
+      "director": "Janicke Askevold",
+      "duration_min": 99,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/noi-sconosciuti.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=g33GrfTJB3Y",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Noi%20due%20sconosciuti%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/noi%20due%20sconosciuti/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1471537",
+      "detail_url": "https://www.piccolo-padova.it/noi-due-sconosciuti/",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Yellows letters",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/yellows.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Yellows%20letters%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/yellows%20letters/",
+      "tmdb_url": null,
+      "detail_url": "https://www.piccolo-padova.it/yellows-letters/",
+      "showtimes": [
+        {
+          "date": "2026-10-28",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
           "note": null,
           "date_uncertain": false
         }

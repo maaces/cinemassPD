@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="it">
+ <head>
+ </head>
+ <body>
+  <div class="shadowbox" id="shadowbox" name="shadowbox">
+   <div class="shadow_commandbox">
+    <div class="shadow_closeshadowbox" id="closeshadowbox">
+    </div>
+   </div>
+   <div class="shadow_centralbox" id="centralbox">
+   </div>
+  </div>
+  <div class="messagebox" id="messagebox" name="messagebox">
+   <div class="messagetextbox" id="messagetextbox">
+   </div>
+  </div>
+  <div class="topbarwrapper" id="topbarhiddennavibar">
+   <div class="topbartitlebox" id="topbartitlebox">
+    <div class="topbarlogo">
+     <div class="topbarlogodiv" id="logopage">
+     </div>
+    </div>
+    <div class="topbarmenu">
+     <div class="topbartopbar_social" id="topbar_social">
+      <div class="topbarsocialslinks">
+      </div>
+      <div class="topbarplugin" id="plugin">
+      </div>
+     </div>
+     <div class="topbartopbar_menu">
+      <div class="topbarvoice">
+       <a class="topbara-link" href="https://www.esperiapadova.it/">
+        Home
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="topbarhamburger" data-op="false">
+    </div>
+   </div>
+  </div>
+  <div class="topbarupperspace">
+  </div>
+  <div class="topbarwrapperdown" mainwrapper="">
+   <div class="anchor" id="#ChiSiamo">
+   </div>
+   <div class="Bstrip">
+    <div class="Bcentral">
+     <div class="blog_control">
+      <div class="Bfotoblog">
+      </div>
+      <div class="Bsearchbox">
+       <div class="Bboxestitle">
+        Ricerca libera
+       </div>
+       <form class="search_tbox">
+        <input class="search_text" name="blog-search" placeholder="cerca..." type="text" value=""/>
+        <input class="search_button" type="submit" value=""/>
+       </form>
+      </div>
+      <div class="Bselectsearchbox">
+       <div class="Bboxestitle">
+        Categorie
+       </div>
+       <div class="wrapper_section_content">
+        <a href="?category=">
+         <div class="Bcategorylist">
+          Tutti
+         </div>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorylist">
+          Programmazione cinematografica (4)
+         </div>
+        </a>
+        <a href="?category=3">
+         <div class="Bcategorylist">
+          Concerti ed eventi vari (1)
+         </div>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="blog_view">
+      <div id="post_table">
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=840">
+         <img class="Bfotopost" src="data/img/840/figlidellascimmia.jpg"/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=840">
+          <div class="Btitle">
+           I FIGLI DELLA SCIMMIA
+          </div>
+          <div class="Bsubtitle">
+           VENERDI 2 Ottobre - ore 21.00, DOMENICA 4 Ottobre - ore 18.30 Interi: 6,00 euro ; - ridotti :5,00 euro.
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=840">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            <p align="center">
+             <br/>
+             <strong>
+              <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
+               ACQUISTA ONLINE
+              </a>
+             </strong>
+            </p>
+            <br/>
+            <br/>
+            Regia di Tommaso Landucci. Un film con Ric...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           29-09-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D840" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D840" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D840" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=847">
+         <img class="Bfotopost" src="data/img/847/odissea.jpeg"/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=847">
+          <div class="Btitle">
+           ODISSEA
+          </div>
+          <div class="Bsubtitle">
+           SABATO 3 ottobre - ore 21:00 - DOMENICA 4 ottobre ore 21:00 - SABATO 10 ottobre ore 21:00 - DOMENICA 11 ottobre ore 21:00 - Interi: 6 euro; ridotti: 5 euro -
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=847">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            <p align="center">
+             <br/>
+             <strong>
+              <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
+               ACQUISTA ONLINE
+              </a>
+             </strong>
+            </p>
+            <br/>
+            <br/>
+            Un film di Christopher Nolan con Matt Damo...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           29-09-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D847" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D847" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D847" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=187">
+         <img class="Bfotopost" src="data/img/187/europacinemascreativelogowhitebluebackground.jpg"/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=187">
+          <div class="Btitle">
+           EUROPA CINEMAS
+          </div>
+          <div class="Bsubtitle">
+           Europa Cinemas Creative Europe / MEDIA - Il Cinema Esperia ne fa parte
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=187">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            ...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           11-02-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D187" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D187" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D187" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=465">
+         <img class="Bfotopost" src=""/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=465">
+          <div class="Btitle">
+           CONTATTI TELEFONICI
+          </div>
+          <div class="Bsubtitle">
+           per contattare telefonicamente la sala si prega di utilizzare il numero 049 872 2711 che risponde negli orari di apertura. Grazie
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=465">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            ...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           27-01-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D465" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D465" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D465" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="w3-bar">
+       <a class="w3-button" href="#">
+        «
+       </a>
+       <a class="pagingbutton" href="?pagination=1&amp;category=1&amp;blog-search=">
+        1
+       </a>
+       <a class="w3-button" href="#">
+        »
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="footer_bottom">
+    <div class="footer_bottom_wrapper">
+     <div class="copyright">
+      <p class="contrast">
+       © - Adjectives -
+       <a href="https://www.bdfcommunication.it">
+        BDF communication
+       </a>
+       - 2026 -
+       <a class="contrast" href="./Privacy" target="new">
+        <b>
+         Privacy Policy
+        </b>
+       </a>
+      </p>
+     </div>
+     <div align="right" class="poweredby">
+      <img src="https://www.esperiapadova.it/img/googlecloud.svg.php?Color=212,4,36"/>
+     </div>
+     <br/>
+    </div>
+    <div id="owa-tracker-post-container">
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
