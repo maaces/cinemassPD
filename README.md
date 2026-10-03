@@ -74,10 +74,13 @@ telefono senza bisogno di alcun backend:
    `GG/MM/AAAA HH:MM` (es. `30/09/2026 20:30`). Dalla riga successiva in poi
    scrivi il testo libero che vuoi, poi allega una foto dalla libreria
    (basta trascinarla/incollarla, GitHub la carica da solo).
-5. Aggiungi la label `evento` e pubblica la issue.
-6. Al prossimo "Run workflow" comparirà nella pagina, nel punto cronologico
-   giusto, foto compresa — e con lo stesso pulsante "Aggiungi al Calendar"
-   degli altri film.
+5. Aggiungi la label `evento` e pubblica la issue. Puoi aggiungere ANCHE
+   altre label a piacere (es. `famiglia`, `speciale`, `gratis`): diventano
+   "flag" filtrabili con le chip in testa alla pagina (vedi sezione Filtri).
+6. Al prossimo aggiornamento (entro 30 minuti, vedi "Aggiornamento
+   automatico" più sotto — oppure subito se lanci "Run workflow" a mano)
+   comparirà nella pagina, nel punto cronologico giusto, foto compresa — e
+   con lo stesso pulsante "Aggiungi al Calendar" degli altri film.
 
 Per toglierla, chiudi semplicemente la issue (*Close issue*).
 
@@ -104,10 +107,10 @@ stati riscritti su misura, non piu' a intuito.
 | **Cineplex Moderno** (Due Carrare) | `tickets18` | Orari letti dal timestamp esatto del sito (niente piu' testo extra nel campo regista) |
 | **Multiastra** | `wp_remotefilm` | Riconoscimento giorni a 3 strategie indipendenti dalla struttura esatta del sito |
 | **Porto Astra** | `wp_remotefilm` | Come Multiastra |
-| **MovieConnection** (il Lux) | `movieconnection` | Titolo, regista, durata gia' inclusi nel formato del sito ("Titolo – Regista # Paese Anno") |
+| **Lux** | `movieconnection` | Titolo, regista, durata gia' inclusi nel formato del sito ("Titolo – Regista # Paese Anno") |
 | **Fronte del Porto Padova** | `fronte_del_porto` | Ignora consapevolmente il robots.txt (vedi sotto); nessun regista in pagina (lo completa TMDB) |
-| **The Space Cinema** (Limena) | `playwright` | Abbozzo non verificato, disabilitato: orari via JavaScript |
-| **Cinema Rex** | `cinema_rex` | Abbozzo non verificato, disabilitato: orari via JavaScript |
+| **The Space Cinema** (Limena) | `space_cinema` | Calibrato su HTML reale. Playwright apre la pagina e clicca i 7 giorni uno per uno; le proiezioni dopo mezzanotte sono datate al giorno dopo |
+| **Cinema Rex** | `cinema_rex` | Calibrato su HTML reale. Legge il JSON che il sito stesso usa (nessun browser); se fallisce ripiega su Playwright. Solo film (teatro/concerti esclusi) |
 
 ### Diagnostica: come si calibra uno scraper
 
@@ -126,14 +129,83 @@ un aggiornamento alla volta (non un loop), User-Agent identificabile. Se il
 gestore comunicasse di preferire il contrario, disabilita questo cinema in
 `config.yaml` (`enabled: false`).
 
-### The Space Cinema e Cinema Rex (Playwright)
+### The Space Cinema e Cinema Rex
 
-Questi due non sono ancora stati verificati su HTML reale (i loro orari sono
-caricati via JavaScript, quindi neanche `debug_dump.py` li cattura). Per
-provarli: nel workflow, sostituisci l'installazione delle dipendenze con
-`pip install -r requirements.txt && pip install playwright && playwright install --with-deps chromium`,
-poi metti `enabled: true` nel `config.yaml`. Aspettati di dover calibrare
-anche questi con lo stesso procedimento.
+Entrambi sono stati scritti guardando l'HTML reale delle pagine.
+
+- **The Space** (`scrapers/space_cinema.py`): la pagina mostra un giorno alla
+  volta, quindi Playwright clicca i pulsanti Oggi/Domani/lun/... e unisce i
+  risultati. I titoli, scritti tutti in maiuscolo dal sito, vengono
+  normalizzati. Se la struttura cambia, in `docs/debug/` trovi l'HTML.
+- **Cinema Rex** (`scrapers/cinema_rex.py`): il sito carica tutto da
+  `https://www.cinemarex.it/pages/rexJsonCompact.php`; lo scraper legge quello.
+  Per includere anche teatro e concerti, aggiungi le categorie a
+  `INCLUDE_CATEGORIES` nel file.
+
+## Aggiornamento automatico
+
+Due workflow distinti, con scopi diversi:
+
+### 1. Aggiornamento completo (`scrape.yml`)
+
+Ri-scarica tutti i siti dei cinema, arricchisce con TMDB, rigenera la pagina.
+Si lancia:
+  - **a mano**, quando vuoi (Actions -> Run workflow), come sempre
+  - **automaticamente ogni giorno verso le 14:30** (ora italiana)
+
+Nota tecnica sull'orario: GitHub Actions usa cron in UTC e **non gestisce
+l'ora legale**. Ho messo due righe di cron (una per l'ora legale, una per
+quella solare) che si alternano in base al mese, cosi' l'orario resta
+~14:30 locale tutto l'anno; nei giorni esatti del cambio ora puo' esserci
+fino a un'ora di scarto per qualche giorno, che non e' correggibile senza
+uno scheduler esterno (accettabile per un promemoria giornaliero).
+
+### 2. Controllo eventi personalizzati (`check-events.yml`)
+
+**Perche' un workflow separato, e non uno schedule piu' frequente sullo
+stesso workflow di prima**: ri-scaricare tutti i siti dei cinema ogni 30
+minuti sarebbe inutile (i loro orari non cambiano cosi' spesso), lento, e
+soprattutto scorretto verso quei siti (48 richieste al giorno a testa senza
+motivo, specialmente verso Fronte del Porto che gia' scraviamo ignorando il
+suo robots.txt per tua scelta esplicita: infittire quelle richieste senza
+bisogno reale sarebbe eccessivo). Separare i due workflow permette invece
+di controllare le Issue "evento" **ogni 30 minuti** restando leggerissimi:
+niente richieste ai cinema, niente TMDB, solo l'API di GitHub per le Issue.
+
+Come funziona: `update_events.py` (lanciato da questo workflow) rilegge i
+film dall'ultimo run completo (`docs/data.json`, gia' su disco), scarica gli
+eventi personalizzati aggiornati, e rigenera la pagina. Se non e' cambiato
+nulla, il commit e' vuoto e non succede niente (stesso meccanismo "git diff
+--quiet" usato per l'altro workflow). Nel giro di massimo 30 minuti da
+quando pubblichi/chiudi una Issue "evento", la pagina si aggiorna da sola.
+
+## Filtri sulla pagina
+
+In testa alla pagina compaiono due barre di chip cliccabili (JavaScript
+puro, nessuna dipendenza esterna, funzionano anche offline una volta
+caricata la pagina):
+  - **Cinema**: un chip per ogni cinema che ha almeno una proiezione nella
+    programmazione corrente, piu' uno per "📌 Eventi personali". Puoi
+    selezionarne piu' di uno (si sommano); "Tutti" li deseleziona tutti.
+  - **Flag eventi**: compare solo se almeno un evento personalizzato ha
+    delle label oltre a "evento" (vedi sotto). Filtra SOLO le card degli
+    eventi personalizzati: i film non hanno flag, quindi restano sempre
+    visibili qualunque flag tu scelga.
+
+Per dare dei flag a un evento personalizzato, aggiungi altre label alla
+Issue oltre a "evento" (es. "famiglia", "speciale", "gratis"): ogni label
+diversa da "evento" diventa un flag selezionabile.
+
+## Diagnosi: perche' alcune foto caricate da computer non si vedevano
+
+GitHub inserisce un'immagine allegata a una Issue in una di tre forme
+diverse, a seconda di *come* l'hai allegata (app mobile, trascinamento nel
+browser, copia-incolla/Ctrl+V nel browser): markdown `![](url)`, tag HTML
+`<img src="...">`, oppure un link semplice. Il copia-incolla da browser
+desktop tende a produrre la forma HTML, che la prima versione dello script
+non riconosceva (cercava solo markdown). Ora vengono cercate tutte e tre le
+forme, sia nel corpo della Issue sia nei commenti successivi (nel caso tu
+l'abbia aggiunta dopo aver gia' creato la Issue).
 
 ## Aggiungere un altro cinema della stessa piattaforma
 

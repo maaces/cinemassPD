@@ -18,24 +18,21 @@ import yaml
 from custom_events import fetch_custom_events
 from enrich_tmdb import enrich_movies
 from render_html import render
-from scrapers import tickets18, wp_remotefilm, movieconnection, fronte_del_porto
+from scrapers import (tickets18, wp_remotefilm, movieconnection, fronte_del_porto,
+                      space_cinema, cinema_rex)
 from utils import DEBUG_PAGES, clean_html_for_dump, merge_movies
 
-try:
-    from scrapers import playwright_headless
-    PLAYWRIGHT_AVAILABLE = True
-except ImportError:
-    PLAYWRIGHT_AVAILABLE = False
-
+# space_cinema usa Playwright (importato solo quando serve); cinema_rex legge
+# un JSON con una semplice richiesta HTTP e usa Playwright solo come ripiego.
 SCRAPER_MAP = {
     "tickets18": tickets18.scrape,
     "wp_remotefilm": wp_remotefilm.scrape,
     "movieconnection": movieconnection.scrape,
     "fronte_del_porto": fronte_del_porto.scrape,
+    "space_cinema": space_cinema.scrape,
+    "playwright": space_cinema.scrape,   # vecchio nome in config.yaml, ancora valido
+    "cinema_rex": cinema_rex.scrape,
 }
-if PLAYWRIGHT_AVAILABLE:
-    SCRAPER_MAP["playwright"] = playwright_headless.scrape_space_cinema
-    SCRAPER_MAP["cinema_rex"] = playwright_headless.scrape_cinema_rex
 
 
 def load_config(path: str = "config.yaml") -> dict:

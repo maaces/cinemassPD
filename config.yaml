@@ -1,5 +1,5 @@
 # Elenco dei cinema da interrogare.
-# type: "tickets18", "wp_remotefilm", "movieconnection", "playwright", "cinema_rex"
+# type: "tickets18", "wp_remotefilm", "movieconnection", "fronte_del_porto", "space_cinema", "cinema_rex"
 # (vedi cartella scrapers/ per i dettagli)
 cinemas:
   - name: "Cineplex Moderno (Due Carrare)"
@@ -17,7 +17,7 @@ cinemas:
     url: "https://portoastra.it/"
     enabled: true
 
-  - name: "MovieConnection (il Lux)"
+  - name: "Lux"
     type: movieconnection
     url: "https://www.movieconnection.it/lux/"
     enabled: true
@@ -27,19 +27,21 @@ cinemas:
     url: "https://www.frontedelportopadova.it/eventi/"
     enabled: true
 
-  # Disabilitati: orari caricati via JavaScript, richiederebbero Playwright
-  # (pip install playwright && playwright install nel workflow). Gli scraper
-  # relativi sono ancora solo abbozzi NON verificati sui siti reali.
-
+  # The Space (Limena): orari caricati via JavaScript e visibili un giorno
+  # alla volta -> Playwright clicca i giorni uno per uno (scrapers/space_cinema.py).
   - name: "The Space Cinema (Limena)"
-    type: playwright
+    type: space_cinema
     url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
-    enabled: false
+    enabled: true
 
+  # Cinema Rex: la pagina scarica la programmazione da un JSON; lo scraper
+  # legge quello (nessun browser) e solo se fallisce ripiega su Playwright.
+  # Di default tiene solo i FILM (non teatro/concerti): vedi INCLUDE_CATEGORIES
+  # in scrapers/cinema_rex.py.
   - name: "Cinema Rex"
     type: cinema_rex
     url: "https://www.cinemarex.it/"
-    enabled: false
+    enabled: true
 
 # Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/
 # locandina/trailer quando il sito del cinema non li fornisce gia'.
