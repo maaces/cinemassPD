@@ -35,6 +35,34 @@ def polite_get(session: requests.Session, url: str, delay: float = 1.0, **kwargs
     return resp
 
 
+SMALL_WORDS = {"di", "del", "dei", "della", "delle", "dello", "degli", "da", "dal", "dai",
+               "il", "lo", "la", "le", "i", "gli", "un", "una", "e", "ed", "a", "al", "ai",
+               "in", "nel", "nei", "nella", "su", "sul", "per", "con", "tra", "fra", "o"}
+
+
+def nice_title(raw: str) -> str:
+    """Alcuni siti (The Space, Esperia) scrivono i titoli TUTTI MAIUSCOLI. Li riporto in maiuscole/
+    minuscole normali (così nella pagina si leggono bene e coincidono con
+    gli stessi film degli altri cinema). Titoli gia' misti restano intatti."""
+    t = " ".join(raw.split())
+    if not t.isupper():
+        return t
+    out = []
+    start = True  # inizio titolo o dopo ':' / ' - '
+    for w in t.split(" "):
+        low = w.lower()
+        if any(c.isdigit() for c in w) or (len(w) > 1 and "." in w.strip(".")):
+            out.append(w)  # 20MO, S.W.A.T. ecc.: lascio com'e'
+        elif low in SMALL_WORDS and not start:
+            out.append(low)
+        else:
+            # maiuscola dopo l'apostrofo (L'Isola) e dopo il trattino (Spider-Man)
+            out.append(re.sub(r"(^|['’\-])([^\W\d_])",
+                              lambda m: m.group(1) + m.group(2).upper(), low))
+        start = w.endswith(":") or w in ("-", "–")
+    return " ".join(out)
+
+
 YOUTUBE_ID_RE = re.compile(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})")
 
 

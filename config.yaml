@@ -1,5 +1,5 @@
 # Elenco dei cinema da interrogare.
-# type: "tickets18", "wp_remotefilm", "movieconnection", "fronte_del_porto", "space_cinema", "cinema_rex"
+# type: "tickets18", "wp_remotefilm", "movieconnection", "fronte_del_porto", "space_cinema", "cinema_rex", "esperia", "piccolo"
 # (vedi cartella scrapers/ per i dettagli)
 cinemas:
   - name: "Cineplex Moderno (Due Carrare)"
@@ -41,6 +41,20 @@ cinemas:
   - name: "Cinema Rex"
     type: cinema_rex
     url: "https://www.cinemarex.it/"
+    enabled: true
+
+  # Cinema Esperia: blog a schede in HTML statico, date e orari scritti a mano
+  # nel sottotitolo ("VENERDI 2 Ottobre - ore 21.00, ...").
+  - name: "Cinema Esperia"
+    type: esperia
+    url: "https://www.esperiapadova.it/Blog?category=1"
+    enabled: true
+
+  # Piccolo Teatro: WordPress; tiene SOLO gli articoli di categoria "cinema"
+  # (teatro, musica, lirica ecc. scartati - vedi INCLUDE_CATEGORIES in scrapers/piccolo.py).
+  - name: "Piccolo Teatro (cinema)"
+    type: piccolo
+    url: "https://www.piccolo-padova.it/"
     enabled: true
 
 # Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/

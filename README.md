@@ -110,6 +110,8 @@ stati riscritti su misura, non piu' a intuito.
 | **Lux** | `movieconnection` | Titolo, regista, durata gia' inclusi nel formato del sito ("Titolo – Regista # Paese Anno") |
 | **Fronte del Porto Padova** | `fronte_del_porto` | Ignora consapevolmente il robots.txt (vedi sotto); nessun regista in pagina (lo completa TMDB) |
 | **The Space Cinema** (Limena) | `space_cinema` | Calibrato su HTML reale. Playwright apre la pagina e clicca i 7 giorni uno per uno; le proiezioni dopo mezzanotte sono datate al giorno dopo |
+| **Cinema Esperia** | `esperia` | Calibrato su HTML reale. Date e orari sono testo libero nel sottotitolo: li legge `scrapers/italian_dates.py`. I post che non sono film (contatti, Europa Cinemas) si scartano da soli |
+| **Piccolo Teatro** | `piccolo` | Calibrato su HTML reale. Solo gli articoli di categoria `cinema` (teatro, musica, lirica ed eventi di terzi esclusi); scorre le pagine `/page/N/` finche' esistono. Biglietti: Liveticket |
 | **Cinema Rex** | `cinema_rex` | Calibrato su HTML reale. Legge il JSON che il sito stesso usa (nessun browser); se fallisce ripiega su Playwright. Solo film (teatro/concerti esclusi) |
 
 ### Diagnostica: come si calibra uno scraper

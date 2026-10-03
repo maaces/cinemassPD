@@ -19,7 +19,7 @@ from custom_events import fetch_custom_events
 from enrich_tmdb import enrich_movies
 from render_html import render
 from scrapers import (tickets18, wp_remotefilm, movieconnection, fronte_del_porto,
-                      space_cinema, cinema_rex)
+                      space_cinema, cinema_rex, esperia, piccolo)
 from utils import DEBUG_PAGES, clean_html_for_dump, merge_movies
 
 # space_cinema usa Playwright (importato solo quando serve); cinema_rex legge
@@ -32,6 +32,8 @@ SCRAPER_MAP = {
     "space_cinema": space_cinema.scrape,
     "playwright": space_cinema.scrape,   # vecchio nome in config.yaml, ancora valido
     "cinema_rex": cinema_rex.scrape,
+    "esperia": esperia.scrape,
+    "piccolo": piccolo.scrape,
 }
 
 
