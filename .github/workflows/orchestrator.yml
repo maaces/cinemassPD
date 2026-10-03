@@ -1,0 +1,54 @@
+name: Esegui tutte le Actions in sequenza
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 12 * * *'  # 14:30 ora italiana (UTC+2)
+
+jobs:
+  orchestrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Trigger pages-build-deployment
+        run: |
+          gh workflow run pages-build-deployment.yml --ref main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Aspetta che pages-build-deployment finisca
+        run: |
+          for i in {1..60}; do
+            STATUS=$(gh run list --workflow pages-build-deployment.yml --limit 1 --json status --jq '.[0].status')
+            if [ "$STATUS" = "completed" ]; then
+              echo "pages-build-deployment completato!"
+              break
+            fi
+            echo "In attesa... tentativo $i"
+            sleep 10
+          done
+
+      - name: Trigger controlla nuovi eventi
+        run: |
+          gh workflow run controlla-nuovi-eventi.yml --ref main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Aspetta che controlla-nuovi-eventi finisca
+        run: |
+          for i in {1..60}; do
+            STATUS=$(gh run list --workflow controlla-nuovi-eventi.yml --limit 1 --json status --jq '.[0].status')
+            if [ "$STATUS" = "completed" ]; then
+              echo "controlla-nuovi-eventi completato!"
+              break
+            fi
+            echo "In attesa... tentativo $i"
+            sleep 10
+          done
+
+      - name: Trigger aggiorna programmazione cinema
+        run: |
+          gh workflow run aggiorna-programmazione-cinema.yml --ref main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
