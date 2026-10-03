@@ -1,69 +1,57 @@
-name: Orchestrator - Esegui tutte le Actions in sequenza
+name: Orchestrator
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 12 * * *'  # 14:30 ora italiana
+    - cron: '30 12 * * *'   # 14:30 ora italiana legale (UTC+2)
+
+permissions:
+  actions: write
+  contents: read
 
 jobs:
   orchestrate:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
     steps:
-      - uses: actions/checkout@v3
-
-      - name: 1️⃣ Trigger pages-build-deployment
+      - name: 1. Aspetta eventuale pages-build-deployment in corso
         run: |
-          gh workflow run pages-build-deployment.yml --ref main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: ⏳ Aspetta pages-build-deployment
-        run: |
-          for i in {1..60}; do
-            STATUS=$(gh run list --workflow pages-build-deployment.yml --limit 1 --json status --jq '.[0].status')
-            if [ "$STATUS" = "completed" ]; then
-              echo "✅ pages-build-deployment completato!"
-              break
+          for i in $(seq 1 60); do
+            A=$(gh run list --workflow pages-build-deployment --status in_progress --json databaseId --jq length || echo 0)
+            B=$(gh run list --workflow pages-build-deployment --status queued --json databaseId --jq length || echo 0)
+            if [ "${A:-0}" = "0" ] && [ "${B:-0}" = "0" ]; then
+              echo "Nessun pages-build-deployment in corso."
+              exit 0
             fi
-            echo "In attesa... tentativo $i/60"
+            echo "pages-build-deployment in corso... ($i/60)"
             sleep 10
           done
+          echo "Timeout in attesa di pages-build-deployment"; exit 1
 
-      - name: 2️⃣ Trigger Controlla nuovi eventi personalizzati
+      - name: 2. Lancia "Controlla nuovi eventi personalizzati" e aspetta
         run: |
+          START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           gh workflow run check-events.yml --ref main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: ⏳ Aspetta Controlla nuovi eventi
-        run: |
-          for i in {1..60}; do
-            STATUS=$(gh run list --workflow check-events.yml --limit 1 --json status --jq '.[0].status')
-            if [ "$STATUS" = "completed" ]; then
-              echo "✅ Controlla nuovi eventi completato!"
-              break
-            fi
-            echo "In attesa... tentativo $i/60"
-            sleep 10
+          ID=""
+          for i in $(seq 1 30); do
+            ID=$(gh run list --workflow check-events.yml --event workflow_dispatch --json databaseId,createdAt --jq "[.[] | select(.createdAt >= \"$START\")][0].databaseId")
+            if [ -n "$ID" ] && [ "$ID" != "null" ]; then break; fi
+            sleep 5
           done
+          [ -n "$ID" ] && [ "$ID" != "null" ] || { echo "Run non trovata"; exit 1; }
+          gh run watch "$ID" --exit-status
 
-      - name: 3️⃣ Trigger Aggiorna programmazione cinema
+      - name: 3. Lancia "Aggiorna programmazione cinema" e aspetta
         run: |
+          START=$(date -u +%Y-%m-%dT%H:%M:%SZ)
           gh workflow run scrape.yml --ref main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: ⏳ Aspetta Aggiorna programmazione cinema
-        run: |
-          for i in {1..60}; do
-            STATUS=$(gh run list --workflow scrape.yml --limit 1 --json status --jq '.[0].status')
-            if [ "$STATUS" = "completed" ]; then
-              echo "✅ Aggiorna programmazione cinema completato!"
-              break
-            fi
-            echo "In attesa... tentativo $i/60"
-            sleep 10
+          ID=""
+          for i in $(seq 1 30); do
+            ID=$(gh run list --workflow scrape.yml --event workflow_dispatch --json databaseId,createdAt --jq "[.[] | select(.createdAt >= \"$START\")][0].databaseId")
+            if [ -n "$ID" ] && [ "$ID" != "null" ]; then break; fi
+            sleep 5
           done
-
-      - name: ✨ Tutti i workflow completati!
-        run: echo "Orchestrator terminato con successo!"
+          [ -n "$ID" ] && [ "$ID" != "null" ] || { echo "Run non trovata"; exit 1; }
+          gh run watch "$ID" --exit-status
