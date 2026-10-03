@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:3986514383794340798@cinema-scraper.local
+DTSTAMP:20261003T173432Z
+DTSTART:20261006T164500Z
+DTEND:20261006T182300Z
+SUMMARY:Le città di pianura - Francesco Sossai
+LOCATION:Cinema Rex
+DESCRIPTION:Prezzo: 4€\nhttps://www.cinemarex.it/evento?eventName=le_città_di_pianura
+END:VEVENT
+END:VCALENDAR

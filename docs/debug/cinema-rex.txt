@@ -69,7 +69,7 @@
      "tipo_prezzo_5": "",
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
+     "fl_film_vos": "n",
      "cast": "n"
     }
    ]
@@ -83,7 +83,7 @@
    "categoria_teatro": "y",
    "categoria_musica": "n",
    "categoria_teatroragazzi": "y",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -143,7 +143,7 @@
      "tipo_prezzo_5": "",
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
+     "fl_film_vos": "n",
      "cast": "n"
     }
    ]
@@ -194,7 +194,7 @@
    "categoria_teatro": "y",
    "categoria_musica": "n",
    "categoria_teatroragazzi": "y",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -445,6 +445,43 @@
    ]
   },
   {
+   "titolo": "Fame mia",
+   "autore": "Annagata Marchioro",
+   "durata": "90",
+   "descrizione": "",
+   "categoria_film": "n",
+   "categoria_teatro": "y",
+   "categoria_musica": "n",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3115",
+     "inizio": 1793821500000,
+     "id_cinebot": "1312",
+     "tipo_prezzo_1": "Omaggio generico",
+     "valore_prezzo_1": "0",
+     "valore_prevendita_1": "0",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "n",
+     "cast": "n"
+    }
+   ]
+  },
+  {
    "titolo": "Father Mother Sister Brother",
    "autore": "Jim Jarmusch",
    "durata": "110",
@@ -490,7 +527,7 @@
    "categoria_teatro": "y",
    "categoria_musica": "n",
    "categoria_teatroragazzi": "y",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -501,6 +538,43 @@
      "tipo_prezzo_1": "Intero Teatro Ragazzi Online 2",
      "valore_prezzo_1": "6.5",
      "valore_prevendita_1": "0.5",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "n",
+     "cast": "n"
+    }
+   ]
+  },
+  {
+   "titolo": "Freevola",
+   "autore": "Lucia Raffaella Mariani",
+   "durata": "90",
+   "descrizione": "",
+   "categoria_film": "n",
+   "categoria_teatro": "y",
+   "categoria_musica": "n",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3116",
+     "inizio": 1795031100000,
+     "id_cinebot": "1313",
+     "tipo_prezzo_1": "Omaggio generico",
+     "valore_prezzo_1": "0",
+     "valore_prevendita_1": "0",
      "tipo_prezzo_2": "",
      "valore_prezzo_2": "0",
      "valore_prevendita_2": "0",
@@ -660,7 +734,7 @@
    "categoria_teatro": "y",
    "categoria_musica": "n",
    "categoria_teatroragazzi": "y",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -697,7 +771,7 @@
    "categoria_teatro": "y",
    "categoria_musica": "n",
    "categoria_teatroragazzi": "y",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -763,6 +837,43 @@
    ]
   },
   {
+   "titolo": "Kripton",
+   "autore": "Francesco Munzi",
+   "durata": "107",
+   "descrizione": "Proiezione con dibattito realizzata in collaborazione con Train de Vie\r\nOspiti:\r\nMauro Pellagrosi, Psichiatra, responsabile percorsi residenziali giovani adulti Asl Roma 1.\r\nLeonardo Zaninotto, Psichiatra, Responsabile UOS CSM Padova Piovese\r\n\r\nKripton indaga la vita sospesa di sei ragazzi, tra i venti e i trent’anni, volontariamente ricoverati in due comunità psichiatriche della periferia romana, che combattono con disturbi della personalità e stati di alterazione. Attraverso il racconto della quotidianità dei nostri protagonisti, delle relazioni che intrecciano tra di loro e con il mondo “adulto” composto da psichiatri, professionisti e dalle stesse famiglie, il film ci porta a esplorare in profondità la soggettività umana. La condizione estrema del disturbo mentale diventa la chiave per avvicinarsi all’abisso misterioso della nostra mente e, allo stesso tempo, possibile metafora del nostro tempo.",
+   "categoria_film": "y",
+   "categoria_teatro": "n",
+   "categoria_musica": "n",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3113",
+     "inizio": 1794426300000,
+     "id_cinebot": "1005",
+     "tipo_prezzo_1": "Omaggio generico",
+     "valore_prezzo_1": "0",
+     "valore_prevendita_1": "0",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "n",
+     "cast": "n"
+    }
+   ]
+  },
+  {
    "titolo": "La verità di Freud",
    "autore": "Stefania De Ruvo",
    "durata": "90",
@@ -808,7 +919,7 @@
    "categoria_teatro": "n",
    "categoria_musica": "y",
    "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -1075,7 +1186,7 @@
      "tipo_prezzo_5": "",
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
+     "fl_film_vos": "n",
      "cast": "n"
     },
     {
@@ -1184,6 +1295,80 @@
    ]
   },
   {
+   "titolo": "Palazzina LAF",
+   "autore": "Michele Riondino",
+   "durata": "99",
+   "descrizione": "1997. Caterino, uomo semplice e rude è uno dei tanti operai che lavorano nel complesso industriale dell’Ilva di Taranto. Quando i vertici aziendali decidono di utilizzarlo come spia per individuare i lavoratori di cui sarebbe bene liberarsi, Caterino comincia a pedinare i colleghi e a partecipare agli scioperi solo ed esclusivamente alla ricerca di motivazioni per denunciarli. Ben presto, non comprendendone il degrado, chiede di essere collocato anche lui alla Palazzina LAF, dove alcuni dipendenti, per punizione, sono obbligati a restarvi privati delle loro consuete mansioni. Questi lavoratori non hanno altra attività se non quella di passare il tempo ingannandolo giocando a carte, pregando o allenarsi come fossero in palestra. Caterino scoprirà sulla propria pelle che quello che sembra un paradiso, in realtà non è che una perversa strategia per piegare psicologicamente i lavoratori più scomodi, spingendoli alle dimissioni o al demansionamento.",
+   "categoria_film": "n",
+   "categoria_teatro": "n",
+   "categoria_musica": "n",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3114",
+     "inizio": 1792608300000,
+     "id_cinebot": "1311",
+     "tipo_prezzo_1": "Omaggio generico",
+     "valore_prezzo_1": "0",
+     "valore_prevendita_1": "0",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "n",
+     "cast": "n"
+    }
+   ]
+  },
+  {
+   "titolo": "PERFECT DAYS",
+   "autore": "Wim Wenders",
+   "durata": "124",
+   "descrizione": "Hirayama conduce una vita semplice, scandita da una routine perfetta. Si dedica con cura e passione a tutte le attività della sua giornata, dal lavoro come addetto alle pulizie dei bagni pubblici di Tokyo all’amore per la musica, ai libri, alle piante, alla fotografia e a tutte le piccole cose a cui si può dedicare un sorriso. Nel ripetersi del quotidiano, una serie di incontri inaspettati rivela gradualmente qualcosa in più del suo passato.",
+   "categoria_film": "y",
+   "categoria_teatro": "n",
+   "categoria_musica": "n",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3112",
+     "inizio": 1792003500000,
+     "id_cinebot": "625",
+     "tipo_prezzo_1": "Omaggio generico",
+     "valore_prezzo_1": "0",
+     "valore_prevendita_1": "0",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "n",
+     "cast": "n"
+    }
+   ]
+  },
+  {
    "titolo": "Pinocchio",
    "autore": "Teatrino Erba Matta",
    "durata": "60",
@@ -1191,8 +1376,8 @@
    "categoria_film": "n",
    "categoria_teatro": "y",
    "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
+   "categoria_teatroragazzi": "y",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -1263,10 +1448,10 @@
    "durata": "60",
    "descrizione": "",
    "categoria_film": "n",
-   "categoria_teatro": "n",
+   "categoria_teatro": "y",
    "categoria_musica": "n",
    "categoria_teatroragazzi": "y",
-   "categoria_kids": "n",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
@@ -1376,8 +1561,8 @@
    "categoria_film": "n",
    "categoria_teatro": "y",
    "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
+   "categoria_teatroragazzi": "y",
+   "categoria_kids": "y",
    "categoria_vos": "n",
    "categoria_cineforum": "n",
    "eventi": [
