@@ -37,54 +37,25 @@ browser fa esattamente quello che farebbe una persona.
 """
 import datetime as dt
 import re
+import time
 from typing import Dict, List, Optional
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
 
 from models import Movie, Showtime
-from utils import DEBUG_PAGES
+from utils import DEBUG_PAGES, nice_title as _nice_title
 
 ROME = ZoneInfo("Europe/Rome")
-BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-              "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
 
 GROUP_RE = re.compile(r"sessions-group-(\d{4}-\d{2}-\d{2})T")
 DAY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}")
 TIME_RE = re.compile(r"(\d{1,2}):(\d{2})")
 PRICE_RE = re.compile(r"\d+[.,]\d{2}")
 LINGUA_ORIG_RE = re.compile(r"\s*[-–]\s*lingua originale\s*$", re.I)
-SMALL_WORDS = {"di", "del", "dei", "della", "delle", "dello", "degli", "da", "dal", "dai",
-               "il", "lo", "la", "le", "i", "gli", "un", "una", "e", "ed", "a", "al", "ai",
-               "in", "nel", "nei", "nella", "su", "sul", "per", "con", "tra", "fra", "o"}
-
-
 # --------------------------------------------------------------------------
 # utilita'
 # --------------------------------------------------------------------------
-def _nice_title(raw: str) -> str:
-    """The Space scrive i titoli TUTTI MAIUSCOLI. Li riporto in maiuscole/
-    minuscole normali (così nella pagina si leggono bene e coincidono con
-    gli stessi film degli altri cinema). Titoli gia' misti restano intatti."""
-    t = " ".join(raw.split())
-    if not t.isupper():
-        return t
-    out = []
-    start = True  # inizio titolo o dopo ':' / ' - '
-    for w in t.split(" "):
-        low = w.lower()
-        if any(c.isdigit() for c in w) or (len(w) > 1 and "." in w.strip(".")):
-            out.append(w)  # 20MO, S.W.A.T. ecc.: lascio com'e'
-        elif low in SMALL_WORDS and not start:
-            out.append(low)
-        else:
-            # maiuscola dopo l'apostrofo (L'Isola) e dopo il trattino (Spider-Man)
-            out.append(re.sub(r"(^|['’\-])([^\W\d_])",
-                              lambda m: m.group(1) + m.group(2).upper(), low))
-        start = w.endswith(":") or w in ("-", "–")
-    return " ".join(out)
-
-
 def _duration_min(text: str) -> Optional[int]:
     """'3 ore 5 min.' -> 185 | '1 ora 30 min.' -> 90 | '3 ore' -> 180 | 'TBC' -> None"""
     m = re.search(r"(?:(\d+)\s*or[ae])?\s*(?:(\d+)\s*min)?", text.replace("Durata", ""), re.I)
@@ -212,6 +183,73 @@ def _accept_cookies(page) -> None:
             pass
 
 
+RELOAD_AFTER_S = 25     # se la pagina resta bloccata cosi' a lungo, la ricarico
+MAX_RELOADS = 2
+LOAD_TIMEOUT_S = 100    # tempo massimo totale per ottenere l'elenco dei film
+LAUNCH_ARGS = ["--disable-blink-features=AutomationControlled"]
+
+
+def _launch(p):
+    """Preferisco il Chromium 'completo' in nuova modalita' headless
+    (channel="chromium"): per i controlli anti-bot e' molto meno riconoscibile
+    della 'headless shell' predefinita di Playwright. Se non e' installato,
+    ripiego su quella predefinita."""
+    try:
+        return p.chromium.launch(channel="chromium", args=LAUNCH_ARGS)
+    except Exception as e:
+        print(f"   [i] The Space: Chromium completo non disponibile ({type(e).__name__}), uso la headless shell")
+        return p.chromium.launch(args=LAUNCH_ARGS)
+
+
+def _natural_user_agent(browser) -> str:
+    """User-Agent REALE del browser installato, senza la parola 'Headless'.
+    Non ne invento uno: una versione di Chrome che non combacia con quella vera
+    (e con gli header che il browser manda) e' proprio cio' che fa scattare i blocchi."""
+    ctx = browser.new_context()
+    try:
+        return ctx.new_page().evaluate("navigator.userAgent").replace("HeadlessChrome", "Chrome")
+    finally:
+        ctx.close()
+
+
+def _listing_ready(page) -> bool:
+    try:
+        return page.locator("div.showing-listing-item").count() > 0
+    except Exception:
+        return False  # pagina in navigazione/ricaricamento: riprovo
+
+
+def _wait_for_listing(page, url: str) -> None:
+    """Aspetta l'elenco dei film. Se invece la pagina resta ferma sul controllo
+    anti-bot di Cloudflare ('Ci siamo quasi...', anche dopo 'Verifica riuscita'),
+    la ricarica: il cookie di verifica ormai c'e' e il secondo caricamento passa."""
+    start = last_nav = time.time()
+    reloads = 0
+    while time.time() - start < LOAD_TIMEOUT_S:
+        if _listing_ready(page):
+            return
+        if time.time() - last_nav > RELOAD_AFTER_S and reloads < MAX_RELOADS:
+            reloads += 1
+            last_nav = time.time()
+            print(f"   [i] The Space: pagina ancora ferma dopo {int(last_nav - start)}s, ricarico ({reloads}/{MAX_RELOADS})")
+            try:
+                page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            except Exception:
+                pass
+        page.wait_for_timeout(2000)
+    raise TimeoutError(f"elenco film non comparso entro {LOAD_TIMEOUT_S}s")
+
+
+def _describe_page(page) -> str:
+    """Titolo + inizio del testo visibile: finisce nel report e dice subito
+    se si e' davanti a un blocco anti-bot o a una pagina vuota."""
+    try:
+        text = " ".join(page.inner_text("body").split())[:160]
+        return f"titolo={page.title()!r} testo={text!r}"
+    except Exception:
+        return "(pagina non leggibile)"
+
+
 def _collect_pages(url: str) -> List[str]:
     """Apre la pagina e restituisce l'HTML di ogni giorno (il primo e' quello
     mostrato all'apertura). Solleva RuntimeError se la pagina non si carica."""
@@ -219,24 +257,25 @@ def _collect_pages(url: str) -> List[str]:
 
     htmls: List[str] = []
     with sync_playwright() as p:
-        browser = p.chromium.launch(args=["--disable-blink-features=AutomationControlled"])
+        browser = _launch(p)
         try:
-            ctx = browser.new_context(user_agent=BROWSER_UA, locale="it-IT",
+            ctx = browser.new_context(user_agent=_natural_user_agent(browser), locale="it-IT",
                                       timezone_id="Europe/Rome",
                                       viewport={"width": 1366, "height": 900})
             ctx.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined});")
             page = ctx.new_page()
             try:
                 page.goto(url, wait_until="domcontentloaded", timeout=60000)
+                _wait_for_listing(page, url)
                 _accept_cookies(page)
-                page.wait_for_selector("div.showing-listing-item", timeout=40000)
             except Exception as e:
+                detail = _describe_page(page)
                 try:  # salvo comunque quello che c'e', per la diagnostica
                     DEBUG_PAGES[url] = page.content()
                 except Exception:
                     pass
                 raise RuntimeError(f"pagina The Space non caricata: {type(e).__name__}: "
-                                   f"{str(e).splitlines()[0]}") from e
+                                   f"{str(e).splitlines()[0]} | {detail}") from e
 
             page.wait_for_timeout(1500)  # lascia finire il caricamento degli orari
             htmls.append(page.content())
