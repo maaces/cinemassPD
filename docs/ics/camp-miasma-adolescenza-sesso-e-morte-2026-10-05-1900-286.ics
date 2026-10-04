@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:5086810994851982641@cinema-scraper.local
+DTSTAMP:20261004T121910Z
+DTSTART:20261005T170000Z
+DTEND:20261005T185200Z
+SUMMARY:Camp Miasma - Adolescenza\, sesso e morte - Jane Schoenbrun
+LOCATION:Cinema Rex
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=camp_miasma___adolescenza__sesso_e_morte
+END:VEVENT
+END:VCALENDAR

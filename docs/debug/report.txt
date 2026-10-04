@@ -1,11 +1,11 @@
-Report generato il 03/10/2026 19:31 (ora italiana)
+Report generato il 04/10/2026 14:16 (ora italiana)
 ============================================================
 
 ## Cineplex Moderno (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 19
-Orari trovati: 159 (di cui con data non riconosciuta: 0)
+Film trovati: 18
+Orari trovati: 120 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-moderno-due-carrare.txt
 
@@ -13,7 +13,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-moderno-due-ca
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
 Film trovati: 8
-Orari trovati: 26 (di cui con data non riconosciuta: 0)
+Orari trovati: 23 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
@@ -21,23 +21,23 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
 Film trovati: 17
-Orari trovati: 106 (di cui con data non riconosciuta: 0)
+Orari trovati: 79 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 9
-Orari trovati: 18 (di cui con data non riconosciuta: 0)
+Film trovati: 12
+Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
 
 ## Fronte del Porto Padova
 URL: https://www.frontedelportopadova.it/eventi/
 Scraper: fronte_del_porto
-Film trovati: 34
-Orari trovati: 37 (di cui con data non riconosciuta: 0)
+Film trovati: 33
+Orari trovati: 36 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto-padova.txt
 

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:5266963361034644620@cinema-scraper.local
+DTSTAMP:20261004T121910Z
+DTSTART:20261004T190000Z
+DTEND:20261004T205000Z
+SUMMARY:I figli della scimmia - Tommaso Landucci
+LOCATION:Cinema Rex
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=i_figli_della_scimmia
+END:VEVENT
+END:VCALENDAR

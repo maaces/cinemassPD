@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -321,69 +321,13 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            DOMANI
+            OGGI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/song-of-the-sea/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Song of the Sea" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/song-of-the-sea-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  Song of the Sea
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Animazione, Irlanda/Belgio/Danimarca, 2014, 94'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 10:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                FP kids – proiezioni per famiglie
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-            <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/sisters-with-transistors/'">
               <div class="evento-card-new-immagine">
-               <img alt="Sisters with Transistors" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/sisters-with-transistors-1-1024x576.jpg" width="1024"/>
+               <img alt="Sisters with Transistors" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/sisters-with-transistors-1-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">
@@ -494,7 +438,7 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            LUNEDì, 5 OTTOBRE 2026
+            DOMANI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -762,10 +706,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=701887" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -2871,13 +2819,6 @@
             Rassegne in Corso
            </h3>
            <div class="rassegne-lista">
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
-             <span class="rassegna-nome">
-              FP kids – proiezioni per famiglie
-             </span>
-             <span class="rassegna-arrow">
-             </span>
-            </a>
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
              <span class="rassegna-nome">
               Imagine the Sound
@@ -2909,6 +2850,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/">
              <span class="rassegna-nome">
               Cineforum CIF
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
+             <span class="rassegna-nome">
+              FP kids – proiezioni per famiglie
              </span>
              <span class="rassegna-arrow">
              </span>
