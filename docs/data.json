@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T04:41:52.707546",
+  "generated_at": "2026-10-04T10:57:39.851984",
   "movies": [
     {
       "title": "THE BIBI FILES",
@@ -4048,6 +4048,39 @@
   ],
   "custom_events": [
     {
+      "title": "Mondayscreen",
+      "text": "PROIEZIONE AL BUIO\n\nx il ciclo: Fantasmagorie\n[https://www.instagram.com/p/DeCUQAVCvcE/](url)",
+      "date": "2026-10-19",
+      "time": "21:00",
+      "photo_url": "https://github.com/user-attachments/assets/93c4b8f8-cbc3-41bb-bdaa-ce33e7d4556a",
+      "flags": [
+        "mondayscreen"
+      ],
+      "source_url": "https://github.com/maaces/cinemassPD/issues/9"
+    },
+    {
+      "title": "Mondayscreen",
+      "text": "THE BATTERY - J.Gardner (2012)\n\nx il ciclo: Fantasmagorie\n[https://www.instagram.com/p/DeCUQAVCvcE/](url)",
+      "date": "2026-10-12",
+      "time": "21:00",
+      "photo_url": "https://github.com/user-attachments/assets/965b4cdc-e581-4fb5-ad78-baf11f114d08",
+      "flags": [
+        "mondayscreen"
+      ],
+      "source_url": "https://github.com/maaces/cinemassPD/issues/8"
+    },
+    {
+      "title": "Mondayscreen",
+      "text": "BLOOD FOR DRACULA - P.Morrissey (1974)\n\nx il ciclo: Fantasmagorie\n[https://www.instagram.com/p/DeCUQAVCvcE/](url)",
+      "date": "2026-10-05",
+      "time": "21:00",
+      "photo_url": "https://github.com/user-attachments/assets/2ebdf027-2ddd-42c9-b595-45fb4937dc98",
+      "flags": [
+        "mondayscreen"
+      ],
+      "source_url": "https://github.com/maaces/cinemassPD/issues/7"
+    },
+    {
       "title": "dov'è liana - hall ",
       "text": "",
       "date": "2026-10-09",
@@ -4066,12 +4099,15 @@
       "source_url": "https://github.com/maaces/cinemassPD/issues/4"
     },
     {
-      "title": "evento",
-      "text": "Cavalli Mongoli - Across Fest (Parco Iris)\nTekno allegra e caramellosa",
-      "date": "2026-10-08",
+      "title": "Cavalli Mongoli",
+      "text": "Across Fest (Parco Iris)\nTekno allegra e caramellosa \n\nhttps://www.instagram.com/acrossfestival?stkn=bmNvbG1nOXQxcGl2",
+      "date": "2026-10-11",
       "time": "20:30",
       "photo_url": "https://github.com/user-attachments/assets/71343d89-9c15-48df-8d28-de479ad7a24d",
-      "flags": [],
+      "flags": [
+        "musica",
+        "Across"
+      ],
       "source_url": "https://github.com/maaces/cinemassPD/issues/2"
     }
   ]
