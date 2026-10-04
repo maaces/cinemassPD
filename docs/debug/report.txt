@@ -1,19 +1,19 @@
-Report generato il 04/10/2026 14:22 (ora italiana)
+Report generato il 04/10/2026 18:57 (ora italiana)
 ============================================================
 
 ## Cineplex Moderno (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
 Film trovati: 18
-Orari trovati: 119 (di cui con data non riconosciuta: 0)
+Orari trovati: 103 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-moderno-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 8
-Orari trovati: 23 (di cui con data non riconosciuta: 0)
+Film trovati: 6
+Orari trovati: 18 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
@@ -28,7 +28,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 12
+Film trovati: 11
 Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
