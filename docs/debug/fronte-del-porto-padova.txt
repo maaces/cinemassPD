@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.13.12 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.14.0 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -306,6 +306,12 @@
            ✕
           </span>
          </button>
+         <button class="filtro-particolarita-btn" data-particolarita="79" data-particolarita-name="☐ Masterclass">
+          ☐ Masterclass
+          <span aria-hidden="true" class="filtro-pill-x">
+           ✕
+          </span>
+         </button>
          <button class="filtri-cancella-tutto" id="filtri-cancella-tutto">
           Cancella tutto
          </button>
@@ -321,187 +327,13 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            OGGI
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/sisters-with-transistors/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Sisters with Transistors" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/sisters-with-transistors-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  Sisters with Transistors
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, USA, 2020, 86'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=700967" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                Imagine the Sound
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/sarajevo-safari-2/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Sarajevo Safari - Padova, Fronte del Porto" class="attachment-large size-large wp-post-image" decoding="async" height="413" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/04/sarajevo-safari-poster-1.jpg" width="300"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  Sarajevo Safari
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Slovenia, 2022, 75'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:30
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=700969" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  6,50€ intero, 5€ ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
-            DOMANI
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/mohammed-el-kurd-presenta-vittime-perfette/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Mohammed El-Kurd" class="attachment-large size-large wp-post-image" decoding="async" height="1024" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-27-at-12.39.39-819x1024.jpeg" width="819"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  MOHAMMED EL-KURD PRESENTA “VITTIME PERFETTE”
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Presentazione del libro
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Talk
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://tinyurl.com/b86zcrwd" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  ingresso libero
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
             GIOVEDì, 8 OTTOBRE 2026
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-bibi-files/'">
               <div class="evento-card-new-immagine">
-               <img alt="The Bibi files" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-bibi-files-1-1024x576.jpg" width="1024"/>
+               <img alt="The Bibi files" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-bibi-files-1-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">
@@ -637,6 +469,9 @@
                 <span class="categoria-label-prog">
                  Talk
                 </span>
+                <span class="particolarita-label-prog">
+                 ☐ Masterclass
+                </span>
                </div>
               </div>
               <div class="evento-card-new-right-column">
@@ -708,14 +543,14 @@
                <div class="evento-card-new-prenota">
                 <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=701887" rel="noopener" target="_blank">
+                  <a class="btn-prenota-prog" href="https://docs.google.com/forms/d/e/1FAIpQLScwqwK0SAIL86emXanTjVmLuv9QgxyYYF6nhPu4oUwOJ-8w4w/viewform" rel="noopener" target="_blank">
                    Prenota
                   </a>
                   <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
+                  ingresso libero su registrazione
                  </div>
                 </div>
                </div>
@@ -763,6 +598,9 @@
                <div class="evento-card-new-categoria">
                 <span class="categoria-label-prog">
                  Talk
+                </span>
+                <span class="particolarita-label-prog">
+                 ☐ Masterclass
                 </span>
                </div>
               </div>
@@ -2514,6 +2352,69 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
+            SABATO, 12 DICEMBRE 2026
+           </h2>
+           <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-last-act/'">
+              <div class="evento-card-new-immagine">
+               <img alt="The last act" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-last-act-1-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  The last act
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Drammatico, Iran, 2024, 86'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 20:45
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Altrove: Iran
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo">
+           <h2 class="programmazione-data-titolo">
             VENERDì, 18 DICEMBRE 2026
            </h2>
            <div class="programmazione-lista-new">
@@ -2819,13 +2720,6 @@
             Rassegne in Corso
            </h3>
            <div class="rassegne-lista">
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
-             <span class="rassegna-nome">
-              Imagine the Sound
-             </span>
-             <span class="rassegna-arrow">
-             </span>
-            </a>
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/">
              <span class="rassegna-nome">
               Il Buono, il Lutto e il Cattivo

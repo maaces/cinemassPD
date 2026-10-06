@@ -60,88 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24603 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24603" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/tony-diario-di-un-giovane-cuoco/" title="Tony – Diario di un giovane cuoco">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="599" src="https://www.piccolo-padova.it/wp-content/uploads/tony.jpg" width="420"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/tony-diario-di-un-giovane-cuoco/">
-              <h2 class="entry-title" itemprop="name headline">
-               Tony – Diario di un giovane cuoco
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               sabato 3 ottobre ore 21.15
-               <br/>
-               domenica 4 ottobre ore 18.45 e 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              <span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto">
-               <span class="ytAttributedStringLinkInheritColor" dir="auto">
-                Quando il diciannovenne Anthony Bourdain arriva a Provincetown, finisce per ritrovarsi nel mondo caotico della cucina di un ristorante, dando il via a un’estate che segnerà il corso della sua vita.
-               </span>
-              </span>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
-         <article class="post-24498 post type-post status-publish format-standard has-post-thumbnail hentry category-evento-di-terzi" id="post-24498" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/44-festival-nazionale-del-teatro-per-i-ragazzi/" title="44° Festival Nazionale del Teatro per i Ragazzi">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/teatro-ragazzi-2026-722x1024.jpg" width="722"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/44-festival-nazionale-del-teatro-per-i-ragazzi/">
-              <h2 class="entry-title" itemprop="name headline">
-               44° Festival Nazionale del Teatro per i Ragazzi
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               Dal 26 settembre al 29 novembre
-               <br/>
-               tutti i sabati ore 16.00 e le domeniche ore 10.30 e 16.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              I migliori spettacoli per bambini e ragazzi delle più prestigiose compagnie teatrali italiane (amati anche dagli adulti)
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24542 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24542" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/no-good-man/" title="No good man [VOS]">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="600" src="https://www.piccolo-padova.it/wp-content/uploads/nogood.jpg" width="420"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="600" src="https://www.piccolo-padova.it/wp-content/uploads/nogood.jpg" width="420"/>
              </a>
             </div>
            </div>
@@ -183,7 +107,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/" title="APPUNTAMENTI CON IL TEATRO VENETO – 2026">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TEATRO-VENETO-2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TEATRO-VENETO-2026-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -214,6 +138,50 @@
              <div class="cast">
               <p>
                Con alcune tra le più apprezzate ed acclamate compagnie della nostra regione, tre titoli goldoniani e due titoli contemporanei ambientati in terra veneta…
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24574 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24574" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/i-promossi-sposi/" title="I PROMOSSI SPOSI [TUTTO ESAURITO]">
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-PROMOSSI-2026-pdf-724x1024.jpg" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/i-promossi-sposi/">
+              <h2 class="entry-title" itemprop="name headline">
+               I PROMOSSI SPOSI [TUTTO ESAURITO]
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               Venerdì 9 Ottobre ore 21.15
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Dalla riscrittura di Giovanna Digito, autrice e protagonista delle mitiche “Betoneghe DOC”, la famosa opera manzoniana diventa una commedia spassosa che riporta in scena i personaggi originali del romanzo, rivisitati e ripresentati in modo divertente e vivace, con risvolti anche …
+              <a href="https://www.piccolo-padova.it/i-promossi-sposi/">
+               Continua
+              </a>
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               Compagnia Teatro delle Arance – San Donà (VE) – Commedia liberamente tratta dal romanzo  di Alessandro Manzoni
+               <br/>
+               Adattamento comico -e veneto- e regia di Giovanna Digito
               </p>
              </div>
             </footer>
@@ -269,6 +237,42 @@
            </div>
           </div>
          </article>
+         <article class="post-24498 post type-post status-publish format-standard has-post-thumbnail hentry category-evento-di-terzi" id="post-24498" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/44-festival-nazionale-del-teatro-per-i-ragazzi/" title="44° Festival Nazionale del Teatro per i Ragazzi">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 722px) 100vw, 722px" data-src="https://www.piccolo-padova.it/wp-content/uploads/teatro-ragazzi-2026-722x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20722%201024%22%3E%3C/svg%3E" width="722"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/44-festival-nazionale-del-teatro-per-i-ragazzi/">
+              <h2 class="entry-title" itemprop="name headline">
+               44° Festival Nazionale del Teatro per i Ragazzi
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               Dal 26 settembre al 29 novembre
+               <br/>
+               tutti i sabati ore 16.00 e le domeniche ore 10.30 e 16.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              I migliori spettacoli per bambini e ragazzi delle più prestigiose compagnie teatrali italiane (amati anche dagli adulti)
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
          <article class="post-22963 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-22963" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
@@ -302,50 +306,6 @@
              <div class="cast">
               <p>
                In calendario da ottobre a dicembre Carmen, Otello, Falstaff e Giselle
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
-         <article class="post-24574 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24574" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/i-promossi-sposi/" title="I PROMOSSI SPOSI">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-PROMOSSI-2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/i-promossi-sposi/">
-              <h2 class="entry-title" itemprop="name headline">
-               I PROMOSSI SPOSI
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               Venerdì 9 Ottobre ore 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Dalla riscrittura di Giovanna Digito, autrice e protagonista delle mitiche “Betoneghe DOC”, la famosa opera manzoniana diventa una commedia spassosa che riporta in scena i personaggi originali del romanzo, rivisitati e ripresentati in modo divertente e vivace, con risvolti anche …
-              <a href="https://www.piccolo-padova.it/i-promossi-sposi/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Compagnia Teatro delle Arance – San Donà (VE) – Commedia liberamente tratta dal romanzo  di Alessandro Manzoni
-               <br/>
-               Adattamento comico -e veneto- e regia di Giovanna Digito
               </p>
              </div>
             </footer>
@@ -479,6 +439,48 @@
            </div>
           </div>
          </article>
+         <article class="post-24579 post type-post status-publish format-standard has-post-thumbnail hentry category-arte" id="post-24579" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/tintoretto-lartista-che-uccise-la-pittura/" title="TINTORETTO – L’ARTISTA CHE UCCISE LA PITTURA">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TINTORETTO-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/tintoretto-lartista-che-uccise-la-pittura/">
+              <h2 class="entry-title" itemprop="name headline">
+               TINTORETTO – L’ARTISTA CHE UCCISE LA PITTURA
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               martedì 20 ottobre – ore 17 e 21.15
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Il documentario catapulta sullo schermo l’arte dirompente di Jacopo Robusti, detto Tintoretto, etrapolandone l’energia destabilizzante e l’attualissima potenza narrativa del vero attraverso la sapienza tecnica e le visioni creative del team produttivo di Kublai Film capitanato dal regista Erminio Perocco. …
+              <a href="https://www.piccolo-padova.it/tintoretto-lartista-che-uccise-la-pittura/">
+               Continua
+              </a>
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               Film documentario, 86′, Regia Erminio Perocco, Musiche Carlo Raiteri e Teho Teardo, Fotografa Giovanni Andreota, Montaggio Matteo Trevisan.
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
          <div class="wp-pagenavi">
           <nav aria-label="Paginazione degli articoli" class="navigation pagination">
            <h2 class="screen-reader-text">
@@ -521,18 +523,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1p6w2" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_1p6w2">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1yrim" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_1yrim">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1u5x3" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1q9sf" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_1u5x3">
+             <span class="mailpoet_error_1q9sf">
              </span>
             </div>
             <div class="mailpoet_paragraph">

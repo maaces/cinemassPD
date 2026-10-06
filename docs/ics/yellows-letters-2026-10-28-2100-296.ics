@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:7725610214335118512@cinema-scraper.local
+DTSTAMP:20261006T075737Z
+DTSTART:20261028T200000Z
+DTEND:20261028T220000Z
+SUMMARY:Yellows letters
+LOCATION:Piccolo Teatro (cinema)
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://www.piccolo-padova.it/yellows-letters/
+END:VEVENT
+END:VCALENDAR

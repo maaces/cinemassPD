@@ -60,54 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24579 post type-post status-publish format-standard has-post-thumbnail hentry category-arte" id="post-24579" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/tintoretto-lartista-che-uccise-la-pittura/" title="TINTORETTO – L’ARTISTA CHE UCCISE LA PITTURA">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TINTORETTO-pdf-724x1024.jpg" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/tintoretto-lartista-che-uccise-la-pittura/">
-              <h2 class="entry-title" itemprop="name headline">
-               TINTORETTO – L’ARTISTA CHE UCCISE LA PITTURA
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               martedì 20 ottobre – ore 17 e 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Il documentario catapulta sullo schermo l’arte dirompente di Jacopo Robusti, detto Tintoretto, etrapolandone l’energia destabilizzante e l’attualissima potenza narrativa del vero attraverso la sapienza tecnica e le visioni creative del team produttivo di Kublai Film capitanato dal regista Erminio Perocco. …
-              <a href="https://www.piccolo-padova.it/tintoretto-lartista-che-uccise-la-pittura/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Film documentario, 86′, Regia Erminio Perocco, Musiche Carlo Raiteri e Teho Teardo, Fotografa Giovanni Andreota, Montaggio Matteo Trevisan.
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24555 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24555" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/noi-due-sconosciuti/" title="Noi due sconosciuti">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="599" src="https://www.piccolo-padova.it/wp-content/uploads/noi-sconosciuti.jpg" width="420"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="599" src="https://www.piccolo-padova.it/wp-content/uploads/noi-sconosciuti.jpg" width="420"/>
              </a>
             </div>
            </div>
@@ -188,7 +146,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/yellows-letters/" title="Yellows letters">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 378px) 100vw, 378px" data-src="https://www.piccolo-padova.it/wp-content/uploads/yellows.jpg" decoding="async" height="529" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20378%20529%22%3E%3C/svg%3E" width="378"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="529" src="https://www.piccolo-padova.it/wp-content/uploads/yellows.jpg" width="378"/>
              </a>
             </div>
            </div>
@@ -392,18 +350,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_70tr9" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_70tr9">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_jh7mg" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_jh7mg">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_6swk0" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1x9b0" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_6swk0">
+             <span class="mailpoet_error_1x9b0">
              </span>
             </div>
             <div class="mailpoet_paragraph">
