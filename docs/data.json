@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:33:24.987697",
+  "generated_at": "2026-10-06T18:38:01.396551",
   "movies": [
     {
       "title": "AVENGERS: DOOMSDAY",
@@ -938,14 +938,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141403",
       "showtimes": [
         {
-          "date": "2026-10-06",
-          "time": "19:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-07",
           "time": "19:20",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -959,6 +951,14 @@
           "cinema": "Fronte del Porto Padova",
           "price": null,
           "note": "€6,50 intero, €5,00 ridotto",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "20:45",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
           "date_uncertain": false
         }
       ]
@@ -1016,38 +1016,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1248832",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144804",
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "17:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "19:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-06",
           "time": "20:15",
@@ -1151,6 +1119,78 @@
           "price": null,
           "note": null,
           "date_uncertain": false
+        },
+        {
+          "date": "2026-10-08",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "17:45",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "17:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "17:45",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
         }
       ]
     },
@@ -1165,22 +1205,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/299534",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/132755",
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "17:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-06",
           "time": "21:10",
@@ -1228,14 +1252,6 @@
       "showtimes": [
         {
           "date": "2026-10-06",
-          "time": "17:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
           "time": "21:30",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -1273,42 +1289,10 @@
       "showtimes": [
         {
           "date": "2026-10-06",
-          "time": "17:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "19:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "19:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
           "time": "21:30",
           "cinema": "Multiastra",
           "price": null,
-          "note": "V.O.S",
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -1342,6 +1326,110 @@
           "price": null,
           "note": "V.O.S",
           "date_uncertain": false
+        },
+        {
+          "date": "2026-10-08",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": "4,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-08",
+          "time": "19:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "18:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "15:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "17:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "21:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "15:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "17:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "16:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
         }
       ]
     },
@@ -1356,22 +1444,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1283515",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/145727",
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:15",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "20:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-06",
           "time": "20:10",
@@ -1443,30 +1515,6 @@
       "showtimes": [
         {
           "date": "2026-10-06",
-          "time": "17:15",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "17:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "19:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
           "time": "21:45",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -1526,14 +1574,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1493010",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144933",
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "19:25",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-06",
           "time": "20:40",
@@ -1642,14 +1682,6 @@
       "showtimes": [
         {
           "date": "2026-10-06",
-          "time": "19:55",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
           "time": "22:00",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
@@ -1686,14 +1718,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138696",
       "showtimes": [
         {
-          "date": "2026-10-06",
-          "time": "20:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-07",
           "time": "20:10",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -1722,14 +1746,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1204680",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/130907",
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:50",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-07",
           "time": "17:00",
@@ -1760,14 +1776,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/133811",
       "showtimes": [
         {
-          "date": "2026-10-06",
-          "time": "17:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-07",
           "time": "17:40",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -1789,14 +1797,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/129158",
       "showtimes": [
         {
-          "date": "2026-10-06",
-          "time": "17:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-07",
           "time": "17:20",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -1817,14 +1817,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1465063",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143084",
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-07",
           "time": "17:30",
@@ -1863,49 +1855,9 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-10-06",
-          "time": "17:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-07",
           "time": "17:45",
           "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-08",
-          "time": "16:00",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "Pomeriggio al Rex",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-08",
-          "time": "20:45",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "17:30",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1930,14 +1882,6 @@
           "date": "2026-10-11",
           "time": "18:45",
           "cinema": "Piccolo Teatro (cinema)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "20:30",
-          "cinema": "Cinema Rex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1990,57 +1934,20 @@
       ]
     },
     {
-      "title": "Un Po' Di Luce",
-      "director": "Ali Asgari",
-      "duration_min": 87,
-      "poster_url": "https://image.tmdb.org/t/p/w500/lJ6nmoioDB6aulJlPVyJCd56RT1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JJLtS7s96MA",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20Po%27%20Di%20Luce%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/un%20po%27%20di%20luce/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1736490",
-      "detail_url": null,
+      "title": "SE DOMANI NON TORNO",
+      "director": "Paola Randi",
+      "duration_min": 106,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148694/standard_6250ca3d-5724-4c41-b1f3-389229964e9b.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=M4T73uO9VxQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=SE%20DOMANI%20NON%20TORNO%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/se%20domani%20non%20torno/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1583853",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148694",
       "showtimes": [
         {
-          "date": "2026-10-06",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-07",
-          "time": "17:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-07",
-          "time": "18:40",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Ritorno A Buenos Aires",
-      "director": "Marco Bechis",
-      "duration_min": 104,
-      "poster_url": "https://image.tmdb.org/t/p/w500/42yQnX3vuZkxSo44KmL051xCTKN.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ATjUWojp42k",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Ritorno%20A%20Buenos%20Aires%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/ritorno%20a%20buenos%20aires/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1597199",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "18:40",
-          "cinema": "Multiastra",
+          "date": "2026-11-06",
+          "time": "19:30",
+          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2067,11 +1974,96 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-12",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-15",
           "time": "21:00",
           "cinema": "Fronte del Porto Padova",
           "price": null,
           "note": "€6,50 intero, €5,00 ridotto",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Un Po' Di Luce",
+      "director": "Ali Asgari",
+      "duration_min": 87,
+      "poster_url": "https://image.tmdb.org/t/p/w500/lJ6nmoioDB6aulJlPVyJCd56RT1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JJLtS7s96MA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20Po%27%20Di%20Luce%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/un%20po%27%20di%20luce/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1736490",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-07",
+          "time": "17:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-07",
+          "time": "18:40",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-08",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "16:30",
+          "cinema": "Multiastra",
+          "price": "4,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "19:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "18:45",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:40",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -2098,30 +2090,226 @@
       ]
     },
     {
-      "title": "I Grandi Maestri - Caravaggio",
-      "director": null,
-      "duration_min": null,
-      "poster_url": null,
+      "title": "Una Storia",
+      "director": "Anna Foglietta",
+      "duration_min": 107,
+      "poster_url": "https://image.tmdb.org/t/p/w500/kZzFOWsc3LbCGRLdsFofbMM7dly.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=F9BO9boJtzY",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20Storia%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/una%20storia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1597196",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-07",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-08",
+          "time": "17:00",
+          "cinema": "Multiastra",
+          "price": "4,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "18:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "15:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "15:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Balcanica",
+      "director": "Nicola Sorcinelli",
+      "duration_min": 81,
+      "poster_url": "https://image.tmdb.org/t/p/w500/zReOL1Nh4p0VPHbCbL618DwCpRD.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20Grandi%20Maestri%20-%20Caravaggio%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/i%20grandi%20maestri%20-%20caravaggio/",
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Balcanica%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/balcanica/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1702462",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-08",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "16:15",
+          "cinema": "Multiastra",
+          "price": "4,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-09",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-10",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": "5,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Un Giorno Senza Donne",
+      "director": "Pamela Hogan",
+      "duration_min": 70,
+      "poster_url": "https://image.tmdb.org/t/p/w500/rqqV4QZxYSuCY045OH8Ell8Ybez.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=k0mt2aTtU6c",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20Giorno%20Senza%20Donne%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/un%20giorno%20senza%20donne/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1181125",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-13",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Grand Ciel",
+      "director": "Akihiro Hata",
+      "duration_min": 91,
+      "poster_url": "https://image.tmdb.org/t/p/w500/nCdIQGX9ox10a5vyekZddSxZbX6.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=jlq_FYisbfg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Grand%20Ciel%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/grand%20ciel/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1000879",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-14",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Maigret - L'Amore E La Morte",
+      "director": "Pascal Bonitzer",
+      "duration_min": 80,
+      "poster_url": "https://image.tmdb.org/t/p/w500/gJVCjUPmzRPfrNlLWUcdOZuhuw2.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=QYRSE2j6dRA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Maigret%20-%20L%27Amore%20E%20La%20Morte%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/maigret%20-%20l%27amore%20e%20la%20morte/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1398486",
       "detail_url": null,
       "showtimes": [
         {
           "date": "2026-10-06",
-          "time": "17:00",
+          "time": "20:20",
           "cinema": "Porto Astra",
           "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-06",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -2137,14 +2325,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1594043",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-06",
           "time": "20:30",
@@ -2172,85 +2352,6 @@
         {
           "date": "2026-10-07",
           "time": "22:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Era Meglio Domani",
-      "director": "Vinciane Millereau",
-      "duration_min": 103,
-      "poster_url": "https://image.tmdb.org/t/p/w500/sZkuAqfVpKdllY3SV8teOGffh6A.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=lKej5cu4q2g",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Era%20Meglio%20Domani%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/era%20meglio%20domani/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1284496",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-07",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Una Storia",
-      "director": "Anna Foglietta",
-      "duration_min": 107,
-      "poster_url": "https://image.tmdb.org/t/p/w500/kZzFOWsc3LbCGRLdsFofbMM7dly.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=F9BO9boJtzY",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20Storia%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/una%20storia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1597196",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-07",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Maigret - L'Amore E La Morte",
-      "director": "Pascal Bonitzer",
-      "duration_min": 80,
-      "poster_url": "https://image.tmdb.org/t/p/w500/gJVCjUPmzRPfrNlLWUcdOZuhuw2.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=QYRSE2j6dRA",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Maigret%20-%20L%27Amore%20E%20La%20Morte%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/maigret%20-%20l%27amore%20e%20la%20morte/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1398486",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "20:20",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -2296,6 +2397,48 @@
       ]
     },
     {
+      "title": "I Grandi Maestri - Caravaggio",
+      "director": null,
+      "duration_min": null,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20Grandi%20Maestri%20-%20Caravaggio%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/i%20grandi%20maestri%20-%20caravaggio/",
+      "tmdb_url": null,
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-06",
+          "time": "21:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Era Meglio Domani",
+      "director": "Vinciane Millereau",
+      "duration_min": 103,
+      "poster_url": "https://image.tmdb.org/t/p/w500/sZkuAqfVpKdllY3SV8teOGffh6A.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=lKej5cu4q2g",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Era%20Meglio%20Domani%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/era%20meglio%20domani/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1284496",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-07",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Queen Budapest 4K",
       "director": null,
       "duration_min": null,
@@ -2331,27 +2474,6 @@
           "date": "2026-10-09",
           "time": "20:30",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "CALLE MALAGA – Maryam Touzani # Spagna 2025 (116′) V.O.S.",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/09/calle-malaga-poster.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=CALLE%20MALAGA%20%E2%80%93%20Maryam%20Touzani%20%23%20Spagna%202025%20%28116%E2%80%B2%29%20V.O.S.%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga%20%E2%80%93%20maryam%20touzani%20%23%20spagna%202025%20%28116%E2%80%B2%29%20./",
-      "tmdb_url": null,
-      "detail_url": "https://www.movieconnection.it/proiezione/calle-malaga-2/",
-      "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "18:30",
-          "cinema": "Lux",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3145,14 +3267,6 @@
       "detail_url": "https://www.frontedelportopadova.it/eventi/un-anno-di-scuola/",
       "showtimes": [
         {
-          "date": "2026-10-06",
-          "time": "20:30",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-14",
           "time": "21:00",
           "cinema": "Piccolo Teatro (cinema)",
@@ -3208,140 +3322,6 @@
           "cinema": "Fronte del Porto Padova",
           "price": null,
           "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Father Mother Sister Brother",
-      "director": "Jim Jarmusch",
-      "duration_min": 110,
-      "poster_url": "https://image.tmdb.org/t/p/w500/elPU6bjZvsDhpzpwctjHykNozg1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=0dR-l5wsvx0",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Father%20Mother%20Sister%20Brother%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/father%20mother%20sister%20brother/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1159206",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=father_mother_sister_brother",
-      "showtimes": [
-        {
-          "date": "2026-10-20",
-          "time": "20:30",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Into the Wild - Nelle terre selvagge",
-      "director": "Sean Penn",
-      "duration_min": 148,
-      "poster_url": "https://image.tmdb.org/t/p/w500/7X8vXr22itEk3JidSLC0mr8Gy8p.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=LcHUVetO9-A",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Into%20the%20Wild%20-%20Nelle%20terre%20selvagge%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/into%20the%20wild%20-%20nelle%20terre%20selvagge/",
-      "tmdb_url": "https://www.themoviedb.org/movie/5915",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=into_the_wild___nelle_terre_selvagge",
-      "showtimes": [
-        {
-          "date": "2026-10-13",
-          "time": "20:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Kripton",
-      "director": "Francesco Munzi",
-      "duration_min": 107,
-      "poster_url": "https://image.tmdb.org/t/p/w500/77uGTSoDM5Do4Ic2gKIpzYGV4d4.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Kripton%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/kripton/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1192919",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=kripton",
-      "showtimes": [
-        {
-          "date": "2026-11-11",
-          "time": "20:45",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "Ingresso libero",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Le città di pianura",
-      "director": "Francesco Sossai",
-      "duration_min": 98,
-      "poster_url": "https://image.tmdb.org/t/p/w500/oxKw1UkPojpYoreMkjqCqjZ1dyG.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=BK5PRRb3eII",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Le%20citt%C3%A0%20di%20pianura%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/le%20citt%C3%A0%20di%20pianura/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1462322",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=le_città_di_pianura",
-      "showtimes": [
-        {
-          "date": "2026-10-06",
-          "time": "18:45",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "PERFECT DAYS",
-      "director": "Wim Wenders",
-      "duration_min": 124,
-      "poster_url": "https://image.tmdb.org/t/p/w500/vRLicecIah55HKQkmXpkpD5KuPq.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=vj__7LO2cdc",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=PERFECT%20DAYS%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/perfect%20days/",
-      "tmdb_url": "https://www.themoviedb.org/movie/976893",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=perfect_days",
-      "showtimes": [
-        {
-          "date": "2026-10-14",
-          "time": "20:45",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "Ingresso libero",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "I Figli della Scimmia",
-      "director": "Tommaso Landucci",
-      "duration_min": 110,
-      "poster_url": "https://www.esperiapadova.it/data/img/840/figlidellascimmia.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ulmC9ddq5Ng",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20Figli%20della%20Scimmia%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/i%20figli%20della%20scimmia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1554129",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=840",
-      "showtimes": [
-        {
-          "date": "2026-10-02",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-04",
-          "time": "18:30",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
           "date_uncertain": false
         }
       ]
