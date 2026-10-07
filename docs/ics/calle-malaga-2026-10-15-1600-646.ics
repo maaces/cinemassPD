@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:5213148525473026996@cinema-scraper.local
+DTSTAMP:20261007T190615Z
+DTSTART:20261015T140000Z
+DTEND:20261015T155600Z
+SUMMARY:Calle Malaga - Maryam Touzani
+LOCATION:Cinema Rex
+DESCRIPTION:Prezzo: 5€\nPomeriggio al Rex\nhttps://www.cinemarex.it/evento?eventName=calle_malaga
+END:VEVENT
+END:VCALENDAR

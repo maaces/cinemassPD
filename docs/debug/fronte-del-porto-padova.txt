@@ -327,7 +327,7 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            GIOVEDì, 8 OTTOBRE 2026
+            DOMANI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -531,6 +531,9 @@
                <div class="evento-card-new-categoria">
                 <span class="categoria-label-prog">
                  Cinema
+                </span>
+                <span class="particolarita-label-prog">
+                 ★ Autore in sala
                 </span>
                </div>
               </div>
@@ -849,6 +852,56 @@
                  </button>
                  <div class="prenota-prog-prezzo" hidden="">
                   offerta responsabile
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+            </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-bibi-files/'">
+              <div class="evento-card-new-immagine">
+               <img alt="The Bibi files" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-bibi-files-1-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  The Bibi files
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Documentario, USA, 2024, 83'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 20:45
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
                  </div>
                 </div>
                </div>
@@ -1902,6 +1955,62 @@
               </span>
              </a>
             </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-conversation/'">
+              <div class="evento-card-new-immagine">
+               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="335" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/conversation_gallery_1.jpeg" width="596"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  The conversation
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Finzione, Stati Uniti d'America, 1974, 144'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 18:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Imagine the Sound
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
            </div>
           </div>
           <div class="programmazione-data-gruppo">
@@ -2352,6 +2461,69 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
+            DOMENICA, 6 DICEMBRE 2026
+           </h2>
+           <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/sun-ra-do-the-impossible/'">
+              <div class="evento-card-new-immagine">
+               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="485" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/sun_ra_featured-1024x485.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  sun ra: do the impossible
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Documentario, Stati Uniti d'America, 2024, 84'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 18:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Imagine the Sound
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo">
+           <h2 class="programmazione-data-titolo">
             SABATO, 12 DICEMBRE 2026
            </h2>
            <div class="programmazione-lista-new">
@@ -2405,6 +2577,69 @@
                Scopri di più sulla rassegna
                <strong>
                 Altrove: Iran
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo">
+           <h2 class="programmazione-data-titolo">
+            DOMENICA, 13 DICEMBRE 2026
+           </h2>
+           <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/lost-highway/'">
+              <div class="evento-card-new-immagine">
+               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="429" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Lost-Highway-1997-imdb-tt0116922-Bluray-1080pEAC3-5.1x264-PTer-0006-1024x429.png" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  lost highway
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Finzione, Stati Uniti d'America/Francia, 1997, 135'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 18:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Imagine the Sound
                </strong>
               </span>
               <span class="evento-rassegna-arrow">
@@ -2772,6 +3007,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/personal-classics/">
              <span class="rassegna-nome">
               Personal Classics
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
+             <span class="rassegna-nome">
+              Imagine the Sound
              </span>
              <span class="rassegna-arrow">
              </span>
