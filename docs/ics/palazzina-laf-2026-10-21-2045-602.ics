@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:6414956341506909497@cinema-scraper.local
+DTSTAMP:20261008T190135Z
+DTSTART:20261021T184500Z
+DTEND:20261021T202400Z
+SUMMARY:Palazzina LAF - Michele Riondino
+LOCATION:Cinema Rex
+DESCRIPTION:Ingresso libero\nhttps://www.cinemarex.it/evento?eventName=palazzina_laf
+END:VEVENT
+END:VCALENDAR
