@@ -318,12 +318,6 @@
            ✕
           </span>
          </button>
-         <button class="filtro-particolarita-btn" data-particolarita="82" data-particolarita-name="🎬 Anteprima">
-          🎬 Anteprima
-          <span aria-hidden="true" class="filtro-pill-x">
-           ✕
-          </span>
-         </button>
          <button class="filtri-cancella-tutto" id="filtri-cancella-tutto">
           Cancella tutto
          </button>
@@ -343,189 +337,9 @@
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-bibi-files/'">
-              <div class="evento-card-new-immagine">
-               <img alt="The Bibi files" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-bibi-files-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  The Bibi files
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, USA, 2024, 83'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-                <span class="particolarita-label-prog">
-                 🎬 Anteprima
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/totem-il-mio-sole/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Tótem - Il mio sole" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/totem-il-mio-sole-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  Tótem – Il mio sole
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Finzione, Messico, 2023, 95'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.eventbrite.com/e/totem-il-mio-sole-film-di-lila-aviles-messico-2023-95-tickets-2002838981308?aff=odcleoeventsincollection" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  Ingresso a offerta libera
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                Il Buono, il Lutto e il Cattivo
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
-            DOMANI
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/masterclass-di-adele-tulli/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Adele Tulli" class="attachment-large size-large wp-post-image" decoding="async" height="1024" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/TRAMA-Post-02-819x1024.png" width="819"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  MASTERCLASS DI ADELE TULLI
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Talk
-                </span>
-                <span class="particolarita-label-prog">
-                 ☐ Masterclass
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 15:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://docs.google.com/forms/d/e/1FAIpQLScwqwK0SAIL86emXanTjVmLuv9QgxyYYF6nhPu4oUwOJ-8w4w/viewform" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  ingresso libero
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/trama-e-spin-off-scuola-pv/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                TRAMA e spin off scuola PV
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-            <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-mia-classe/'">
               <div class="evento-card-new-immagine">
-               <img alt="La mia classe" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-mia-classe-2-1024x576.jpg" width="1024"/>
+               <img alt="La mia classe" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-mia-classe-2-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">
@@ -589,7 +403,7 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            SABATO, 10 OTTOBRE 2026
+            DOMANI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -1113,6 +927,9 @@
                <div class="evento-card-new-categoria">
                 <span class="categoria-label-prog">
                  Cinema
+                </span>
+                <span class="particolarita-label-prog">
+                 ★ Autore in sala
                 </span>
                </div>
               </div>
@@ -3020,9 +2837,9 @@
             Rassegne in Corso
            </h3>
            <div class="rassegne-lista">
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/">
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
              <span class="rassegna-nome">
-              Il Buono, il Lutto e il Cattivo
+              Questioni di classe?
              </span>
              <span class="rassegna-arrow">
              </span>
@@ -3030,13 +2847,6 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/trama-e-spin-off-scuola-pv/">
              <span class="rassegna-nome">
               TRAMA e spin off scuola PV
-             </span>
-             <span class="rassegna-arrow">
-             </span>
-            </a>
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
-             <span class="rassegna-nome">
-              Questioni di classe?
              </span>
              <span class="rassegna-arrow">
              </span>
@@ -3072,6 +2882,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/personal-classics/">
              <span class="rassegna-nome">
               Personal Classics
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/">
+             <span class="rassegna-nome">
+              Il Buono, il Lutto e il Cattivo
              </span>
              <span class="rassegna-arrow">
              </span>

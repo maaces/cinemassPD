@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:6197285545609261364@cinema-scraper.local
+DTSTAMP:20261009T183156Z
+DTSTART:20261012T170000Z
+DTEND:20261012T185800Z
+SUMMARY:M - Il mostro di Düsseldorf - Fritz Lang
+LOCATION:Cinema Rex
+DESCRIPTION:V.O.S.\nhttps://www.cinemarex.it/evento?eventName=m___il_mostro_di_düsseldorf
+END:VEVENT
+END:VCALENDAR

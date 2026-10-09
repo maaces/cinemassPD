@@ -450,15 +450,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               08/10
-               <br/>
-               <b>
-                Giovedì
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                09/10
                <br/>
                <b>
@@ -467,7 +458,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                10/10
                <br/>
                <b>
@@ -476,7 +467,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
                11/10
                <br/>
                <b>
@@ -485,7 +476,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
                12/10
                <br/>
                <b>
@@ -494,7 +485,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
+              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
                13/10
                <br/>
                <b>
@@ -503,7 +494,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-7" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-7" id="x-legacy-tab-7" role="tab">
+              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
                14/10
                <br/>
                <b>
@@ -525,147 +516,9 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/balcanica_2026-44b64aae-a545-4046-b86b-a6170f9e8aca/846001#sala" target="_blank">
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
-                  un po' di luce
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/845934#sala" target="_blank">
-                   <span class="">
-                    20.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13315">
-                  maigret - l'amore e la morte
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_Ven">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/maigret_2026/846029#sala" target="_blank">
-                   <span class="time_Ven">
-                    16.00
-                    <span class="nb time_Ven nb1">
-                     Ingresso 4,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13643">
-                  balcanica
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/balcanica_2026-44b64aae-a545-4046-b86b-a6170f9e8aca/846002#sala" target="_blank">
-                   <span class="time_Ven">
-                    16.15
-                    <span class="nb time_Ven nb1">
-                     Ingresso 4,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
                   <a href="https://astra.multiastra.18tickets.it/film/balcanica_2026-44b64aae-a545-4046-b86b-a6170f9e8aca/846003#sala" target="_blank">
                    <span class="">
                     20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13588">
-                  un po' di luce
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_Ven">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/un-po-di-luce-kami-nour-_2026/845935#sala" target="_blank">
-                   <span class="time_Ven">
-                    16.30
-                    <span class="nb time_Ven nb1">
-                     Ingresso 4,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13191">
-                  digger
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/digger_2026-0fb25dfe-b3b6-4a86-a475-6ac83f761a94/846042#sala" target="_blank">
-                   <span class="">
-                    17.45
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13387">
-                  una storia
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/una-storia_2026-562f0ee3-1d21-4351-a3bb-1b14a9b85d5e/845943#sala" target="_blank">
-                   <span class="">
-                    18.00
                    </span>
                   </a>
                  </span>
@@ -682,13 +535,6 @@
                </li>
                <li class="block_grid_item">
                 <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/845829#sala" target="_blank">
-                   <span class="">
-                    18.30
-                   </span>
-                  </a>
-                 </span>
                  <span class="x-column x-sm">
                   <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/845830#sala" target="_blank">
                    <span class="">
@@ -723,7 +569,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -873,7 +719,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1032,7 +878,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1100,7 +946,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1249,7 +1095,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-7" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-7" id="x-legacy-panel-7" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1689,8 +1535,14 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="aba119673c7561c5316d23120bb52ccd" data-token-time="1791485941" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="b44319e778153226582ac0fd3a019710" data-token-time="1791570565" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
+                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
+                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
+                  Privacy Email Informativa
+                 </label>
+                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
+                </div>
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-10219-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_2">
                   Email
@@ -1699,12 +1551,6 @@
                   </span>
                  </label>
                  <input class="wpforms-field-large wpforms-field-required" id="wpforms-10219-field_2" name="wpforms[fields][2]" required="" spellcheck="false" type="email"/>
-                </div>
-                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
-                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Informativa Email Privacy
-                 </label>
-                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
                 <div class="wpforms-field wpforms-field-gdpr-checkbox" data-field-id="3" data-field-type="gdpr-checkbox" id="wpforms-10219-field_3-container">
                  <label class="wpforms-field-label">
