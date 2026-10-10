@@ -60,56 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24574 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24574" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/i-promossi-sposi/" title="I PROMOSSI SPOSI [TUTTO ESAURITO]">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-PROMOSSI-2026-pdf-724x1024.jpg" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/i-promossi-sposi/">
-              <h2 class="entry-title" itemprop="name headline">
-               I PROMOSSI SPOSI [TUTTO ESAURITO]
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               Venerdì 9 Ottobre ore 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Dalla riscrittura di Giovanna Digito, autrice e protagonista delle mitiche “Betoneghe DOC”, la famosa opera manzoniana diventa una commedia spassosa che riporta in scena i personaggi originali del romanzo, rivisitati e ripresentati in modo divertente e vivace, con risvolti anche …
-              <a href="https://www.piccolo-padova.it/i-promossi-sposi/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Compagnia Teatro delle Arance – San Donà (VE) – Commedia liberamente tratta dal romanzo  di Alessandro Manzoni
-               <br/>
-               Adattamento comico -e veneto- e regia di Giovanna Digito
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24606 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24606" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/odissea/" title="Odissea">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="886" src="https://www.piccolo-padova.it/wp-content/uploads/odissea.jpg" width="591"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="886" src="https://www.piccolo-padova.it/wp-content/uploads/odissea.jpg" width="591"/>
              </a>
             </div>
            </div>
@@ -194,7 +150,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/opera-lirica-al-cinema/" title="OPERA LIRICA E BALLETTO AL CINEMA – 2026/2027 (I parte)">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 734px) 100vw, 734px" data-src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20734%201024%22%3E%3C/svg%3E" width="734"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" width="734"/>
              </a>
             </div>
            </div>
@@ -480,6 +436,48 @@
            </div>
           </div>
          </article>
+         <article class="post-24578 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24578" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/tenerezze-proibite-lamore-non-ha-eta/" title="TENEREZZE PROIBITE  …L’amore non ha età ">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TENEREZZE-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/tenerezze-proibite-lamore-non-ha-eta/">
+              <h2 class="entry-title" itemprop="name headline">
+               TENEREZZE PROIBITE  …L’amore non ha età
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               venerdì 23 ottobre – ore 21.15
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Ci troviamo in una casa di riposo dove i protagonisti, 5 anziani autonomi, più o meno in salute, con esperienze di vita molto diverse, trascorrono il tempo battibeccando, giocando e cercando una nuova normalità, facendo finta che stare lì dentro …
+              <a href="https://www.piccolo-padova.it/tenerezze-proibite-lamore-non-ha-eta/">
+               Continua
+              </a>
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               Commedia liberamente tratta da “Per un po’ di tenerezza…” di Aldo Nicolaj –  Compagnia “Caneva” di Lorenzaga (VE) – Adattamento e regia di Martina Boldarin
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
          <div class="wp-pagenavi">
           <nav aria-label="Paginazione degli articoli" class="navigation pagination">
            <h2 class="screen-reader-text">
@@ -522,18 +520,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_3q1xu" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_3q1xu">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_8se23" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_8se23">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_eci8e" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1mvqw" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_eci8e">
+             <span class="mailpoet_error_1mvqw">
              </span>
             </div>
             <div class="mailpoet_paragraph">
