@@ -21,6 +21,8 @@ from render_html import render
 from scrapers import (tickets18, wp_remotefilm, movieconnection, fronte_del_porto,
                       space_cinema, cinema_rex, esperia, piccolo)
 from utils import DEBUG_PAGES, clean_html_for_dump, merge_movies
+from models import Movie
+from movies_from_json import load_movies
 
 # space_cinema usa Playwright (importato solo quando serve); cinema_rex legge
 # un JSON con una semplice richiesta HTTP e usa Playwright solo come ripiego.
@@ -54,6 +56,23 @@ def _pages_base_url() -> str:
     return ""
 
 
+def _previous_showtimes(previous, cinema_name: str) -> list:
+    """Le proiezioni di un cinema prese dall'ultimo run riuscito (docs/data.json).
+    Servono quando lo scraper di quel cinema fallisce: meglio tenere gli orari
+    gia' noti che far sparire il cinema dalla pagina. Le date passate vengono
+    comunque nascoste da render_html."""
+    out = []
+    for pm in previous:
+        sts = [s for s in pm.showtimes if s.cinema == cinema_name]
+        if sts:
+            out.append(Movie(title=pm.title, director=pm.director, duration_min=pm.duration_min,
+                             poster_url=pm.poster_url, trailer_url=pm.trailer_url,
+                             trailer_search_url=pm.trailer_search_url,
+                             letterboxd_url=pm.letterboxd_url, tmdb_url=pm.tmdb_url,
+                             detail_url=pm.detail_url, showtimes=sts))
+    return out
+
+
 def main() -> None:
     config = load_config()
     tmdb_key = os.environ.get("TMDB_API_KEY") or config.get("tmdb_api_key")
@@ -63,8 +82,10 @@ def main() -> None:
     os.makedirs(debug_dir, exist_ok=True)
     base = _pages_base_url()
 
+    previous = load_movies(os.path.join(out_dir, "data.json"))
     all_movies = []
     empty_cinemas = []
+    reused_cinemas = []
     report = [f"Report generato il {dt.datetime.now(ZoneInfo('Europe/Rome')).strftime('%d/%m/%Y %H:%M')} (ora italiana)",
               "=" * 60]
 
@@ -80,15 +101,32 @@ def main() -> None:
             empty_cinemas.append(name)
             continue
 
+        if cinema.get("local_only"):
+            # aggiornato dal PC (run_space_only.py): qui riprendo gli orari gia' salvati
+            movies = _previous_showtimes(previous, name)
+            n_local = sum(len(m.showtimes) for m in movies)
+            print(f"-> {name}: aggiornato in locale, riprendo {n_local} proiezioni salvate")
+            all_movies.append(movies)
+            report += [f"\n## {name}", f"URL: {cinema['url']}",
+                       f"STATO: aggiornato in locale (run_space_only.py), {n_local} orari salvati"]
+            continue
+
         print(f"-> Scraping {name} ({cinema['url']}) ...")
         DEBUG_PAGES.clear()
         movies, error = [], None
+        reused = False
         try:
             movies = scraper(cinema["url"], name)
         except Exception as e:  # uno scraper rotto non deve bloccare gli altri
             error = f"{type(e).__name__}: {e}"
             print(f"   [ERRORE] {name}: {error}")
             traceback.print_exc()
+            # niente risultati nuovi: tengo gli orari dell'ultimo run riuscito
+            movies = _previous_showtimes(previous, name)
+            reused = bool(movies)
+            if reused:
+                reused_cinemas.append(name)
+                print(f"   uso gli orari dell'ultimo aggiornamento riuscito di {name}")
 
         n_showtimes = sum(len(m.showtimes) for m in movies)
         n_uncertain = sum(1 for m in movies for s in m.showtimes
@@ -115,7 +153,7 @@ def main() -> None:
             f"Scraper: {cinema['type']}",
             f"Film trovati: {len(movies)}",
             f"Orari trovati: {n_showtimes} (di cui con data non riconosciuta: {n_uncertain})",
-            f"Errore: {error or 'nessuno'}",
+            f"Errore: {error or 'nessuno'}" + (" (orari presi dall'ultimo aggiornamento riuscito)" if reused else ""),
             "HTML ripulito: " + (", ".join(dump_files) if dump_files else "non disponibile"),
         ]
 
@@ -150,6 +188,9 @@ def main() -> None:
     note = ""
     if empty_cinemas:
         note = "Nessun orario trovato per: " + ", ".join(empty_cinemas) + "."
+    if reused_cinemas:
+        note += (" Orari di " + ", ".join(reused_cinemas) +
+                 " ripresi dall'ultimo aggiornamento riuscito.").strip()
     render(merged, custom_events, out_dir, cinemas_note=note)
     print(f"-> Pagina generata in {out_dir}/index.html")
 

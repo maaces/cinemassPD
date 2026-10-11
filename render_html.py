@@ -23,6 +23,7 @@ import json
 import os
 import re
 from collections import defaultdict
+from functools import lru_cache
 from typing import List, Optional
 from zoneinfo import ZoneInfo
 
@@ -66,6 +67,29 @@ def _linkify(text) -> str:
         else:
             out.append(_esc(part))
     return "".join(out)
+
+
+@lru_cache(maxsize=1)
+def _cinema_websites() -> dict:
+    """Mappa nome cinema -> sito ufficiale, dal campo 'website' di config.yaml.
+    Letta qui (e non passata da main.py) cosi' anche update_events.py la usa."""
+    import yaml
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.yaml")
+    try:
+        with open(path, encoding="utf-8") as f:
+            cfg = yaml.safe_load(f) or {}
+    except (OSError, yaml.YAMLError):
+        return {}
+    return {c["name"]: c["website"] for c in cfg.get("cinemas", [])
+            if c.get("name") and c.get("website")}
+
+
+def _cinema_html(name: str) -> str:
+    """Nome del cinema, cliccabile verso il sito ufficiale se e' noto."""
+    site = _cinema_websites().get(name)
+    if not site:
+        return _esc(name)
+    return f'<a href="{_esc_attr(site)}" target="_blank" rel="noopener">{_esc(name)}</a>'
 
 
 def _format_date_it(date_str: str) -> str:
@@ -127,7 +151,7 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
         buttons.append(f'<a class="btn btn-alt" href="{_esc(ics_link)}">⬇️ .ics</a>')
 
     return f"""
-      <div class="mini-card" data-source="{_esc_attr(st.cinema)}">
+      <div class="mini-card" data-source="{_esc_attr(st.cinema)}" data-movie="{_esc_attr(m.title)}">
         <div class="mc-head">
           {poster_html}
           <div class="mc-title">
@@ -137,7 +161,7 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
             <div class="meta">{_esc(duration_html)}</div>
           </div>
         </div>
-        <div class="mc-cinema">📍 {_esc(st.cinema)}{(' · ' + _esc(price_note)) if price_note else ''}</div>
+        <div class="mc-cinema">📍 {_cinema_html(st.cinema)}{(' · ' + _esc(price_note)) if price_note else ''}</div>
         <div class="links">{' · '.join(links)}</div>
         <div class="mc-actions">{' '.join(buttons)}</div>
       </div>"""
@@ -175,12 +199,16 @@ def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int) -> str:
       </div>"""
 
 
-def _filter_bar(id_: str, label: str, values, data_attr: str) -> str:
+def _filter_bar(id_: str, label: str, values, data_attr: str, sites: Optional[dict] = None) -> str:
     if not values:
         return ""
+    sites = sites or {}
     chips = [f'<button class="filter-chip active" data-{data_attr}-all>Tutti</button>']
     for v in values:
         chips.append(f'<button class="filter-chip" data-{data_attr}="{_esc_attr(v)}">{_esc(v)}</button>')
+        if v in sites:  # ↗ accanto al chip: apre il sito ufficiale senza attivare il filtro
+            chips.append(f'<a class="chip-link" href="{_esc_attr(sites[v])}" target="_blank" rel="noopener" '
+                         f'title="Sito ufficiale">↗</a>')
     return f"""
     <div class="filter-bar" id="{id_}">
       <span class="filter-label">{_esc(label)}</span>
@@ -221,15 +249,22 @@ FILTER_JS = """
   }
 
   var sourceGroup = setupGroup('filter-sources', 'source', null);
+  var movieGroup = setupGroup('filter-movies', 'movie', null);
   var flagGroup = setupGroup('filter-flags', 'flag', null);
 
   window.applyFilters = function () {
     var sel = sourceGroup ? sourceGroup.selected() : [];
+    var moviesSel = movieGroup ? movieGroup.selected() : [];
     var flagsSel = flagGroup ? flagGroup.selected() : [];
 
     document.querySelectorAll('.mini-card').forEach(function (card) {
       var src = card.getAttribute('data-source');
       var okSource = sel.length === 0 || sel.indexOf(src) !== -1;
+
+      var okMovie = true;
+      if (moviesSel.length > 0 && card.hasAttribute('data-movie')) {
+        okMovie = moviesSel.indexOf(card.getAttribute('data-movie')) !== -1;
+      }
 
       var okFlags = true;
       if (flagsSel.length > 0) {
@@ -240,7 +275,7 @@ FILTER_JS = """
           okFlags = true; // i film non hanno flag: il filtro flag non li nasconde
         }
       }
-      card.style.display = (okSource && okFlags) ? '' : 'none';
+      card.style.display = (okSource && okMovie && okFlags) ? '' : 'none';
     });
 
     document.querySelectorAll('.time-row').forEach(function (row) {
@@ -348,7 +383,10 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     source_values = list(seen_cinemas)
     if custom_events:
         source_values.append(CUSTOM_SOURCE)
-    sources_bar = _filter_bar("filter-sources", "Cinema", source_values, "source")
+    sources_bar = _filter_bar("filter-sources", "Cinema", source_values, "source", _cinema_websites())
+    # barra dei film: un chip per titolo con almeno una proiezione, in ordine alfabetico
+    movie_titles = sorted({j["title"] for j in json_movies}, key=lambda t: t.lower())
+    movies_bar = _filter_bar("filter-movies", "Film", movie_titles, "movie")
     # il chip degli eventi personalizzati ha un'etichetta leggibile, non "__custom__":
     sources_bar = sources_bar.replace(
         f'data-source="{CUSTOM_SOURCE}">{_esc(CUSTOM_SOURCE)}<', f'data-source="{CUSTOM_SOURCE}">📌 Eventi personali<'
@@ -387,6 +425,9 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     cursor: pointer;
   }}
   .filter-chip.active {{ background: var(--accent); border-color: var(--accent); color: #fff; }}
+  .chip-link {{ font-size: 0.8rem; color: var(--accent); text-decoration: none; padding: 0 4px 0 0; align-self: center; }}
+  .mc-cinema a {{ color: var(--accent); text-decoration: none; }}
+  .mc-cinema a:hover {{ text-decoration: underline; }}
   .day {{ margin: 22px 0; }}
   .day h2 {{ font-size: 1.05rem; border-bottom: 2px solid var(--accent); padding-bottom: 4px; }}
   .time-row {{ display: flex; gap: 10px; margin: 14px 0; align-items: flex-start; }}
@@ -426,6 +467,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   <h1>🎬 Cinema in programmazione</h1>
   <p>Aggiornato il {now}. {_esc(cinemas_note)}</p>
   {sources_bar}
+  {movies_bar}
   {flags_bar}
 </header>
 {''.join(sections) if sections else '<p>Nessun film trovato in questo aggiornamento.</p>'}

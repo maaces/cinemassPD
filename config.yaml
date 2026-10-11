@@ -33,6 +33,9 @@ cinemas:
   - name: "The Space Cinema (Limena)"
     type: space_cinema
     url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
+    # local_only: aggiornato a mano dal PC con run_space_only.py. I workflow in cloud
+    # non lo scaricano e riprendono gli orari gia' salvati, cosi' non vengono cancellati.
+    local_only: true
     enabled: true
 
   # Cinema Rex: la pagina scarica la programmazione da un JSON; lo scraper
