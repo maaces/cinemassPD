@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//cinema-scraper//IT
 BEGIN:VEVENT
-UID:4557258300121363579@cinema-scraper.local
-DTSTAMP:20261011T233208Z
+UID:5380093581871936362@cinema-scraper.local
+DTSTAMP:20261011T233650Z
 DTSTART:20261012T180000Z
 DTEND:20261012T195400Z
 SUMMARY:RIDER - Davide Pavanello\, Roan Johnson
-LOCATION:Cineplex Moderno (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/149288
+LOCATION:Cineplex
+DESCRIPTION:https://pd.cineplexmoderno.18tickets.it/film/149288
 END:VEVENT
 END:VCALENDAR
