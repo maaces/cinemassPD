@@ -1131,28 +1131,6 @@
    "categoria_cineforum": "n",
    "eventi": [
     {
-     "id_orario_evento": "3108",
-     "inizio": 1791743400000,
-     "id_cinebot": "1307",
-     "tipo_prezzo_1": "Ridotto generico",
-     "valore_prezzo_1": "6",
-     "valore_prevendita_1": "0.5",
-     "tipo_prezzo_2": "Intero",
-     "valore_prezzo_2": "7",
-     "valore_prevendita_2": "0.5",
-     "tipo_prezzo_3": "",
-     "valore_prezzo_3": "0",
-     "valore_prevendita_3": "0",
-     "tipo_prezzo_4": "",
-     "valore_prezzo_4": "0",
-     "valore_prevendita_4": "0",
-     "tipo_prezzo_5": "",
-     "valore_prezzo_5": "0",
-     "valore_prevendita_5": "0",
-     "fl_film_vos": "n",
-     "cast": "n"
-    },
-    {
      "id_orario_evento": "3127",
      "inizio": 1792566000000,
      "id_cinebot": "1307",
