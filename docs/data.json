@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T17:45:22.725195",
+  "generated_at": "2026-10-11T17:48:47.348629",
   "movies": [
     {
       "title": "AVENGERS: DOOMSDAY",
@@ -927,27 +927,6 @@
       ]
     },
     {
-      "title": "IL LIBRO DELLA GIUNGLA (THE JUNGLE BOOK) (ED. SPEC.)",
-      "director": "Wolfgang Reitherman",
-      "duration_min": 85,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147374/standard_c68ef6a9-98b9-4978-8da1-c7ec6f9aaeb6.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=_wzXBp0G3ZQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=IL%20LIBRO%20DELLA%20GIUNGLA%20%28THE%20JUNGLE%20BOOK%29%20%28ED.%20SPEC.%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/il%20libro%20della%20giungla%20%28the%20jungle%20book%29%20%28ed.%20spec.%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/431036",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147374",
-      "showtimes": [
-        {
-          "date": "2026-10-11",
-          "time": "11:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": "MODERNO.. ANIMATION",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "IL DOGE: UN RITRATTO DELLA REDENZIONE (IL DOGE: A PORTRAIT OF REDEMPTION)",
       "director": "Gianna Isabella Magliocco",
       "duration_min": 102,
@@ -1021,62 +1000,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1281331",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148269",
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "20:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:15",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "23:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "10:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "13:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "15:35",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "18:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "20:25",
@@ -1179,72 +1102,16 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "20:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "22:55",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "00:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "10:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "14:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "16:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "18:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "20:30",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "20:40",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
@@ -1269,6 +1136,14 @@
         {
           "date": "2026-10-11",
           "time": "22:40",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-11",
+          "time": "22:50",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
@@ -1307,6 +1182,14 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-12",
+          "time": "22:20",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-13",
           "time": "17:30",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -1331,6 +1214,14 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-13",
+          "time": "22:20",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-14",
           "time": "17:30",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -1349,6 +1240,14 @@
         {
           "date": "2026-10-14",
           "time": "21:50",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "22:20",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
@@ -1368,89 +1267,9 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148266",
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "14:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "19:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "22:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "00:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "11:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "13:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "14:25",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "14:35",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "15:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1465,24 +1284,8 @@
         },
         {
           "date": "2026-10-11",
-          "time": "18:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
           "time": "19:10",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "20:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1528,14 +1331,6 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-10-12",
-          "time": "22:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-13",
           "time": "16:55",
           "cinema": "Porto Astra",
@@ -1563,14 +1358,6 @@
           "date": "2026-10-13",
           "time": "20:20",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-13",
-          "time": "22:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1614,14 +1401,6 @@
           "price": null,
           "note": null,
           "date_uncertain": false
-        },
-        {
-          "date": "2026-10-14",
-          "time": "22:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
         }
       ]
     },
@@ -1629,69 +1408,13 @@
       "title": "DIGGER",
       "director": "Alejandro G. Iñárritu",
       "duration_min": 129,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/144804/standard_869d1002-0bd2-4a68-aa84-389921e56371.jpg",
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/144804/standard_46600a7c-349c-4b36-806e-609d9c10fb52.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=D6uG0z-rhkg",
       "trailer_search_url": "https://www.youtube.com/results?search_query=DIGGER%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/digger/",
       "tmdb_url": "https://www.themoviedb.org/movie/1248832",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144804",
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "16:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "19:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:35",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "22:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "22:35",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "11:15",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "15:40",
@@ -1702,24 +1425,8 @@
         },
         {
           "date": "2026-10-11",
-          "time": "17:45",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
           "time": "18:30",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "19:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1866,33 +1573,9 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/149288",
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "16:15",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "23:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1959,30 +1642,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/132755",
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "22:15",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "10:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-12",
           "time": "21:10",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -2009,64 +1668,117 @@
       ]
     },
     {
-      "title": "NAZA",
-      "director": "Yuval Abraham, Rachel Szor",
-      "duration_min": 77,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/141434/standard_192ac12e-68d1-4b24-a019-ef86bf0b7dc7.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=YIBRLEEaueo",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=NAZA%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/naza/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1755291",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
+      "title": "L'ALBERO DI MOLTO LONTANO (THE MAGIC FARAWAY TREE)",
+      "director": "J. Ashcroft",
+      "duration_min": 110,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148365/standard_a07be9e4-2f29-4471-9ffc-8acd00356f20.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YpTlJphcnXA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27ALBERO%20DI%20MOLTO%20LONTANO%20%28THE%20MAGIC%20FARAWAY%20TREE%29%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27albero%20di%20molto%20lontano%20%28the%20magic%20faraway%20tree%29/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1140521",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148365",
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "14:50",
+          "date": "2026-10-11",
+          "time": "15:15",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "18:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "20:35",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:05",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
           "date": "2026-10-11",
-          "time": "11:00",
+          "time": "17:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "17:20",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
+        {
+          "date": "2026-10-12",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "19:45",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:20",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:45",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:20",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:45",
+          "cinema": "Cineplex Moderno (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "NAZA",
+      "director": "Yuval Abraham, Rachel Szor",
+      "duration_min": 77,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/141434/standard_b644c282-df29-480f-94d9-550231e2b8a5.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YIBRLEEaueo",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=NAZA%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/naza/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1755291",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
+      "showtimes": [
         {
           "date": "2026-10-11",
           "time": "14:30",
@@ -2077,50 +1789,10 @@
         },
         {
           "date": "2026-10-11",
-          "time": "15:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "16:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
           "time": "18:10",
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "18:35",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "19:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2294,155 +1966,6 @@
       ]
     },
     {
-      "title": "L'ALBERO DI MOLTO LONTANO (THE MAGIC FARAWAY TREE)",
-      "director": "J. Ashcroft",
-      "duration_min": 110,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148365/standard_a07be9e4-2f29-4471-9ffc-8acd00356f20.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=YpTlJphcnXA",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27ALBERO%20DI%20MOLTO%20LONTANO%20%28THE%20MAGIC%20FARAWAY%20TREE%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27albero%20di%20molto%20lontano%20%28the%20magic%20faraway%20tree%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1140521",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148365",
-      "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "15:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "17:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "10:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "13:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "15:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "15:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "18:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-12",
-          "time": "17:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-12",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-12",
-          "time": "19:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-13",
-          "time": "17:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-13",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-13",
-          "time": "19:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-14",
-          "time": "17:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-14",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-14",
-          "time": "19:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "VERITY",
       "director": "Michael Showalter",
       "duration_min": 114,
@@ -2454,73 +1977,9 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/145727",
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "15:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "20:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:45",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "23:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "10:55",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "13:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "14:40",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "16:05",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "18:40",
-          "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2642,62 +2101,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "20:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "20:55",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "22:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "23:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "15:00",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:15",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "19:30",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "19:30",
@@ -2824,37 +2227,13 @@
       "title": "RESIDENT EVIL",
       "director": "Zach Cregger",
       "duration_min": 95,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/138530/standard_57ebe446-9b12-43a8-b2e2-79c44624ee63.jpg",
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/138530/standard_349c3e4d-c688-468d-9d2f-b4b73451beb3.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=w_k72lFKSkc",
       "trailer_search_url": "https://www.youtube.com/results?search_query=RESIDENT%20EVIL%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/resident%20evil/",
       "tmdb_url": "https://www.themoviedb.org/movie/1423191",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138530",
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "21:25",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "23:35",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "00:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "20:40",
@@ -2864,11 +2243,11 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-10-11",
-          "time": "22:50",
-          "cinema": "Cineplex Moderno (Due Carrare)",
+          "date": "2026-10-12",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         },
         {
@@ -2909,22 +2288,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/130907",
       "showtimes": [
         {
-          "date": "2026-10-11",
-          "time": "13:05",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "15:25",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-12",
           "time": "17:40",
           "cinema": "Cineplex Moderno (Due Carrare)",
@@ -2941,11 +2304,27 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-13",
+          "time": "18:20",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-14",
           "time": "17:40",
           "cinema": "Cineplex Moderno (Due Carrare)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -2961,22 +2340,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1465063",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143084",
       "showtimes": [
-        {
-          "date": "2026-10-11",
-          "time": "11:10",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "14:05",
-          "cinema": "Cineplex Moderno (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-12",
           "time": "17:45",
@@ -3032,16 +2395,16 @@
         },
         {
           "date": "2026-10-11",
-          "time": "14:20",
-          "cinema": "Cineplex Moderno (Due Carrare)",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro (cinema)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
           "date": "2026-10-11",
-          "time": "18:45",
-          "cinema": "Piccolo Teatro (cinema)",
+          "time": "20:30",
+          "cinema": "Cinema Rex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3093,6 +2456,22 @@
           "price": null,
           "note": null,
           "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "09:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "09:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
         }
       ]
     },
@@ -3107,22 +2486,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1702462",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "20:15",
@@ -3150,93 +2513,6 @@
         {
           "date": "2026-10-14",
           "time": "18:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Una Storia",
-      "director": "Mario Bianchi",
-      "duration_min": 90,
-      "poster_url": "https://image.tmdb.org/t/p/w500/xYlgfHR6QwaPvtIa3hyA69MN5Rd.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20Storia%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/una%20storia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/404009",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-11",
-          "time": "15:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-13",
-          "time": "19:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-14",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Maigret - L'Amore E La Morte",
-      "director": "Pascal Bonitzer",
-      "duration_min": 80,
-      "poster_url": "https://image.tmdb.org/t/p/w500/gJVCjUPmzRPfrNlLWUcdOZuhuw2.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=QYRSE2j6dRA",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Maigret%20-%20L%27Amore%20E%20La%20Morte%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/maigret%20-%20l%27amore%20e%20la%20morte/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1398486",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-11",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Un Po' Di Luce",
-      "director": "Ali Asgari",
-      "duration_min": 87,
-      "poster_url": "https://image.tmdb.org/t/p/w500/lJ6nmoioDB6aulJlPVyJCd56RT1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JJLtS7s96MA",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20Po%27%20Di%20Luce%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/un%20po%27%20di%20luce/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1736490",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-11",
-          "time": "18:45",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-13",
-          "time": "18:40",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -3278,13 +2554,55 @@
           "price": null,
           "note": null,
           "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Un Po' Di Luce",
+      "director": "Ali Asgari",
+      "duration_min": 87,
+      "poster_url": "https://image.tmdb.org/t/p/w500/lJ6nmoioDB6aulJlPVyJCd56RT1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JJLtS7s96MA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20Po%27%20Di%20Luce%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/un%20po%27%20di%20luce/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1736490",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-13",
+          "time": "18:40",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Una Storia",
+      "director": "Mario Bianchi",
+      "duration_min": 90,
+      "poster_url": "https://image.tmdb.org/t/p/w500/xYlgfHR6QwaPvtIa3hyA69MN5Rd.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20Storia%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/una%20storia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/404009",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-13",
+          "time": "19:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
         },
         {
-          "date": "2026-10-15",
-          "time": "21:00",
-          "cinema": "Fronte del Porto Padova",
+          "date": "2026-10-14",
+          "time": "20:15",
+          "cinema": "Multiastra",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -3409,35 +2727,6 @@
       ]
     },
     {
-      "title": "Era Meglio Domani",
-      "director": "Vinciane Millereau",
-      "duration_min": 103,
-      "poster_url": "https://image.tmdb.org/t/p/w500/sZkuAqfVpKdllY3SV8teOGffh6A.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=lKej5cu4q2g",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Era%20Meglio%20Domani%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/era%20meglio%20domani/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1284496",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "15:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "14:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "The Social - Il Prezzo Della Verità",
       "director": "Aaron Sorkin",
       "duration_min": 120,
@@ -3448,30 +2737,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1281331",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "15:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "19:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "22:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "14:50",
@@ -3531,6 +2796,27 @@
       ]
     },
     {
+      "title": "Era Meglio Domani",
+      "director": "Vinciane Millereau",
+      "duration_min": 103,
+      "poster_url": "https://image.tmdb.org/t/p/w500/sZkuAqfVpKdllY3SV8teOGffh6A.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=lKej5cu4q2g",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Era%20Meglio%20Domani%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/era%20meglio%20domani/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1284496",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-11",
+          "time": "14:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "The Invite - Il Piacere È Tutto Nostro",
       "director": "Olivia Wilde",
       "duration_min": 107,
@@ -3541,22 +2827,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/950028",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "19:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "17:05",
@@ -3619,22 +2889,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-10",
-          "time": "21:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "17:10",
           "cinema": "Porto Astra",
@@ -3688,14 +2942,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "17:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "17:30",
           "cinema": "Porto Astra",
@@ -3706,6 +2952,27 @@
         {
           "date": "2026-10-14",
           "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Queen Budapest 4K",
+      "director": "Zsombolyai János",
+      "duration_min": 97,
+      "poster_url": "https://image.tmdb.org/t/p/w500/q7DFWUEvWhzlet8eoGTAortsAif.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Queen%20Budapest%204K%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/queen%20budapest%204k/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1793788",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-11",
+          "time": "21:46",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -3725,14 +2992,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-10-10",
-          "time": "22:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-11",
           "time": "21:50",
           "cinema": "Porto Astra",
@@ -3743,35 +3002,6 @@
         {
           "date": "2026-10-14",
           "time": "22:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Queen Budapest 4K",
-      "director": null,
-      "duration_min": 97,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Queen%20Budapest%204K%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/queen%20budapest%204k/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1793788",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "22:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "21:45",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -3801,35 +3031,6 @@
       ]
     },
     {
-      "title": "SANTIAGO",
-      "director": "UN CAMMINO PER RICOMINCIARE – Yann Samuell",
-      "duration_min": 102,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/santiago-un-cammino-per-ricominciare-poster.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=SANTIAGO%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/santiago/",
-      "tmdb_url": "https://www.themoviedb.org/movie/197704",
-      "detail_url": "https://www.movieconnection.it/proiezione/santiago/2026-10-10/",
-      "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "18:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-11",
-          "time": "16:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "RITORNO A BUENOS AIRES",
       "director": "Marco Bechis",
       "duration_min": 105,
@@ -3838,16 +3039,8 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=RITORNO%20A%20BUENOS%20AIRES%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/ritorno%20a%20buenos%20aires/",
       "tmdb_url": "https://www.themoviedb.org/movie/1597199",
-      "detail_url": "https://www.movieconnection.it/proiezione/ritorno-a-buenos-aires-2/2026-10-10/",
+      "detail_url": "https://www.movieconnection.it/proiezione/ritorno-a-buenos-aires-2/2026-10-11/",
       "showtimes": [
-        {
-          "date": "2026-10-10",
-          "time": "21:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-11",
           "time": "18:15",
@@ -4538,13 +3731,13 @@
     },
     {
       "title": "Lee",
-      "director": "Ellen Kuras",
+      "director": "Lee Cronin",
       "duration_min": 116,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/lee-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Q9HpUHzI7m8",
+      "trailer_url": "https://www.youtube.com/watch?v=f47FMs62J8Q",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Lee%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/lee/",
-      "tmdb_url": "https://www.themoviedb.org/movie/832964",
+      "tmdb_url": "https://www.themoviedb.org/movie/1304313",
       "detail_url": "https://www.frontedelportopadova.it/eventi/lee/",
       "showtimes": [
         {
@@ -4587,7 +3780,7 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
       "tmdb_url": "https://www.themoviedb.org/movie/1399462",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=859",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=calle_malaga",
       "showtimes": [
         {
           "date": "2026-10-13",
@@ -4595,6 +3788,148 @@
           "cinema": "Cinema Esperia",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "director": "Jim Jarmusch",
+      "duration_min": 110,
+      "poster_url": "https://image.tmdb.org/t/p/w500/elPU6bjZvsDhpzpwctjHykNozg1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=0dR-l5wsvx0",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Father%20Mother%20Sister%20Brother%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/father%20mother%20sister%20brother/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1159206",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=father_mother_sister_brother",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "20:30",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Into the Wild - Nelle terre selvagge",
+      "director": "Sean Penn",
+      "duration_min": 148,
+      "poster_url": "https://image.tmdb.org/t/p/w500/7X8vXr22itEk3JidSLC0mr8Gy8p.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=LcHUVetO9-A",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Into%20the%20Wild%20-%20Nelle%20terre%20selvagge%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/into%20the%20wild%20-%20nelle%20terre%20selvagge/",
+      "tmdb_url": "https://www.themoviedb.org/movie/5915",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=into_the_wild___nelle_terre_selvagge",
+      "showtimes": [
+        {
+          "date": "2026-10-13",
+          "time": "20:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Kripton",
+      "director": "Francesco Munzi",
+      "duration_min": 107,
+      "poster_url": "https://image.tmdb.org/t/p/w500/77uGTSoDM5Do4Ic2gKIpzYGV4d4.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Kripton%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/kripton/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1192919",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=kripton",
+      "showtimes": [
+        {
+          "date": "2026-11-11",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "M - Il mostro di Düsseldorf",
+      "director": "Fritz Lang",
+      "duration_min": 118,
+      "poster_url": "https://image.tmdb.org/t/p/w500/9tzahfmcb8GyYtqOMSSfTr9Lium.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=fXQogot9opg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=M%20-%20Il%20mostro%20di%20D%C3%BCsseldorf%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/m%20-%20il%20mostro%20di%20d%C3%BCsseldorf/",
+      "tmdb_url": "https://www.themoviedb.org/movie/832",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=m___il_mostro_di_düsseldorf",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Palazzina LAF",
+      "director": "Michele Riondino",
+      "duration_min": 99,
+      "poster_url": "https://image.tmdb.org/t/p/w500/2bZQIrBVrenGge1hyAjBfPBfotv.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xFoZSerreFI",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Palazzina%20LAF%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/palazzina%20laf/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1037052",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=palazzina_laf",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "PERFECT DAYS",
+      "director": "Wim Wenders",
+      "duration_min": 124,
+      "poster_url": "https://image.tmdb.org/t/p/w500/vRLicecIah55HKQkmXpkpD5KuPq.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vj__7LO2cdc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=PERFECT%20DAYS%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/perfect%20days/",
+      "tmdb_url": "https://www.themoviedb.org/movie/976893",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=perfect_days",
+      "showtimes": [
+        {
+          "date": "2026-10-14",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
           "date_uncertain": false
         }
       ]
