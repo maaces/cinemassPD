@@ -1,16 +1,15 @@
 name: Aggiorna programmazione cinema
 
+# Niente "schedule" qui: il giro quotidiano lo lancia orchestrator.yml, in
+# sequenza con gli eventi. Un cron in piu' qui creava run concorrenti.
 on:
   workflow_dispatch: {}
-  schedule:
-    # GitHub Actions usa cron in UTC e non gestisce l'ora legale italiana:
-    # due righe per avvicinarsi comunque alle 14:30 locali tutto l'anno.
-    # Nei giorni di cambio ora (fine marzo / fine ottobre) puo' esserci
-    # fino a un'ora di scarto per qualche giorno: non e' un bug, e' un
-    # limite di cron. Se preferisci un solo orario fisso, tieni solo una
-    # delle due righe.
-    - cron: "30 12 4-10 * *"     # ~14:30 CEST (ora legale, aprile-ottobre)
-    - cron: "30 13 1-3,11-12 * *" # ~14:30 CET (ora solare, nov-marzo)
+
+# Un solo workflow alla volta tra quelli che scrivono docs/ (questo, check-events):
+# evita push simultanei e conflitti su docs/index.html e data.json.
+concurrency:
+  group: cinema-docs-update
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -44,5 +43,12 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add docs
           git diff --quiet --cached || git commit -m "Aggiorna programmazione $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase --autostash || true
-          git push
+          # docs/ e' generato: in caso di conflitto vince la versione appena creata
+          for i in 1 2 3; do
+            # se un tentativo precedente ha lasciato un rebase a meta', lo annulla
+            git rebase --abort 2>/dev/null || true
+            if git pull --rebase --autostash -X theirs && git push; then exit 0; fi
+            echo "push non riuscito, nuovo tentativo ($i/3)"; sleep 10
+          done
+          exit 1
+ 

@@ -49,6 +49,25 @@ def _esc_attr(text) -> str:
     return html.escape(str(text), quote=True) if text else ""
 
 
+URL_RE = re.compile(r"(https?://[^\s<>\"']+)")
+
+
+def _linkify(text) -> str:
+    """Escapa il testo e trasforma in link cliccabili gli URL che contiene."""
+    if not text:
+        return ""
+    parts = URL_RE.split(str(text))  # i gruppi catturati (URL) finiscono alle posizioni dispari
+    out = []
+    for i, part in enumerate(parts):
+        if i % 2 == 1:
+            url = part.rstrip(".,;:!?)")  # la punteggiatura finale non fa parte del link
+            trailing = part[len(url):]
+            out.append(f'<a href="{_esc_attr(url)}" target="_blank" rel="noopener">{_esc(url)}</a>{_esc(trailing)}')
+        else:
+            out.append(_esc(part))
+    return "".join(out)
+
+
 def _format_date_it(date_str: str) -> str:
     try:
         y, mo, d = (int(x) for x in date_str.split("-"))
@@ -135,7 +154,7 @@ def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int) -> str:
 
     time_html = f'<div class="mc-time">{_esc(ce.time)}</div>' if ce.time else ""
     photo_html = f'<img class="custom-photo" src="{_esc(ce.photo_url)}" alt="" loading="lazy">' if ce.photo_url else ""
-    text_html = f'<div class="custom-text">{_esc(ce.text)}</div>' if ce.text else ""
+    text_html = f'<div class="custom-text">{_linkify(ce.text)}</div>' if ce.text else ""
     flags_html = ("<div class=\"flags\">" + " ".join(f'<span class="flag-pill">{_esc(f)}</span>' for f in ce.flags)
                   + "</div>") if ce.flags else ""
     buttons = []
@@ -243,6 +262,16 @@ FILTER_JS = """
 def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, cinemas_note: str = "") -> None:
     ics_dir = os.path.join(out_dir, "ics")
     os.makedirs(ics_dir, exist_ok=True)
+    # ricrea da zero i .ics: senza questo passo i file delle proiezioni gia' passate si accumulerebbero
+    for old in os.listdir(ics_dir):
+        if old.endswith(".ics"):
+            os.remove(os.path.join(ics_dir, old))
+
+    # tutto cio' che e' prima di oggi (ora italiana) non viene mostrato
+    today_iso = dt.datetime.now(ZoneInfo("Europe/Rome")).strftime("%Y-%m-%d")
+
+    def _is_past(date_str: Optional[str]) -> bool:
+        return bool(date_str) and date_str != "data-da-verificare" and date_str < today_iso
 
     # timeline[data][fascia_mezz'ora] = lista di (orario_esatto, html_card)
     timeline = defaultdict(lambda: defaultdict(list))
@@ -255,6 +284,8 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     for m in movies:
         json_showtimes = []
         for st in m.showtimes:
+            if _is_past(st.date):
+                continue
             json_showtimes.append({"date": st.date, "time": st.time, "cinema": st.cinema,
                                     "price": st.price, "note": st.note, "date_uncertain": st.date_uncertain})
             if st.cinema and st.cinema not in seen_cinemas:
@@ -266,7 +297,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
                 uncertain_html.append(card)
             else:
                 timeline[st.date][bucket].append((st.time, card))
-        if m.showtimes:
+        if json_showtimes:
             json_movies.append({
                 "title": m.title, "director": m.director, "duration_min": m.duration_min,
                 "poster_url": m.poster_url, "trailer_url": m.trailer_url,
@@ -275,6 +306,8 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
             })
 
     for ce in custom_events:
+        if _is_past(ce.date):
+            continue
         counter += 1
         card = _custom_card_html(ce, ics_dir, counter)
         bucket = _half_hour_bucket(ce.time)
@@ -359,10 +392,14 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   .time-row {{ display: flex; gap: 10px; margin: 14px 0; align-items: flex-start; }}
   .time-label {{ flex: 0 0 48px; font-weight: 700; font-size: 0.85rem; padding-top: 10px; color: var(--muted); }}
   .time-items {{ display: flex; flex-wrap: wrap; gap: 10px; flex: 1; }}
+  .time-items {{ min-width: 0; }}
   .mini-card {{
     background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    padding: 10px; flex: 1 1 190px; max-width: 240px;
+    padding: 10px; flex: 1 1 190px; max-width: 240px; min-width: 0;
+    overflow-wrap: anywhere; word-break: break-word;
   }}
+  .mini-card a {{ word-break: break-all; }}
+  .custom-text a {{ color: var(--accent); }}
   .mc-head {{ display: flex; gap: 8px; }}
   .poster {{ width: 52px; height: 76px; object-fit: cover; border-radius: 6px; flex-shrink: 0; }}
   .poster-placeholder {{ display: flex; align-items: center; justify-content: center; background: var(--border); font-size: 1.4rem; }}

@@ -18,6 +18,11 @@ on:
     # minuto esatto (puo' ritardare di qualche minuto nei momenti di
     # carico alto sui runner condivisi). Per il nostro scopo va benissimo.
 
+# Stesso gruppo di scrape.yml: niente push simultanei sugli stessi file.
+concurrency:
+  group: cinema-docs-update
+  cancel-in-progress: false
+
 permissions:
   contents: write
   issues: write   # per leggere le issue "evento" e chiudere quelle passate
@@ -46,5 +51,9 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add docs
           git diff --quiet --cached || git commit -m "Aggiorna eventi personalizzati $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git pull --rebase --autostash || true
-          git push
+          for i in 1 2 3; do
+            git rebase --abort 2>/dev/null || true
+            if git pull --rebase --autostash -X theirs && git push; then exit 0; fi
+            echo "push non riuscito, nuovo tentativo ($i/3)"; sleep 10
+          done
+          exit 1
