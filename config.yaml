@@ -2,9 +2,10 @@
 # type: "tickets18", "wp_remotefilm", "movieconnection", "fronte_del_porto", "space_cinema", "cinema_rex", "esperia", "piccolo"
 # (vedi cartella scrapers/ per i dettagli)
 cinemas:
-  - name: "Cineplex Moderno (Due Carrare)"
+  - name: "Cineplex"
     type: tickets18
     url: "https://pd.cineplexmoderno.cineplexmoderno.it/"
+    # website: sito ufficiale del cinema (opzionale): il nome in pagina diventa un link
     enabled: true
 
   - name: "Multiastra"
