@@ -589,7 +589,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
 </head>
 <body>
 <header>
-  <h1>🎬 Cinema in programmazione</h1>
+  <h1>🎬 CinemassPD - Tutte le programmazioni, ora in un unico posto</h1>
   <p>Aggiornato il {now}. {_esc(cinemas_note)}</p>
   {sources_bar}
   {flags_bar}
