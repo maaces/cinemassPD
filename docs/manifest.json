@@ -1,0 +1,26 @@
+{
+  "id": "/cinemassPD/",
+  "name": "cinemassPD - Cinema in programmazione a Padova",
+  "short_name": "cmPD",
+  "description": "Programmazioni dei cinema di Padova in un unico posto.",
+  "lang": "it",
+  "start_url": "/cinemassPD/",
+  "scope": "/cinemassPD/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a02a13",
+  "icons": [
+    {
+      "src": "/cinemassPD/web-app-manifest-192x192.png?v=20261012",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/cinemassPD/web-app-manifest-512x512.png?v=20261012",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

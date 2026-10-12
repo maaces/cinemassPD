@@ -462,7 +462,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     source_values = list(seen_cinemas)
     if custom_events:
         source_values.append(CUSTOM_SOURCE)
-    sources_bar = _filter_bar("filter-sources", "Cinema", source_values, "source")
+    sources_bar = _filter_bar("filter-sources", "🎥 Cinema", source_values, "source")
     # barra dei film: un chip per titolo con almeno una proiezione, in ordine alfabetico
     movie_titles = sorted({j["title"] for j in json_movies}, key=lambda t: t.lower())
     movies_bar = _filter_bar("filter-movies", "Film", movie_titles, "movie")
@@ -476,7 +476,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     sources_bar = sources_bar.replace(
         f'data-source="{CUSTOM_SOURCE}">{_esc(CUSTOM_SOURCE)}<', f'data-source="{CUSTOM_SOURCE}">📌 Eventi personali<'
     )
-    flags_bar = _filter_bar("filter-flags", "Flag eventi", seen_flags, "flag")
+    flags_bar = _filter_bar("filter-flags", "🍿 Eventi", seen_flags, "flag")
 
     now = dt.datetime.now(ZoneInfo("Europe/Rome")).strftime("%d/%m/%Y alle %H:%M")
     html_doc = f"""<!DOCTYPE html>
@@ -489,7 +489,9 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
 <link rel="shortcut icon" href="/cinemassPD/favicon.ico?v=20261012" />
 <link rel="apple-touch-icon" sizes="180x180" href="/cinemassPD/apple-touch-icon.png?v=20261012" />
 <meta name="apple-mobile-web-app-title" content="cinemassPD" />
-<link rel="manifest" href="/cinemassPD/site.webmanifest?v=20261012" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#a02a13" />
+<link rel="manifest" href="/cinemassPD/manifest.json?v=20261012" />
 <title>CinemassPD</title>
 <style>
   :root {{
@@ -599,6 +601,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
 <footer>Generato automaticamente · dati raccolti dai siti dei singoli cinema · <a href="debug/report.txt">diagnostica</a></footer>
 {FILTER_JS}
 {CARD_ZOOM_JS}
+<script>if ('serviceWorker' in navigator) {{ navigator.serviceWorker.register('/cinemassPD/sw.js').catch(function () {{}}); }}</script>
 </body>
 </html>"""
 
