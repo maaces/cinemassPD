@@ -484,7 +484,13 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Cinema in programmazione</title>
+<link rel="icon" type="image/png" href="/cinemassPD/favicon-96x96.png?v=20261012" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/cinemassPD/favicon.svg?v=20261012" />
+<link rel="shortcut icon" href="/cinemassPD/favicon.ico?v=20261012" />
+<link rel="apple-touch-icon" sizes="180x180" href="/cinemassPD/apple-touch-icon.png?v=20261012" />
+<meta name="apple-mobile-web-app-title" content="cinemassPD" />
+<link rel="manifest" href="/cinemassPD/site.webmanifest?v=20261012" />
+<title>CinemassPD</title>
 <style>
   :root {{
     --bg: #fafafa; --fg: #1a1a1a; --card: #ffffff; --border: #e5e5e5;

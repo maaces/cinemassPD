@@ -1,0 +1,21 @@
+{
+  "name": "cinemassPD",
+  "short_name": "cmPD",
+  "icons": [
+    {
+      "src": "/cinemassPD/web-app-manifest-192x192.png?v=20261012",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/cinemassPD/web-app-manifest-512x512.png?v=20261012",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#a02a13",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
