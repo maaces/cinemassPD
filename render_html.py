@@ -462,7 +462,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     source_values = list(seen_cinemas)
     if custom_events:
         source_values.append(CUSTOM_SOURCE)
-    sources_bar = _filter_bar("filter-sources", "Cinema", source_values, "source", _cinema_websites())
+    sources_bar = _filter_bar("filter-sources", "Cinema", source_values, "source")
     # barra dei film: un chip per titolo con almeno una proiezione, in ordine alfabetico
     movie_titles = sorted({j["title"] for j in json_movies}, key=lambda t: t.lower())
     movies_bar = _filter_bar("filter-movies", "Film", movie_titles, "movie")
