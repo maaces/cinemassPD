@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:1831591438327654580@cinema-scraper.local
-DTSTAMP:20261012T004353Z
-DTSTART:20261013T184500Z
-DTEND:20261013T204500Z
-SUMMARY:Il Dottor Stranamore 4K
-LOCATION:Porto Astra
-DESCRIPTION:V.O.S\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:2430061542582791861@cinema-scraper.local
+DTSTAMP:20261012T004523Z
+DTSTART:20261013T184500Z
+DTEND:20261013T204500Z
+SUMMARY:Il Dottor Stranamore 4K
+LOCATION:Porto Astra
+DESCRIPTION:V.O.S\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR

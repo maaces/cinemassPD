@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:8412683029876592305@cinema-scraper.local
-DTSTAMP:20261012T004353Z
-DTSTART:20261108T170000Z
-DTEND:20261108T192400Z
-SUMMARY:The conversation - Francis Ford Coppola
-LOCATION:Fronte del Porto Padova
-DESCRIPTION:€6\,50 intero\, €5\,00 ridotto\nhttps://www.frontedelportopadova.it/eventi/the-conversation/
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1639320575136141321@cinema-scraper.local
+DTSTAMP:20261012T004523Z
+DTSTART:20261108T170000Z
+DTEND:20261108T192400Z
+SUMMARY:The conversation - Francis Ford Coppola
+LOCATION:Fronte del Porto Padova
+DESCRIPTION:€6\,50 intero\, €5\,00 ridotto\nhttps://www.frontedelportopadova.it/eventi/the-conversation/
+END:VEVENT
+END:VCALENDAR
