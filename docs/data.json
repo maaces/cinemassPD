@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:45:24.015062",
+  "generated_at": "2026-10-12T00:47:17.639919",
   "movies": [
     {
       "title": "AVENGERS: DOOMSDAY",
@@ -2612,6 +2612,14 @@
         },
         {
           "date": "2026-10-12",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "22:25",
           "cinema": "The Space Cinema (Limena)",
           "price": "da 9,99 €",
@@ -2753,6 +2761,14 @@
         },
         {
           "date": "2026-10-13",
+          "time": "18:20",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "21:50",
           "cinema": "The Space Cinema (Limena)",
           "price": "da 9,99 €",
@@ -2781,6 +2797,14 @@
           "cinema": "The Space Cinema (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -2935,6 +2959,22 @@
           "cinema": "Piccolo Teatro (cinema)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "09:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "09:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
           "date_uncertain": false
         }
       ]
@@ -4195,98 +4235,14 @@
       ]
     },
     {
-      "title": "Calle Malaga",
-      "director": "Maryam Touzani",
-      "duration_min": 116,
-      "poster_url": "https://www.esperiapadova.it/data/img/859/locandina.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1399462",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=859",
-      "showtimes": [
-        {
-          "date": "2026-10-13",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "La Terra del Fuoco",
-      "director": "Hana Jusic",
-      "duration_min": 90,
-      "poster_url": "https://www.esperiapadova.it/data/img/851/laterradelfuoco.jfif",
-      "trailer_url": "https://www.youtube.com/watch?v=oYC-d_xiD6U",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20Terra%20del%20Fuoco%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20terra%20del%20fuoco/",
-      "tmdb_url": "https://www.themoviedb.org/movie/256257",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=851",
-      "showtimes": [
-        {
-          "date": "2026-10-14",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Noi due sconosciuti",
-      "director": "Janicke Askevold",
-      "duration_min": 99,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/noi-sconosciuti.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=g33GrfTJB3Y",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Noi%20due%20sconosciuti%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/noi%20due%20sconosciuti/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1471537",
-      "detail_url": "https://www.piccolo-padova.it/noi-due-sconosciuti/",
-      "showtimes": [
-        {
-          "date": "2026-10-21",
-          "time": "21:00",
-          "cinema": "Piccolo Teatro (cinema)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Yellows letters",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/yellows.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Yellows%20letters%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/yellows%20letters/",
-      "tmdb_url": null,
-      "detail_url": "https://www.piccolo-padova.it/yellows-letters/",
-      "showtimes": [
-        {
-          "date": "2026-10-28",
-          "time": "21:00",
-          "cinema": "Piccolo Teatro (cinema)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Mammina",
-      "director": null,
+      "director": "Rob Savage",
       "duration_min": 93,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/ir1esRZZk49yKaLAVQd2FgvLxLf.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=z8ffzHPyHko",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Mammina%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/mammina/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1400837",
       "detail_url": "https://www.thespacecinema.it/film/mammina",
       "showtimes": [
         {
@@ -4453,13 +4409,13 @@
     },
     {
       "title": "The Bibi Files",
-      "director": null,
+      "director": "Alexis Bloom",
       "duration_min": 83,
-      "poster_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/aZTt7g857dGU9YUIIMHd5yNSKnY.jpg",
       "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Bibi%20Files%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20bibi%20files/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1353263",
       "detail_url": "https://www.thespacecinema.it/film/the-bibi-files",
       "showtimes": [
         {
@@ -4490,13 +4446,13 @@
     },
     {
       "title": "Beast",
-      "director": null,
+      "director": "David Ayer",
       "duration_min": 113,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/yiqRtrbY63aSPLinH5IsJwKHzZN.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Beast%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/beast/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://www.thespacecinema.it/film/beast",
       "showtimes": [
         {
@@ -4527,13 +4483,13 @@
     },
     {
       "title": "Il Diavolo Veste Prada 2",
-      "director": null,
+      "director": "David Frankel",
       "duration_min": 120,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/6rvfeLdpAz5KsvHi7RtFSQCdk2q.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=zbjennafkiM",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Diavolo%20Veste%20Prada%202%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20diavolo%20veste%20prada%202/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1314481",
       "detail_url": "https://www.thespacecinema.it/film/il-diavolo-veste-prada-2",
       "showtimes": [
         {
@@ -4548,13 +4504,13 @@
     },
     {
       "title": "Always Lalisa",
-      "director": null,
+      "director": "Sue Kim",
       "duration_min": 98,
-      "poster_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/pOZnrUX1UMblLiqq9ZtZUde3cQV.jpg",
       "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Always%20Lalisa%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/always%20lalisa/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1489932",
       "detail_url": "https://www.thespacecinema.it/film/always-lalisa-lingua-originale",
       "showtimes": [
         {
@@ -4617,13 +4573,13 @@
     },
     {
       "title": "Essi Vivono",
-      "director": null,
+      "director": "John Carpenter",
       "duration_min": 95,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qZEuNUlUWzzaVpSgnHDtxYZJH7g.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HMemQcPq4aQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Essi%20Vivono%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/essi%20vivono/",
+      "tmdb_url": "https://www.themoviedb.org/movie/8337",
       "detail_url": "https://www.thespacecinema.it/film/essi-vivono",
       "showtimes": [
         {
@@ -4654,13 +4610,13 @@
     },
     {
       "title": "Il Dottor Stranamore",
-      "director": null,
+      "director": "Stanley Kubrick",
       "duration_min": 94,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/9VrxpHVS5zjcWKauMNEDyehsV9w.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=CNdcgqq2NZg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Dottor%20Stranamore%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20dottor%20stranamore/",
+      "tmdb_url": "https://www.themoviedb.org/movie/935",
       "detail_url": "https://www.thespacecinema.it/film/il-dottor-stranamore",
       "showtimes": [
         {
@@ -4691,13 +4647,13 @@
     },
     {
       "title": "Je So' Pazzo",
-      "director": null,
+      "director": "Nicola Prosatore",
       "duration_min": 104,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/impo3YqfZZbJUI3woorG0OYV3XI.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=aNUOePESaek",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Je%20So%27%20Pazzo%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/je%20so%27%20pazzo/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1438966",
       "detail_url": "https://www.thespacecinema.it/film/je-so-pazzo",
       "showtimes": [
         {
@@ -4740,8 +4696,8 @@
       "duration_min": 85,
       "poster_url": null,
       "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Carlo%20Acutis%20-%20Il%20Giovane%20Santo%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/carlo%20acutis%20-%20il%20giovane%20santo/",
       "tmdb_url": null,
       "detail_url": "https://www.thespacecinema.it/film/carlo-acutis-il-giovane-santo",
       "showtimes": [
@@ -4781,13 +4737,13 @@
     },
     {
       "title": "Primetime",
-      "director": null,
+      "director": "Lance Oppenheim",
       "duration_min": 110,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/sqArsDFYFryd5iKuoxLvr4y5NZv.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=wCDh_IhYz6Y",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Primetime%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/primetime/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1375441",
       "detail_url": "https://www.thespacecinema.it/film/primetime",
       "showtimes": [
         {
@@ -4866,13 +4822,13 @@
     },
     {
       "title": "Street Fighter",
-      "director": null,
+      "director": "Kitao Sakurai",
       "duration_min": 125,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=yO7xhQ6VKak",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Street%20Fighter%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/street%20fighter/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1153576",
       "detail_url": "https://www.thespacecinema.it/film/street-fighter",
       "showtimes": [
         {
@@ -4911,13 +4867,13 @@
     },
     {
       "title": "Whalefall - Nella Balena",
-      "director": null,
+      "director": "Brian Duffield",
       "duration_min": 98,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/auhdhcoWhQzMovY2pa71BTgDAa7.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=pkZgSRpRjBM",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Whalefall%20-%20Nella%20Balena%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/whalefall%20-%20nella%20balena/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1255833",
       "detail_url": "https://www.thespacecinema.it/film/whalefall-nella-balena",
       "showtimes": [
         {
@@ -4956,13 +4912,13 @@
     },
     {
       "title": "L'Ultima Missione: Project Hail Mary",
-      "director": null,
+      "director": "Phil Lord, Christopher Miller",
       "duration_min": 156,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/gPC1X3mwqwX50Ye3qwwPt7iW3Ma.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=i6duonsTFFc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27Ultima%20Missione%3A%20Project%20Hail%20Mary%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27ultima%20missione%3A%20project%20hail%20mary/",
+      "tmdb_url": "https://www.themoviedb.org/movie/687163",
       "detail_url": "https://www.thespacecinema.it/film/l-ultima-missione-project-hail-mary",
       "showtimes": [
         {
@@ -4977,13 +4933,13 @@
     },
     {
       "title": "Super Mario Galaxy - Il Film",
-      "director": null,
+      "director": "Michael Jelenic, Aaron Horvath",
       "duration_min": 98,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/3OfIG4QIEkumrWQXrcCq8bUlv01.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9BqzYJ1rHbw",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Super%20Mario%20Galaxy%20-%20Il%20Film%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/super%20mario%20galaxy%20-%20il%20film/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1226863",
       "detail_url": "https://www.thespacecinema.it/film/super-mario-galaxy-il-film",
       "showtimes": [
         {
@@ -4992,6 +4948,232 @@
           "cinema": "The Space Cinema (Limena)",
           "price": "da 3,99 €",
           "note": "Cinemapark · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Calle Malaga",
+      "director": "Maryam Touzani",
+      "duration_min": 116,
+      "poster_url": "https://www.esperiapadova.it/data/img/859/locandina.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1399462",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=calle_malaga",
+      "showtimes": [
+        {
+          "date": "2026-10-13",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Father Mother Sister Brother",
+      "director": "Jim Jarmusch",
+      "duration_min": 110,
+      "poster_url": "https://image.tmdb.org/t/p/w500/elPU6bjZvsDhpzpwctjHykNozg1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=0dR-l5wsvx0",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Father%20Mother%20Sister%20Brother%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/father%20mother%20sister%20brother/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1159206",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=father_mother_sister_brother",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "20:30",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Into the Wild - Nelle terre selvagge",
+      "director": "Sean Penn",
+      "duration_min": 148,
+      "poster_url": "https://image.tmdb.org/t/p/w500/7X8vXr22itEk3JidSLC0mr8Gy8p.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=LcHUVetO9-A",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Into%20the%20Wild%20-%20Nelle%20terre%20selvagge%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/into%20the%20wild%20-%20nelle%20terre%20selvagge/",
+      "tmdb_url": "https://www.themoviedb.org/movie/5915",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=into_the_wild___nelle_terre_selvagge",
+      "showtimes": [
+        {
+          "date": "2026-10-13",
+          "time": "20:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Kripton",
+      "director": "Francesco Munzi",
+      "duration_min": 107,
+      "poster_url": "https://image.tmdb.org/t/p/w500/77uGTSoDM5Do4Ic2gKIpzYGV4d4.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Kripton%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/kripton/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1192919",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=kripton",
+      "showtimes": [
+        {
+          "date": "2026-11-11",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "M - Il mostro di Düsseldorf",
+      "director": "Fritz Lang",
+      "duration_min": 118,
+      "poster_url": "https://image.tmdb.org/t/p/w500/9tzahfmcb8GyYtqOMSSfTr9Lium.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=fXQogot9opg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=M%20-%20Il%20mostro%20di%20D%C3%BCsseldorf%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/m%20-%20il%20mostro%20di%20d%C3%BCsseldorf/",
+      "tmdb_url": "https://www.themoviedb.org/movie/832",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=m___il_mostro_di_düsseldorf",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Palazzina LAF",
+      "director": "Michele Riondino",
+      "duration_min": 99,
+      "poster_url": "https://image.tmdb.org/t/p/w500/2bZQIrBVrenGge1hyAjBfPBfotv.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xFoZSerreFI",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Palazzina%20LAF%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/palazzina%20laf/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1037052",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=palazzina_laf",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "PERFECT DAYS",
+      "director": "Wim Wenders",
+      "duration_min": 124,
+      "poster_url": "https://image.tmdb.org/t/p/w500/vRLicecIah55HKQkmXpkpD5KuPq.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=vj__7LO2cdc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=PERFECT%20DAYS%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/perfect%20days/",
+      "tmdb_url": "https://www.themoviedb.org/movie/976893",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=perfect_days",
+      "showtimes": [
+        {
+          "date": "2026-10-14",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Ingresso libero",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "La Terra del Fuoco",
+      "director": "Hana Jusic",
+      "duration_min": 90,
+      "poster_url": "https://www.esperiapadova.it/data/img/851/laterradelfuoco.jfif",
+      "trailer_url": "https://www.youtube.com/watch?v=oYC-d_xiD6U",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20Terra%20del%20Fuoco%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20terra%20del%20fuoco/",
+      "tmdb_url": "https://www.themoviedb.org/movie/256257",
+      "detail_url": "https://www.esperiapadova.it/Post?postid=851",
+      "showtimes": [
+        {
+          "date": "2026-10-14",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Noi due sconosciuti",
+      "director": "Janicke Askevold",
+      "duration_min": 99,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/noi-sconosciuti.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=g33GrfTJB3Y",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Noi%20due%20sconosciuti%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/noi%20due%20sconosciuti/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1471537",
+      "detail_url": "https://www.piccolo-padova.it/noi-due-sconosciuti/",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Yellows letters",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/yellows.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Yellows%20letters%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/yellows%20letters/",
+      "tmdb_url": null,
+      "detail_url": "https://www.piccolo-padova.it/yellows-letters/",
+      "showtimes": [
+        {
+          "date": "2026-10-28",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro (cinema)",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]

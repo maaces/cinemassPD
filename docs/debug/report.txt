@@ -1,4 +1,4 @@
-Report generato il 12/10/2026 02:00 (ora italiana)
+Report generato il 12/10/2026 02:46 (ora italiana)
 ============================================================
 
 ## Cineplex
@@ -43,18 +43,15 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto-padova
 
 ## The Space Cinema (Limena)
 URL: https://www.thespacecinema.it/cinema/limena/al-cinema
-STATO: aggiornato in locale (run_space_only.py), 0 orari salvati
+STATO: aggiornato in locale (run_space_only.py), 185 orari salvati
 
 ## Cinema Rex
 URL: https://www.cinemarex.it/
 Scraper: cinema_rex
-Film trovati: 0
-Orari trovati: 0 (di cui con data non riconosciuta: 0)
-Errore: TimeoutError: Page.goto: Timeout 60000ms exceeded.
-Call log:
-  - navigating to "https://www.cinemarex.it/", waiting until "domcontentloaded"
-
-HTML ripulito: non disponibile
+Film trovati: 10
+Orari trovati: 13 (di cui con data non riconosciuta: 0)
+Errore: nessuno
+HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
 
 ## Cinema Esperia
 URL: https://www.esperiapadova.it/Blog?category=1
