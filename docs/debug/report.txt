@@ -1,11 +1,11 @@
-Report generato il 12/10/2026 02:46 (ora italiana)
+Report generato il 12/10/2026 23:23 (ora italiana)
 ============================================================
 
 ## Cineplex
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
 Film trovati: 20
-Orari trovati: 199 (di cui con data non riconosciuta: 0)
+Orari trovati: 174 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex.txt
 
@@ -13,15 +13,15 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex.txt
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
 Film trovati: 9
-Orari trovati: 18 (di cui con data non riconosciuta: 0)
+Orari trovati: 15 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
 ## Porto Astra
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
-Film trovati: 16
-Orari trovati: 79 (di cui con data non riconosciuta: 0)
+Film trovati: 14
+Orari trovati: 51 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
@@ -48,8 +48,8 @@ STATO: aggiornato in locale (run_space_only.py), 185 orari salvati
 ## Cinema Rex
 URL: https://www.cinemarex.it/
 Scraper: cinema_rex
-Film trovati: 10
-Orari trovati: 13 (di cui con data non riconosciuta: 0)
+Film trovati: 8
+Orari trovati: 11 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
 
@@ -65,6 +65,6 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-esperia.txt
 URL: https://www.piccolo-padova.it/
 Scraper: piccolo
 Film trovati: 4
-Orari trovati: 7 (di cui con data non riconosciuta: 0)
+Orari trovati: 5 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/piccolo-teatro-cinema.txt, https://maaces.github.io/cinemassPD/debug/piccolo-teatro-cinema-2.txt

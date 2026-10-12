@@ -933,43 +933,6 @@
    ]
   },
   {
-   "titolo": "M - Il mostro di Düsseldorf",
-   "autore": "Fritz Lang",
-   "durata": "118",
-   "descrizione": "Nel 1931 Fritz Lang gira M - Il mostro di Düsseldorf (suo primo film sonoro), in cui un ignoto assassino violenta e uccide numerose bambine senza lasciare alcuna traccia. Nella città viene organizzata una fitta rete di ricerche a cui partecipano anche i mendicanti e i criminali. Così si scopre il primo indizio: l'assassino quando avvicina le vittime fischietta un macabro motivo, tratto dal Peer Gynt di Grieg. Presto il mostro viene individuato da un venditore di palloncini che riesce con un gesso a segnargli sulle spalle una grande M (che sta per Morder, assassino).",
-   "categoria_film": "y",
-   "categoria_teatro": "n",
-   "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
-   "categoria_vos": "n",
-   "categoria_cineforum": "n",
-   "eventi": [
-    {
-     "id_orario_evento": "3120",
-     "inizio": 1791824400000,
-     "id_cinebot": "1319",
-     "tipo_prezzo_1": "Intero",
-     "valore_prezzo_1": "7",
-     "valore_prevendita_1": "0.5",
-     "tipo_prezzo_2": "Ridotto generico",
-     "valore_prezzo_2": "5",
-     "valore_prevendita_2": "0.5",
-     "tipo_prezzo_3": "",
-     "valore_prezzo_3": "0",
-     "valore_prevendita_3": "0",
-     "tipo_prezzo_4": "",
-     "valore_prezzo_4": "0",
-     "valore_prevendita_4": "0",
-     "tipo_prezzo_5": "",
-     "valore_prezzo_5": "0",
-     "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
-     "cast": "n"
-    }
-   ]
-  },
-  {
    "titolo": "Maladie d'amour",
    "autore": "Teatro Armathan",
    "durata": "90",
@@ -1283,43 +1246,6 @@
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
      "fl_film_vos": "n",
-     "cast": "n"
-    }
-   ]
-  },
-  {
-   "titolo": "Resident Evil",
-   "autore": "Zach Cregger",
-   "durata": "95",
-   "descrizione": "Bryan, un corriere medico, si ritrova involontariamente coinvolto in una frenetica sfida contro il tempo per sopravvivere, mentre una notte sconvolgente e orribile sprofonda nel caos intorno a lui.",
-   "categoria_film": "y",
-   "categoria_teatro": "n",
-   "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
-   "categoria_vos": "n",
-   "categoria_cineforum": "n",
-   "eventi": [
-    {
-     "id_orario_evento": "3119",
-     "inizio": 1791831600000,
-     "id_cinebot": "1316",
-     "tipo_prezzo_1": "Intero",
-     "valore_prezzo_1": "7",
-     "valore_prevendita_1": "0.5",
-     "tipo_prezzo_2": "Ridotto generico",
-     "valore_prezzo_2": "5",
-     "valore_prevendita_2": "0.5",
-     "tipo_prezzo_3": "",
-     "valore_prezzo_3": "0",
-     "valore_prevendita_3": "0",
-     "tipo_prezzo_4": "",
-     "valore_prezzo_4": "0",
-     "valore_prevendita_4": "0",
-     "tipo_prezzo_5": "",
-     "valore_prezzo_5": "0",
-     "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
      "cast": "n"
     }
    ]
