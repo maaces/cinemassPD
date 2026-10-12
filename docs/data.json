@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:28:01.541735",
+  "generated_at": "2026-10-12T02:31:48.605585",
   "movies": [
     {
       "title": "AVENGERS: DOOMSDAY",
@@ -1002,6 +1002,14 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "14:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "16:55",
           "cinema": "Porto Astra",
           "price": null,
@@ -1014,6 +1022,14 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "18:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1033,6 +1049,30 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-12",
+          "time": "21:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "14:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "15:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-13",
           "time": "16:55",
           "cinema": "Porto Astra",
@@ -1046,6 +1086,14 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1065,6 +1113,22 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-13",
+          "time": "21:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "16:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-14",
           "time": "16:55",
           "cinema": "Porto Astra",
@@ -1078,6 +1142,14 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1094,6 +1166,14 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1313,6 +1393,14 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "16:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:20",
           "cinema": "Porto Astra",
           "price": null,
@@ -1328,6 +1416,30 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-12",
+          "time": "22:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-13",
           "time": "17:20",
           "cinema": "Porto Astra",
@@ -1337,10 +1449,34 @@
         },
         {
           "date": "2026-10-13",
+          "time": "19:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "20:00",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "22:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "15:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1358,6 +1494,14 @@
           "price": null,
           "note": null,
           "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "23:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
         }
       ]
     },
@@ -1372,6 +1516,14 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1248832",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144804",
       "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "15:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
         {
           "date": "2026-10-12",
           "time": "17:15",
@@ -1406,10 +1558,26 @@
         },
         {
           "date": "2026-10-12",
+          "time": "21:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "22:10",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "15:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1438,6 +1606,14 @@
         },
         {
           "date": "2026-10-13",
+          "time": "20:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "21:00",
           "cinema": "Cineplex",
           "price": null,
@@ -1454,6 +1630,14 @@
         },
         {
           "date": "2026-10-14",
+          "time": "15:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
           "time": "17:15",
           "cinema": "Multiastra",
           "price": null,
@@ -1462,10 +1646,26 @@
         },
         {
           "date": "2026-10-14",
+          "time": "20:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
           "time": "21:00",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         },
         {
@@ -1491,10 +1691,42 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "15:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "21:10",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "21:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · INFINITY VISION · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "15:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · INFINITY VISION · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · INFINITY VISION · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1503,6 +1735,30 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · INFINITY VISION · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · INFINITY VISION · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "20:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Back On The Big Screen · INFINITY VISION · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1528,6 +1784,14 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "17:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:20",
           "cinema": "Cineplex",
           "price": null,
@@ -1544,10 +1808,34 @@
         },
         {
           "date": "2026-10-12",
+          "time": "18:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "19:45",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "15:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
           "date_uncertain": false
         },
         {
@@ -1572,6 +1860,22 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "15:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
           "date_uncertain": false
         },
         {
@@ -1613,6 +1917,22 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "14:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "16:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:00",
           "cinema": "Porto Astra",
           "price": null,
@@ -1621,10 +1941,26 @@
         },
         {
           "date": "2026-10-12",
+          "time": "18:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "18:50",
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "19:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1653,10 +1989,34 @@
         },
         {
           "date": "2026-10-12",
+          "time": "20:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "22:00",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "22:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "14:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1677,10 +2037,34 @@
         },
         {
           "date": "2026-10-13",
+          "time": "17:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "18:50",
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1701,10 +2085,42 @@
         },
         {
           "date": "2026-10-13",
+          "time": "20:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "22:00",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "15:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1725,10 +2141,26 @@
         },
         {
           "date": "2026-10-14",
+          "time": "18:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
           "time": "18:50",
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1745,6 +2177,14 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "20:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1778,6 +2218,14 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "15:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:15",
           "cinema": "Cineplex",
           "price": null,
@@ -1794,10 +2242,34 @@
         },
         {
           "date": "2026-10-12",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "22:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "22:30",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         },
         {
@@ -1818,10 +2290,42 @@
         },
         {
           "date": "2026-10-13",
+          "time": "20:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "22:30",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "22:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "15:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1850,10 +2354,26 @@
         },
         {
           "date": "2026-10-14",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
           "time": "22:30",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "22:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         }
       ]
@@ -1871,10 +2391,34 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "15:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "17:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:15",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "18:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1895,6 +2439,14 @@
         },
         {
           "date": "2026-10-12",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "21:45",
           "cinema": "Cineplex",
           "price": null,
@@ -1903,10 +2455,34 @@
         },
         {
           "date": "2026-10-13",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "17:15",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1919,6 +2495,14 @@
         },
         {
           "date": "2026-10-13",
+          "time": "21:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "21:45",
           "cinema": "Cineplex",
           "price": null,
@@ -1927,10 +2511,26 @@
         },
         {
           "date": "2026-10-14",
+          "time": "14:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
           "time": "17:15",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1947,6 +2547,14 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -1980,6 +2588,38 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "14:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "16:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "19:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "22:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "22:30",
           "cinema": "Cineplex",
           "price": null,
@@ -1988,10 +2628,66 @@
         },
         {
           "date": "2026-10-13",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "22:30",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -2017,10 +2713,34 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "14:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:40",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "21:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "14:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -2032,11 +2752,35 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-13",
+          "time": "21:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-14",
           "time": "17:40",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         }
       ]
@@ -2054,6 +2798,14 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "14:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:45",
           "cinema": "Cineplex",
           "price": null,
@@ -2062,10 +2814,42 @@
         },
         {
           "date": "2026-10-13",
+          "time": "14:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "17:45",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "16:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
           "date_uncertain": false
         },
         {
@@ -2091,6 +2875,14 @@
       "showtimes": [
         {
           "date": "2026-10-12",
+          "time": "14:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
           "time": "17:30",
           "cinema": "Cineplex",
           "price": null,
@@ -2103,6 +2895,22 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "20:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         },
         {
@@ -2383,14 +3191,78 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Social%20-%20Il%20Prezzo%20Della%20Verit%C3%A0%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/the%20social%20-%20il%20prezzo%20della%20verit%C3%A0/",
       "tmdb_url": "https://www.themoviedb.org/movie/1281331",
-      "detail_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/the-social-il-prezzo-della-verita",
       "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "14:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "15:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "18:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "19:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
         {
           "date": "2026-10-12",
           "time": "20:30",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "21:45",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "15:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "17:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         },
         {
@@ -2402,11 +3274,51 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-13",
+          "time": "21:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "16:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:10",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-14",
           "time": "19:50",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -2473,8 +3385,24 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=Sotto%20A%20Chi%20Tocca%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/sotto%20a%20chi%20tocca/",
       "tmdb_url": "https://www.themoviedb.org/movie/1725719",
-      "detail_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/sotto-a-chi-tocca",
       "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "16:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
         {
           "date": "2026-10-12",
           "time": "17:25",
@@ -2485,10 +3413,26 @@
         },
         {
           "date": "2026-10-13",
+          "time": "16:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
           "time": "17:25",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "16:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -3330,6 +4274,724 @@
           "cinema": "Piccolo Teatro (cinema)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Mammina",
+      "director": null,
+      "duration_min": 93,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/mammina",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "16:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "17:35",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "20:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "21:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "14:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "16:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "20:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "21:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "22:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "16:40",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "17:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "20:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "20:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "21:25",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "The Bibi Files",
+      "director": null,
+      "duration_min": 83,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/the-bibi-files",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "17:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:05",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Beast",
+      "director": null,
+      "duration_min": 113,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/beast",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "20:55",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "14:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "14:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Il Diavolo Veste Prada 2",
+      "director": null,
+      "duration_min": 120,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/il-diavolo-veste-prada-2",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Strobe Fx · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Always Lalisa",
+      "director": null,
+      "duration_min": 98,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/always-lalisa-lingua-originale",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-12",
+          "time": "19:15",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "15:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "16:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "17:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Essi Vivono",
+      "director": null,
+      "duration_min": 95,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/essi-vivono",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "18:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "18:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "18:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Il Dottor Stranamore",
+      "director": null,
+      "duration_min": 94,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/il-dottor-stranamore",
+      "showtimes": [
+        {
+          "date": "2026-10-12",
+          "time": "19:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-13",
+          "time": "19:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-14",
+          "time": "19:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 11,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Je So' Pazzo",
+      "director": null,
+      "duration_min": 104,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/je-so-pazzo",
+      "showtimes": [
+        {
+          "date": "2026-10-15",
+          "time": "21:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "21:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "21:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "21:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Carlo Acutis - Il Giovane Santo",
+      "director": null,
+      "duration_min": 85,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/carlo-acutis-il-giovane-santo",
+      "showtimes": [
+        {
+          "date": "2026-10-15",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 12,99 €",
+          "note": "Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 12,99 €",
+          "note": "Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 12,99 €",
+          "note": "Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "18:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 12,99 €",
+          "note": "Extra · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Primetime",
+      "director": null,
+      "duration_min": 110,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/primetime",
+      "showtimes": [
+        {
+          "date": "2026-10-15",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-15",
+          "time": "21:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "21:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "21:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "11:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "19:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "21:50",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Street Fighter",
+      "director": null,
+      "duration_min": 125,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/street-fighter",
+      "showtimes": [
+        {
+          "date": "2026-10-15",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "22:00",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Whalefall - Nella Balena",
+      "director": null,
+      "duration_min": 98,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/whalefall-nella-balena",
+      "showtimes": [
+        {
+          "date": "2026-10-15",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-16",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-17",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "21:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L'Ultima Missione: Project Hail Mary",
+      "director": null,
+      "duration_min": 156,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/l-ultima-missione-project-hail-mary",
+      "showtimes": [
+        {
+          "date": "2026-10-18",
+          "time": "11:20",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 3,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Super Mario Galaxy - Il Film",
+      "director": null,
+      "duration_min": 98,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": null,
+      "letterboxd_url": null,
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/super-mario-galaxy-il-film",
+      "showtimes": [
+        {
+          "date": "2026-10-18",
+          "time": "10:30",
+          "cinema": "The Space Cinema (Limena)",
+          "price": "da 3,99 €",
+          "note": "Cinemapark · Proiezione LASER",
           "date_uncertain": false
         }
       ]
