@@ -252,18 +252,39 @@ FILTER_JS = """
   var movieGroup = setupGroup('filter-movies', 'movie', null);
   var flagGroup = setupGroup('filter-flags', 'flag', null);
 
+  // bottone "Seleziona film": mostra/nasconde il pannello con i chip dei film
+  var moviesToggle = document.getElementById('movies-toggle');
+  var moviesPanel = document.getElementById('movies-panel');
+  function updateMoviesToggle() {
+    if (!moviesToggle || !moviesPanel) return;
+    var n = movieGroup ? movieGroup.selected().length : 0;
+    moviesToggle.textContent = '🎞️ Seleziona film' + (n ? ' (' + n + ')' : '') + (moviesPanel.hidden ? ' ▾' : ' ▴');
+    moviesToggle.classList.toggle('active', n > 0);
+    moviesToggle.setAttribute('aria-expanded', moviesPanel.hidden ? 'false' : 'true');
+  }
+  if (moviesToggle && moviesPanel) {
+    moviesToggle.addEventListener('click', function () {
+      moviesPanel.hidden = !moviesPanel.hidden;
+      updateMoviesToggle();
+    });
+    updateMoviesToggle();
+  }
+
   window.applyFilters = function () {
     var sel = sourceGroup ? sourceGroup.selected() : [];
     var moviesSel = movieGroup ? movieGroup.selected() : [];
     var flagsSel = flagGroup ? flagGroup.selected() : [];
+    updateMoviesToggle();
 
     document.querySelectorAll('.mini-card').forEach(function (card) {
       var src = card.getAttribute('data-source');
       var okSource = sel.length === 0 || sel.indexOf(src) !== -1;
 
+      // con almeno un film selezionato si vedono solo quei film: gli eventi (senza data-movie) spariscono
       var okMovie = true;
-      if (moviesSel.length > 0 && card.hasAttribute('data-movie')) {
-        okMovie = moviesSel.indexOf(card.getAttribute('data-movie')) !== -1;
+      if (moviesSel.length > 0) {
+        okMovie = card.hasAttribute('data-movie') &&
+                  moviesSel.indexOf(card.getAttribute('data-movie')) !== -1;
       }
 
       var okFlags = true;
@@ -387,6 +408,12 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     # barra dei film: un chip per titolo con almeno una proiezione, in ordine alfabetico
     movie_titles = sorted({j["title"] for j in json_movies}, key=lambda t: t.lower())
     movies_bar = _filter_bar("filter-movies", "Film", movie_titles, "movie")
+    if movies_bar:  # i chip dei film restano nascosti finche' non si preme "Seleziona film"
+        movies_bar = f"""
+    <div class="filter-bar">
+      <button class="filter-chip" id="movies-toggle" type="button" aria-expanded="false" aria-controls="movies-panel">🎞️ Seleziona film ▾</button>
+    </div>
+    <div id="movies-panel" hidden>{movies_bar}</div>"""
     # il chip degli eventi personalizzati ha un'etichetta leggibile, non "__custom__":
     sources_bar = sources_bar.replace(
         f'data-source="{CUSTOM_SOURCE}">{_esc(CUSTOM_SOURCE)}<', f'data-source="{CUSTOM_SOURCE}">📌 Eventi personali<'
@@ -425,6 +452,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     cursor: pointer;
   }}
   .filter-chip.active {{ background: var(--accent); border-color: var(--accent); color: #fff; }}
+  [hidden] {{ display: none !important; }}
   .chip-link {{ font-size: 0.8rem; color: var(--accent); text-decoration: none; padding: 0 4px 0 0; align-self: center; }}
   .mc-cinema a {{ color: var(--accent); text-decoration: none; }}
   .mc-cinema a:hover {{ text-decoration: underline; }}
@@ -467,8 +495,8 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   <h1>🎬 Cinema in programmazione</h1>
   <p>Aggiornato il {now}. {_esc(cinemas_note)}</p>
   {sources_bar}
-  {movies_bar}
   {flags_bar}
+  {movies_bar}
 </header>
 {''.join(sections) if sections else '<p>Nessun film trovato in questo aggiornamento.</p>'}
 <footer>Generato automaticamente · dati raccolti dai siti dei singoli cinema · <a href="debug/report.txt">diagnostica</a></footer>

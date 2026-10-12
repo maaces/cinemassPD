@@ -5,27 +5,31 @@ cinemas:
   - name: "Cineplex"
     type: tickets18
     url: "https://pd.cineplexmoderno.cineplexmoderno.it/"
-    # website: sito ufficiale del cinema (opzionale): il nome in pagina diventa un link
+    website: "https://pd.cineplexmoderno.cineplexmoderno.it/"
     enabled: true
 
   - name: "Multiastra"
     type: wp_remotefilm
     url: "https://multiastra.it/"
+    website: "https://multiastra.it/"
     enabled: true
 
   - name: "Porto Astra"
     type: wp_remotefilm
     url: "https://portoastra.it/"
+    website: "https://portoastra.it/"
     enabled: true
 
   - name: "Lux"
     type: movieconnection
     url: "https://www.movieconnection.it/lux/"
+    website: "https://www.movieconnection.it/lux/"
     enabled: true
 
   - name: "Fronte del Porto Padova"
     type: fronte_del_porto
     url: "https://www.frontedelportopadova.it/eventi/"
+    website: "https://www.frontedelportopadova.it/eventi/"
     enabled: true
 
   # The Space (Limena): orari caricati via JavaScript e visibili un giorno
@@ -33,6 +37,7 @@ cinemas:
   - name: "The Space Cinema (Limena)"
     type: space_cinema
     url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
+    website: "https://www.thespacecinema.it/cinema/limena/al-cinema"
     # local_only: aggiornato a mano dal PC con run_space_only.py. I workflow in cloud
     # non lo scaricano e riprendono gli orari gia' salvati, cosi' non vengono cancellati.
     local_only: true
@@ -45,6 +50,7 @@ cinemas:
   - name: "Cinema Rex"
     type: cinema_rex
     url: "https://www.cinemarex.it/"
+    website: "https://www.cinemarex.it/"
     enabled: true
 
   # Cinema Esperia: blog a schede in HTML statico, date e orari scritti a mano
@@ -52,6 +58,7 @@ cinemas:
   - name: "Cinema Esperia"
     type: esperia
     url: "https://www.esperiapadova.it/Blog?category=1"
+    website: "https://www.esperiapadova.it/"
     enabled: true
 
   # Piccolo Teatro: WordPress; tiene SOLO gli articoli di categoria "cinema"
@@ -59,6 +66,7 @@ cinemas:
   - name: "Piccolo Teatro (cinema)"
     type: piccolo
     url: "https://www.piccolo-padova.it/"
+    website: "https://www.piccolo-padova.it/"
     enabled: true
 
 # Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/
