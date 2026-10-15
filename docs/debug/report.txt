@@ -1,27 +1,27 @@
-Report generato il 14/10/2026 19:30 (ora italiana)
+Report generato il 15/10/2026 19:17 (ora italiana)
 ============================================================
 
 ## Cineplex
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 25
-Orari trovati: 325 (di cui con data non riconosciuta: 0)
+Film trovati: 24
+Orari trovati: 352 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 11
-Orari trovati: 50 (di cui con data non riconosciuta: 0)
+Film trovati: 8
+Orari trovati: 44 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
 ## Porto Astra
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
-Film trovati: 20
-Orari trovati: 171 (di cui con data non riconosciuta: 0)
+Film trovati: 13
+Orari trovati: 144 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
@@ -36,20 +36,20 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
 ## Fronte del Porto Padova
 URL: https://www.frontedelportopadova.it/eventi/
 Scraper: fronte_del_porto
-Film trovati: 28
-Orari trovati: 33 (di cui con data non riconosciuta: 0)
+Film trovati: 30
+Orari trovati: 34 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto-padova.txt
 
 ## The Space Cinema (Limena)
 URL: https://www.thespacecinema.it/cinema/limena/al-cinema
-STATO: aggiornato in locale (run_space_only.py), 81 orari salvati
+STATO: aggiornato in locale (run_space_only.py), 30 orari salvati
 
 ## Cinema Rex
 URL: https://www.cinemarex.it/
 Scraper: cinema_rex
 Film trovati: 12
-Orari trovati: 19 (di cui con data non riconosciuta: 0)
+Orari trovati: 18 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
 

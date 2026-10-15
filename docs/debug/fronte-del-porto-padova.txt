@@ -327,7 +327,7 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            DOMANI
+            OGGI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -434,7 +434,7 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            VENERDì, 16 OTTOBRE 2026
+            DOMANI
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
@@ -793,6 +793,59 @@
               </span>
              </a>
             </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/il-sangue-verde/'">
+              <div class="evento-card-new-immagine">
+               <img alt="Il Sangue Verde" class="attachment-large size-large wp-post-image" decoding="async" height="462" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/33-1.jpg" width="600"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  Il sangue verde
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Documentario, Italia, 2010, 57'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+                <span class="categoria-label-prog">
+                 Talk
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 20:30
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  6,50€ intero, 5€ ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+            </div>
            </div>
           </div>
           <div class="programmazione-data-gruppo">
@@ -1027,7 +1080,7 @@
               <div class="evento-card-new-right-column">
                <div class="evento-card-ora-grouped">
                 <span class="evento-card-new-ora">
-                 H 10:00
+                 H 11:00
                 </span>
                </div>
                <div class="evento-card-new-prenota">
@@ -1475,6 +1528,66 @@
             SABATO, 7 NOVEMBRE 2026
            </h2>
            <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/un-semplice-incidente-2/'">
+              <div class="evento-card-new-immagine">
+               <img alt="Un semplice incidente di Jafar Panahi - rassegna cinema in VOS Fronte del Porto Padova" class="attachment-large size-large wp-post-image" decoding="async" height="1024" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/01/Un-semplice-incidente-quando-e-dove-vedere-in-streaming-il-film-di-Jafar-Panahi^-e1769874409347-1022x1024.webp" width="1022"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  Un semplice incidente
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Finzione, Iran, Francia, Lux, 2025, 105'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 16:30
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://docs.google.com/forms/d/e/1FAIpQLSe1CWHgbgEVCDNBfXX6Vk44gUQ8rMIPlpJMaOgzE7Dj2lqEpg/viewform" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  Ingresso Cineforum CIF
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Cineforum CIF
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
             <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/'">
               <div class="evento-card-new-immagine">
@@ -2355,6 +2468,73 @@
                Scopri di più sulla rassegna
                <strong>
                 Questioni di classe?
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo">
+           <h2 class="programmazione-data-titolo">
+            SABATO, 19 DICEMBRE 2026
+           </h2>
+           <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/lestate-di-cle0/'">
+              <div class="evento-card-new-immagine">
+               <img alt="L'estate di Cleo" class="attachment-large size-large wp-post-image" decoding="async" height="540" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/AH_lestatedicleo_foto_4-1024x540.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  L’estate di Cléo
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Finzione, Francia, 2023, 84'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 16:30
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://docs.google.com/forms/d/e/1FAIpQLSe1CWHgbgEVCDNBfXX6Vk44gUQ8rMIPlpJMaOgzE7Dj2lqEpg/viewform" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  ingresso cineforum CIF
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                Cineforum CIF
                </strong>
               </span>
               <span class="evento-rassegna-arrow">
