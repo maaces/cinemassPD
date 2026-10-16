@@ -149,43 +149,6 @@
    ]
   },
   {
-   "titolo": "Coyote vs. Acme",
-   "autore": "Dave Green",
-   "durata": "98",
-   "descrizione": "Dopo che ogni prodotto realizzato dalla Acme Corporation gli si è ritorto contro nella sua infinita ricerca di catturare Beep Beep, Willy il Coyote assume Kevin Avery, uno squattrinato avvocato umano da cartelloni pubblicitari, per rappresentarlo nella sua causa legale contro la compagnia. Una crescente amicizia tra Willy e il giovane legale motiva la loro determinazione a vincere la causa in tribunale, che li mette contro Buddy Crane, l'intimidatorio capo dell'ex studio legale di Kevin, che ora rappresenta Acme.",
-   "categoria_film": "y",
-   "categoria_teatro": "n",
-   "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "y",
-   "categoria_vos": "n",
-   "categoria_cineforum": "n",
-   "eventi": [
-    {
-     "id_orario_evento": "3118",
-     "inizio": 1792089900000,
-     "id_cinebot": "1317",
-     "tipo_prezzo_1": "Intero",
-     "valore_prezzo_1": "7",
-     "valore_prevendita_1": "0.5",
-     "tipo_prezzo_2": "Ridotto generico",
-     "valore_prezzo_2": "5",
-     "valore_prevendita_2": "0.5",
-     "tipo_prezzo_3": "",
-     "valore_prezzo_3": "0",
-     "valore_prevendita_3": "0",
-     "tipo_prezzo_4": "",
-     "valore_prezzo_4": "0",
-     "valore_prevendita_4": "0",
-     "tipo_prezzo_5": "",
-     "valore_prezzo_5": "0",
-     "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
-     "cast": "n"
-    }
-   ]
-  },
-  {
    "titolo": "Enrichetta dal ciuffo",
    "autore": "Teatro per davvero",
    "durata": "60",
@@ -593,6 +556,43 @@
    ]
   },
   {
+   "titolo": "Fuoriturno per Opera Casa Famiglia",
+   "autore": "",
+   "durata": "120",
+   "descrizione": "",
+   "categoria_film": "n",
+   "categoria_teatro": "n",
+   "categoria_musica": "y",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3142",
+     "inizio": 1796500800000,
+     "id_cinebot": "1326",
+     "tipo_prezzo_1": "Intero",
+     "valore_prezzo_1": "10.5",
+     "valore_prevendita_1": "0.5",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "n",
+     "cast": "n"
+    }
+   ]
+  },
+  {
    "titolo": "Furiosamente Orlando",
    "autore": "Gruppo Panta Rei",
    "durata": "90",
@@ -800,6 +800,43 @@
      "tipo_prezzo_2": "Ridotto generico",
      "valore_prezzo_2": "5",
      "valore_prevendita_2": "0.5",
+     "tipo_prezzo_3": "",
+     "valore_prezzo_3": "0",
+     "valore_prevendita_3": "0",
+     "tipo_prezzo_4": "",
+     "valore_prezzo_4": "0",
+     "valore_prevendita_4": "0",
+     "tipo_prezzo_5": "",
+     "valore_prezzo_5": "0",
+     "valore_prevendita_5": "0",
+     "fl_film_vos": "y",
+     "cast": "n"
+    }
+   ]
+  },
+  {
+   "titolo": "L'invasione degli ultracorpi",
+   "autore": "Don Siegel",
+   "durata": "80",
+   "descrizione": "Il dottor Miles Bennel è ricoverato in ospedale in stato confusionale. Racconta al dottor Hill che la città di Santa Mira è invasa da esseri spaziali in grado di copiare perfettamente gli abitanti e di prenderne il posto durante il sonno...",
+   "categoria_film": "n",
+   "categoria_teatro": "n",
+   "categoria_musica": "n",
+   "categoria_teatroragazzi": "n",
+   "categoria_kids": "n",
+   "categoria_vos": "n",
+   "categoria_cineforum": "n",
+   "eventi": [
+    {
+     "id_orario_evento": "3143",
+     "inizio": 1794081600000,
+     "id_cinebot": "1304",
+     "tipo_prezzo_1": "Rex Pomeriggio OL",
+     "valore_prezzo_1": "5.5",
+     "valore_prevendita_1": "0.5",
+     "tipo_prezzo_2": "",
+     "valore_prezzo_2": "0",
+     "valore_prevendita_2": "0",
      "tipo_prezzo_3": "",
      "valore_prezzo_3": "0",
      "valore_prevendita_3": "0",
@@ -1097,7 +1134,7 @@
      "tipo_prezzo_5": "",
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
+     "fl_film_vos": "n",
      "cast": "n"
     }
    ]

@@ -60,54 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24624 post type-post status-publish format-standard has-post-thumbnail hentry category-arte" id="post-24624" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/caravaggio/" title="CARAVAGGIO">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="469" src="https://www.piccolo-padova.it/wp-content/uploads/locandina-CARAVAGGIO-2026-e1791449029818.jpg" width="420"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/caravaggio/">
-              <h2 class="entry-title" itemprop="name headline">
-               CARAVAGGIO
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               martedì 3 novembre – ore 17 e 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Il progetto I Grandi Maestri è un percorso della casa produttrice e  distributrice Kublai Film, dedicato ai documentari d’arte e cultura che porterà al Piccolo Teatro, oltre alll’evento di lancio di Tintoretto (20 ottobre, una produzione di qualche anno fa …
-              <a href="https://www.piccolo-padova.it/caravaggio/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Documentario – GB, Italia 2026 – regia David Bickerstaff e Phil Grabsky
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24620 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24620" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/i-due-gemelli-veneziani-2/" title="I DUE GEMELLI VENEZIANI">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-GEMELLI-VENEZIANI-2026-1-pdf-724x1024.jpg" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-GEMELLI-VENEZIANI-2026-1-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -188,7 +146,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/falstaff/" title="FALSTAFF">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-FALSTAFF-10.11.2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-FALSTAFF-10.11.2026-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -387,18 +345,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1nwg8" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_1nwg8">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_3ku4e" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_3ku4e">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_18jxo" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_11kyq" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_18jxo">
+             <span class="mailpoet_error_11kyq">
              </span>
             </div>
             <div class="mailpoet_paragraph">
