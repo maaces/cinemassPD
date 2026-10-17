@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:50:09.525487",
+  "generated_at": "2026-10-17T15:53:13.363428",
   "movies": [
     {
       "title": "AVENGERS: DOOMSDAY",
@@ -938,8 +938,120 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/150378",
       "showtimes": [
         {
+          "date": "2026-11-05",
+          "time": "17:00",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-05",
+          "time": "19:20",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-05",
+          "time": "21:40",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-06",
+          "time": "17:00",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-06",
+          "time": "19:20",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-11-06",
           "time": "19:30",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-06",
+          "time": "21:40",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-07",
+          "time": "14:40",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-07",
+          "time": "17:00",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-07",
+          "time": "19:20",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-07",
+          "time": "21:40",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-08",
+          "time": "14:40",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-08",
+          "time": "17:00",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-08",
+          "time": "19:20",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-08",
+          "time": "21:40",
           "cinema": "Cineplex",
           "price": null,
           "note": null,
@@ -962,14 +1074,6 @@
           "date": "2026-10-17",
           "time": "15:15",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "16:30",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1221,14 +1325,6 @@
       "showtimes": [
         {
           "date": "2026-10-17",
-          "time": "16:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": "FILM EVENTO",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
           "time": "18:20",
           "cinema": "Cineplex",
           "price": null,
@@ -1344,14 +1440,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1153576",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152423",
       "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "15:55",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-17",
           "time": "18:40",
@@ -1551,22 +1639,6 @@
       "showtimes": [
         {
           "date": "2026-10-17",
-          "time": "14:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "16:25",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
           "time": "19:05",
           "cinema": "Cineplex",
           "price": null,
@@ -1634,14 +1706,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1255833",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152426",
       "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "14:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-17",
           "time": "15:00",
@@ -1888,22 +1952,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152430",
       "showtimes": [
         {
-          "date": "2026-10-17",
-          "time": "14:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "15:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-18",
           "time": "13:00",
           "cinema": "Cineplex",
@@ -1972,22 +2020,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1375441",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152429",
       "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "14:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "16:45",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-17",
           "time": "17:50",
@@ -2401,59 +2433,6 @@
       ]
     },
     {
-      "title": "THE SOCIAL -IL PREZZO DELLA VERITA' (THE SOCIAL RECKONING)",
-      "director": "Aaron Sorkin",
-      "duration_min": 120,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148269/standard_eb131225-0920-4206-90e1-5e2b3a2b9361.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=2mybzyr_r2I",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=THE%20SOCIAL%20-IL%20PREZZO%20DELLA%20VERITA%27%20%28THE%20SOCIAL%20RECKONING%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20social%20-il%20prezzo%20della%20verita%27%20%28the%20social%20reckoning%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1281331",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148269",
-      "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "17:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "14:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "19:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "19:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "21:55",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "OTHER MOMMY",
       "director": "Rob Savage",
       "duration_min": 93,
@@ -2464,22 +2443,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1400837",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
       "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "14:25",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "16:40",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-17",
           "time": "21:45",
@@ -2647,24 +2610,8 @@
       "showtimes": [
         {
           "date": "2026-10-17",
-          "time": "14:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
           "time": "14:50",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "16:40",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2856,6 +2803,51 @@
       ]
     },
     {
+      "title": "THE SOCIAL -IL PREZZO DELLA VERITA' (THE SOCIAL RECKONING)",
+      "director": "Aaron Sorkin",
+      "duration_min": 120,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148269/standard_eb131225-0920-4206-90e1-5e2b3a2b9361.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2mybzyr_r2I",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=THE%20SOCIAL%20-IL%20PREZZO%20DELLA%20VERITA%27%20%28THE%20SOCIAL%20RECKONING%29%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20social%20-il%20prezzo%20della%20verita%27%20%28the%20social%20reckoning%29/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1281331",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148269",
+      "showtimes": [
+        {
+          "date": "2026-10-18",
+          "time": "14:10",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "19:20",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:20",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:55",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "DIGGER",
       "director": "Alejandro G. Iñárritu",
       "duration_min": 129,
@@ -3015,14 +3007,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1755291",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
       "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "15:45",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-17",
           "time": "18:00",
@@ -3254,22 +3238,6 @@
       "showtimes": [
         {
           "date": "2026-10-17",
-          "time": "14:15",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "16:50",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
           "time": "19:50",
           "cinema": "Cineplex",
           "price": null,
@@ -3373,22 +3341,6 @@
           "date": "2026-10-17",
           "time": "14:40",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "15:15",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
-          "time": "17:35",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3603,7 +3555,7 @@
     {
       "title": "CLAYFACE",
       "director": "James Watkins",
-      "duration_min": 108,
+      "duration_min": 109,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153050/standard_011ab426-cc56-4897-a12e-1c6ff0af8c1d.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=PiqMoq2gmBs",
       "trailer_search_url": "https://www.youtube.com/results?search_query=CLAYFACE%20trailer",
@@ -3714,35 +3666,6 @@
       ]
     },
     {
-      "title": "Balcanica",
-      "director": "Nicola Sorcinelli",
-      "duration_min": 81,
-      "poster_url": "https://image.tmdb.org/t/p/w500/zReOL1Nh4p0VPHbCbL618DwCpRD.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Balcanica%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/balcanica/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1702462",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "15:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "15:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "The Invite - Il Piacere È Tutto Nostro",
       "director": "Olivia Wilde",
       "duration_min": 107,
@@ -3824,14 +3747,6 @@
       "showtimes": [
         {
           "date": "2026-10-17",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-17",
           "time": "20:15",
           "cinema": "Multiastra",
           "price": null,
@@ -3873,6 +3788,27 @@
         {
           "date": "2026-10-21",
           "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Balcanica",
+      "director": "Nicola Sorcinelli",
+      "duration_min": 81,
+      "poster_url": "https://image.tmdb.org/t/p/w500/zReOL1Nh4p0VPHbCbL618DwCpRD.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Balcanica%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/balcanica/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1702462",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-18",
+          "time": "15:15",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -4183,16 +4119,8 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=FATHERLAND%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
       "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-2/2026-10-16/",
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-2/2026-10-17/2/",
       "showtimes": [
-        {
-          "date": "2026-10-17",
-          "time": "15:45",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-17",
           "time": "17:30",
@@ -4294,72 +4222,51 @@
       ]
     },
     {
-      "title": "E. T. L’extraterrestre",
-      "director": "Steven Spielberg",
-      "duration_min": 115,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/e-t-l-extraterrestre-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=_xOc98ctdpE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=E.%20T.%20L%E2%80%99extraterrestre%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/e.%20t.%20l%E2%80%99terrestre/",
-      "tmdb_url": "https://www.themoviedb.org/movie/601",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/e-t-lextraterrestre/",
+      "title": "FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=FATHERLAND%20%E2%80%93%20Pawel%20Pawlikowski%20%23%20Italia/Pol/Fra/Ger%202026%20%2882%E2%80%B2%29%20%2AV.O.S.%2A%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fatherland%20%E2%80%93%20pawel%20pawlikowski%20%23%20italia/pol/fra/ger%202026%20%2882%E2%80%B2%29%20%2A.%2A/",
+      "tmdb_url": null,
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/",
       "showtimes": [
         {
-          "date": "2026-10-18",
-          "time": "10:00",
-          "cinema": "Fronte del Porto Padova",
+          "date": "2026-10-20",
+          "time": "19:15",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "The Goonies",
-      "director": "Richard Donner",
-      "duration_min": 114,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-goonies-2-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=pAz0V1gF3LU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Goonies%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20goonies/",
-      "tmdb_url": "https://www.themoviedb.org/movie/9340",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/the-goonies/",
-      "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "18:00",
-          "cinema": "Fronte del Porto Padova",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-30",
-          "time": "18:00",
-          "cinema": "Fronte del Porto Padova",
+          "date": "2026-10-20",
+          "time": "21:00",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "Il sangue verde",
-      "director": "Andrea Segre",
-      "duration_min": 57,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/33-1.jpg",
+      "title": "POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20sangue%20verde%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/il%20sangue%20verde/",
-      "tmdb_url": "https://www.themoviedb.org/movie/139142",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/il-sangue-verde/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=POSSIBLE%20LOVE%20%20%E2%80%93%20Lee%20Chang-dong%20%23%20Corea%20del%20sud%202026%20%28164%E2%80%B2%29%20%2AV.O.S.%2A%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/possible%20love%20%20%E2%80%93%20lee%20chang-dong%20%23%20corea%20del%20sud%202026%20%28164%E2%80%B2%29%20%2A.%2A/",
+      "tmdb_url": null,
+      "detail_url": "https://www.movieconnection.it/proiezione/possible-love/",
       "showtimes": [
         {
-          "date": "2026-10-18",
-          "time": "20:30",
-          "cinema": "Fronte del Porto Padova",
+          "date": "2026-10-21",
+          "time": "17:00",
+          "cinema": "Lux",
           "price": null,
-          "note": "6,50€ intero, 5€ ridotto",
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -4628,6 +4535,27 @@
           "cinema": "Fronte del Porto Padova",
           "price": null,
           "note": "€6,50 intero, €5,00 ridotto",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Tony, Shelly e la Luce Magica",
+      "director": "Filip Pošivač",
+      "duration_min": 83,
+      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Tony-Shelly-e-la-Luce-Magica-2023-Filip-Posivac-04-1024x554.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ZFiH3X0stHs",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Tony%2C%20Shelly%20e%20la%20Luce%20Magica%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/tony%2C%20shelly%20e%20la%20luce%20magica/",
+      "tmdb_url": "https://www.themoviedb.org/movie/947650",
+      "detail_url": "https://www.frontedelportopadova.it/eventi/tony-shelly-e-la-luce-magica/",
+      "showtimes": [
+        {
+          "date": "2026-11-15",
+          "time": "10:00",
+          "cinema": "Fronte del Porto Padova",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -5222,15 +5150,15 @@
       ]
     },
     {
-      "title": "La Bambola",
+      "title": "La Bambola -",
       "director": "Sophie Beauli",
       "duration_min": 90,
-      "poster_url": "https://www.esperiapadova.it/data/img/863/labambola.jpg",
+      "poster_url": "https://www.esperiapadova.it/data/img/870/bambola.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=kpnYpHM_Rf8",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20Bambola%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20Bambola%20-%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/la%20bambola/",
       "tmdb_url": "https://www.themoviedb.org/movie/533642",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=863",
+      "detail_url": "https://www.esperiapadova.it/Post?postid=870",
       "showtimes": [
         {
           "date": "2026-10-17",

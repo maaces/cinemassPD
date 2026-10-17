@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:72366756028302492@cinema-scraper.local
+DTSTAMP:20261017T155313Z
+DTSTART:20261018T190000Z
+DTEND:20261018T204400Z
+SUMMARY:Ritorno a Buenos Aires - Marco Bechis
+LOCATION:Cinema Rex
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=ritorno_a_buenos_aires
+END:VEVENT
+END:VCALENDAR
