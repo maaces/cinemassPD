@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T16:04:22.470638",
+  "generated_at": "2026-10-18T16:05:53.468562",
   "movies": [
     {
       "title": "AVENGERS: DOOMSDAY",
@@ -971,14 +971,6 @@
         },
         {
           "date": "2026-11-06",
-          "time": "19:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-06",
           "time": "19:30",
           "cinema": "Cineplex",
           "price": null,
@@ -1080,24 +1072,8 @@
         },
         {
           "date": "2026-10-18",
-          "time": "15:40",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "17:20",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "18:00",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1269,22 +1245,6 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "13:40",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": "FILM EVENTO",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": "FILM EVENTO",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "18:50",
           "cinema": "The Space Cinema (Limena)",
           "price": "da 12,99 €",
@@ -1360,46 +1320,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1153576",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152423",
       "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "00:05",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "10:45",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "14:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "15:25",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:05",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-18",
           "time": "19:45",
@@ -1507,67 +1427,6 @@
       ]
     },
     {
-      "title": "ZUSTISSIA",
-      "director": "Francesco Piras",
-      "duration_min": 111,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152432/standard_2fd46e37-6b7d-49aa-b03d-a21051f590a0.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=ZUSTISSIA%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/zustissia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152432",
-      "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "10:45",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "14:35",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "21:40",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "21:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "21:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "WHALEFALL: NELLA BALENA",
       "director": "Brian Duffield",
       "duration_min": 98,
@@ -1580,32 +1439,8 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "00:25",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "10:50",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "15:00",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "18:05",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1757,6 +1592,51 @@
       ]
     },
     {
+      "title": "ZUSTISSIA",
+      "director": "Francesco Piras",
+      "duration_min": 111,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152432/standard_2fd46e37-6b7d-49aa-b03d-a21051f590a0.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=ZUSTISSIA%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/zustissia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152432",
+      "showtimes": [
+        {
+          "date": "2026-10-18",
+          "time": "21:40",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "21:10",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "21:10",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:10",
+          "cinema": "Cineplex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "FRANKIE E LE CREATURE DIMENTICATE (STITCH HEAD)",
       "director": "Steve Hudson",
       "duration_min": 91,
@@ -1767,22 +1647,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1214130",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152430",
       "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "13:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "15:05",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-19",
           "time": "17:00",
@@ -1838,26 +1702,10 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "10:40",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "11:00",
           "cinema": "The Space Cinema (Limena)",
           "price": "da 7,99 €",
           "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "16:40",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2027,24 +1875,8 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "11:05",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "14:55",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:05",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2163,38 +1995,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1400837",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
       "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "00:05",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "11:30",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "15:05",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:15",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-18",
           "time": "19:25",
@@ -2322,32 +2122,8 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "10:35",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "14:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "14:30",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "16:30",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2494,14 +2270,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148269",
       "showtimes": [
         {
-          "date": "2026-10-18",
-          "time": "14:10",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-19",
           "time": "19:20",
           "cinema": "Cineplex",
@@ -2647,22 +2415,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1755291",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
       "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "10:45",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "15:45",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-18",
           "time": "18:00",
@@ -2820,6 +2572,27 @@
           "time": "20:45",
           "cinema": "Cinema Rex",
           "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "LE SENTINELLE DI PIETRA",
+      "director": "Francesco Gozzo",
+      "duration_min": null,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148826/standard_a54b975a-fcc3-489d-9933-6091f3f1a115.jpeg",
+      "trailer_url": "https://www.youtube.com/watch?v=IEBXB84vpBw",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=LE%20SENTINELLE%20DI%20PIETRA%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/le%20sentinelle%20di%20pietra/",
+      "tmdb_url": null,
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148826",
+      "showtimes": [
+        {
+          "date": "2026-10-28",
+          "time": "20:30",
+          "cinema": "Cineplex",
+          "price": null,
           "note": null,
           "date_uncertain": false
         }
@@ -2836,22 +2609,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1283515",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/145727",
       "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "14:20",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-18",
           "time": "19:45",
@@ -2915,32 +2672,8 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "10:30",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "14:40",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "15:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:15",
-          "cinema": "Cineplex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3063,27 +2796,6 @@
           "cinema": "Cineplex",
           "price": null,
           "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "MULAN",
-      "director": "Tony Bancroft, Barry Cook",
-      "duration_min": 88,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147474/standard_3e6cc084-b20b-452c-9690-9b895dc28055.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=EyQQLJHXSvk",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=MULAN%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/mulan/",
-      "tmdb_url": "https://www.themoviedb.org/movie/10674",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147474",
-      "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "11:00",
-          "cinema": "Cineplex",
-          "price": null,
-          "note": "MODERNO.. ANIMATION",
           "date_uncertain": false
         }
       ]
@@ -3267,14 +2979,6 @@
       "showtimes": [
         {
           "date": "2026-10-18",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
           "time": "20:15",
           "cinema": "Multiastra",
           "price": "5,50 €",
@@ -3300,27 +3004,6 @@
         {
           "date": "2026-10-21",
           "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Balcanica",
-      "director": "Nicola Sorcinelli",
-      "duration_min": 81,
-      "poster_url": "https://image.tmdb.org/t/p/w500/zReOL1Nh4p0VPHbCbL618DwCpRD.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Balcanica%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/balcanica/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1702462",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "15:15",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -3440,59 +3123,6 @@
       ]
     },
     {
-      "title": "Zustìssia",
-      "director": "Francesco Piras",
-      "duration_min": 111,
-      "poster_url": "https://image.tmdb.org/t/p/w500/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Zust%C3%ACssia%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/zust%C3%ACssia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "15:35",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-18",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "I Racconti Del Giardino Incantato",
       "director": "Jean-Claude Rozec, Patrik Pašš, Leon Vidmar, David Súkup",
       "duration_min": 71,
@@ -3554,6 +3184,59 @@
       ]
     },
     {
+      "title": "Zustìssia",
+      "director": "Francesco Piras",
+      "duration_min": 111,
+      "poster_url": "https://image.tmdb.org/t/p/w500/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Zust%C3%ACssia%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/zust%C3%ACssia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-18",
+          "time": "15:35",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-18",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "The Social - Il Prezzo Della Verità",
       "director": "Aaron Sorkin",
       "duration_min": 120,
@@ -3591,16 +3274,8 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=FATHERLAND%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
       "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-2/2026-10-17/2/",
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-2/2026-10-18/2/",
       "showtimes": [
-        {
-          "date": "2026-10-18",
-          "time": "15:45",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-18",
           "time": "17:30",
@@ -3712,6 +3387,27 @@
         {
           "date": "2026-10-21",
           "time": "17:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L’AMICO AMERICANO – Wim Wenders # Germania Ovest 1977 (126′) *V.O.S.*",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/08/lamico-americano-poster-1.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%E2%80%99AMICO%20AMERICANO%20%E2%80%93%20Wim%20Wenders%20%23%20Germania%20Ovest%201977%20%28126%E2%80%B2%29%20%2AV.O.S.%2A%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%E2%80%99amico%20americano%20%E2%80%93%20wim%20wenders%20%23%20germania%20ovest%201977%20%28126%E2%80%B2%29%20%2A.%2A/",
+      "tmdb_url": null,
+      "detail_url": "https://www.movieconnection.it/proiezione/lamico-americano/",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "20:30",
           "cinema": "Lux",
           "price": null,
           "note": null,
@@ -4051,6 +3747,27 @@
       ]
     },
     {
+      "title": "principi e Principesse",
+      "director": "Michel Ocelot",
+      "duration_min": 67,
+      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/personnages-Princes-et-princesse-scaled-e1669304039950-800x800-1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=H8-FjKT_jN8",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=principi%20e%20Principesse%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/principi%20e%20principesse/",
+      "tmdb_url": "https://www.themoviedb.org/movie/65592",
+      "detail_url": "https://www.frontedelportopadova.it/eventi/principi-e-principesse/",
+      "showtimes": [
+        {
+          "date": "2026-11-22",
+          "time": "10:00",
+          "cinema": "Fronte del Porto Padova",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Niente di antico sotto il sole: La fotografia di Luigi Ghirri",
       "director": null,
       "duration_min": null,
@@ -4374,6 +4091,27 @@
       ]
     },
     {
+      "title": "L'invasione degli ultracorpi",
+      "director": "Don Siegel",
+      "duration_min": 80,
+      "poster_url": "https://image.tmdb.org/t/p/w500/o3ANRyhcC3SpDmyYeBff63J2okD.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27invasione%20degli%20ultracorpi%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27invasione%20degli%20ultracorpi/",
+      "tmdb_url": "https://www.themoviedb.org/movie/11549",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=l_invasione_degli_ultracorpi",
+      "showtimes": [
+        {
+          "date": "2026-11-07",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Odissea",
       "director": "Christopher Nolan",
       "duration_min": 173,
@@ -4518,7 +4256,7 @@
           "time": "20:45",
           "cinema": "Cinema Rex",
           "price": null,
-          "note": "V.O.S.",
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -4539,6 +4277,27 @@
           "time": "18:30",
           "cinema": "Cinema Esperia",
           "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Il Domani Era Venuto",
+      "director": null,
+      "duration_min": null,
+      "poster_url": "https://www.esperiapadova.it/data/img/874/pluriartdomanier.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Domani%20Era%20Venuto%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20domani%20era%20venuto/",
+      "tmdb_url": null,
+      "detail_url": "https://www.esperiapadova.it/Post?postid=874",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
           "note": null,
           "date_uncertain": false
         }
