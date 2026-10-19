@@ -18,6 +18,7 @@ workflow "leggero" che aggiorna solo gli eventi personalizzati senza
 re-interrogare i siti dei cinema, vedi update_events.py).
 """
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -29,12 +30,21 @@ from zoneinfo import ZoneInfo
 
 from calendar_links import google_calendar_link, ics_content
 from custom_events import CustomEvent
-from models import Movie, Showtime
+from models import Movie, Showtime, title_key
 
 WEEKDAYS_IT = ["Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"]
 MONTHS_IT = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio",
              "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 CUSTOM_SOURCE = "__custom__"
+
+# Anteprima dei link (Open Graph): WhatsApp, Telegram, iMessage... la leggono dall'<head>.
+# Per cambiare l'immagine basta mettere un altro file in docs/ e cambiare OG_IMAGE
+# (consigliato PNG/JPG >= 600x315, meglio 1200x630; l'URL deve essere assoluto).
+SITE_URL = "https://maaces.github.io/cinemassPD/"
+OG_TITLE = "CineMass PD"
+OG_DESCRIPTION = "Tutte le programmazioni, ora in un unico posto"
+OG_IMAGE = SITE_URL + "og-image.jpg"   # file in docs/
+OG_IMAGE_SIZE = (1200, 630)
 
 
 def _slug(text: str) -> str:
@@ -131,6 +141,39 @@ def _day_suffix_html(date_str: Optional[str], uncertain: bool = False) -> str:
     return f'<span class="mc-day"> - {wd} {d}</span>'
 
 
+def _short_id(*parts) -> str:
+    """ID corto (6 caratteri base36) di una card, ricavato dai dati (cinema, titolo, data, ora):
+    e' la parte dopo '#p=' del link condiviso. Non dipende dall'ordine ne' da un contatore, quindi
+    lo stesso dato produce sempre lo stesso id tra un aggiornamento e l'altro."""
+    digest = hashlib.sha1("|".join(str(p or "") for p in parts).encode("utf-8")).hexdigest()
+    n, out = int(digest, 16), ""
+    while len(out) < 6:
+        n, r = divmod(n, 36)
+        out += "0123456789abcdefghijklmnopqrstuvwxyz"[r]
+    return out
+
+
+def _unique_id(base: str, used: set) -> str:
+    """Se due card producessero lo stesso id (proiezioni identiche, o una collisione di hash
+    molto improbabile) la seconda riceve il suffisso -2, -3, ..."""
+    cid, n = base, 2
+    while cid in used:
+        cid = f"{base}-{n}"
+        n += 1
+    used.add(cid)
+    return cid
+
+
+def _share_when(date_str: Optional[str], time_str: Optional[str], uncertain: bool = False) -> str:
+    """'Sabato 24 ottobre · 21:30' per il testo di condivisione (parti mancanti omesse)."""
+    parts = []
+    if date_str and date_str != "data-da-verificare" and not uncertain:
+        parts.append(_format_date_it(date_str))
+    if time_str:
+        parts.append(time_str)
+    return " · ".join(parts)
+
+
 def _half_hour_bucket(time_str: Optional[str]) -> Optional[str]:
     """'21:35' -> '21:30', '21:05' -> '21:00'. None se l'orario non e' valido."""
     if not time_str:
@@ -152,7 +195,7 @@ def _write_ics(movie: Movie, showtime: Showtime, ics_dir: str, base_name: str) -
     return f"ics/{fname}"
 
 
-def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
+def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int, card_id: str = "") -> str:
     gcal = google_calendar_link(m, st)
     ics_link = _write_ics(m, st, ics_dir, f"{_slug(m.title)}-{st.date}-{st.time.replace(':', '')}-{idx}")
 
@@ -184,7 +227,9 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
         buttons.append(f'<a class="btn btn-alt" href="{_esc(ics_link)}">🍎 Calendario iPhone</a>')
 
     return f"""
-      <div class="mini-card" data-source="{_esc_attr(st.cinema)}" data-movie="{_esc_attr(m.title)}">
+      <div class="mini-card" data-id="{_esc_attr(card_id)}" data-source="{_esc_attr(st.cinema)}" data-movie="{_esc_attr(m.title)}"
+           data-share-title="{_esc_attr(m.title)}" data-share-when="{_esc_attr(_share_when(st.date, st.time, st.date_uncertain))}"
+           data-share-cinema="{_esc_attr(st.cinema)}">
         <div class="mc-head">
           {poster_html}
           <div class="mc-title">
@@ -200,7 +245,7 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
       </div>"""
 
 
-def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int) -> str:
+def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int, card_id: str = "") -> str:
     gcal_link = None
     ics_link = None
     if ce.date and ce.time:
@@ -222,7 +267,8 @@ def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int) -> str:
 
     flags_attr = _esc_attr(",".join(ce.flags))
     return f"""
-      <div class="mini-card custom-card" data-source="{CUSTOM_SOURCE}" data-flags="{flags_attr}">
+      <div class="mini-card custom-card" data-id="{_esc_attr(card_id)}" data-source="{CUSTOM_SOURCE}" data-flags="{flags_attr}"
+           data-share-title="{_esc_attr(ce.title)}" data-share-when="{_esc_attr(_share_when(ce.date, ce.time))}">
         {time_html}
         {photo_html}
         <div class="mc-name">📌 {_esc(ce.title)}</div>
@@ -353,9 +399,73 @@ CARD_ZOOM_JS = """
 (function () {
   // Click su una card -> ne mostra una copia ingrandita sopra la pagina.
   // Click fuori dalla copia (sullo sfondo scuro), sulla X o tasto Esc -> chiude.
-  var overlay = null, lastCard = null;
+  var overlay = null, lastCard = null, toastTimer = null;
 
-  function close() {
+  // --- condivisione: link diretto alla card (#p=<id>) + testo "link / film / data / cinema" ---
+  function toast(msg) {
+    var t = document.getElementById('share-toast');
+    if (!t) {
+      t = document.createElement('div');
+      t.id = 'share-toast';
+      t.className = 'share-toast';
+      t.setAttribute('role', 'status');
+      document.body.appendChild(t);
+    }
+    t.textContent = msg;
+    requestAnimationFrame(function () { t.classList.add('show'); });
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { t.classList.remove('show'); }, 2200);
+  }
+
+  function legacyCopy(text) {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.setAttribute('readonly', '');
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    var ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) {}
+    ta.remove();
+    return ok;
+  }
+
+  function copyText(text) {
+    function fallback() { toast(legacyCopy(text) ? 'Copiato negli appunti' : 'Impossibile copiare il testo'); }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { toast('Copiato negli appunti'); }, fallback);
+    } else {
+      fallback();
+    }
+  }
+
+  function shareText(card) {
+    var custom = card.getAttribute('data-source') === '__custom__';
+    var lines = ['\\ud83d\\udc49 ' + location.href.split('#')[0] + '#p=' + card.getAttribute('data-id'), ''];
+    var title = card.getAttribute('data-share-title');
+    var when = card.getAttribute('data-share-when');
+    var cinema = card.getAttribute('data-share-cinema');
+    if (title) lines.push((custom ? '\\ud83d\\udccc ' : '\\ud83c\\udfac ') + title);
+    if (when) lines.push('\\ud83d\\udcc5 ' + when);
+    if (cinema) lines.push('\\ud83d\\udccd ' + cinema);
+    return lines.join('\\n');
+  }
+
+  function shareCard(card) {
+    var text = shareText(card);
+    if (navigator.share) {
+      // solo "text": cosi' l'ordine (link, film, data, cinema) resta quello voluto in tutte le app
+      navigator.share({ text: text }).catch(function (err) {
+        if (err && err.name === 'AbortError') return; // l'utente ha chiuso il menu
+        copyText(text);
+      });
+    } else {
+      copyText(text);
+    }
+  }
+
+  function close(keepHash) {
     if (!overlay) return;
     var o = overlay;
     overlay = null;
@@ -363,10 +473,13 @@ CARD_ZOOM_JS = """
     document.body.classList.remove('zoom-lock');
     setTimeout(function () { o.remove(); }, 180);
     if (lastCard) lastCard.focus({ preventScroll: true });
+    if (keepHash !== true && /^#p=/.test(location.hash)) {
+      history.replaceState(null, '', location.pathname + location.search); // un reload non riapre la card
+    }
   }
 
   function open(card) {
-    close();
+    close(true);
     lastCard = card;
     overlay = document.createElement('div');
     overlay.className = 'card-zoom';
@@ -381,7 +494,20 @@ CARD_ZOOM_JS = """
     x.setAttribute('aria-label', 'Chiudi');
     x.textContent = '\u2715';
     x.addEventListener('click', close);
-    clone.insertBefore(x, clone.firstChild);
+    var sh = document.createElement('button');
+    sh.type = 'button';
+    sh.className = 'card-zoom-share';
+    sh.setAttribute('aria-label', 'Condividi');
+    sh.title = 'Condividi';
+    sh.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" ' +
+      'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/>' +
+      '<path d="M8 7l4-4 4 4"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>';
+    sh.addEventListener('click', function () { shareCard(card); });
+    var tools = document.createElement('div');
+    tools.className = 'card-zoom-tools';
+    tools.appendChild(x);
+    tools.appendChild(sh);   // Condividi sotto la X
+    clone.insertBefore(tools, clone.firstChild);
     overlay.appendChild(clone);
     overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
     document.body.appendChild(overlay);
@@ -401,6 +527,26 @@ CARD_ZOOM_JS = """
     });
   });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+
+  // Link condiviso (#p=<id>): apre direttamente la card ingrandita.
+  function openFromHash() {
+    var m = /^#p=([^&]+)/.exec(location.hash);
+    if (!m) return;
+    var id;
+    try { id = decodeURIComponent(m[1]); } catch (e) { id = m[1]; }
+    var cards = document.querySelectorAll('.time-items .mini-card');
+    for (var i = 0; i < cards.length; i++) {
+      if (cards[i].getAttribute('data-id') === id) {
+        cards[i].scrollIntoView({ block: 'center' });
+        open(cards[i]);
+        return;
+      }
+    }
+    toast('Questa proiezione non \\u00e8 pi\\u00f9 in programmazione');
+    history.replaceState(null, '', location.pathname + location.search);
+  }
+  window.addEventListener('hashchange', openFromHash);
+  openFromHash();
 })();
 </script>
 """
@@ -427,6 +573,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
     seen_cinemas = []
     seen_flags = []
     counter = 0
+    used_ids = set()
 
     for m in movies:
         json_showtimes = []
@@ -438,7 +585,8 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
             if st.cinema and st.cinema not in seen_cinemas:
                 seen_cinemas.append(st.cinema)
             counter += 1
-            card = _movie_card_html(m, st, ics_dir, counter)
+            card_id = _unique_id(_short_id(st.cinema, title_key(m.title), st.date, st.time), used_ids)
+            card = _movie_card_html(m, st, ics_dir, counter, card_id)
             bucket = _half_hour_bucket(st.time)
             if st.date_uncertain or not st.date or st.date == "data-da-verificare" or not bucket:
                 uncertain_html.append(card)
@@ -456,7 +604,8 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
         if _is_past(ce.date):
             continue
         counter += 1
-        card = _custom_card_html(ce, ics_dir, counter)
+        card_id = _unique_id(_short_id("evento", title_key(ce.title), ce.date, ce.time), used_ids)
+        card = _custom_card_html(ce, ics_dir, counter, card_id)
         bucket = _half_hour_bucket(ce.time)
         if ce.date and bucket:
             timeline[ce.date][bucket].append((ce.time, card))
@@ -526,6 +675,13 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
 <meta name="theme-color" content="#a02a13" />
 <link rel="manifest" href="/cinemassPD/manifest.json?v=20261012" />
 <title>CinemassPD</title>
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{_esc_attr(SITE_URL)}" />
+<meta property="og:title" content="{_esc_attr(OG_TITLE)}" />
+<meta property="og:description" content="{_esc_attr(OG_DESCRIPTION)}" />
+<meta property="og:image" content="{_esc_attr(OG_IMAGE)}" />
+<meta property="og:image:width" content="{OG_IMAGE_SIZE[0]}" />
+<meta property="og:image:height" content="{OG_IMAGE_SIZE[1]}" />
 <style>
   :root {{
     --bg: #fafafa; --fg: #1a1a1a; --card: #ffffff; --border: #e5e5e5;
@@ -616,11 +772,29 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   .card-zoom .btn {{ font-size: 0.88rem; padding: 7px 12px; }}
   .card-zoom .custom-photo {{ width: 100%; height: auto; max-height: 70vh; object-fit: contain; background: var(--card-bg, transparent); }}
   .card-zoom .custom-text {{ font-size: 0.95rem; }}
+  /* pulsanti in alto a destra: X e, sotto, Condividi. Un unico blocco float+sticky (come la X originale) */
+  .card-zoom-tools {{
+    position: sticky; top: 0; float: right; z-index: 2; margin: -8px -8px 0 8px;
+    display: flex; flex-direction: column; gap: 8px;
+  }}
   .card-zoom-close {{
-    position: sticky; top: 0; float: right; margin: -8px -8px 0 8px; width: 32px; height: 32px;
+    flex: none; width: 32px; height: 32px; padding: 0;
     border: none; border-radius: 999px; background: var(--border); color: var(--fg);
     font-size: 1.1rem; line-height: 1; cursor: pointer;
   }}
+  .card-zoom-share {{
+    flex: none; width: 32px; height: 32px; padding: 0;
+    display: flex; align-items: center; justify-content: center;
+    border: none; border-radius: 999px; background: var(--border); color: var(--fg); cursor: pointer;
+  }}
+  .card-zoom-share svg {{ width: 17px; height: 17px; }}
+  .share-toast {{
+    position: fixed; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); z-index: 1100;
+    transform: translate(-50%, 12px); opacity: 0; pointer-events: none; max-width: 90vw;
+    padding: 9px 16px; border-radius: 999px; font-size: .85rem; text-align: center;
+    background: var(--fg); color: var(--bg); transition: opacity .18s ease, transform .18s ease;
+  }}
+  .share-toast.show {{ opacity: 1; transform: translate(-50%, 0); }}
   body.zoom-lock {{ overflow: hidden; }}
 </style>
 </head>
