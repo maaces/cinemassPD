@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:6470367032175507104@cinema-scraper.local
+DTSTAMP:20261019T124456Z
+DTSTART:20261021T070000Z
+DTEND:20261021T095300Z
+SUMMARY:Odissea - Christopher Nolan
+LOCATION:Cinema Rex
+DESCRIPTION:Ingresso libero\nhttps://www.cinemarex.it/evento?eventName=odissea
+END:VEVENT
+END:VCALENDAR
