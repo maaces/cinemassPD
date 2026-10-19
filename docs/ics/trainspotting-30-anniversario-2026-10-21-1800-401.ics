@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:8056942859815373675@cinema-scraper.local
-DTSTAMP:20261019T124456Z
-DTSTART:20261021T160000Z
-DTEND:20261021T180000Z
-SUMMARY:Trainspotting - 30° Anniversario
-LOCATION:Porto Astra
-DESCRIPTION:V.O.S\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:3310665063846841880@cinema-scraper.local
+DTSTAMP:20261019T150619Z
+DTSTART:20261021T160000Z
+DTEND:20261021T180000Z
+SUMMARY:Trainspotting - 30° Anniversario
+LOCATION:Porto Astra
+DESCRIPTION:V.O.S\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR

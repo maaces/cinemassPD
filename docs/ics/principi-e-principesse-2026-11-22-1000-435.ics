@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:8244401282038096131@cinema-scraper.local
-DTSTAMP:20261019T124456Z
-DTSTART:20261122T090000Z
-DTEND:20261122T100700Z
-SUMMARY:principi e Principesse - Michel Ocelot
-LOCATION:Fronte del Porto Padova
-DESCRIPTION:https://www.frontedelportopadova.it/eventi/principi-e-principesse/
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:6388493392470366901@cinema-scraper.local
+DTSTAMP:20261019T150619Z
+DTSTART:20261122T090000Z
+DTEND:20261122T100700Z
+SUMMARY:principi e Principesse - Michel Ocelot
+LOCATION:Fronte del Porto Padova
+DESCRIPTION:https://www.frontedelportopadova.it/eventi/principi-e-principesse/
+END:VEVENT
+END:VCALENDAR

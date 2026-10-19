@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:3760856272199183662@cinema-scraper.local
-DTSTAMP:20261019T124456Z
-DTSTART:20261019T133500Z
-DTEND:20261019T151000Z
-SUMMARY:Resident Evil - Zach Cregger
-LOCATION:The Space Cinema (Limena)
-DESCRIPTION:Prezzo: da 9\,99 €\nProiezione LASER 4K\nhttps://www.cinemarex.it/evento?eventName=resident_evil
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4806418855574932817@cinema-scraper.local
+DTSTAMP:20261019T150619Z
+DTSTART:20261019T133500Z
+DTEND:20261019T151000Z
+SUMMARY:Resident Evil - Zach Cregger
+LOCATION:The Space Cinema (Limena)
+DESCRIPTION:Prezzo: da 9\,99 €\nProiezione LASER 4K\nhttps://www.cinemarex.it/evento?eventName=resident_evil
+END:VEVENT
+END:VCALENDAR

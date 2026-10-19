@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:5002943333343841531@cinema-scraper.local
-DTSTAMP:20261019T124456Z
-DTSTART:20261022T140000Z
-DTEND:20261022T154400Z
-SUMMARY:Ritorno a Buenos Aires - Marco Bechis
-LOCATION:Cinema Rex
-DESCRIPTION:Prezzo: 5€\nPomeriggio al Rex\nhttps://www.cinemarex.it/evento?eventName=ritorno_a_buenos_aires
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:8797680423591093914@cinema-scraper.local
+DTSTAMP:20261019T150619Z
+DTSTART:20261022T140000Z
+DTEND:20261022T154400Z
+SUMMARY:Ritorno a Buenos Aires - Marco Bechis
+LOCATION:Cinema Rex
+DESCRIPTION:Prezzo: 5€\nPomeriggio al Rex\nhttps://www.cinemarex.it/evento?eventName=ritorno_a_buenos_aires
+END:VEVENT
+END:VCALENDAR
