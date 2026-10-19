@@ -84,6 +84,20 @@ def _cinema_websites() -> dict:
             if c.get("name") and c.get("website")}
 
 
+@lru_cache(maxsize=1)
+def _cinema_maps() -> dict:
+    """Mappa nome cinema -> link Google Maps, dal campo 'maps' di config.yaml."""
+    import yaml
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.yaml")
+    try:
+        with open(path, encoding="utf-8") as f:
+            cfg = yaml.safe_load(f) or {}
+    except (OSError, yaml.YAMLError):
+        return {}
+    return {c["name"]: c["maps"] for c in cfg.get("cinemas", [])
+            if c.get("name") and c.get("maps")}
+
+
 def _cinema_html(name: str) -> str:
     """Nome del cinema, cliccabile verso il sito ufficiale se e' noto."""
     site = _cinema_websites().get(name)
@@ -145,6 +159,9 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
         links.append(f'<a href="{_esc(m.letterboxd_url)}" target="_blank" rel="noopener">🔍 Letterboxd</a>')
 
     buttons = []
+    maps_link = _cinema_maps().get(st.cinema)
+    if maps_link:
+        buttons.append(f'<a class="btn" href="{_esc(maps_link)}" target="_blank" rel="noopener">📍 Maps</a>')
     if gcal:
         buttons.append(f'<a class="btn" href="{_esc(gcal)}" target="_blank" rel="noopener">📅 Calendar</a>')
     if ics_link:

@@ -6,30 +6,35 @@ cinemas:
     type: tickets18
     url: "https://pd.cineplexmoderno.cineplexmoderno.it/"
     website: "https://pd.cineplexmoderno.cineplexmoderno.it/"
+    maps: "https://maps.app.goo.gl/8R96kqpPozFEq2VX7"
     enabled: true
 
   - name: "Multiastra"
     type: wp_remotefilm
     url: "https://multiastra.it/"
     website: "https://multiastra.it/"
+    maps: "https://maps.app.goo.gl/Qkcv7jaFpzaJEtdE9"
     enabled: true
 
   - name: "Porto Astra"
     type: wp_remotefilm
     url: "https://portoastra.it/"
     website: "https://portoastra.it/"
+    maps: "https://maps.app.goo.gl/b2ChRM56cKhe9n4s5"
     enabled: true
 
   - name: "Lux"
     type: movieconnection
     url: "https://www.movieconnection.it/lux/"
     website: "https://www.movieconnection.it/lux/"
+    maps: "https://maps.app.goo.gl/qhsvemKB9kRhSaLh9"
     enabled: true
 
   - name: "Fronte del Porto Padova"
     type: fronte_del_porto
     url: "https://www.frontedelportopadova.it/eventi/"
     website: "https://www.frontedelportopadova.it/eventi/"
+    maps: "https://maps.app.goo.gl/tzxdgCAiJgBi42UQA"
     enabled: true
 
   # The Space (Limena): orari caricati via JavaScript e visibili un giorno
@@ -38,6 +43,7 @@ cinemas:
     type: space_cinema
     url: "https://www.thespacecinema.it/cinema/limena/al-cinema"
     website: "https://www.thespacecinema.it/cinema/limena/al-cinema"
+    maps: "https://maps.app.goo.gl/RXyb6F8rpJD7JCAv5"
     # local_only: aggiornato a mano dal PC con run_space_only.py. I workflow in cloud
     # non lo scaricano e riprendono gli orari gia' salvati, cosi' non vengono cancellati.
     local_only: true
@@ -51,6 +57,7 @@ cinemas:
     type: cinema_rex
     url: "https://www.cinemarex.it/"
     website: "https://www.cinemarex.it/"
+    maps: "https://maps.app.goo.gl/RLrJP6tb8MTdoeZy5"
     enabled: true
 
   # Cinema Esperia: blog a schede in HTML statico, date e orari scritti a mano
@@ -59,6 +66,7 @@ cinemas:
     type: esperia
     url: "https://www.esperiapadova.it/Blog?category=1"
     website: "https://www.esperiapadova.it/"
+    maps: "https://maps.app.goo.gl/VxPvYrDH7SH18gcL9"
     enabled: true
 
   # Piccolo Teatro: WordPress; tiene SOLO gli articoli di categoria "cinema"
@@ -67,6 +75,7 @@ cinemas:
     type: piccolo
     url: "https://www.piccolo-padova.it/"
     website: "https://www.piccolo-padova.it/"
+    maps: "https://maps.app.goo.gl/uFBnbftEX8gbHocEA"
     enabled: true
 
 # Chiave API TMDB (opzionale ma consigliata) per completare regista/durata/
