@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:6018922836073116817@cinema-scraper.local
-DTSTAMP:20261019T180801Z
-DTSTART:20261020T152500Z
-DTEND:20261020T170500Z
-SUMMARY:Se ami qualcuno dillo - Marco Bonini
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/152359
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:7345006386072750224@cinema-scraper.local
+DTSTAMP:20261019T181043Z
+DTSTART:20261020T152500Z
+DTEND:20261020T170500Z
+SUMMARY:Se ami qualcuno dillo - Marco Bonini
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/152359
+END:VEVENT
+END:VCALENDAR

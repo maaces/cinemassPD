@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:643683487787728932@cinema-scraper.local
+DTSTAMP:20261019T181044Z
+DTSTART:20261024T190000Z
+DTEND:20261024T195400Z
+SUMMARY:I pionieri dell'animazione
+LOCATION:Fronte del Porto
+DESCRIPTION:https://www.frontedelportopadova.it/eventi/i-pionieri-dellanimazione/
+END:VEVENT
+END:VCALENDAR

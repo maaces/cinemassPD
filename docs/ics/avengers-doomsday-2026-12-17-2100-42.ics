@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:1364095417082374359@cinema-scraper.local
-DTSTAMP:20261019T180801Z
-DTSTART:20261217T200000Z
-DTEND:20261217T224500Z
-SUMMARY:Avengers: Doomsday - Joe Russo\, Anthony Russo
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/147605
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1171042669892697109@cinema-scraper.local
+DTSTAMP:20261019T181043Z
+DTSTART:20261217T200000Z
+DTEND:20261217T224500Z
+SUMMARY:Avengers: Doomsday - Joe Russo\, Anthony Russo
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/147605
+END:VEVENT
+END:VCALENDAR
