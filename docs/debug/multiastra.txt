@@ -382,15 +382,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               19/10
-               <br/>
-               <b>
-                Lunedì
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                20/10
                <br/>
                <b>
@@ -399,7 +390,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                21/10
                <br/>
                <b>
@@ -410,51 +401,6 @@
             </ul>
             <div class="x-tab-content orari">
              <div aria-hidden="false" aria-labelledby="x-legacy-tab-1" class="x-tab-pane fade in active" data-x-toggleable="x-legacy-tab-1" id="x-legacy-panel-1" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13712">
-                  i diavoli
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/i-diavoli-ed-rest-4k-v-o-_1971-be2cab94-a9ac-4538-8b78-9febbb2363c6/851650#sala" target="_blank">
-                   <span class="time_OV">
-                    20.15
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
-                  naza
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/851648#sala" target="_blank">
-                   <span class="">
-                    20.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -566,7 +512,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1037,8 +983,14 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="c4481baff37ef8bfdff8601e915df880" data-token-time="1792435759" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="c4481baff37ef8bfdff8601e915df880" data-token-time="1792445459" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
+                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
+                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
+                  Privacy Email Informativa
+                 </label>
+                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
+                </div>
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-10219-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_2">
                   Email
@@ -1047,12 +999,6 @@
                   </span>
                  </label>
                  <input class="wpforms-field-large wpforms-field-required" id="wpforms-10219-field_2" name="wpforms[fields][2]" required="" spellcheck="false" type="email"/>
-                </div>
-                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
-                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Informativa Email Privacy
-                 </label>
-                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
                 <div class="wpforms-field wpforms-field-gdpr-checkbox" data-field-id="3" data-field-type="gdpr-checkbox" id="wpforms-10219-field_3-container">
                  <label class="wpforms-field-label">

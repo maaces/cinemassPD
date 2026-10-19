@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T21:29:53.206599",
+  "generated_at": "2026-10-19T21:33:17.664119",
   "movies": [
     {
       "title": "Avengers: Doomsday",
@@ -1088,14 +1088,6 @@
         },
         {
           "date": "2026-10-19",
-          "time": "21:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
           "time": "22:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -1377,14 +1369,6 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-10-19",
-          "time": "22:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-20",
           "time": "16:45",
           "cinema": "The Space (Limena)",
@@ -1494,14 +1478,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152432",
       "showtimes": [
         {
-          "date": "2026-10-19",
-          "time": "21:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-20",
           "time": "16:15",
           "cinema": "The Space (Limena)",
@@ -1604,26 +1580,10 @@
         },
         {
           "date": "2026-10-19",
-          "time": "21:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
           "time": "22:35",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "22:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1818,14 +1778,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "22:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2113,219 +2065,6 @@
       ]
     },
     {
-      "title": "Other Mommy",
-      "director": "Rob Savage",
-      "duration_min": 93,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148369/standard_08ea65f5-352b-4888-9ec4-5aceaaa36f0f.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=z8ffzHPyHko",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Other%20Mommy%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/other%20mommy/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1400837",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "20:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "21:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "22:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "23:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "14:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "16:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "19:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "20:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "20:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "22:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "23:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "14:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "16:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "16:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "20:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "21:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "21:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "22:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "22:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "L'estranea",
       "director": "Paolo Strippoli",
       "duration_min": 115,
@@ -2520,6 +2259,195 @@
       ]
     },
     {
+      "title": "Other Mommy",
+      "director": "Rob Savage",
+      "duration_min": 93,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148369/standard_08ea65f5-352b-4888-9ec4-5aceaaa36f0f.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=z8ffzHPyHko",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Other%20Mommy%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/other%20mommy/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1400837",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
+      "showtimes": [
+        {
+          "date": "2026-10-19",
+          "time": "21:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "22:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "14:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "16:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "20:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "20:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "22:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "22:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "23:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "14:20",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "17:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "20:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "22:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "22:55",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Digger",
       "director": "Alejandro G. Iñárritu",
       "duration_min": 129,
@@ -2530,14 +2458,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1248832",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/144804",
       "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-20",
           "time": "17:00",
@@ -2637,14 +2557,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 12,99 €",
           "note": "Evento Speciale · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "20:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2910,14 +2822,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
       "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-20",
           "time": "15:10",
@@ -3247,43 +3151,6 @@
       ]
     },
     {
-      "title": "I diavoli",
-      "director": "Ken Russell",
-      "duration_min": 111,
-      "poster_url": "https://image.tmdb.org/t/p/w500/eOWv0agpyVXeDsTOjoSl1PSKHQz.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20diavoli%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/i%20diavoli/",
-      "tmdb_url": "https://www.themoviedb.org/movie/31767",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "The Invite - Il piacere è tutto nostro",
       "director": "Olivia Wilde",
       "duration_min": 107,
@@ -3345,6 +3212,35 @@
           "cinema": "Multiastra",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "I diavoli",
+      "director": "Ken Russell",
+      "duration_min": 111,
+      "poster_url": "https://image.tmdb.org/t/p/w500/eOWv0agpyVXeDsTOjoSl1PSKHQz.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20diavoli%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/i%20diavoli/",
+      "tmdb_url": "https://www.themoviedb.org/movie/31767",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
           "date_uncertain": false
         }
       ]
@@ -3461,27 +3357,6 @@
       ]
     },
     {
-      "title": "Lo stato delle cose",
-      "director": "Wim Wenders",
-      "duration_min": 123,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/08/lo-stato-delle-cose-poster.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Lo%20stato%20delle%20cose%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/lo%20stato%20delle%20cose/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1263169",
-      "detail_url": "https://www.movieconnection.it/proiezione/lo-stato-delle-cose/",
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "20:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Fatherland",
       "director": "Pawel Pawlikowski",
       "duration_min": 82,
@@ -3542,10 +3417,34 @@
         },
         {
           "date": "2026-10-23",
+          "time": "16:45",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
           "time": "18:30",
           "cinema": "Lux",
           "price": null,
           "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -3596,22 +3495,6 @@
         {
           "date": "2026-10-24",
           "time": "16:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "17:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:45",
           "cinema": "Lux",
           "price": null,
           "note": "V.O.S.",
