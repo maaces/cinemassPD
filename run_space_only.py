@@ -20,7 +20,7 @@ from render_html import render
 from scrapers import space_cinema
 from utils import merge_movies
 
-SPACE_NAME = "The Space Cinema (Limena)"
+SPACE_NAME = "The Space (Limena)"
 
 
 def load_custom_events(data_path: str):
