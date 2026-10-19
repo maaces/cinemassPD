@@ -21,6 +21,8 @@ from scrapers import space_cinema
 from utils import merge_movies
 
 SPACE_NAME = "The Space (Limena)"
+# nome precedente in data.json: le proiezioni salvate con questo nome vanno tolte, altrimenti restano duplicate
+OLD_SPACE_NAMES = {"The Space Cinema (Limena)", SPACE_NAME}
 
 
 def load_custom_events(data_path: str):
@@ -71,7 +73,7 @@ def main() -> int:
     # 2) gli altri cinema: film dell'ultimo run completo, senza le vecchie proiezioni di The Space
     movies = load_movies(data_path)
     for m in movies:
-        m.showtimes = [s for s in m.showtimes if s.cinema != SPACE_NAME]
+        m.showtimes = [s for s in m.showtimes if s.cinema not in OLD_SPACE_NAMES]
     movies = [m for m in movies if m.showtimes]
     merged = merge_movies([movies, space_movies])
     print(f"   film totali in pagina: {len(merged)}")
