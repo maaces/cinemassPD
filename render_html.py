@@ -115,6 +115,22 @@ def _format_date_it(date_str: str) -> str:
         return date_str
 
 
+WEEKDAYS_SHORT_IT = ["LUN", "MAR", "MER", "GIO", "VEN", "SAB", "DOM"]
+
+
+def _day_suffix_html(date_str: Optional[str], uncertain: bool = False) -> str:
+    """' - LUN 19' accanto all'orario, mostrato solo nella card ingrandita (vedi CSS .mc-day).
+    Vuoto se la data non e' valida o non riconosciuta."""
+    if uncertain or not date_str or date_str == "data-da-verificare":
+        return ""
+    try:
+        y, mo, d = (int(x) for x in date_str.split("-"))
+        wd = WEEKDAYS_SHORT_IT[dt.date(y, mo, d).weekday()]
+    except (ValueError, AttributeError, IndexError):
+        return ""
+    return f'<span class="mc-day"> - {wd} {d}</span>'
+
+
 def _half_hour_bucket(time_str: Optional[str]) -> Optional[str]:
     """'21:35' -> '21:30', '21:05' -> '21:00'. None se l'orario non e' valido."""
     if not time_str:
@@ -172,7 +188,7 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
         <div class="mc-head">
           {poster_html}
           <div class="mc-title">
-            <div class="mc-time">{_esc(st.time)}</div>
+            <div class="mc-time">{_esc(st.time)}{_day_suffix_html(st.date, st.date_uncertain)}</div>
             <div class="mc-name">{_esc(m.title)}</div>
             {director_html}
             <div class="meta">{_esc(duration_html)}</div>
@@ -193,7 +209,7 @@ def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int) -> str:
         gcal_link = google_calendar_link(fake_movie, fake_showtime)
         ics_link = _write_ics(fake_movie, fake_showtime, ics_dir, f"evento-{_slug(ce.title)}-{idx}")
 
-    time_html = f'<div class="mc-time">{_esc(ce.time)}</div>' if ce.time else ""
+    time_html = f'<div class="mc-time">{_esc(ce.time)}{_day_suffix_html(ce.date)}</div>' if ce.time else ""
     photo_html = f'<img class="custom-photo" src="{_esc(ce.photo_url)}" alt="" loading="lazy">' if ce.photo_url else ""
     text_html = f'<div class="custom-text">{_linkify(ce.text)}</div>' if ce.text else ""
     flags_html = ("<div class=\"flags\">" + " ".join(f'<span class="flag-pill">{_esc(f)}</span>' for f in ce.flags)
@@ -589,6 +605,8 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   .card-zoom .mini-card:hover {{ transform: scale(1); box-shadow: 0 18px 50px rgba(0,0,0,.35); }}
   .card-zoom .mc-head {{ gap: 14px; }}
   .card-zoom .poster {{ width: 120px; height: 176px; border-radius: 10px; font-size: 2.4rem; }}
+  .mc-day {{ display: none; }}
+  .card-zoom .mc-day {{ display: inline; }}
   .card-zoom .mc-time {{ font-size: 1.1rem; }}
   .card-zoom .mc-name {{ font-size: 1.3rem; margin: 2px 0 4px; }}
   .card-zoom .director, .card-zoom .meta {{ font-size: 0.92rem; }}
