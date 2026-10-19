@@ -614,7 +614,7 @@ def render(movies: List[Movie], custom_events: List[CustomEvent], out_dir: str, 
   .card-zoom .links {{ font-size: 0.92rem; margin-top: 8px; }}
   .card-zoom .mc-actions {{ margin-top: 14px; gap: 8px; }}
   .card-zoom .btn {{ font-size: 0.88rem; padding: 7px 12px; }}
-  .card-zoom .custom-photo {{ max-height: 50vh; }}
+  .card-zoom .custom-photo {{ width: 100%; height: auto; max-height: 70vh; object-fit: contain; background: var(--card-bg, transparent); }}
   .card-zoom .custom-text {{ font-size: 0.95rem; }}
   .card-zoom-close {{
     position: sticky; top: 0; float: right; margin: -8px -8px 0 8px; width: 32px; height: 32px;
