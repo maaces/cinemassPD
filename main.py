@@ -20,7 +20,7 @@ from enrich_tmdb import enrich_movies
 from render_html import render
 from scrapers import (tickets18, wp_remotefilm, movieconnection, fronte_del_porto,
                       space_cinema, cinema_rex, esperia, piccolo)
-from utils import DEBUG_PAGES, clean_html_for_dump, merge_movies
+from utils import DEBUG_PAGES, clean_html_for_dump, merge_movies, tidy_title
 from models import Movie
 from movies_from_json import load_movies
 
@@ -175,6 +175,13 @@ def main() -> None:
     except Exception as e:
         print(f"   [ERRORE] arricchimento TMDB: {type(e).__name__}: {e}")
         traceback.print_exc()
+
+    # stesso film scritto in modo diverso da due cinema ma ritrovato su TMDB con
+    # lo stesso ID: lo unisco in una sola scheda
+    merged = merge_movies([merged], key=lambda m: m.tmdb_url or m.norm_key())
+    for m in merged:
+        m.title = tidy_title(m.title)
+    print(f"Totale film unici dopo TMDB: {len(merged)}")
 
     print("-> Lettura eventi personalizzati (Issue GitHub con label 'evento') ...")
     try:

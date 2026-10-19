@@ -18,11 +18,25 @@ from utils import get_session, polite_get
 
 # "ALICE NELLE CITTÀ – Wim Wenders # Germania Ovest 1973 (110′)"
 # "DUEL – Steven Spielberg # USA 1971"   (durata non sempre presente)
+# "L’AMICO AMERICANO – Wim Wenders # Germania Ovest 1977 (126′) *V.O.S.*"  (tag finale tra asterischi)
+# Il trattino tra titolo e regista deve avere spazi attorno, cosi' un titolo
+# come "SPIDER-MAN" non viene spezzato.
 TITLE_RE = re.compile(
-    r"^(?P<title>.+?)\s*[–-]\s*(?P<director>.+?)\s*#\s*(?P<country>.+?)\s+"
-    r"(?P<year>\d{4})(?:\s*\((?P<duration>\d+)[′'\u2032]\))?\s*$"
+    r"^(?P<title>.+?)\s+[–—-]\s+(?P<director>.+?)\s*#\s*(?P<country>.+?)\s+"
+    r"(?P<year>\d{4})(?:\s*\((?P<duration>\d+)\s*[′'′]\))?"
+    r"(?:\s*\*(?P<tag>[^*]+)\*)?\s*$"
 )
+TAG_RE = re.compile(r"\s*\*(?P<tag>[^*]+)\*\s*$")
+VOS_RE = re.compile(r"^v\.?\s*o\.?\s*s\.?$", re.I)
 TIME_RE = re.compile(r"(\d{1,2}):(\d{2})\s*$")
+
+
+def _tag_note(tag):
+    """'*V.O.S.*' / '*VOS*' -> 'V.O.S.' (come gia' scritto per gli altri cinema)."""
+    if not tag:
+        return None
+    tag = tag.strip()
+    return "V.O.S." if VOS_RE.match(tag) else tag
 
 
 def scrape(base_url: str, cinema_name: str) -> List[Movie]:
@@ -48,8 +62,13 @@ def scrape(base_url: str, cinema_name: str) -> List[Movie]:
             title = m.group("title").strip()
             director = m.group("director").strip()
             duration = int(m.group("duration")) if m.group("duration") else None
+            note = _tag_note(m.group("tag"))
         else:
-            title, director, duration = full_title, None, None
+            # formato inatteso: tolgo almeno l'eventuale *V.O.S.* finale dal titolo
+            tag_m = TAG_RE.search(full_title)
+            note = _tag_note(tag_m.group("tag")) if tag_m else None
+            title = TAG_RE.sub("", full_title).strip() if tag_m else full_title
+            director, duration = None, None
 
         key = title.lower()
         if key not in movies:
@@ -70,6 +89,7 @@ def scrape(base_url: str, cinema_name: str) -> List[Movie]:
         if date_str and time_str:
             movies[key].showtimes.append(Showtime(
                 date=date_str, time=time_str, cinema=cinema_name, booking_url=detail_url,
+                note=note,
             ))
 
     return list(movies.values())

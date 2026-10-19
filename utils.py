@@ -1,7 +1,7 @@
 """Funzioni di utilità condivise da scraper e script principale."""
 import re
 import time
-from typing import List, Optional
+from typing import Callable, List, Optional
 
 import requests
 
@@ -63,6 +63,27 @@ def nice_title(raw: str) -> str:
     return " ".join(out)
 
 
+def title_is_well_cased(t: str) -> bool:
+    """True se il titolo ha maiuscole e minuscole e inizia con la maiuscola
+    (cioe' non e' TUTTO MAIUSCOLO, tutto minuscolo o 'iniziale minuscola')."""
+    letters = [c for c in t if c.isalpha()]
+    return bool(letters) and letters[0].isupper() and not t.isupper() and not t.islower()
+
+
+def tidy_title(raw: str) -> str:
+    """Ultima ripulitura del titolo mostrato in pagina: spazi doppi, apostrofi
+    tipografici, TUTTO MAIUSCOLO (-> nice_title) e iniziale minuscola."""
+    t = " ".join((raw or "").replace("’", "'").replace("‘", "'").split())
+    if t.isupper():
+        return nice_title(t)
+    for i, c in enumerate(t):
+        if c.isalpha():
+            if c.islower():
+                t = t[:i] + c.upper() + t[i + 1:]
+            break
+    return t
+
+
 YOUTUBE_ID_RE = re.compile(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})")
 
 
@@ -77,18 +98,27 @@ def clean_youtube_url(href: str) -> Optional[str]:
     return href
 
 
-def merge_movies(movie_lists: List[List[Movie]]) -> List[Movie]:
+def merge_movies(movie_lists: List[List[Movie]], key: Optional[Callable[[Movie], str]] = None) -> List[Movie]:
     """Unisce film con lo stesso titolo (normalizzato) provenienti da cinema
-    diversi in un'unica scheda Movie, sommando le proiezioni."""
+    diversi in un'unica scheda Movie, sommando le proiezioni.
+    'key' permette di unire con un altro criterio (es. lo stesso ID TMDB).
+    Tra i titoli dei doppioni tiene quello scritto meglio (non TUTTO MAIUSCOLO):
+    il Cineplex scrive tutto in maiuscolo, Porto Astra no."""
+    key = key or (lambda mv: mv.norm_key())
     merged = {}
     for movies in movie_lists:
         for m in movies:
-            k = m.norm_key()
+            k = key(m)
             if k not in merged:
                 merged[k] = m
             else:
                 existing = merged[k]
+                if title_is_well_cased(m.title) and not title_is_well_cased(existing.title):
+                    existing.title = m.title
                 existing.showtimes.extend(m.showtimes)
+                existing.tmdb_url = existing.tmdb_url or m.tmdb_url
+                existing.letterboxd_url = existing.letterboxd_url or m.letterboxd_url
+                existing.trailer_search_url = existing.trailer_search_url or m.trailer_search_url
                 existing.director = existing.director or m.director
                 existing.duration_min = existing.duration_min or m.duration_min
                 existing.poster_url = existing.poster_url or m.poster_url

@@ -2,6 +2,18 @@
 from dataclasses import dataclass, field
 from typing import Optional, List
 import re
+import unicodedata
+
+
+def title_key(title: str) -> str:
+    """Titolo ridotto all'osso per confrontare lo stesso film scritto in modi diversi:
+    minuscolo, senza accenti (VERITA' = Verità, ZUSTISSIA = Zustìssia), senza
+    parentesi (anno, ried., titolo originale) e senza punteggiatura."""
+    t = unicodedata.normalize("NFKD", title or "")
+    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    t = re.sub(r"\(.*?\)", "", t)  # rimuove parentesi (es. anno, ried.)
+    t = re.sub(r"[^a-z0-9]+", " ", t)
+    return t.strip()
 
 
 @dataclass
@@ -32,7 +44,4 @@ class Movie:
 
     def norm_key(self) -> str:
         """Chiave normalizzata per riconoscere lo stesso film su cinema diversi."""
-        t = self.title.lower()
-        t = re.sub(r"\(.*?\)", "", t)  # rimuove parentesi (es. anno, ried.)
-        t = re.sub(r"[^a-z0-9]+", " ", t)
-        return t.strip()
+        return title_key(self.title)

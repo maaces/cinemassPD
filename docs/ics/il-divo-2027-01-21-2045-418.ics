@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:7403365311015959377@cinema-scraper.local
+DTSTAMP:20261019T174605Z
+DTSTART:20270121T194500Z
+DTEND:20270121T213500Z
+SUMMARY:Il Divo - Paolo Sorrentino
+LOCATION:Cinema Rex
+DESCRIPTION:Cineforum\nhttps://www.cinemarex.it/evento?eventName=il_divo
+END:VEVENT
+END:VCALENDAR
