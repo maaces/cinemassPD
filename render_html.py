@@ -165,7 +165,7 @@ def _movie_card_html(m: Movie, st: Showtime, ics_dir: str, idx: int) -> str:
     if gcal:
         buttons.append(f'<a class="btn" href="{_esc(gcal)}" target="_blank" rel="noopener">📅 Calendar</a>')
     if ics_link:
-        buttons.append(f'<a class="btn btn-alt" href="{_esc(ics_link)}">⬇️ .ics</a>')
+        buttons.append(f'<a class="btn btn-alt" href="{_esc(ics_link)}">🍎 Calendario iPhone</a>')
 
     return f"""
       <div class="mini-card" data-source="{_esc_attr(st.cinema)}" data-movie="{_esc_attr(m.title)}">
@@ -202,7 +202,7 @@ def _custom_card_html(ce: CustomEvent, ics_dir: str, idx: int) -> str:
     if gcal_link:
         buttons.append(f'<a class="btn" href="{_esc(gcal_link)}" target="_blank" rel="noopener">📅 Calendar</a>')
     if ics_link:
-        buttons.append(f'<a class="btn btn-alt" href="{_esc(ics_link)}">⬇️ .ics</a>')
+        buttons.append(f'<a class="btn btn-alt" href="{_esc(ics_link)}">🍎 Calendario iPhone</a>')
 
     flags_attr = _esc_attr(",".join(ce.flags))
     return f"""
