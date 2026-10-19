@@ -1,11 +1,11 @@
-Report generato il 19/10/2026 20:09 (ora italiana)
+Report generato il 19/10/2026 20:49 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
 Film trovati: 28
-Orari trovati: 211 (di cui con data non riconosciuta: 0)
+Orari trovati: 209 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
@@ -13,7 +13,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.tx
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
 Film trovati: 7
-Orari trovati: 15 (di cui con data non riconosciuta: 0)
+Orari trovati: 14 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
@@ -28,7 +28,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 5
+Film trovati: 4
 Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
@@ -66,5 +66,5 @@ URL: https://www.piccolo-padova.it/
 Scraper: piccolo
 Film trovati: 2
 Orari trovati: 2 (di cui con data non riconosciuta: 0)
-Errore: nessuno
-HTML ripulito: https://maaces.github.io/cinemassPD/debug/piccolo-teatro.txt, https://maaces.github.io/cinemassPD/debug/piccolo-teatro-2.txt
+Errore: ReadTimeout: HTTPSConnectionPool(host='www.piccolo-padova.it', port=443): Read timed out. (read timeout=25) (orari presi dall'ultimo aggiornamento riuscito)
+HTML ripulito: non disponibile

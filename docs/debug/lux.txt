@@ -649,7 +649,7 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-7d65271d" id="el-7d65271d">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="4809d652-8282-4b40-bbff-878b72f21d8b" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="f2ce4668-8c23-429c-9813-d0a7acab0630" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
@@ -744,8 +744,8 @@
                         </a>
                        </li>
                        <li class="tribe-events-c-top-bar__nav-list-item">
-                        <a aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" title="Prossimi eventi">
-                        </a>
+                        <button aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" disabled="" title="Prossimi eventi">
+                        </button>
                        </li>
                       </ul>
                      </nav>
@@ -756,21 +756,10 @@
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
                        <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-19">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         Ora
+                         Prossimi eventi
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ora
-                        </span>
-                       </time>
-                       <span class="tribe-events-c-top-bar__datepicker-separator">
-                        -
-                       </span>
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-25">
-                        <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         10/25/2026
-                        </span>
-                        <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ottobre 25
+                         Prossimi eventi
                         </span>
                        </time>
                       </button>
@@ -797,66 +786,6 @@
                        Ottobre 2026
                       </time>
                      </h3>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000773 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-19">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Lun
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        19
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000773 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/controluce-poster.jpg" title="controluce-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/controluce/2026-10-19/" rel="bookmark" title="CONTROLUCE – Tony Saccucci # Italia 2024 (72′)">
-                           CONTROLUCE – Tony Saccucci # Italia 2024 (72′)
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-19">
-                           <span class="tribe-event-date-start">
-                            Ottobre 19/ 19:00
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: CONTROLUCE – Tony Saccucci # Italia 2024 (72′)" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/controluce-tony-saccucci-italia-2024-72/">
-                            <span class="tec_series_marker__title">
-                             CONTROLUCE – Tony Saccucci # Italia 2024 (72′)
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          Tra riprese originali, filmati di repertorio e fotografie dell’Archivio Luce, la storia di Adolfo Porry-Pastorel, padre dei fotoreporter italiani, tra le due guerre diventato «il fotografo di Mussolini», tenuto d’occhio dalla censura fascista, ma lasciato entrare nelle stanze private del Duce. Un “occhio del secolo”, capace di raccontare il dietro le quinte del potere, la ...
-                          <a aria-label="Per saperne di più su CONTROLUCE – Tony Saccucci # Italia 2024 (72′)" class="read-more" href="https://www.movieconnection.it/proiezione/controluce/2026-10-19/" title="CONTROLUCE – Tony Saccucci # Italia 2024 (72′)">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
                      <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000791 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
@@ -1498,6 +1427,66 @@
                       </article>
                      </div>
                     </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000811 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-27">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Mar
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        27
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000811 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-27/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-27">
+                           <span class="tribe-event-date-start">
+                            Ottobre 27/ 17:45
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-27/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
                    </ul>
                    <nav aria-label="Bottom eventi list pagination" class="tribe-events-calendar-list-nav tribe-events-c-nav">
                     <ul class="tribe-events-c-nav__list">
@@ -1517,11 +1506,11 @@
                       </a>
                      </li>
                      <li class="tribe-events-c-nav__list-item tribe-events-c-nav__list-item--next">
-                      <a aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" rel="next" title="Prossimi eventi">
+                      <button aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" disabled="" title="Prossimi eventi">
                        <span class="tribe-events-c-nav__next-label">
                         Prossimi eventi
                        </span>
-                      </a>
+                      </button>
                      </li>
                     </ul>
                    </nav>
@@ -1602,7 +1591,7 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-34e65818" id="el-34e65818">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="4809d652-8282-4b40-bbff-878b72f21d8b" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="f2ce4668-8c23-429c-9813-d0a7acab0630" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
@@ -1697,8 +1686,8 @@
                         </a>
                        </li>
                        <li class="tribe-events-c-top-bar__nav-list-item">
-                        <a aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" title="Prossimi eventi">
-                        </a>
+                        <button aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" disabled="" title="Prossimi eventi">
+                        </button>
                        </li>
                       </ul>
                      </nav>
@@ -1709,21 +1698,10 @@
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
                        <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-19">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         Ora
+                         Prossimi eventi
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ora
-                        </span>
-                       </time>
-                       <span class="tribe-events-c-top-bar__datepicker-separator">
-                        -
-                       </span>
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-25">
-                        <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         10/25/2026
-                        </span>
-                        <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ottobre 25
+                         Prossimi eventi
                         </span>
                        </time>
                       </button>
@@ -1750,66 +1728,6 @@
                        Ottobre 2026
                       </time>
                      </h3>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000773 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-19">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Lun
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        19
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000773 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/controluce-poster.jpg" title="controluce-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/controluce/2026-10-19/" rel="bookmark" title="CONTROLUCE – Tony Saccucci # Italia 2024 (72′)">
-                           CONTROLUCE – Tony Saccucci # Italia 2024 (72′)
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-19">
-                           <span class="tribe-event-date-start">
-                            Ottobre 19/ 19:00
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: CONTROLUCE – Tony Saccucci # Italia 2024 (72′)" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/controluce-tony-saccucci-italia-2024-72/">
-                            <span class="tec_series_marker__title">
-                             CONTROLUCE – Tony Saccucci # Italia 2024 (72′)
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          Tra riprese originali, filmati di repertorio e fotografie dell’Archivio Luce, la storia di Adolfo Porry-Pastorel, padre dei fotoreporter italiani, tra le due guerre diventato «il fotografo di Mussolini», tenuto d’occhio dalla censura fascista, ma lasciato entrare nelle stanze private del Duce. Un “occhio del secolo”, capace di raccontare il dietro le quinte del potere, la ...
-                          <a aria-label="Per saperne di più su CONTROLUCE – Tony Saccucci # Italia 2024 (72′)" class="read-more" href="https://www.movieconnection.it/proiezione/controluce/2026-10-19/" title="CONTROLUCE – Tony Saccucci # Italia 2024 (72′)">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
                      <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000791 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
@@ -2451,6 +2369,66 @@
                       </article>
                      </div>
                     </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000811 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-27">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Mar
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        27
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000811 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-27/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-27">
+                           <span class="tribe-event-date-start">
+                            Ottobre 27/ 17:45
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-27/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
                    </ul>
                    <nav aria-label="Bottom eventi list pagination" class="tribe-events-calendar-list-nav tribe-events-c-nav">
                     <ul class="tribe-events-c-nav__list">
@@ -2470,11 +2448,11 @@
                       </a>
                      </li>
                      <li class="tribe-events-c-nav__list-item tribe-events-c-nav__list-item--next">
-                      <a aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" rel="next" title="Prossimi eventi">
+                      <button aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" disabled="" title="Prossimi eventi">
                        <span class="tribe-events-c-nav__next-label">
                         Prossimi eventi
                        </span>
-                      </a>
+                      </button>
                      </li>
                     </ul>
                    </nav>
