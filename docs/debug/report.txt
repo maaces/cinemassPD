@@ -1,11 +1,11 @@
-Report generato il 19/10/2026 19:12 (ora italiana)
+Report generato il 19/10/2026 19:56 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
 Film trovati: 28
-Orari trovati: 217 (di cui con data non riconosciuta: 0)
+Orari trovati: 213 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
@@ -29,7 +29,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
 Film trovati: 5
-Orari trovati: 12 (di cui con data non riconosciuta: 0)
+Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
 
@@ -43,7 +43,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto.txt
 
 ## The Space (Limena)
 URL: https://www.thespacecinema.it/cinema/limena/al-cinema
-STATO: aggiornato in locale (run_space_only.py), 0 orari salvati
+STATO: aggiornato in locale (run_space_only.py), 158 orari salvati
 
 ## Cinema Rex
 URL: https://www.cinemarex.it/

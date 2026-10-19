@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-19T17:55:45.484832",
+  "generated_at": "2026-10-19T17:57:43.034060",
   "movies": [
     {
-      "title": "AVENGERS: DOOMSDAY",
+      "title": "Avengers: Doomsday",
       "director": "Joe Russo, Anthony Russo",
       "duration_min": 165,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147605/standard_85830980-d32c-4660-b8d5-a91305666da7.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=v5jz9Nmp7U0",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=AVENGERS%3A%20DOOMSDAY%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Avengers%3A%20Doomsday%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/avengers%3A%20doomsday/",
       "tmdb_url": "https://www.themoviedb.org/movie/1003596",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147605",
@@ -927,12 +927,12 @@
       ]
     },
     {
-      "title": "SE DOMANI NON TORNO",
+      "title": "Se domani non torno",
       "director": "Paola Randi",
       "duration_min": 106,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/150378/standard_0a48d429-9a57-4cc5-92d5-8c4cc295cb29.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=M4T73uO9VxQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=SE%20DOMANI%20NON%20TORNO%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Se%20domani%20non%20torno%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/se%20domani%20non%20torno/",
       "tmdb_url": "https://www.themoviedb.org/movie/1583853",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/150378",
@@ -1052,7 +1052,7 @@
       ]
     },
     {
-      "title": "JE SO' PAZZO",
+      "title": "Je so' pazzo",
       "director": "Nicola Prosatore",
       "duration_min": 120,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152324/standard_5971d35e-2c67-4968-b835-2f9b0dafbcdc.jpg",
@@ -1066,14 +1066,6 @@
           "date": "2026-10-19",
           "time": "17:30",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1273,7 +1265,7 @@
       ]
     },
     {
-      "title": "CARLO ACUTIS. IL GIOVANE SANTO",
+      "title": "Carlo Acutis. Il giovane santo",
       "director": "Luca Salmaso",
       "duration_min": 85,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152431/standard_7dc1503c-1736-4d59-a085-8b833e86b31a.jpg",
@@ -1358,7 +1350,7 @@
       ]
     },
     {
-      "title": "STREET FIGHTER",
+      "title": "Street Fighter",
       "director": "Kitao Sakurai",
       "duration_min": 120,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152423/standard_9748c821-0c68-44ad-ad1f-d53bfe2561f4.jpg",
@@ -1374,14 +1366,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1499,7 +1483,7 @@
       ]
     },
     {
-      "title": "ZUSTISSIA",
+      "title": "Zustìssia",
       "director": "Francesco Piras",
       "duration_min": 111,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152432/standard_2fd46e37-6b7d-49aa-b03d-a21051f590a0.jpg",
@@ -1527,6 +1511,14 @@
         },
         {
           "date": "2026-10-20",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
           "time": "20:45",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -1547,6 +1539,14 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -1576,7 +1576,7 @@
       ]
     },
     {
-      "title": "WHALEFALL: NELLA BALENA",
+      "title": "Whalefall - Nella balena",
       "director": "Brian Duffield",
       "duration_min": 106,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152426/standard_85183cf8-4f63-49f5-b5bf-da640cded4b0.jpg",
@@ -1749,13 +1749,13 @@
       ]
     },
     {
-      "title": "FRANKIE E LE CREATURE DIMENTICATE (STITCH HEAD)",
+      "title": "Frankie e le creature dimenticate",
       "director": "Steve Hudson",
       "duration_min": 91,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152430/standard_8987d340-dd87-44e4-b28c-aba162d8cd23.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=expK9B7BbAQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=FRANKIE%20E%20LE%20CREATURE%20DIMENTICATE%20%28STITCH%20HEAD%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/frankie%20e%20le%20creature%20dimenticate%20%28stitch%20head%29/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Frankie%20e%20le%20creature%20dimenticate%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/frankie%20e%20le%20creature%20dimenticate/",
       "tmdb_url": "https://www.themoviedb.org/movie/1214130",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152430",
       "showtimes": [
@@ -1786,7 +1786,7 @@
       ]
     },
     {
-      "title": "PRIMETIME",
+      "title": "Primetime",
       "director": "Lance Oppenheim",
       "duration_min": 110,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152429/standard_14ea4278-5795-4e81-a439-f7baedc4de92.jpg",
@@ -1983,7 +1983,7 @@
       ]
     },
     {
-      "title": "SE AMI QUALCUNO DILLO",
+      "title": "Se ami qualcuno dillo",
       "director": "Marco Bonini",
       "duration_min": 100,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152359/standard_aafa4966-0c6c-4296-a3f1-7c874c437a70.jpg",
@@ -1993,14 +1993,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1713935",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152359",
       "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "19:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-19",
           "time": "20:40",
@@ -2100,13 +2092,13 @@
       ]
     },
     {
-      "title": "DUNE – PARTE TRE",
+      "title": "Dune - Parte tre",
       "director": "Denis Villeneuve",
       "duration_min": 140,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/136517/standard_6f11781d-6241-4156-9a70-5bae160dc527.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=BlAyKxScwyk",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=DUNE%20%E2%80%93%20PARTE%20TRE%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/dune%20%E2%80%93%20parte%20tre/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Dune%20-%20Parte%20tre%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/dune%20-%20parte%20tre/",
       "tmdb_url": "https://www.themoviedb.org/movie/1170608",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/136517",
       "showtimes": [
@@ -2121,49 +2113,12 @@
       ]
     },
     {
-      "title": "THE SOCIAL -IL PREZZO DELLA VERITA' (THE SOCIAL RECKONING)",
-      "director": "Aaron Sorkin",
-      "duration_min": 120,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148269/standard_eb131225-0920-4206-90e1-5e2b3a2b9361.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=2mybzyr_r2I",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=THE%20SOCIAL%20-IL%20PREZZO%20DELLA%20VERITA%27%20%28THE%20SOCIAL%20RECKONING%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20social%20-il%20prezzo%20della%20verita%27%20%28the%20social%20reckoning%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1281331",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148269",
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "19:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "19:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "21:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "OTHER MOMMY",
+      "title": "Other Mommy",
       "director": "Rob Savage",
       "duration_min": 93,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148369/standard_08ea65f5-352b-4888-9ec4-5aceaaa36f0f.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=z8ffzHPyHko",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=OTHER%20MOMMY%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Other%20Mommy%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/other%20mommy/",
       "tmdb_url": "https://www.themoviedb.org/movie/1400837",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
@@ -2186,10 +2141,26 @@
         },
         {
           "date": "2026-10-19",
+          "time": "21:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
           "time": "22:15",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "22:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         },
         {
@@ -2202,10 +2173,50 @@
         },
         {
           "date": "2026-10-20",
+          "time": "14:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "16:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
           "time": "20:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "20:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -2226,10 +2237,42 @@
         },
         {
           "date": "2026-10-20",
+          "time": "22:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
           "time": "23:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "14:20",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -2242,10 +2285,42 @@
         },
         {
           "date": "2026-10-21",
+          "time": "19:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "20:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
           "time": "21:35",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "22:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
           "date_uncertain": false
         },
         {
@@ -2259,7 +2334,7 @@
       ]
     },
     {
-      "title": "L'ESTRANEA",
+      "title": "L'estranea",
       "director": "Paolo Strippoli",
       "duration_min": 115,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148266/standard_ebbb9489-a5e4-4a61-843d-4e5c386dace2.jpg",
@@ -2416,7 +2491,44 @@
       ]
     },
     {
-      "title": "DIGGER",
+      "title": "The Social - Il prezzo della verità",
+      "director": "Aaron Sorkin",
+      "duration_min": 120,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148269/standard_eb131225-0920-4206-90e1-5e2b3a2b9361.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=2mybzyr_r2I",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Social%20-%20Il%20prezzo%20della%20verit%C3%A0%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20social%20-%20il%20prezzo%20della%20verit%C3%A0/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1281331",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148269",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "19:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:55",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Digger",
       "director": "Alejandro G. Iñárritu",
       "duration_min": 129,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/144804/standard_46600a7c-349c-4b36-806e-609d9c10fb52.jpg",
@@ -2509,7 +2621,7 @@
       ]
     },
     {
-      "title": "NAZA",
+      "title": "Naza",
       "director": "Yuval Abraham, Rachel Szor",
       "duration_min": 77,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/141434/standard_b644c282-df29-480f-94d9-550231e2b8a5.jpg",
@@ -2714,7 +2826,7 @@
       ]
     },
     {
-      "title": "LE SENTINELLE DI PIETRA",
+      "title": "Le Sentinelle di Pietra",
       "director": "Francesco Gozzo",
       "duration_min": null,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148826/standard_a54b975a-fcc3-489d-9933-6091f3f1a115.jpeg",
@@ -2735,7 +2847,7 @@
       ]
     },
     {
-      "title": "VERITY",
+      "title": "Verity",
       "director": "Michael Showalter",
       "duration_min": 114,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/145727/standard_919ed44c-75de-4905-b85e-53e2dd0b0317.jpg",
@@ -2812,7 +2924,7 @@
       ]
     },
     {
-      "title": "HEART OF THE  BEAST - NEL PROFONDO SELVAGGIO",
+      "title": "Heart of the Beast - Nel profondo selvaggio",
       "director": "David Ayer",
       "duration_min": 95,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/138761/standard_2c70c723-e29d-4b0d-a0ce-0b015d3b6a0b.jpg",
@@ -2937,7 +3049,7 @@
       ]
     },
     {
-      "title": "CLAYFACE",
+      "title": "Clayface",
       "director": "James Watkins",
       "duration_min": 109,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153050/standard_011ab426-cc56-4897-a12e-1c6ff0af8c1d.jpg",
@@ -3054,14 +3166,14 @@
       ]
     },
     {
-      "title": "LA BELLA E LA BESTIA (BEAUTY AND THE BEAST) (ED.SPEC.)",
+      "title": "La bella e la bestia",
       "director": "Gary Trousdale, Kirk Wise",
-      "duration_min": 105,
+      "duration_min": 129,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147704/standard_8c27db9d-70fd-4c42-bdbc-e082abb5aa03.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=7lStU0thwb0",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=LA%20BELLA%20E%20LA%20BESTIA%20%28BEAUTY%20AND%20THE%20BEAST%29%20%28ED.SPEC.%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20bella%20e%20la%20bestia%20%28beauty%20and%20the%20beast%29%20%28ed.spec.%29/",
-      "tmdb_url": "https://www.themoviedb.org/movie/197836",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20bella%20e%20la%20bestia%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20bella%20e%20la%20bestia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/321612",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147704",
       "showtimes": [
         {
@@ -3075,13 +3187,13 @@
       ]
     },
     {
-      "title": "SHAUN VITA DA PECORA - OPERAZIONE Z.U.C.C.A",
+      "title": "Shaun, vita da pecora - Operazione Z.U.C.C.A.",
       "director": "Steve Cox, Matthew Walker",
       "duration_min": 88,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153711/standard_25ef68c7-6c30-43f7-9e92-66995de55c32.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=coBQwR5_rLU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=SHAUN%20VITA%20DA%20PECORA%20-%20OPERAZIONE%20Z.U.C.C.A%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/shaun%20vita%20da%20pecora%20-%20operazione%20z.u.c.c.a/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Shaun%2C%20vita%20da%20pecora%20-%20Operazione%20Z.U.C.C.A.%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/shaun%2C%20vita%20da%20pecora%20-%20operazione%20z.u.c.c.a./",
       "tmdb_url": "https://www.themoviedb.org/movie/1477104",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153711",
       "showtimes": [
@@ -3096,7 +3208,7 @@
       ]
     },
     {
-      "title": "COCO",
+      "title": "Coco",
       "director": "Lee Unkrich",
       "duration_min": 109,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153677/standard_00a9a716-535b-4edd-b206-78d9f0ad8d90.jpg",
@@ -3125,14 +3237,14 @@
       ]
     },
     {
-      "title": "DRACULA DI BRAM STOKER 4K (RIED. 2026)",
+      "title": "Dracula di Bram Stoker",
       "director": "F. Ford Coppola",
-      "duration_min": null,
+      "duration_min": 128,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/151401/standard_5428c5bd-fd55-4926-bd5a-74e9b8238cc0.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=q5ma98a1_h0",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=DRACULA%20DI%20BRAM%20STOKER%204K%C2%A0%28RIED.%202026%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/dracula%20di%20bram%20stoker%204k%C2%A0%28ried.%202026%29/",
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Dracula%20di%20Bram%20Stoker%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/dracula%20di%20bram%20stoker/",
+      "tmdb_url": "https://www.themoviedb.org/movie/6114",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/151401",
       "showtimes": [
         {
@@ -3146,12 +3258,12 @@
       ]
     },
     {
-      "title": "ICE CREAM MAN",
+      "title": "Ice Cream Man",
       "director": "Eli Roth",
       "duration_min": 86,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/151367/standard_c65d6ce4-4bf6-4c67-ad3e-5601cea49bbf.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=za2LIZ_zuhs",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=ICE%20CREAM%20MAN%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Ice%20Cream%20Man%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/ice%20cream%20man/",
       "tmdb_url": "https://www.themoviedb.org/movie/1477712",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/151367",
@@ -3167,12 +3279,12 @@
       ]
     },
     {
-      "title": "The Invite - Il Piacere È Tutto Nostro",
+      "title": "The Invite - Il piacere è tutto nostro",
       "director": "Olivia Wilde",
       "duration_min": 107,
       "poster_url": "https://image.tmdb.org/t/p/w500/p9kaEC6mE6oNFhZjkbA1ALuvv2q.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Invite%20-%20Il%20Piacere%20%C3%88%20Tutto%20Nostro%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
       "tmdb_url": "https://www.themoviedb.org/movie/950028",
       "detail_url": null,
@@ -3204,12 +3316,12 @@
       ]
     },
     {
-      "title": "I Diavoli",
+      "title": "I diavoli",
       "director": "Ken Russell",
       "duration_min": 111,
       "poster_url": "https://image.tmdb.org/t/p/w500/eOWv0agpyVXeDsTOjoSl1PSKHQz.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20Diavoli%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20diavoli%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/i%20diavoli/",
       "tmdb_url": "https://www.themoviedb.org/movie/31767",
       "detail_url": null,
@@ -3241,12 +3353,12 @@
       ]
     },
     {
-      "title": "Il Tempo Di Anne",
+      "title": "Il tempo di Anne",
       "director": "Lisa Azuelos",
       "duration_min": 100,
       "poster_url": "https://image.tmdb.org/t/p/w500/27qj8GYVEgKPUlnxcnK6XJevgNd.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=59BlZT6bIa4",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Tempo%20Di%20Anne%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20tempo%20di%20Anne%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/il%20tempo%20di%20anne/",
       "tmdb_url": "https://www.themoviedb.org/movie/1477170",
       "detail_url": null,
@@ -3352,41 +3464,12 @@
       ]
     },
     {
-      "title": "Zustìssia",
-      "director": "Francesco Piras",
-      "duration_min": 111,
-      "poster_url": "https://image.tmdb.org/t/p/w500/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Zust%C3%ACssia%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/zust%C3%ACssia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-20",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "I Racconti Del Giardino Incantato",
+      "title": "I racconti del giardino incantato",
       "director": "Jean-Claude Rozec, Patrik Pašš, Leon Vidmar, David Súkup",
       "duration_min": 71,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/i-racconti-del-giardino-incantato-2-1024x576.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=tvlXQF1Er_k",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20Racconti%20Del%20Giardino%20Incantato%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20racconti%20del%20giardino%20incantato%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/i%20racconti%20del%20giardino%20incantato/",
       "tmdb_url": "https://www.themoviedb.org/movie/587370",
       "detail_url": "https://www.frontedelportopadova.it/eventi/i-racconti-del-giardino-incantato/",
@@ -3418,33 +3501,12 @@
       ]
     },
     {
-      "title": "The Social - Il Prezzo Della Verità",
-      "director": "Aaron Sorkin",
-      "duration_min": 120,
-      "poster_url": "https://image.tmdb.org/t/p/w500/mJv5sV2knJtLy5ELIOilryhV59o.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=3haauYQZo9k",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Social%20-%20Il%20Prezzo%20Della%20Verit%C3%A0%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20social%20-%20il%20prezzo%20della%20verit%C3%A0/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1281331",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-21",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "CONTROLUCE",
+      "title": "Controluce",
       "director": "Tony Saccucci",
       "duration_min": 72,
       "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/controluce-poster.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=9hxSSgELFuE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=CONTROLUCE%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Controluce%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/controluce/",
       "tmdb_url": "https://www.themoviedb.org/movie/1373598",
       "detail_url": "https://www.movieconnection.it/proiezione/controluce/2026-10-19/",
@@ -3460,14 +3522,14 @@
       ]
     },
     {
-      "title": "LO STATO DELLE COSE – Wim Wenders # Germania Ovest/Portogallo/USA 1982 (123′) *VOS*",
-      "director": null,
-      "duration_min": null,
+      "title": "Lo stato delle cose",
+      "director": "Wim Wenders",
+      "duration_min": 123,
       "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/08/lo-stato-delle-cose-poster.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=LO%20STATO%20DELLE%20COSE%20%E2%80%93%20Wim%20Wenders%20%23%20Germania%20Ovest/Portogallo/USA%201982%20%28123%E2%80%B2%29%20%2AVOS%2A%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/lo%20stato%20delle%20cose%20%E2%80%93%20wim%20wenders%20%23%20germania%20ovest/portogallo/usa%201982%20%28123%E2%80%B2%29%20%2Avos%2A/",
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Lo%20stato%20delle%20cose%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/lo%20stato%20delle%20cose/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1263169",
       "detail_url": "https://www.movieconnection.it/proiezione/lo-stato-delle-cose/",
       "showtimes": [
         {
@@ -3475,28 +3537,52 @@
           "time": "20:30",
           "cinema": "Lux",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*",
-      "director": null,
-      "duration_min": null,
+      "title": "Fatherland",
+      "director": "Pawel Pawlikowski",
+      "duration_min": 82,
       "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=FATHERLAND%20%E2%80%93%20Pawel%20Pawlikowski%20%23%20Italia/Pol/Fra/Ger%202026%20%2882%E2%80%B2%29%20%2AV.O.S.%2A%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fatherland%20%E2%80%93%20pawel%20pawlikowski%20%23%20italia/pol/fra/ger%202026%20%2882%E2%80%B2%29%20%2A.%2A/",
-      "tmdb_url": null,
+      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
       "detail_url": "https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/",
       "showtimes": [
+        {
+          "date": "2026-10-19",
+          "time": "20:20",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "14:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
         {
           "date": "2026-10-20",
           "time": "19:15",
           "cinema": "Lux",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "20:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
           "date_uncertain": false
         },
         {
@@ -3504,41 +3590,97 @@
           "time": "21:00",
           "cinema": "Lux",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "18:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*",
-      "director": null,
-      "duration_min": null,
+      "title": "Possible Love",
+      "director": "Lee Chang-dong",
+      "duration_min": 164,
       "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=POSSIBLE%20LOVE%20%20%E2%80%93%20Lee%20Chang-dong%20%23%20Corea%20del%20sud%202026%20%28164%E2%80%B2%29%20%2AV.O.S.%2A%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/possible%20love%20%20%E2%80%93%20lee%20chang-dong%20%23%20corea%20del%20sud%202026%20%28164%E2%80%B2%29%20%2A.%2A/",
-      "tmdb_url": null,
-      "detail_url": "https://www.movieconnection.it/proiezione/possible-love/",
+      "trailer_url": "https://www.youtube.com/watch?v=nEVXK29ed94",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Possible%20Love%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/possible%20love/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1483525",
+      "detail_url": "https://www.movieconnection.it/proiezione/possible-love/2026-10-21/",
       "showtimes": [
         {
           "date": "2026-10-21",
           "time": "17:00",
           "cinema": "Lux",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "17:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "20:15",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "20:15",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "16:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "L’AMICO AMERICANO – Wim Wenders # Germania Ovest 1977 (126′) *V.O.S.*",
-      "director": null,
-      "duration_min": null,
+      "title": "L'amico americano",
+      "director": "Wim Wenders",
+      "duration_min": 126,
       "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/08/lamico-americano-poster-1.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%E2%80%99AMICO%20AMERICANO%20%E2%80%93%20Wim%20Wenders%20%23%20Germania%20Ovest%201977%20%28126%E2%80%B2%29%20%2AV.O.S.%2A%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%E2%80%99amico%20americano%20%E2%80%93%20wim%20wenders%20%23%20germania%20ovest%201977%20%28126%E2%80%B2%29%20%2A.%2A/",
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27amico%20americano%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27amico%20americano/",
+      "tmdb_url": "https://www.themoviedb.org/movie/11222",
       "detail_url": "https://www.movieconnection.it/proiezione/lamico-americano/",
       "showtimes": [
         {
@@ -3546,7 +3688,7 @@
           "time": "20:30",
           "cinema": "Lux",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -3636,13 +3778,13 @@
       ]
     },
     {
-      "title": "i pionieri dell’animazione",
+      "title": "I pionieri dell'animazione",
       "director": null,
       "duration_min": 54,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/0048671d-164d-40c1-a48f-647b6be6be7d.jpeg",
       "trailer_url": null,
       "trailer_search_url": "https://www.youtube.com/results?search_query=i%20pionieri%20dell%E2%80%99animazione%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/i%20pionieri%20dell%E2%80%99animazione/",
+      "letterboxd_url": "https://letterboxd.com/search/films/i%20pionieri%20dell%27animazione/",
       "tmdb_url": null,
       "detail_url": "https://www.frontedelportopadova.it/eventi/i-pionieri-dellanimazione/",
       "showtimes": [
@@ -3694,13 +3836,13 @@
       ]
     },
     {
-      "title": "Ultimo turno",
+      "title": "L'ultimo turno",
       "director": "Petra Biondina Volpe",
       "duration_min": 92,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/ultimo-turno-1-1024x576.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=GAfNciUIWCg",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Ultimo%20turno%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/ultimo%20turno/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%E2%80%99ultimo%20turno%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27ultimo%20turno/",
       "tmdb_url": "https://www.themoviedb.org/movie/1356670",
       "detail_url": "https://www.frontedelportopadova.it/eventi/ultimo-turno/",
       "showtimes": [
@@ -3736,13 +3878,13 @@
       ]
     },
     {
-      "title": "After Life – Qual è il tuo Ricordo più Bello?",
+      "title": "After Life - Qual è il tuo ricordo più bello?",
       "director": "Hirokazu Kore-eda",
       "duration_min": 118,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/after-life-qual-e-il-tuo-ricordo-piu-bello-3-1024x576.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=GNl-oCvHJbQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=After%20Life%20%E2%80%93%20Qual%20%C3%A8%20il%20tuo%20Ricordo%20pi%C3%B9%20Bello%3F%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/after%20life%20%E2%80%93%20qual%20%C3%A8%20il%20tuo%20ricordo%20pi%C3%B9%20bello%3F/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=After%20Life%20-%20Qual%20%C3%A8%20il%20tuo%20ricordo%20pi%C3%B9%20bello%3F%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/after%20life%20-%20qual%20%C3%A8%20il%20tuo%20ricordo%20pi%C3%B9%20bello%3F/",
       "tmdb_url": "https://www.themoviedb.org/movie/17962",
       "detail_url": "https://www.frontedelportopadova.it/eventi/after-life-qual-e-il-tuo-ricordo-piu-bello/",
       "showtimes": [
@@ -3799,7 +3941,7 @@
       ]
     },
     {
-      "title": "GLI UCCELLI DEL MONTE QAF",
+      "title": "Gli Uccelli del Monte Qaf",
       "director": "Firouzeh Khosrovani, Morteza Ahmadvand",
       "duration_min": 80,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-1024x576.jpg",
@@ -3828,13 +3970,13 @@
       ]
     },
     {
-      "title": "I racconti di Parvana",
+      "title": "I racconti di Parvana - The Breadwinner",
       "director": "Nora Twomey",
       "duration_min": 94,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/i-racconti-di-parvana-1-1024x576.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=A_R4cgQG5Yg",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20racconti%20di%20Parvana%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/i%20racconti%20di%20parvana/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=I%20racconti%20di%20Parvana%20-%20The%20Breadwinner%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/i%20racconti%20di%20parvana%20-%20the%20breadwinner/",
       "tmdb_url": "https://www.themoviedb.org/movie/435129",
       "detail_url": "https://www.frontedelportopadova.it/eventi/i-racconti-di-parvana/",
       "showtimes": [
@@ -3849,12 +3991,12 @@
       ]
     },
     {
-      "title": "The conversation",
+      "title": "The Conversation",
       "director": "Francis Ford Coppola",
       "duration_min": 144,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/The-Conversation-1974-1024x554.png",
       "trailer_url": "https://www.youtube.com/watch?v=29d2jAWZd00",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20conversation%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Conversation%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/the%20conversation/",
       "tmdb_url": "https://www.themoviedb.org/movie/592",
       "detail_url": "https://www.frontedelportopadova.it/eventi/the-conversation/",
@@ -3870,12 +4012,12 @@
       ]
     },
     {
-      "title": "Tony, Shelly e la Luce Magica",
+      "title": "Tony, Shelly e la luce magica",
       "director": "Filip Pošivač",
       "duration_min": 83,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Tony-Shelly-e-la-Luce-Magica-2023-Filip-Posivac-04-1024x554.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=ZFiH3X0stHs",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Tony%2C%20Shelly%20e%20la%20Luce%20Magica%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Tony%2C%20Shelly%20e%20la%20luce%20magica%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/tony%2C%20shelly%20e%20la%20luce%20magica/",
       "tmdb_url": "https://www.themoviedb.org/movie/947650",
       "detail_url": "https://www.frontedelportopadova.it/eventi/tony-shelly-e-la-luce-magica/",
@@ -3933,12 +4075,12 @@
       ]
     },
     {
-      "title": "principi e Principesse",
+      "title": "Principi e principesse",
       "director": "Michel Ocelot",
       "duration_min": 67,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/personnages-Princes-et-princesse-scaled-e1669304039950-800x800-1.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=H8-FjKT_jN8",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=principi%20e%20Principesse%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Principi%20e%20principesse%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/principi%20e%20principesse/",
       "tmdb_url": "https://www.themoviedb.org/movie/65592",
       "detail_url": "https://www.frontedelportopadova.it/eventi/principi-e-principesse/",
@@ -3975,12 +4117,12 @@
       ]
     },
     {
-      "title": "Radiograph of a family",
+      "title": "Radiograph of a Family",
       "director": "Firouzeh Khosrovani",
       "duration_min": 81,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/01/Still_ROAF_05-scaled-1-1024x553.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Radiograph%20of%20a%20family%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Radiograph%20of%20a%20Family%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/radiograph%20of%20a%20family/",
       "tmdb_url": "https://www.themoviedb.org/movie/768199",
       "detail_url": "https://www.frontedelportopadova.it/eventi/radiograph-of-a-family-rassegna-vos/",
@@ -4025,12 +4167,12 @@
       ]
     },
     {
-      "title": "sun ra: do the impossible",
+      "title": "Sun Ra: Do the Impossible",
       "director": "Christine Turner",
       "duration_min": 84,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/sun-ra-do-the-impossible-1024x576.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=sun%20ra%3A%20do%20the%20impossible%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Sun%20Ra%3A%20Do%20the%20Impossible%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/sun%20ra%3A%20do%20the%20impossible/",
       "tmdb_url": "https://www.themoviedb.org/movie/1465849",
       "detail_url": "https://www.frontedelportopadova.it/eventi/sun-ra-do-the-impossible/",
@@ -4067,12 +4209,12 @@
       ]
     },
     {
-      "title": "lost highway",
+      "title": "Lost Highway",
       "director": "David Lynch",
       "duration_min": 135,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Lost-Highway-1997-imdb-tt0116922-Bluray-1080pEAC3-5.1x264-PTer-0006-1024x429.png",
       "trailer_url": "https://www.youtube.com/watch?v=myJv_2lEOHM",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=lost%20highway%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Lost%20Highway%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/lost%20highway/",
       "tmdb_url": "https://www.themoviedb.org/movie/638",
       "detail_url": "https://www.frontedelportopadova.it/eventi/lost-highway/",
@@ -4109,13 +4251,13 @@
       ]
     },
     {
-      "title": "L’estate di Cléo",
+      "title": "L'estate di Cléo",
       "director": "Marie Amachoukeli",
       "duration_min": 84,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/AH_lestatedicleo_foto_4-1024x540.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=HiEkJL9xkN4",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%E2%80%99estate%20di%20Cl%C3%A9o%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%E2%80%99estate%20di%20cl%C3%A9o/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27estate%20di%20Cl%C3%A9o%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27estate%20di%20cl%C3%A9o/",
       "tmdb_url": "https://www.themoviedb.org/movie/803688",
       "detail_url": "https://www.frontedelportopadova.it/eventi/lestate-di-cle0/",
       "showtimes": [
@@ -4151,12 +4293,12 @@
       ]
     },
     {
-      "title": "The act of killing",
+      "title": "The Act of Killing",
       "director": "Joshua Oppenheimer",
       "duration_min": 159,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-act-of-killing-1-1024x576.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=QwuJaxs9KDE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20act%20of%20killing%20trailer",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Act%20of%20Killing%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/the%20act%20of%20killing/",
       "tmdb_url": "https://www.themoviedb.org/movie/123678",
       "detail_url": "https://www.frontedelportopadova.it/eventi/the-act-of-killing/",
@@ -4167,6 +4309,511 @@
           "cinema": "Fronte del Porto",
           "price": null,
           "note": "€6,50 intero, €5,00 ridotto",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Trainspotting - 30MO Anniversario",
+      "director": null,
+      "duration_min": 115,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Trainspotting%20-%2030MO%20Anniversario%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/trainspotting%20-%2030mo%20anniversario/",
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/trainspotting-30mo-anniversario",
+      "showtimes": [
+        {
+          "date": "2026-10-19",
+          "time": "19:30",
+          "cinema": "The Space (Limena)",
+          "price": null,
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-19",
+          "time": "22:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "19:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "22:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "22:20",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Back On The Big Screen · Extra · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L'isola dei ricordi",
+      "director": "Januel Mercado, Joel Crawford",
+      "duration_min": 93,
+      "poster_url": "https://image.tmdb.org/t/p/w500/p8YpBFMmccQQoeQie9XKv6loDSa.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y4TJhVJdME8",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27isola%20dei%20ricordi%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27isola%20dei%20ricordi/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1465063",
+      "detail_url": "https://www.thespacecinema.it/film/lisola-dei-ricordi",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "14:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "15:15",
+          "cinema": "The Space (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Coyote vs. Acme",
+      "director": "Dave Green",
+      "duration_min": 101,
+      "poster_url": "https://image.tmdb.org/t/p/w500/x2AtkVKU8IDgeScz354aqoYjUQG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=eX_ficWckMI",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Coyote%20vs.%20Acme%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/coyote%20vs.%20acme/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1204680",
+      "detail_url": "https://www.thespacecinema.it/film/coyote-vs-acme",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "17:15",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "14:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L'albero di molto lontano",
+      "director": "Ben Gregor",
+      "duration_min": 110,
+      "poster_url": "https://image.tmdb.org/t/p/w500/q8rVIdLn2PUIEoot8JOnmK65EGr.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=YpTlJphcnXA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27albero%20di%20molto%20lontano%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27albero%20di%20molto%20lontano/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1140521",
+      "detail_url": "https://www.thespacecinema.it/film/l-albero-di-molto-lontano",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "14:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "14:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER · Prezzo Family",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Resident Evil",
+      "director": "Zach Cregger",
+      "duration_min": 90,
+      "poster_url": "https://image.tmdb.org/t/p/w500/D8rnntI88rgzWKDK2yuxm25HTQ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=w_k72lFKSkc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Resident%20Evil%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/resident%20evil/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1423191",
+      "detail_url": "https://www.thespacecinema.it/film/resident-evil",
+      "showtimes": [
+        {
+          "date": "2026-10-20",
+          "time": "14:15",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "16:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-20",
+          "time": "22:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "17:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "17:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "22:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Klara e il sole",
+      "director": "Taika Waititi",
+      "duration_min": 116,
+      "poster_url": "https://image.tmdb.org/t/p/w500/9pbXmKk4EgTkQKBdiCgiEdhI6eG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Evw3_f4X-J4",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Klara%20e%20il%20sole%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/klara%20e%20il%20sole/",
+      "tmdb_url": "https://www.themoviedb.org/movie/858035",
+      "detail_url": "https://www.thespacecinema.it/film/klara-e-il-sole",
+      "showtimes": [
+        {
+          "date": "2026-10-22",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Ragione e sentimento",
+      "director": "Georgia Oakley",
+      "duration_min": 132,
+      "poster_url": "https://image.tmdb.org/t/p/w500/bwZCHb0qCFP2QT3QylGixpsNo8D.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=DKwPSComY6k",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Ragione%20e%20sentimento%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/ragione%20e%20sentimento/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1503762",
+      "detail_url": "https://www.thespacecinema.it/film/ragione-e-sentimento",
+      "showtimes": [
+        {
+          "date": "2026-10-22",
+          "time": "20:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "20:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "20:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Wildwood - I segreti del bosco proibito",
+      "director": "Travis Knight",
+      "duration_min": 132,
+      "poster_url": "https://image.tmdb.org/t/p/w500/kfczsvfehVNDwzWiPuKAuQclzl7.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=7rQ_JSUt_bs",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Wildwood%20-%20I%20segreti%20del%20bosco%20proibito%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/wildwood%20-%20i%20segreti%20del%20bosco%20proibito/",
+      "tmdb_url": "https://www.themoviedb.org/movie/791523",
+      "detail_url": "https://www.thespacecinema.it/film/wildwood-i-segreti-del-bosco-proibito",
+      "showtimes": [
+        {
+          "date": "2026-10-22",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 7,99 €",
+          "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "20:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "20:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "20:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Txt World Tour Act: Tomorrow",
+      "director": null,
+      "duration_min": 100,
+      "poster_url": "https://image.tmdb.org/t/p/w500/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Txt%20World%20Tour%20Act%3A%20Tomorrow%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/txt%20world%20tour%20act%3A%20tomorrow/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1288843",
+      "detail_url": "https://www.thespacecinema.it/film/txt-world-tour-act-tomorrow-lingua-originale",
+      "showtimes": [
+        {
+          "date": "2026-10-24",
+          "time": "18:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Bts World Tour Arirang Live in Buenos Aires",
+      "director": null,
+      "duration_min": 195,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Bts%20World%20Tour%20Arirang%20Live%20in%20Buenos%20Aires%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/bts%20world%20tour%20arirang%20live%20in%20buenos%20aires/",
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/bts-world-tour-arirang-live-in-buenos-aires-lingua-originale",
+      "showtimes": [
+        {
+          "date": "2026-10-25",
+          "time": "14:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 21,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:30",
+          "cinema": "The Space (Limena)",
+          "price": "da 21,99 €",
+          "note": "V.O.S. · Extra · Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Michael",
+      "director": "Antoine Fuqua",
+      "duration_min": 127,
+      "poster_url": "https://image.tmdb.org/t/p/w500/xUjMqG7GH6md8qX5e3MyLAzAYSZ.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=MDfdC2ubOek",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Michael%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/michael/",
+      "tmdb_url": "https://www.themoviedb.org/movie/936075",
+      "detail_url": "https://www.thespacecinema.it/film/michael",
+      "showtimes": [
+        {
+          "date": "2026-10-25",
+          "time": "10:50",
+          "cinema": "The Space (Limena)",
+          "price": "da 3,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Enhypen World Tour Blood Saga",
+      "director": "Kim Yun-jeong",
+      "duration_min": 100,
+      "poster_url": "https://image.tmdb.org/t/p/w500/tmuxPlk22Gv0d81ilzKLvLzKQvi.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Enhypen%20World%20Tour%20Blood%20Saga%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/enhypen%20world%20tour%20blood%20saga/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1785968",
+      "detail_url": "https://www.thespacecinema.it/film/enhypen-world-tour-blood-saga-lingua-originale",
+      "showtimes": [
+        {
+          "date": "2026-10-25",
+          "time": "12:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 14,99 €",
+          "note": "V.O.S. · Evento Speciale · Proiezione LASER 4K",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "HYBE CHEERING PARTY - In 3D e Lingua originale",
+      "director": null,
+      "duration_min": 60,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=HYBE%20CHEERING%20PARTY%20-%20In%203D%20e%20Lingua%20originale%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/hybe%20cheering%20party%20-%20in%203d%20e%20lingua%20originale/",
+      "tmdb_url": null,
+      "detail_url": "https://www.thespacecinema.it/film/hybe-cheering-party-in-3d-e-lingua-originale",
+      "showtimes": [
+        {
+          "date": "2026-10-25",
+          "time": "11:05",
+          "cinema": "The Space (Limena)",
+          "price": "da 12,99 €",
+          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         }
       ]
@@ -4256,13 +4903,13 @@
       ]
     },
     {
-      "title": "Indagine su un cittadino al di sopra di",
+      "title": "Indagine su un cittadino al di sopra di ogni sospetto",
       "director": "Elio Petri",
       "duration_min": 111,
       "poster_url": "https://image.tmdb.org/t/p/w500/5eUBcyilUy0sy6AcqNpjgXQX4A4.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Indagine%20su%20un%20cittadino%20al%20di%20sopra%20di%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/indagine%20su%20un%20cittadino%20al%20di%20sopra%20di/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Indagine%20su%20un%20cittadino%20al%20di%20sopra%20di%20ogni%20sospetto%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/indagine%20su%20un%20cittadino%20al%20di%20sopra%20di%20ogni%20sospetto/",
       "tmdb_url": "https://www.themoviedb.org/movie/26451",
       "detail_url": "https://www.cinemarex.it/evento?eventName=indagine_su_un_cittadino_al_di_sopra_di",
       "showtimes": [
@@ -4616,689 +5263,6 @@
           "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Mammina",
-      "director": null,
-      "duration_min": 93,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/mammina",
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "21:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "22:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "14:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "16:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "19:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "20:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "22:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "14:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "16:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "16:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "20:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "21:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "22:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fatherland",
-      "director": null,
-      "duration_min": 82,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/fatherland",
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "20:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "14:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "20:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Trainspotting - 30MO Anniversario",
-      "director": null,
-      "duration_min": 115,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/trainspotting-30mo-anniversario",
-      "showtimes": [
-        {
-          "date": "2026-10-19",
-          "time": "19:30",
-          "cinema": "The Space (Limena)",
-          "price": null,
-          "note": "Back On The Big Screen · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-19",
-          "time": "22:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "19:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "22:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "21:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "22:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "L'Isola dei Ricordi",
-      "director": null,
-      "duration_min": 93,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/lisola-dei-ricordi",
-      "showtimes": [
-        {
-          "date": "2026-10-20",
-          "time": "14:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "15:15",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Coyote Vs Acme",
-      "director": null,
-      "duration_min": 101,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/coyote-vs-acme",
-      "showtimes": [
-        {
-          "date": "2026-10-20",
-          "time": "17:15",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "14:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "L'Albero di Molto Lontano",
-      "director": null,
-      "duration_min": 110,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/l-albero-di-molto-lontano",
-      "showtimes": [
-        {
-          "date": "2026-10-20",
-          "time": "14:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "14:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER · Prezzo Family",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Resident Evil",
-      "director": null,
-      "duration_min": 90,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/resident-evil",
-      "showtimes": [
-        {
-          "date": "2026-10-20",
-          "time": "14:15",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "16:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-20",
-          "time": "22:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "22:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Klara e il Sole",
-      "director": null,
-      "duration_min": 116,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/klara-e-il-sole",
-      "showtimes": [
-        {
-          "date": "2026-10-22",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Ragione e Sentimento",
-      "director": null,
-      "duration_min": 132,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/ragione-e-sentimento",
-      "showtimes": [
-        {
-          "date": "2026-10-22",
-          "time": "20:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "20:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "20:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "20:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Wildwood: I Segreti del Bosco Proibito",
-      "director": null,
-      "duration_min": 132,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/wildwood-i-segreti-del-bosco-proibito",
-      "showtimes": [
-        {
-          "date": "2026-10-22",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-22",
-          "time": "20:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "20:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "20:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "20:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Txt World Tour Act: Tomorrow",
-      "director": null,
-      "duration_min": 100,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/txt-world-tour-act-tomorrow-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-24",
-          "time": "18:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Evento Speciale · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Bts World Tour Arirang Live in Buenos Aires",
-      "director": null,
-      "duration_min": 195,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/bts-world-tour-arirang-live-in-buenos-aires-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-25",
-          "time": "14:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 21,99 €",
-          "note": "V.O.S. · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "18:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 21,99 €",
-          "note": "V.O.S. · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Michael",
-      "director": null,
-      "duration_min": 127,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/michael",
-      "showtimes": [
-        {
-          "date": "2026-10-25",
-          "time": "10:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 3,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Enhypen World Tour Blood Saga",
-      "director": null,
-      "duration_min": 100,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/enhypen-world-tour-blood-saga-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-25",
-          "time": "12:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Evento Speciale · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "HYBE CHEERING PARTY - In 3D e Lingua originale",
-      "director": null,
-      "duration_min": 60,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": null,
-      "letterboxd_url": null,
-      "tmdb_url": null,
-      "detail_url": "https://www.thespacecinema.it/film/hybe-cheering-party-in-3d-e-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-25",
-          "time": "11:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Evento Speciale · Proiezione LASER 4K",
           "date_uncertain": false
         }
       ]

@@ -649,11 +649,11 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-7d65271d" id="el-7d65271d">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="e3b904c4-3c2c-4e56-a780-5c5fae2dd7e8" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="1bed9980-e1ff-41b8-b7a8-27cf3f938eed" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
-                     6 eventi trovato.
+                     12 eventi trovato.
                     </span>
                     <div class="tribe-events-view-loader__dots tribe-common-c-loader">
                     </div>
@@ -744,8 +744,8 @@
                         </a>
                        </li>
                        <li class="tribe-events-c-top-bar__nav-list-item">
-                        <button aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" disabled="" title="Prossimi eventi">
-                        </button>
+                        <a aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" title="Prossimi eventi">
+                        </a>
                        </li>
                       </ul>
                      </nav>
@@ -756,10 +756,21 @@
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
                        <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-19">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         Prossimi eventi
+                         Ora
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Prossimi eventi
+                         Ora
+                        </span>
+                       </time>
+                       <span class="tribe-events-c-top-bar__datepicker-separator">
+                        -
+                       </span>
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-25">
+                        <span class="tribe-events-c-top-bar__datepicker-mobile">
+                         10/25/2026
+                        </span>
+                        <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
+                         Ottobre 25
                         </span>
                        </time>
                       </button>
@@ -1018,7 +1029,7 @@
                      </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
                       <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-21">
                        <span class="tribe-events-calendar-list__event-date-tag-weekday">
                         Mer
@@ -1029,14 +1040,14 @@
                       </time>
                      </div>
                      <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
                        <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
                         <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
                        </div>
                        <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
                         <header class="tribe-events-calendar-list__event-header">
                          <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-21/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
                            POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
                           </a>
                          </h4>
@@ -1048,6 +1059,13 @@
                            <span class="tribe-event-time">
                            </span>
                           </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
                          </div>
                          <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
                           <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
@@ -1060,7 +1078,10 @@
                         </header>
                         <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
                          <p>
-                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Gran Premio della Giuria edito solo in versione originale sottotitolata
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-21/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
                          </p>
                         </div>
                        </div>
@@ -1117,6 +1138,366 @@
                       </article>
                      </div>
                     </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000806 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-22">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Gio
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        22
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000806 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/1/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-22">
+                           <span class="tribe-event-date-start">
+                            Ottobre 22/ 17:00
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/1/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000807 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-22">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Gio
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        22
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000807 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/2/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-22">
+                           <span class="tribe-event-date-start">
+                            Ottobre 22/ 20:15
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/2/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000813 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-23">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Ven
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        23
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000813 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland/2026-10-23/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
+                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-23">
+                           <span class="tribe-event-date-start">
+                            Ottobre 23/ 18:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
+                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland/2026-10-23/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000808 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-23">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Ven
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        23
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000808 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-23/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-23">
+                           <span class="tribe-event-date-start">
+                            Ottobre 23/ 20:15
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-23/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000809 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-24">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Sab
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        24
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000809 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-24/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-24">
+                           <span class="tribe-event-date-start">
+                            Ottobre 24/ 16:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-24/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000812 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-25">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Dom
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        25
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000812 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-25/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-25">
+                           <span class="tribe-event-date-start">
+                            Ottobre 25/ 17:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-25/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
                    </ul>
                    <nav aria-label="Bottom eventi list pagination" class="tribe-events-calendar-list-nav tribe-events-c-nav">
                     <ul class="tribe-events-c-nav__list">
@@ -1136,11 +1517,11 @@
                       </a>
                      </li>
                      <li class="tribe-events-c-nav__list-item tribe-events-c-nav__list-item--next">
-                      <button aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" disabled="" title="Prossimi eventi">
+                      <a aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" rel="next" title="Prossimi eventi">
                        <span class="tribe-events-c-nav__next-label">
                         Prossimi eventi
                        </span>
-                      </button>
+                      </a>
                      </li>
                     </ul>
                    </nav>
@@ -1221,11 +1602,11 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-34e65818" id="el-34e65818">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="e3b904c4-3c2c-4e56-a780-5c5fae2dd7e8" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="1bed9980-e1ff-41b8-b7a8-27cf3f938eed" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
-                     6 eventi trovato.
+                     12 eventi trovato.
                     </span>
                     <div class="tribe-events-view-loader__dots tribe-common-c-loader">
                     </div>
@@ -1316,8 +1697,8 @@
                         </a>
                        </li>
                        <li class="tribe-events-c-top-bar__nav-list-item">
-                        <button aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" disabled="" title="Prossimi eventi">
-                        </button>
+                        <a aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" title="Prossimi eventi">
+                        </a>
                        </li>
                       </ul>
                      </nav>
@@ -1328,10 +1709,21 @@
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
                        <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-19">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         Prossimi eventi
+                         Ora
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Prossimi eventi
+                         Ora
+                        </span>
+                       </time>
+                       <span class="tribe-events-c-top-bar__datepicker-separator">
+                        -
+                       </span>
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-25">
+                        <span class="tribe-events-c-top-bar__datepicker-mobile">
+                         10/25/2026
+                        </span>
+                        <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
+                         Ottobre 25
                         </span>
                        </time>
                       </button>
@@ -1590,7 +1982,7 @@
                      </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
                       <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-21">
                        <span class="tribe-events-calendar-list__event-date-tag-weekday">
                         Mer
@@ -1601,14 +1993,14 @@
                       </time>
                      </div>
                      <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
                        <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
                         <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
                        </div>
                        <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
                         <header class="tribe-events-calendar-list__event-header">
                          <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-21/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
                            POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
                           </a>
                          </h4>
@@ -1620,6 +2012,13 @@
                            <span class="tribe-event-time">
                            </span>
                           </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
                          </div>
                          <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
                           <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
@@ -1632,7 +2031,10 @@
                         </header>
                         <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
                          <p>
-                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Gran Premio della Giuria edito solo in versione originale sottotitolata
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-21/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
                          </p>
                         </div>
                        </div>
@@ -1689,6 +2091,366 @@
                       </article>
                      </div>
                     </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000806 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-22">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Gio
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        22
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000806 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/1/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-22">
+                           <span class="tribe-event-date-start">
+                            Ottobre 22/ 17:00
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/1/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000807 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-22">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Gio
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        22
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000807 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/2/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-22">
+                           <span class="tribe-event-date-start">
+                            Ottobre 22/ 20:15
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-22/2/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000813 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-23">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Ven
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        23
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000813 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland/2026-10-23/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
+                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-23">
+                           <span class="tribe-event-date-start">
+                            Ottobre 23/ 18:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
+                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland/2026-10-23/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000808 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-23">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Ven
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        23
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000808 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-23/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-23">
+                           <span class="tribe-event-date-start">
+                            Ottobre 23/ 20:15
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-23/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000809 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-24">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Sab
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        24
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000809 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-24/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-24">
+                           <span class="tribe-event-date-start">
+                            Ottobre 24/ 16:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-24/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000812 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-25">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Dom
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        25
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000812 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/possible-love-poster.jpg" title="possible-love-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-25/" rel="bookmark" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-25">
+                           <span class="tribe-event-date-start">
+                            Ottobre 25/ 17:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/">
+                            <span class="tec_series_marker__title">
+                             POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Due coppie sposate, due mondi che si incontrano attraverso la macchina da presa: un lavoratore licenziato e sua moglie, una documentarista e suo marito. Mentre collaborano alla realizzazione di un film, le loro strade si intrecciano, rivelando differenze profonde e desideri inconfessati. VENEZIA 83° - Leone d'argento. Gran Premio della Giuria edito solo in versione ...
+                          <a aria-label="Per saperne di più su POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/possible-love/2026-10-25/" title="POSSIBLE LOVE  – Lee Chang-dong # Corea del sud 2026 (164′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
                    </ul>
                    <nav aria-label="Bottom eventi list pagination" class="tribe-events-calendar-list-nav tribe-events-c-nav">
                     <ul class="tribe-events-c-nav__list">
@@ -1708,11 +2470,11 @@
                       </a>
                      </li>
                      <li class="tribe-events-c-nav__list-item tribe-events-c-nav__list-item--next">
-                      <button aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" disabled="" title="Prossimi eventi">
+                      <a aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" rel="next" title="Prossimi eventi">
                        <span class="tribe-events-c-nav__next-label">
                         Prossimi eventi
                        </span>
-                      </button>
+                      </a>
                      </li>
                     </ul>
                    </nav>
