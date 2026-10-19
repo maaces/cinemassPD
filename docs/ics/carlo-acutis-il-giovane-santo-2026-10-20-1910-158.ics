@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:2885553348269455327@cinema-scraper.local
-DTSTAMP:20261019T175742Z
-DTSTART:20261020T171000Z
-DTEND:20261020T183500Z
-SUMMARY:Carlo Acutis. Il giovane santo - Luca Salmaso
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:FILM EVENTO\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/152431
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4401890593186398683@cinema-scraper.local
+DTSTAMP:20261019T180801Z
+DTSTART:20261020T171000Z
+DTEND:20261020T183500Z
+SUMMARY:Carlo Acutis. Il giovane santo - Luca Salmaso
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:FILM EVENTO\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/152431
+END:VEVENT
+END:VCALENDAR

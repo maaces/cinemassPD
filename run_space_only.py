@@ -18,7 +18,8 @@ from custom_events import CustomEvent
 from movies_from_json import load_movies
 from render_html import render
 from scrapers import space_cinema
-from utils import merge_movies
+from enrich_tmdb import enrich_movies
+from utils import merge_movies, tidy_title
 
 SPACE_NAME = "The Space (Limena)"
 # nome precedente in data.json: le proiezioni salvate con questo nome vanno tolte, altrimenti restano duplicate
@@ -44,6 +45,20 @@ def load_custom_events(data_path: str):
             source_url=ed.get("source_url"),
         ))
     return events
+
+
+def _reuse_known_info(space_movies, previous) -> None:
+    """Riempie i campi mancanti dei film di The Space con quelli gia' salvati in
+    data.json per lo stesso film (stesso titolo normalizzato)."""
+    known = {m.norm_key(): m for m in previous}
+    for m in space_movies:
+        old = known.get(m.norm_key())
+        if not old:
+            continue
+        for f in ("poster_url", "tmdb_url", "director", "duration_min", "trailer_url",
+                  "letterboxd_url", "trailer_search_url"):
+            if not getattr(m, f) and getattr(old, f):
+                setattr(m, f, getattr(old, f))
 
 
 def main() -> int:
@@ -72,10 +87,28 @@ def main() -> int:
 
     # 2) gli altri cinema: film dell'ultimo run completo, senza le vecchie proiezioni di The Space
     movies = load_movies(data_path)
+
+    # 2b) locandina/regista/link gia' trovati in passato (da TMDB nel run in cloud)
+    #     per gli stessi film: li riuso, cosi' non spariscono a ogni aggiornamento locale
+    _reuse_known_info(space_movies, movies)
+    tmdb_key = os.environ.get("TMDB_API_KEY") or config.get("tmdb_api_key")
+    if tmdb_key:
+        print("-> Completo con TMDB i dati mancanti di The Space ...")
+    else:
+        print("[i] Nessuna TMDB_API_KEY sul PC: i film nuovi di The Space avranno la locandina "
+              "solo se il sito la fornisce (o dal prossimo run in cloud).")
+    try:
+        enrich_movies(space_movies, tmdb_key)
+    except Exception as e:
+        print(f"   [!] arricchimento TMDB non riuscito: {type(e).__name__}: {e}")
+
     for m in movies:
         m.showtimes = [s for s in m.showtimes if s.cinema not in OLD_SPACE_NAMES]
     movies = [m for m in movies if m.showtimes]
     merged = merge_movies([movies, space_movies])
+    merged = merge_movies([merged], key=lambda m: m.tmdb_url or m.norm_key())
+    for m in merged:
+        m.title = tidy_title(m.title)
     print(f"   film totali in pagina: {len(merged)}")
 
     # 3) rigenero la pagina con gli eventi personalizzati gia' presenti

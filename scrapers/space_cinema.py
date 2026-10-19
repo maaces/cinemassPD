@@ -38,6 +38,7 @@ browser fa esattamente quello che farebbe una persona.
 import datetime as dt
 import re
 import time
+import urllib.parse
 from typing import Dict, List, Optional
 from zoneinfo import ZoneInfo
 
@@ -68,6 +69,42 @@ def _text(el) -> str:
     return " ".join(el.stripped_strings) if el else ""
 
 
+SITE = "https://www.thespacecinema.it"
+
+
+def _abs_image_url(url: str) -> Optional[str]:
+    """URL di un'immagine come lo scrive il sito -> URL assoluto utilizzabile.
+    Il sito e' in Next.js: le locandine passano spesso da /_next/image?url=<vero URL>&w=..,
+    un percorso RELATIVO che prima veniva scartato (per questo mancavano le copertine)."""
+    url = (url or "").strip()
+    if not url or url.startswith("data:"):
+        return None  # segnaposto del caricamento 'lazy'
+    if "/_next/image" in url:
+        q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query).get("url")
+        if q:
+            return _abs_image_url(q[0])
+    if url.startswith("//"):
+        return "https:" + url
+    if url.startswith("/"):
+        return SITE + url
+    if url.startswith("http"):
+        return url
+    return None  # percorso locale di una pagina salvata: inutile
+
+
+def _poster_url(box) -> Optional[str]:
+    """Locandina: l'URL vero puo' stare in src, data-src, srcset (anche dentro <picture>)."""
+    if not box:
+        return None
+    for el in box.select("img, source"):
+        for attr in ("src", "data-src", "data-lazy-src", "srcset", "data-srcset"):
+            for part in (el.get(attr) or "").split(","):
+                url = _abs_image_url(part.strip().split(" ")[0])
+                if url:
+                    return url
+    return None
+
+
 # --------------------------------------------------------------------------
 # parsing dell'HTML renderizzato
 # --------------------------------------------------------------------------
@@ -86,10 +123,7 @@ def parse_listing(html: str, cinema_name: str) -> Dict[str, Movie]:
         title = _nice_title(LINGUA_ORIG_RE.sub("", raw_title))
 
         link = item.select_one("a.film-heading")
-        poster = item.select_one(".showing-film-card__poster img")
-        poster_url = poster.get("src") if poster else None
-        if poster_url and not poster_url.startswith("http"):
-            poster_url = None  # nelle pagine salvate e' un percorso locale: inutile
+        poster_url = _poster_url(item.select_one(".showing-film-card__poster"))
 
         details = {}
         for dl in item.select("dl.text-detail"):
