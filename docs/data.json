@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:34:25.018791",
+  "generated_at": "2026-10-21T17:36:24.255300",
   "movies": [
     {
       "title": "Avengers: Doomsday",
@@ -1080,26 +1080,10 @@
         },
         {
           "date": "2026-10-21",
-          "time": "17:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
           "time": "18:30",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1144,6 +1128,14 @@
         },
         {
           "date": "2026-10-22",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
           "time": "17:55",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -1159,9 +1151,33 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-22",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "22:25",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-23",
           "time": "17:10",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:20",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1175,6 +1191,30 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-23",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "22:25",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-24",
           "time": "16:35",
           "cinema": "Cineplex (Due Carrare)",
@@ -1184,8 +1224,40 @@
         },
         {
           "date": "2026-10-24",
+          "time": "17:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
           "time": "19:00",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "22:25",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "15:00",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1200,8 +1272,136 @@
         },
         {
           "date": "2026-10-25",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "19:00",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:50",
+          "cinema": "Porto Astra",
+          "price": "6,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "20:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "22:25",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1225,14 +1425,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 12,99 €",
           "note": "Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "FILM EVENTO",
           "date_uncertain": false
         },
         {
@@ -1294,14 +1486,6 @@
         {
           "date": "2026-10-24",
           "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "FILM EVENTO",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "10:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": "FILM EVENTO",
@@ -1402,26 +1586,10 @@
         },
         {
           "date": "2026-10-21",
-          "time": "17:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
           "time": "18:35",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1447,58 +1615,77 @@
           "price": null,
           "note": null,
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Zustìssia",
-      "director": "Francesco Piras",
-      "duration_min": 111,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152432/standard_2fd46e37-6b7d-49aa-b03d-a21051f590a0.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=ZUSTISSIA%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/zustissia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152432",
-      "showtimes": [
-        {
-          "date": "2026-10-21",
-          "time": "14:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "18:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:10",
+          "date": "2026-10-23",
+          "time": "22:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "20:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
+          "date": "2026-10-24",
+          "time": "17:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "22:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "23:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "22:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -1536,14 +1723,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "19:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1596,6 +1775,14 @@
         },
         {
           "date": "2026-10-24",
+          "time": "19:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
           "time": "22:20",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -1607,6 +1794,14 @@
           "time": "14:45",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:30",
+          "cinema": "Porto Astra",
+          "price": "6,50 €",
           "note": null,
           "date_uncertain": false
         },
@@ -1645,27 +1840,6 @@
       ]
     },
     {
-      "title": "Frankie e le creature dimenticate",
-      "director": "Steve Hudson",
-      "duration_min": 91,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152430/standard_8987d340-dd87-44e4-b28c-aba162d8cd23.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=expK9B7BbAQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Frankie%20e%20le%20creature%20dimenticate%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/frankie%20e%20le%20creature%20dimenticate/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1214130",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152430",
-      "showtimes": [
-        {
-          "date": "2026-10-21",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Primetime",
       "director": "Lance Oppenheim",
       "duration_min": 110,
@@ -1690,14 +1864,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1757,9 +1923,33 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-22",
+          "time": "22:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-23",
           "time": "21:15",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "22:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:15",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1774,9 +1964,25 @@
         },
         {
           "date": "2026-10-24",
+          "time": "22:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
           "time": "23:40",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:15",
+          "cinema": "Porto Astra",
+          "price": "6,50 €",
           "note": null,
           "date_uncertain": false
         },
@@ -1843,14 +2049,6 @@
         },
         {
           "date": "2026-10-21",
-          "time": "19:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
           "time": "19:40",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -1864,13 +2062,45 @@
           "price": null,
           "note": null,
           "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "22:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "22:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:45",
+          "cinema": "Porto Astra",
+          "price": "6,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
         }
       ]
     },
     {
       "title": "Dune - Parte tre",
       "director": "Denis Villeneuve",
-      "duration_min": 150,
+      "duration_min": 140,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/136517/standard_6f11781d-6241-4156-9a70-5bae160dc527.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=BlAyKxScwyk",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Dune%20-%20Parte%20tre%20trailer",
@@ -2261,14 +2491,6 @@
         },
         {
           "date": "2026-10-21",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
           "time": "19:05",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -2330,38 +2552,25 @@
           "price": null,
           "note": null,
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "L'estranea",
-      "director": "Paolo Strippoli",
-      "duration_min": 115,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148266/standard_ebbb9489-a5e4-4a61-843d-4e5c386dace2.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=OiPKYpJlRGM",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27ESTRANEA%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27estranea/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1412795",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148266",
-      "showtimes": [
+        },
         {
-          "date": "2026-10-21",
-          "time": "14:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
+          "date": "2026-10-23",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "16:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
+          "date": "2026-10-23",
+          "time": "22:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
+          "date": "2026-10-24",
           "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -2369,41 +2578,105 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "18:00",
+          "date": "2026-10-24",
+          "time": "21:35",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "19:45",
-          "cinema": "Porto Astra",
+          "date": "2026-10-24",
+          "time": "23:15",
+          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "21:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
+          "date": "2026-10-25",
+          "time": "00:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-10-21",
-          "time": "22:05",
-          "cinema": "Porto Astra",
+          "date": "2026-10-25",
+          "time": "11:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "23:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "22:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "22:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "22:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "22:40",
+          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2489,6 +2762,62 @@
           "price": null,
           "note": null,
           "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "20:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "20:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "21:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "20:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
         }
       ]
     },
@@ -2537,14 +2866,6 @@
         },
         {
           "date": "2026-10-21",
-          "time": "19:00",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
           "time": "19:50",
           "cinema": "The Space (Limena)",
           "price": "da 12,99 €",
@@ -2577,10 +2898,82 @@
         },
         {
           "date": "2026-10-22",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
           "time": "20:45",
           "cinema": "Cinema Rex",
           "price": null,
           "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
           "date_uncertain": false
         }
       ]
@@ -2627,14 +3020,6 @@
         },
         {
           "date": "2026-10-21",
-          "time": "17:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
           "time": "20:45",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -2667,7 +3052,39 @@
         },
         {
           "date": "2026-10-25",
+          "time": "00:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "19:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "22:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "22:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "22:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -2692,14 +3109,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-21",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2793,6 +3202,54 @@
         {
           "date": "2026-10-25",
           "time": "21:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "19:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "19:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "20:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -3214,6 +3671,243 @@
       ]
     },
     {
+      "title": "Klara e il sole",
+      "director": "Taika Waititi",
+      "duration_min": 116,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/154702/standard_94129e6e-4f5e-4543-9232-20659e2213f2.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Evw3_f4X-J4",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Klara%20e%20il%20sole%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/klara%20e%20il%20sole/",
+      "tmdb_url": "https://www.themoviedb.org/movie/858035",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154702",
+      "showtimes": [
+        {
+          "date": "2026-10-22",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "14:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "16:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "21:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "11:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "14:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "16:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Taddeo l'esploratore e la lampada magica",
       "director": "Enrique Gato",
       "duration_min": 94,
@@ -3274,6 +3968,14 @@
         },
         {
           "date": "2026-10-24",
+          "time": "15:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
           "time": "16:20",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3298,6 +4000,14 @@
         },
         {
           "date": "2026-10-25",
+          "time": "14:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "15:10",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3311,139 +4021,6 @@
           "price": null,
           "note": null,
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Klara e il sole",
-      "director": "Taika Waititi",
-      "duration_min": 116,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/154702/standard_94129e6e-4f5e-4543-9232-20659e2213f2.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Evw3_f4X-J4",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Klara%20e%20il%20sole%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/klara%20e%20il%20sole/",
-      "tmdb_url": "https://www.themoviedb.org/movie/858035",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154702",
-      "showtimes": [
-        {
-          "date": "2026-10-22",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-22",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-22",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "16:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "18:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "21:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "11:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "16:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "18:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-25",
-          "time": "21:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
         },
         {
           "date": "2026-10-26",
@@ -3455,7 +4032,7 @@
         },
         {
           "date": "2026-10-26",
-          "time": "19:30",
+          "time": "18:05",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -3471,7 +4048,7 @@
         },
         {
           "date": "2026-10-27",
-          "time": "19:30",
+          "time": "18:05",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -3487,7 +4064,7 @@
         },
         {
           "date": "2026-10-28",
-          "time": "19:30",
+          "time": "18:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -3508,6 +4085,14 @@
       "showtimes": [
         {
           "date": "2026-10-22",
+          "time": "16:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
           "time": "17:05",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3520,6 +4105,14 @@
           "cinema": "The Space (Limena)",
           "price": "da 7,99 €",
           "note": "Proiezione LASER 4K · Prezzo Family",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -3540,6 +4133,14 @@
         },
         {
           "date": "2026-10-23",
+          "time": "16:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
           "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3552,6 +4153,14 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -3580,8 +4189,24 @@
         },
         {
           "date": "2026-10-24",
+          "time": "14:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
           "time": "16:50",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "17:20",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3628,6 +4253,14 @@
         },
         {
           "date": "2026-10-25",
+          "time": "15:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "16:50",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3644,6 +4277,14 @@
         },
         {
           "date": "2026-10-25",
+          "time": "18:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "19:40",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3656,6 +4297,86 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "16:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "19:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "16:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "19:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "16:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "18:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -3688,6 +4409,22 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-22",
+          "time": "20:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "22:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-23",
           "time": "17:30",
           "cinema": "Cineplex (Due Carrare)",
@@ -3704,9 +4441,33 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-23",
+          "time": "20:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "22:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-24",
           "time": "15:05",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:40",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3723,6 +4484,22 @@
           "date": "2026-10-24",
           "time": "20:00",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "20:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "22:20",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3745,8 +4522,24 @@
         },
         {
           "date": "2026-10-25",
+          "time": "15:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "17:35",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:05",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3760,6 +4553,14 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-25",
+          "time": "21:15",
+          "cinema": "Porto Astra",
+          "price": "6,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-26",
           "time": "17:30",
           "cinema": "Cineplex (Due Carrare)",
@@ -3771,6 +4572,14 @@
           "date": "2026-10-26",
           "time": "19:50",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:40",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3792,6 +4601,14 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-27",
+          "time": "20:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-28",
           "time": "17:30",
           "cinema": "Cineplex (Due Carrare)",
@@ -3803,6 +4620,14 @@
           "date": "2026-10-28",
           "time": "19:50",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "21:40",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3822,6 +4647,14 @@
       "showtimes": [
         {
           "date": "2026-10-22",
+          "time": "16:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
           "time": "18:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3838,6 +4671,14 @@
         },
         {
           "date": "2026-10-22",
+          "time": "20:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
           "time": "20:50",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -3848,6 +4689,14 @@
           "date": "2026-10-22",
           "time": "21:20",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "16:45",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3878,6 +4727,14 @@
         },
         {
           "date": "2026-10-23",
+          "time": "20:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
           "time": "20:50",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -3893,6 +4750,14 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-23",
+          "time": "22:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-10-24",
           "time": "14:30",
           "cinema": "Cineplex (Due Carrare)",
@@ -3902,8 +4767,24 @@
         },
         {
           "date": "2026-10-24",
+          "time": "15:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
           "time": "17:20",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "18:20",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3922,6 +4803,14 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "21:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -3966,8 +4855,24 @@
         },
         {
           "date": "2026-10-25",
+          "time": "15:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "17:20",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:20",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3990,6 +4895,14 @@
         },
         {
           "date": "2026-10-25",
+          "time": "21:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
           "time": "21:20",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3999,6 +4912,150 @@
         {
           "date": "2026-10-25",
           "time": "22:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "16:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "19:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "16:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "19:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "16:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "20:20",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "22:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -4038,6 +5095,14 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1477104",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153711",
       "showtimes": [
+        {
+          "date": "2026-10-28",
+          "time": "17:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
         {
           "date": "2026-10-31",
           "time": "16:00",
@@ -4120,6 +5185,99 @@
       ]
     },
     {
+      "title": "Lorenzo - L'incredibile avventura di Jovanotti",
+      "director": "Dario Zonta, Carlo Zoratti",
+      "duration_min": 83,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/156416/standard_e389c052-9abe-4bda-a1a0-c339ba110c45.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=hhiOb7r34u4",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Lorenzo%20-%20L%E2%80%99incredibile%20avventura%20di%20Jovanotti%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/lorenzo%20-%20l%27incredibile%20avventura%20di%20jovanotti/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1726926",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/156416",
+      "showtimes": [
+        {
+          "date": "2026-11-28",
+          "time": "16:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "18:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-30",
+          "time": "18:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-30",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-01",
+          "time": "18:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-01",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Il tempo di Anne",
       "director": "Lisa Azuelos",
       "duration_min": 100,
@@ -4134,6 +5292,62 @@
           "date": "2026-10-21",
           "time": "20:15",
           "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "16:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:15",
+          "cinema": "Porto Astra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -4220,6 +5434,51 @@
       ]
     },
     {
+      "title": "Zustìssia",
+      "director": "Francesco Piras",
+      "duration_min": 111,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/152432/standard_2fd46e37-6b7d-49aa-b03d-a21051f590a0.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=ZUSTISSIA%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/zustissia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152432",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "14:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "18:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "20:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "I racconti del giardino incantato",
       "director": "Jean-Claude Rozec, Patrik Pašš, Leon Vidmar, David Súkup",
       "duration_min": 71,
@@ -4239,6 +5498,38 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-10-22",
+          "time": "17:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-11-01",
           "time": "10:00",
           "cinema": "Fronte del Porto",
@@ -4249,10 +5540,318 @@
       ]
     },
     {
+      "title": "L'estranea",
+      "director": "Paolo Strippoli",
+      "duration_min": 115,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/148266/standard_ebbb9489-a5e4-4a61-843d-4e5c386dace2.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OiPKYpJlRGM",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27ESTRANEA%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27estranea/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1412795",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148266",
+      "showtimes": [
+        {
+          "date": "2026-10-21",
+          "time": "14:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "16:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "17:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "19:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "21:40",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-21",
+          "time": "22:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "19:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-22",
+          "time": "22:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "19:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "22:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "14:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "17:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "22:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "14:35",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "16:55",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "19:15",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "21:40",
+          "cinema": "Porto Astra",
+          "price": "6,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-26",
+          "time": "20:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "17:10",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "22:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Matrix",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "duration_min": 136,
+      "poster_url": "https://image.tmdb.org/t/p/w500/3vmTUXJHlKkvenf8G35dr5HlTEh.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ECEgpFPVFns",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Matrix%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/matrix/",
+      "tmdb_url": "https://www.themoviedb.org/movie/603",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-26",
+          "time": "20:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-27",
+          "time": "20:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Se Ami Qualcuno Dilloingresso A 4,00 €",
+      "director": null,
+      "duration_min": null,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Se%20Ami%20Qualcuno%20Dilloingresso%20A%204%2C00%20%E2%82%AC%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/se%20ami%20qualcuno%20dilloingresso%20a%204%2C00%20%E2%82%AC/",
+      "tmdb_url": null,
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-27",
+          "time": "17:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Primetimeingresso A 4,00 €",
+      "director": null,
+      "duration_min": null,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Primetimeingresso%20A%204%2C00%20%E2%82%AC%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/primetimeingresso%20a%204%2C00%20%E2%82%AC/",
+      "tmdb_url": null,
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-27",
+          "time": "20:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Wild Horse Nine",
       "director": "Martin McDonagh",
       "duration_min": 117,
-      "poster_url": "https://image.tmdb.org/t/p/w500/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg",
+      "poster_url": "https://image.tmdb.org/t/p/w500/og5qagWp4ZqVl28nbBwiBHZprJM.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=djscxQOf8bo",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Wild%20Horse%20Nine%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/wild%20horse%20nine/",
@@ -4265,59 +5864,6 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fatherland",
-      "director": "Pawel Pawlikowski",
-      "duration_min": 82,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/",
-      "showtimes": [
-        {
-          "date": "2026-10-21",
-          "time": "19:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "16:45",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-23",
-          "time": "18:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "15:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-24",
-          "time": "19:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         }
       ]
@@ -4397,43 +5943,83 @@
       ]
     },
     {
-      "title": "Leila e i suoi fratelli",
-      "director": "سعید روستایی",
-      "duration_min": 165,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Leila-e-i-suoi-fratelli.png",
-      "trailer_url": "https://www.youtube.com/watch?v=OfBk2oDl1EI",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Leila%20e%20i%20suoi%20fratelli%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/leila%20e%20i%20suoi%20fratelli/",
-      "tmdb_url": "https://www.themoviedb.org/movie/962558",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/leila-e-i-suoi-fratelli/",
+      "title": "Fatherland",
+      "director": "Pawel Pawlikowski",
+      "duration_min": 82,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-4/2026-10-23/",
       "showtimes": [
         {
-          "date": "2026-10-22",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
+          "date": "2026-10-21",
+          "time": "19:25",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "16:45",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-23",
+          "time": "18:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "15:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-24",
+          "time": "19:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "15:45",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "Quo Vadis, Aida?",
-      "director": "Jasmila Žbanić",
-      "duration_min": 103,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/quo-vadis-aida-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=MxBaQ0dfPXQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Quo%20Vadis%2C%20Aida%3F%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/quo%20vadis%2C%20aida%3F/",
-      "tmdb_url": "https://www.themoviedb.org/movie/728118",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/quo-vadis-aida/",
+      "title": "LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′)",
+      "director": "Mélisa Godet",
+      "duration_min": 110,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/la-maison-des-femmes-poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=E3TFEINdnHQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=LA%20CASA%20DELLE%20DONNE-LA%20MAISON%20DES%20FEMMES%20%23%20Melisa%20Godet%20%23%20Francia%202025%20%28110%E2%80%B2%29%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20casa%20delle%20donne-la%20maison%20des%20femmes%20%23%20melisa%20godet%20%23%20francia%202025/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1318417",
+      "detail_url": "https://www.movieconnection.it/proiezione/la-casa-delle-donne/",
       "showtimes": [
         {
-          "date": "2026-10-22",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
+          "date": "2026-10-24",
+          "time": "21:15",
+          "cinema": "Lux",
           "price": null,
-          "note": "Ingresso a offerta libera",
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -4496,7 +6082,7 @@
           "time": "21:00",
           "cinema": "Fronte del Porto",
           "price": null,
-          "note": null,
+          "note": "€10,00 intero, €8,00 ridotto",
           "date_uncertain": false
         }
       ]
@@ -5317,6 +6903,27 @@
       ]
     },
     {
+      "title": "Calle Malaga",
+      "director": "Maryam Touzani",
+      "duration_min": 116,
+      "poster_url": "https://image.tmdb.org/t/p/w500/azbn8uDQ7kAyDX57EKjsrUFSCSr.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JJyu4pxKwBc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Calle%20Malaga%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/calle%20malaga/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1399462",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=calle_malaga",
+      "showtimes": [
+        {
+          "date": "2026-10-27",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Essi vivono",
       "director": "John Carpenter",
       "duration_min": 93,
@@ -5443,6 +7050,27 @@
       ]
     },
     {
+      "title": "L'odio",
+      "director": "Mathieu Kassovitz",
+      "duration_min": 98,
+      "poster_url": "https://image.tmdb.org/t/p/w500/fO9B1SHiTBm2A1pUh6WQinV8V1x.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=C6gY_iOFQbU",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27odio%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27odio/",
+      "tmdb_url": "https://www.themoviedb.org/movie/406",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=l_odio",
+      "showtimes": [
+        {
+          "date": "2026-10-26",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "La parola ai giurati",
       "director": "Sidney Lumet",
       "duration_min": 96,
@@ -5509,7 +7137,7 @@
       "title": "Odissea",
       "director": "Christopher Nolan",
       "duration_min": 173,
-      "poster_url": "https://image.tmdb.org/t/p/w500/qQhInj9fw3S2bMbiEujVldthgKe.jpg",
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/odissea.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=A7OOx5-0iq8",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Odissea%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/odissea/",
@@ -5517,19 +7145,11 @@
       "detail_url": "https://www.cinemarex.it/evento?eventName=odissea",
       "showtimes": [
         {
-          "date": "2026-10-21",
-          "time": "09:00",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "Ingresso libero",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-22",
           "time": "09:00",
           "cinema": "Cinema Rex",
           "price": null,
-          "note": "Ingresso libero",
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -5564,6 +7184,27 @@
       ]
     },
     {
+      "title": "Palestina 36 - Quando tutto ebbe inizio",
+      "director": "Annemarie Jacir",
+      "duration_min": 116,
+      "poster_url": "https://image.tmdb.org/t/p/w500/dGc6Z4MuELDqUhkdz5VTKyPzF8C.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HWj6MgjBNSo",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Palestina%2036%20-%20Quando%20tutto%20ebbe%20inizio%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/palestina%2036%20-%20quando%20tutto%20ebbe%20inizio/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1432596",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=palestina_36___quando_tutto_ebbe_inizio",
+      "showtimes": [
+        {
+          "date": "2026-10-28",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Ritorno a Buenos Aires",
       "director": "Marco Bechis",
       "duration_min": 104,
@@ -5580,6 +7221,101 @@
           "cinema": "Cinema Rex",
           "price": "5€",
           "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Santiago - Un cammino per ricominciare",
+      "director": "Yann Samuell",
+      "duration_min": 113,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/SANTIAGO-ARTWORK-UBU-700x951-1.webp",
+      "trailer_url": "https://www.youtube.com/watch?v=DYteV8r5qL8",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20cammino%20per%20ricominciare%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare",
+      "showtimes": [
+        {
+          "date": "2026-10-25",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-25",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-28",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-29",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "21:15",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "The Bibi Files",
+      "director": "Alexis Bloom",
+      "duration_min": 115,
+      "poster_url": "https://image.tmdb.org/t/p/w500/aZTt7g857dGU9YUIIMHd5yNSKnY.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Bibi%20Files%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20bibi%20files/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1353263",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=the_bibi_files",
+      "showtimes": [
+        {
+          "date": "2026-10-29",
+          "time": "18:15",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Trainspotting",
+      "director": "Danny Boyle",
+      "duration_min": 94,
+      "poster_url": "https://image.tmdb.org/t/p/w500/rW8igIeFq2reJPgUYK5gukdSVVB.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=o2QGr5j9DxA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Trainspotting%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/trainspotting/",
+      "tmdb_url": "https://www.themoviedb.org/movie/627",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=trainspotting",
+      "showtimes": [
+        {
+          "date": "2026-10-26",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -5607,7 +7343,7 @@
     },
     {
       "title": "Twilight",
-      "director": "C. Hardwicke",
+      "director": "Catherine Hardwicke",
       "duration_min": 120,
       "poster_url": "https://image.tmdb.org/t/p/w500/n8nYzzKGP30M6u8sUon1YJmCgm8.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=TwdqzhOohYc",
@@ -5621,7 +7357,7 @@
           "time": "20:45",
           "cinema": "Cinema Rex",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -5752,35 +7488,6 @@
         },
         {
           "date": "2026-10-25",
-          "time": "21:15",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Santiago - Un cammino per ricominciare",
-      "director": "Yann Samuell",
-      "duration_min": 113,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/SANTIAGO-ARTWORK-UBU-700x951-1.webp",
-      "trailer_url": "https://www.youtube.com/watch?v=DYteV8r5qL8",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20cammino%20per%20ricominciare%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
-      "detail_url": "https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare/",
-      "showtimes": [
-        {
-          "date": "2026-10-25",
-          "time": "18:45",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
           "time": "21:15",
           "cinema": "Piccolo Teatro",
           "price": null,

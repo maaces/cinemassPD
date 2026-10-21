@@ -353,11 +353,9 @@
                  <p>
                   <span>
                    <span>
+                    ven
                     <strong>
                      VOS
-                    </strong>
-                    : mart-ven
-                    <strong>
                      <br/>
                     </strong>
                     ven-sab-dom
@@ -659,7 +657,7 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-7d65271d" id="el-7d65271d">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="df46094f-114c-43ca-925d-2b10126c94e6" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="ddbca6e9-1559-45b6-81f8-3218109e192b" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
@@ -764,7 +762,7 @@
                      </a>
                      <div class="tribe-events-c-top-bar__datepicker">
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-20">
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-21">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
                          Ora
                         </span>
@@ -775,19 +773,19 @@
                        <span class="tribe-events-c-top-bar__datepicker-separator">
                         -
                        </span>
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-24">
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-25">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         10/24/2026
+                         10/25/2026
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ottobre 24
+                         Ottobre 25
                         </span>
                        </time>
                       </button>
                       <label class="tribe-events-c-top-bar__datepicker-label tribe-common-a11y-visual-hide" for="tribe-events-top-bar-date">
                        Seleziona la data.
                       </label>
-                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="10/20/2026"/>
+                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="10/21/2026"/>
                       <div class="tribe-events-c-top-bar__datepicker-container" data-js="tribe-events-top-bar-datepicker-container">
                       </div>
                       <template class="tribe-events-c-top-bar__datepicker-template-prev-icon">
@@ -807,126 +805,6 @@
                        Ottobre 2026
                       </time>
                      </h3>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000793 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-20">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Mar
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        20
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000793 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-20">
-                           <span class="tribe-event-date-start">
-                            Ottobre 20/ 19:15
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/">
-                            <span class="tec_series_marker__title">
-                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000794 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-20">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Mar
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        20
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000794 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/2/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-20">
-                           <span class="tribe-event-date-start">
-                            Ottobre 20/ 21:00
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/">
-                            <span class="tec_series_marker__title">
-                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/2/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
                      <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
@@ -1510,6 +1388,119 @@
                          <p>
                           1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
                           <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-4/2026-10-24/2/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000819 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-24">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Sab
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        24
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000819 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/la-maison-des-femmes-poster.jpg" title="LACASADELLEDONNE" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/la-casa-delle-donne/" rel="bookmark" title="LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*">
+                           LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-24">
+                           <span class="tribe-event-date-start">
+                            Ottobre 24/ 21:15
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Ispirato alla storia e alle attività della Maison des Femmes di Saint Denis, un centro di ascolto e di accoglienza per donne in difficoltà realmente esistente vicino a Parigi, il film ripercorre le sfide che medici, ostetriche e psicologhe devono affrontare quotidianamente nell’accogliere e sostenere chi si rivolge loro in cerca di aiuto cercando di ...
+                          <a aria-label="Per saperne di più su LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/la-casa-delle-donne/" title="LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000818 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-25">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Dom
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        25
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000818 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-4/2026-10-25/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
+                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-25">
+                           <span class="tribe-event-date-start">
+                            Ottobre 25/ 15:45
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/">
+                            <span class="tec_series_marker__title">
+                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
+                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-4/2026-10-25/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
                            Leggi tutto
                           </a>
                          </p>
@@ -1622,7 +1613,7 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-34e65818" id="el-34e65818">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="df46094f-114c-43ca-925d-2b10126c94e6" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="ddbca6e9-1559-45b6-81f8-3218109e192b" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
@@ -1727,7 +1718,7 @@
                      </a>
                      <div class="tribe-events-c-top-bar__datepicker">
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-20">
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-21">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
                          Ora
                         </span>
@@ -1738,19 +1729,19 @@
                        <span class="tribe-events-c-top-bar__datepicker-separator">
                         -
                        </span>
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-24">
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-10-25">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         10/24/2026
+                         10/25/2026
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ottobre 24
+                         Ottobre 25
                         </span>
                        </time>
                       </button>
                       <label class="tribe-events-c-top-bar__datepicker-label tribe-common-a11y-visual-hide" for="tribe-events-top-bar-date">
                        Seleziona la data.
                       </label>
-                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="10/20/2026"/>
+                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="10/21/2026"/>
                       <div class="tribe-events-c-top-bar__datepicker-container" data-js="tribe-events-top-bar-datepicker-container">
                       </div>
                       <template class="tribe-events-c-top-bar__datepicker-template-prev-icon">
@@ -1770,126 +1761,6 @@
                        Ottobre 2026
                       </time>
                      </h3>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000793 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-20">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Mar
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        20
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000793 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-20">
-                           <span class="tribe-event-date-start">
-                            Ottobre 20/ 19:15
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/">
-                            <span class="tec_series_marker__title">
-                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/1/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000794 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-20">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Mar
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        20
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000794 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/2/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-20">
-                           <span class="tribe-event-date-start">
-                            Ottobre 20/ 21:00
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/">
-                            <span class="tec_series_marker__title">
-                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-3/2026-10-20/2/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *V.O.S.*">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
                      <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000797 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
@@ -2473,6 +2344,119 @@
                          <p>
                           1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
                           <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-4/2026-10-24/2/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000819 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-24">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Sab
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        24
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000819 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/la-maison-des-femmes-poster.jpg" title="LACASADELLEDONNE" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/la-casa-delle-donne/" rel="bookmark" title="LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*">
+                           LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-24">
+                           <span class="tribe-event-date-start">
+                            Ottobre 24/ 21:15
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Ispirato alla storia e alle attività della Maison des Femmes di Saint Denis, un centro di ascolto e di accoglienza per donne in difficoltà realmente esistente vicino a Parigi, il film ripercorre le sfide che medici, ostetriche e psicologhe devono affrontare quotidianamente nell’accogliere e sostenere chi si rivolge loro in cerca di aiuto cercando di ...
+                          <a aria-label="Per saperne di più su LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*" class="read-more" href="https://www.movieconnection.it/proiezione/la-casa-delle-donne/" title="LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′) *V.O.S.*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000818 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-10-25">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Dom
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        25
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000818 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-4/2026-10-25/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
+                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-10-25">
+                           <span class="tribe-event-date-start">
+                            Ottobre 25/ 15:45
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                          <span class="tribe-events-calendar-series-archive__container">
+                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/">
+                            <span class="tec_series_marker__title">
+                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) VOS
+                            </span>
+                           </a>
+                          </span>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
+                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-4/2026-10-25/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
                            Leggi tutto
                           </a>
                          </p>
