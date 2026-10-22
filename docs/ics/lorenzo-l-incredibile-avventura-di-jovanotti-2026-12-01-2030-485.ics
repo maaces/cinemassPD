@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4321924488773718299@cinema-scraper.local
+DTSTAMP:20261022T225952Z
+DTSTART:20261201T193000Z
+DTEND:20261201T205300Z
+SUMMARY:Lorenzo - L'incredibile avventura di Jovanotti - Dario Zonta\, Carlo Zoratti
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.18tickets.it/film/156416
+END:VEVENT
+END:VCALENDAR
