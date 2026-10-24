@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:8746553200804174748@cinema-scraper.local
+DTSTAMP:20261024T233245Z
+DTSTART:20261030T173000Z
+DTEND:20261030T193000Z
+SUMMARY:The Rocky Horror Pictur Show
+LOCATION:Fronte del Porto
+DESCRIPTION:€6\,50 intero\, €5\,00 ridotto\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://www.frontedelportopadova.it/eventi/the-rocky-horror-pictur-show/
+END:VEVENT
+END:VCALENDAR
