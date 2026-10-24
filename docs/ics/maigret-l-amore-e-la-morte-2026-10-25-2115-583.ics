@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:963557914704267702@cinema-scraper.local
+DTSTAMP:20261024T161212Z
+DTSTART:20261025T201500Z
+DTEND:20261025T213500Z
+SUMMARY:Maigret - L'amore e la morte - Pascal Bonitzer
+LOCATION:Piccolo Teatro
+DESCRIPTION:https://www.piccolo-padova.it/maigret-lamore-e-la-morte/
+END:VEVENT
+END:VCALENDAR

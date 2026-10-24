@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:8376697976648431078@cinema-scraper.local
+DTSTAMP:20261024T161212Z
+DTSTART:20261028T193000Z
+DTEND:20261028T213000Z
+SUMMARY:Le Sentinelle di Pietra - Francesco Gozzo
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/148826
+END:VEVENT
+END:VCALENDAR

@@ -466,15 +466,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               23/10
-               <br/>
-               <b>
-                Venerdì
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                24/10
                <br/>
                <b>
@@ -483,7 +474,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                25/10
                <br/>
                <b>
@@ -492,7 +483,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
                26/10
                <br/>
                <b>
@@ -501,7 +492,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
                27/10
                <br/>
                <b>
@@ -510,7 +501,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
+              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
                28/10
                <br/>
                <b>
@@ -519,7 +510,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-7" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-7" id="x-legacy-tab-7" role="tab">
+              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
                29/10
                <br/>
                <b>
@@ -528,7 +519,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-8" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-8" id="x-legacy-tab-8" role="tab">
+              <a aria-controls="x-legacy-panel-7" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-7" id="x-legacy-tab-7" role="tab">
                30/10
                <br/>
                <b>
@@ -550,9 +541,9 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/857248#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/857249#sala" target="_blank">
                    <span class="">
-                    20.10
+                    18.45
                    </span>
                   </a>
                  </span>
@@ -570,7 +561,27 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/caro-mondo-crudele_2026/857262#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/caro-mondo-crudele_2026/857401#sala" target="_blank">
+                   <span class="">
+                    20.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13479">
+                  zustìssia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/zustissia_2026-08551abc-4547-47b0-853f-c31dee310340/857257#sala" target="_blank">
                    <span class="">
                     20.15
                    </span>
@@ -590,7 +601,7 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/857237#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/857238#sala" target="_blank">
                    <span class="">
                     20.30
                    </span>
@@ -612,170 +623,7 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/un-giorno-senza-donne_2026/857281#sala" target="_blank">
-                   <span class="">
-                    15.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=12626">
-                  urchin
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/urchin_2026-db77eca2-ebce-428c-9562-3d63e884b4f1/857272#sala" target="_blank">
-                   <span class="">
-                    15.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13550">
-                  caro mondo crudele
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/caro-mondo-crudele_2026/857263#sala" target="_blank">
-                   <span class="">
-                    15.15
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/caro-mondo-crudele_2026/857401#sala" target="_blank">
-                   <span class="">
-                    20.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13475">
-                  l'estranea
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/857239#sala" target="_blank">
-                   <span class="">
-                    16.30
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/857238#sala" target="_blank">
-                   <span class="">
-                    20.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13351">
-                  the invite - il piacere è tutto nostro
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/the-invite-il-piacere-e-tutto-nostro_2026-48deabff-7b24-4e97-80bf-8a8110e2315b/857276#sala" target="_blank">
-                   <span class="">
-                    17.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13479">
-                  zustìssia
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/zustissia_2026-08551abc-4547-47b0-853f-c31dee310340/857256#sala" target="_blank">
-                   <span class="">
-                    17.30
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/zustissia_2026-08551abc-4547-47b0-853f-c31dee310340/857257#sala" target="_blank">
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13595">
-                  naza
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza_2026-d0da3354-6777-4855-a055-3b2691660ce6/857249#sala" target="_blank">
-                   <span class="">
-                    18.45
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13541">
-                  un giorno senza donne
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/un-giorno-senza-donne_2026/857282#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/un-giorno-senza-donne_2026/858559#sala" target="_blank">
                    <span class="">
                     15.00
                    </span>
@@ -842,14 +690,14 @@
                <li class="block_grid_item">
                 <b class="">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/857369#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/858557#sala" target="_blank">
                    <span class="">
                     16.30
                    </span>
                   </a>
                  </span>
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/857370#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/858558#sala" target="_blank">
                    <span class="">
                     18.45
                    </span>
@@ -876,7 +724,7 @@
                   </a>
                  </span>
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-79f2a333-ad83-4491-997e-f2a1cf5964b5/857251#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/naza-v-o-_2026-79f2a333-ad83-4491-997e-f2a1cf5964b5/858560#sala" target="_blank">
                    <span class="time_OV">
                     21.00
                     <span class="nb nb1">
@@ -922,9 +770,9 @@
                <li class="block_grid_item">
                 <b class="time_Dom">
                  <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/zustissia_2026-08551abc-4547-47b0-853f-c31dee310340/857259#sala" target="_blank">
+                  <a href="https://astra.multiastra.18tickets.it/film/zustissia_2026-08551abc-4547-47b0-853f-c31dee310340/858556#sala" target="_blank">
                    <span class="time_Dom">
-                    20.15
+                    20.16
                     <span class="nb time_Dom nb1">
                      Ingresso 5,50 €
                     </span>
@@ -935,7 +783,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -997,7 +845,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1122,7 +970,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1250,7 +1098,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-7" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-7" id="x-legacy-panel-7" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1285,7 +1133,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-8" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-8" id="x-legacy-panel-8" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-7" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-7" id="x-legacy-panel-7" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1604,11 +1452,11 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="bc7d6402ae323750ced29ecf90cefc2e" data-token-time="1792776190" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="fd123ab6ec410072f5fe21cd2068f539" data-token-time="1792858277" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
                 <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Informativa Email Privacy
+                  Privacy Informativa Email
                  </label>
                  <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
