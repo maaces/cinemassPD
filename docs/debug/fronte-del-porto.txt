@@ -331,202 +331,9 @@
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/past-lives/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Past Lives" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/past-lives-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  Past Lives
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, USA, 2023, 106'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 16:30
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.cifpadova.it/cineforum/" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  ingresso Cineforum CIF
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                Cineforum CIF
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/i-pionieri-dellanimazione/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="710" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/0048671d-164d-40c1-a48f-647b6be6be7d.jpeg" width="986"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  i pionieri dell’animazione
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Animazione, Francia - Russia, 1908 - 1933, 54'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-                <span class="categoria-label-prog">
-                 Musica
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=706618" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €10,00 intero, €8,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                sonorizzazioni
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
-            DOMANI
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-vita-segreta-dei-giocattoli/'">
-              <div class="evento-card-new-immagine">
-               <img alt="La vita segreta dei giocattoli" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-vita-segreta-dei-giocattoli-2-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  La vita segreta dei giocattoli
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2026, 60'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-                <span class="particolarita-label-prog">
-                 ☺ per Bambini
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 11:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                FP kids – proiezioni per famiglie
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-            <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/ultimo-turno/'">
               <div class="evento-card-new-immagine">
-               <img alt="Ultimo turno" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/ultimo-turno-1-1024x576.jpg" width="1024"/>
+               <img alt="Ultimo turno" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/ultimo-turno-1-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">
@@ -766,7 +573,7 @@
                <div class="evento-card-new-top-section">
                 <div class="evento-card-new-title-wrapper">
                  <h2 class="evento-card-new-title">
-                  THE ROCKY HORROR PICTUR SHOW
+                  THE ROCKY HORROR PICTURE SHOW
                  </h2>
                  <div class="evento-card-new-arrow">
                   <span class="material-symbols-outlined">
@@ -791,10 +598,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -839,7 +650,7 @@
                <div class="evento-card-new-prenota">
                 <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=701666" rel="noopener" target="_blank">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=703869" rel="noopener" target="_blank">
                    Prenota
                   </a>
                   <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
@@ -979,7 +790,7 @@
                <div class="evento-card-new-top-section">
                 <div class="evento-card-new-title-wrapper">
                  <h2 class="evento-card-new-title">
-                  THE ROCKY HORROR PICTUR SHOW
+                  THE ROCKY HORROR PICTURE SHOW
                  </h2>
                  <div class="evento-card-new-arrow">
                   <span class="material-symbols-outlined">
@@ -1004,10 +815,14 @@
                 </span>
                </div>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -1118,7 +933,7 @@
                <div class="evento-card-new-prenota">
                 <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=704444" rel="noopener" target="_blank">
+                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=708003" rel="noopener" target="_blank">
                    Prenota
                   </a>
                   <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
@@ -2886,20 +2701,6 @@
             Rassegne in Corso
            </h3>
            <div class="rassegne-lista">
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/">
-             <span class="rassegna-nome">
-              Cineforum CIF
-             </span>
-             <span class="rassegna-arrow">
-             </span>
-            </a>
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/">
-             <span class="rassegna-nome">
-              sonorizzazioni
-             </span>
-             <span class="rassegna-arrow">
-             </span>
-            </a>
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
              <span class="rassegna-nome">
               FP kids – proiezioni per famiglie
@@ -2928,6 +2729,13 @@
              <span class="rassegna-arrow">
              </span>
             </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/">
+             <span class="rassegna-nome">
+              Cineforum CIF
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/">
              <span class="rassegna-nome">
               Altrove: Iran
@@ -2938,6 +2746,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
              <span class="rassegna-nome">
               Imagine the Sound
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/">
+             <span class="rassegna-nome">
+              sonorizzazioni
              </span>
              <span class="rassegna-arrow">
              </span>

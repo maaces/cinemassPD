@@ -137,23 +137,6 @@
        <div class="splide__track">
         <ul class="splide__list">
          <li class="splide__slide">
-          <a href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147704">
-           <div class="splide__slide__container">
-            <img alt="" class="img-thumbnail rounded" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147704" src="https://cdn.18tickets.net/impero/uploads/film/playbill/147704/app_8c27db9d-70fd-4c42-bdbc-e082abb5aa03.jpg"/>
-            <div class="film-label-slider small-label">
-             M. ANIMATION.
-            </div>
-           </div>
-           <div class="row">
-            <div class="col-12">
-             <p class="text-center page-heading px-3">
-              LA BELLA E LA BESTIA (BEAUTY AND THE BEAST) (ED.SPEC.)
-             </p>
-            </div>
-           </div>
-          </a>
-         </li>
-         <li class="splide__slide">
           <a href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148826">
            <div class="splide__slide__container">
             <img alt="" class="img-thumbnail rounded" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148826" src="https://cdn.18tickets.net/impero/uploads/film/playbill/148826/app_a54b975a-fcc3-489d-9933-6091f3f1a115.jpeg"/>
@@ -568,6 +551,23 @@
             <div class="col-12">
              <p class="text-center page-heading px-3">
               HEART OF THE  BEAST - NEL PROFONDO SELVAGGIO
+             </p>
+            </div>
+           </div>
+          </a>
+         </li>
+         <li class="splide__slide">
+          <a href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147705">
+           <div class="splide__slide__container">
+            <img alt="" class="img-thumbnail rounded" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147705" src="https://cdn.18tickets.net/impero/uploads/film/playbill/147705/app_7299b83b-b3af-47ff-8cda-3104de3b2e10.jpg"/>
+            <div class="film-label-slider small-label">
+             M. ANIMATION.
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-12">
+             <p class="text-center page-heading px-3">
+              ALADDIN
              </p>
             </div>
            </div>
@@ -1075,19 +1075,6 @@
            <div class="splide__track">
             <ul class="splide__list">
              <li class="splide__slide">
-              <div class="m18-day-elem select-date" data-target="2026-10-24">
-               <div class="m18-day-line-1">
-                24
-               </div>
-               <div class="m18-day-line-2">
-                Ottobre
-               </div>
-               <div class="m18-day-line-3">
-                Sabato
-               </div>
-              </div>
-             </li>
-             <li class="splide__slide">
               <div class="m18-day-elem select-date" data-target="2026-10-25">
                <div class="m18-day-line-1">
                 25
@@ -1394,101 +1381,6 @@
         </div>
        </div>
        <div class="mt-5" id="movie-list">
-        <div class="movie movie--preview">
-         <div class="row">
-          <div class="col-12">
-           <h6 class="page-heading d-flex justify-content-center">
-            <a class="movie__title" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147704">
-             LA BELLA E LA BESTIA (BEAUTY AND THE BEAST) (ED.SPEC.)
-            </a>
-           </h6>
-          </div>
-          <div class="col-12 d-flex flex-column flex-lg-row">
-           <div class="col-lg-6">
-            <div class="movie__images">
-             <a class="movie__title" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147704">
-              <img alt="LA BELLA E LA BESTIA (BEAUTY AND THE BEAST) (ED.SPEC.)" class="img-fluid img-thumbnail" src="https://cdn.18tickets.net/impero/uploads/film/playbill/147704/standard_8c27db9d-70fd-4c42-bdbc-e082abb5aa03.jpg"/>
-              <div class="film-label small-label">
-               M. ANIMATION.
-              </div>
-             </a>
-            </div>
-           </div>
-           <div class="col-lg-6 right-card-column">
-            <p class="movie__option">
-             <strong>
-              Regia:
-             </strong>
-             Gary Trousdale, Kirk Wise
-            </p>
-            <p class="movie__option">
-             <strong>
-              Con:
-             </strong>
-             Paige O'hara, Robby Benson, Jesse Corti
-            </p>
-            <p class="movie__option">
-             <strong>
-              Lingua:
-             </strong>
-             Italiano
-            </p>
-            <div class="occupations mt-3">
-             <div class="schedule-section-show pb-8" id="schedule-147704">
-              <div class="row">
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
-                 Domenica 25/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792922400000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147704/955e3210-3ec7-43e3-b972-3babaa178906#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   11:00
-                   <br/>
-                   Sala 3
-                   <br/>
-                   MODERNO.. ANIMATION
-                  </li>
-                 </a>
-                </ul>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div class="col-12 d-lg-flex mt-4">
-           <div class="col-lg-6 col-sm-12 d-flex flex-start mb-2">
-            <a class="trailer-sample btn btn-md btn--warning btn-block d-flex justify-content-center align-items-center" href="https://www.youtube.com/watch?v=7lStU0thwb0">
-             <i class="fa fa-youtube mr-1">
-             </i>
-             Guarda il trailer
-            </a>
-           </div>
-           <div class="col-lg-6 col-sm-12 d-flex flex-start mb-2">
-            <a class="btn btn-md btn--info btn-block d-flex justify-content-center align-items-center" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147704">
-             <i class="fas fa-eye mr-1">
-             </i>
-             Programmazione Completa
-            </a>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div class="col-12 devider mt-2">
-        </div>
         <div class="movie movie--preview">
          <div class="row">
           <div class="col-12">
@@ -4258,59 +4150,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Domenica 25/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792921800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154634/fe49d4e2-67a0-4461-934e-5c38d1eb06f5#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   10:50
-                   <br/>
-                   Sala 5
-                  </li>
-                 </a>
-                 <a data-time="1792933800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154634/d040ef11-5d6b-4d2f-9f19-5d8ebdf171c0#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:10
-                   <br/>
-                   Sala 5
-                  </li>
-                 </a>
-                 <a data-time="1792937400000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154634/8e0394a9-d69b-4f1f-8d69-b8258b3e0b63#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   15:10
-                   <br/>
-                   Sala 10
-                  </li>
-                 </a>
-                 <a data-time="1792941600000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154634/e5b35f99-f25d-4095-9ceb-2da62d3ec7f1#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   16:20
-                   <br/>
-                   Sala 5
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Lunedì 26/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -4480,50 +4319,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792865100000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/47a2b16d-b60b-4416-9830-efee8450cdef#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   20:05
-                   <br/>
-                   Sala 2
-                  </li>
-                 </a>
-                 <a data-time="1792869600000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/be7f9e6b-72a9-4095-b4b9-857353820dd9#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   21:20
-                   <br/>
-                   Sala 4
-                  </li>
-                 </a>
-                 <a data-time="1792875000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/8249e0eb-cbcc-4718-88c7-52e7557dc04b#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   22:50
-                   <br/>
-                   Sala 2
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -4535,42 +4330,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792920600000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/a59aead0-f69f-4f6f-8d08-f98a4c0f6dbd#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   10:30
-                   <br/>
-                   Sala 2
-                  </li>
-                 </a>
-                 <a data-time="1792923600000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/cf817fa8-0920-4853-884b-25e8470492a3#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   11:20
-                   <br/>
-                   Sala 4
-                  </li>
-                 </a>
-                 <a data-time="1792935000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/cfab6a97-b02e-4956-8c30-877dc8c2ef57#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:30
-                   <br/>
-                   Sala 2
-                  </li>
-                 </a>
-                 <a data-time="1792945200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/e44bb0f7-5524-4540-b6ad-49d89d14cc1c#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   17:20
-                   <br/>
-                   Sala 2
-                  </li>
-                 </a>
                  <a data-time="1792955100000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/ed8e7097-4408-452b-8ba3-cefa29c8bf76#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -4587,15 +4346,6 @@
                    21:20
                    <br/>
                    Sala 4
-                  </li>
-                 </a>
-                 <a data-time="1792965000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154733/c1a84598-10aa-45d2-9089-79953d7fd864#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   22:50
-                   <br/>
-                   Sala 2
                   </li>
                  </a>
                 </ul>
@@ -4827,32 +4577,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792864800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154767/78e48939-1346-45c6-8122-ac04701519f5#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   20:00
-                   <br/>
-                   Sala 6
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -4864,24 +4588,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792922400000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154767/c07cc6a7-6a37-4ce0-850e-e6da2cdb5ea0#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   11:00
-                   <br/>
-                   Sala 8
-                  </li>
-                 </a>
-                 <a data-time="1792937100000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154767/1c173e67-cb12-47bb-98f8-d3ba830cba7f#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   15:05
-                   <br/>
-                   Sala 6
-                  </li>
-                 </a>
                  <a data-time="1792954800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154767/0439a2f0-0c17-46d1-aaa1-4a593d945e4b#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -5075,59 +4781,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792861500000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/517842c8-e510-4456-8b83-f31f01169c42#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   19:05
-                   <br/>
-                   Sala 1
-                  </li>
-                 </a>
-                 <a data-time="1792870200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/d710bb76-d74d-49fc-9e85-bfe7fbf5f3c0#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   21:30
-                   <br/>
-                   Sala 1
-                  </li>
-                 </a>
-                 <a data-time="1792873800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/9d483422-d53a-430f-b57c-2de5f585fd10#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   22:30
-                   <br/>
-                   Sala 3
-                  </li>
-                 </a>
-                 <a data-time="1792878900000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/a3f34565-b5b2-4eb5-94e5-fcd8bda056ec#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   23:55
-                   <br/>
-                   Sala 1
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -5139,51 +4792,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792921200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/0d5ec2c2-78ce-44c1-82c3-942f492f0d8a#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   10:40
-                   <br/>
-                   Sala 1
-                  </li>
-                 </a>
-                 <a data-time="1792934100000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/1e97a768-3fb2-4439-b63d-d8f86ce3e093#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:15
-                   <br/>
-                   Sala 1
-                  </li>
-                 </a>
-                 <a data-time="1792936800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/bdd94531-65c7-43e2-aae8-abe1a81c74c9#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   15:00
-                   <br/>
-                   Sala 9
-                  </li>
-                 </a>
-                 <a data-time="1792942800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/bcd2b486-f576-4242-98dd-bfca27a00770#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   16:40
-                   <br/>
-                   Sala 1
-                  </li>
-                 </a>
-                 <a data-time="1792945800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/bf5c35aa-be95-4f55-b204-79bc4575fb62#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   17:30
-                   <br/>
-                   Sala 9
-                  </li>
-                 </a>
                  <a data-time="1792951500000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/155889/b6bfb618-3728-44f2-a2cc-07e311933bee#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -5482,41 +5090,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792859700000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154702/cb6a14b2-01ee-4c7e-8af5-4b2ce4b1471d#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   18:35
-                   <br/>
-                   Sala 7
-                  </li>
-                 </a>
-                 <a data-time="1792869000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154702/9e2ce4c4-37ae-4fa8-b801-c074504240b1#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   21:10
-                   <br/>
-                   Sala 7
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -5528,24 +5101,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792923000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154702/a0b8f8c7-474a-4f54-b580-0a8d3323b7e7#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   11:10
-                   <br/>
-                   Sala 6
-                  </li>
-                 </a>
-                 <a data-time="1792940400000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154702/7c6d5e1b-ec31-4971-ad4a-ce17d26feb4b#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   16:00
-                   <br/>
-                   Sala 7
-                  </li>
-                 </a>
                  <a data-time="1792949700000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154702/e5f3990d-8594-4de7-b1f7-1358e913082c#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -5739,41 +5294,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792860300000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154603/ab1c0798-7a73-4854-91d3-078d3058ba27#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   18:45
-                   <br/>
-                   Sala 9
-                  </li>
-                 </a>
-                 <a data-time="1792863600000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154603/8826e620-9a64-4046-bdfd-8354d4f62f02#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   19:40
-                   <br/>
-                   Sala 3
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -5785,33 +5305,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792923300000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154603/39373604-6636-482a-ac67-d953228d52eb#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   11:15
-                   <br/>
-                   Sala 10
-                  </li>
-                 </a>
-                 <a data-time="1792933200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154603/dd9532f1-fbdc-4b98-ada1-a3de2a1eca88#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:00
-                   <br/>
-                   Sala 3
-                  </li>
-                 </a>
-                 <a data-time="1792943400000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154603/6cf9ee02-7018-4512-9752-e10d7870e540#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   16:50
-                   <br/>
-                   Sala 3
-                  </li>
-                 </a>
                  <a data-time="1792953600000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/154603/502b69ab-7ec5-41df-bb7b-6421e6f15e6c#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -5996,32 +5489,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792861200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152324/fd7bd35c-f0bb-4173-b6f3-8de98109df0a#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   19:00
-                   <br/>
-                   Sala 4
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -6033,15 +5500,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792942500000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152324/a096a2e2-c84f-4a62-81d5-118a7351054b#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   16:35
-                   <br/>
-                   Sala 4
-                  </li>
-                 </a>
                  <a data-time="1792951200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152324/e0f6ba5a-50fe-42ac-b8dd-af64370db202#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -6229,34 +5687,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792864800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152431/7bc9713f-6d2a-4dd0-aea2-2a73bf0292f8#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   20:00
-                   <br/>
-                   Sala 10
-                   <br/>
-                   FILM EVENTO
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -6268,28 +5698,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792933200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152431/e2f98daf-807f-41b3-9488-7284893635f1#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:00
-                   <br/>
-                   Sala 7
-                   <br/>
-                   FILM EVENTO
-                  </li>
-                 </a>
-                 <a data-time="1792935300000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152431/6ec23b6e-1b99-407f-a861-52ca9bd2ef2a#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:35
-                   <br/>
-                   Sala 4
-                   <br/>
-                   FILM EVENTO
-                  </li>
-                 </a>
                  <a data-time="1792954800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152431/a22f29e0-74d7-4923-b1cd-406c8e145151#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -6494,32 +5902,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792873200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152426/033b7d34-c9ad-4ee9-a817-fed5bd5019ac#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   22:20
-                   <br/>
-                   Sala 6
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -6531,15 +5913,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792935900000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152426/b616be27-33e0-4f06-a152-8bdf65db7456#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   14:45
-                   <br/>
-                   Sala 8
-                  </li>
-                 </a>
                  <a data-time="1792963200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152426/a967555d-b860-41e8-8cb7-40523ea46b0d#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -6703,41 +6076,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792872000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152423/3006f0ad-d8e0-4a85-a2ec-0076da230f05#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   22:00
-                   <br/>
-                   Sala 10
-                  </li>
-                 </a>
-                 <a data-time="1792878300000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152423/eb19d6d5-ff64-4aa8-bfd4-60d410de6b7d#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   23:45
-                   <br/>
-                   Sala 9
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -6749,15 +6087,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792945200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152423/14824bd4-7c9d-45d1-bc88-ea257a19c83f#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   17:20
-                   <br/>
-                   Sala 10
-                  </li>
-                 </a>
                  <a data-time="1792962000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152423/8f2000d5-544d-4456-95a4-f9b35fe16527#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -6924,57 +6253,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792870500000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148369/e568934a-dcf9-4d17-a915-e03261aafa7d#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   21:35
-                   <br/>
-                   Sala 9
-                  </li>
-                 </a>
-                 <a data-time="1792876500000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148369/d6525edb-b3c3-43fe-86c4-52cb061d19a4#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   23:15
-                   <br/>
-                   Sala 5
-                  </li>
-                 </a>
-                </ul>
-                <div class="after-midnight-divider d-flex align-items-center my-0">
-                 <span class="after-midnight-divider__label">
-                  Dopo mezzanotte · Dom 25/10/2026
-                 </span>
-                </div>
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792879800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148369/65e302d5-e4cd-42ef-83fc-56e01de0be3d#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   00:10
-                   <br/>
-                   Sala 4
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -6986,24 +6264,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792924800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148369/067a4097-3d25-49e5-9e50-a4df28460ba1#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   11:40
-                   <br/>
-                   Sala 9
-                  </li>
-                 </a>
-                 <a data-time="1792944000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148369/01faa3cd-6de6-4e4d-b56e-b6af6b0a8f2b#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   17:00
-                   <br/>
-                   Sala 8
-                  </li>
-                 </a>
                  <a data-time="1792963800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/148369/c986a834-7892-4675-a160-e653cd45a12a#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -7203,48 +6463,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792861800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/145727/d1d0f93b-5aa8-4b0b-9f80-be292e16d8ca#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   19:10
-                   <br/>
-                   Sala 8
-                  </li>
-                 </a>
-                </ul>
-                <div class="after-midnight-divider d-flex align-items-center my-0">
-                 <span class="after-midnight-divider__label">
-                  Dopo mezzanotte · Dom 25/10/2026
-                 </span>
-                </div>
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792879800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/145727/5e268bdc-9b7a-4dea-b3ab-12fbc6f12166#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   00:10
-                   <br/>
-                   Sala 8
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -7419,41 +6637,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792871100000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152429/7fc2d3da-7ecb-4629-b1b6-8c466d11fb46#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   21:45
-                   <br/>
-                   Sala 8
-                  </li>
-                 </a>
-                 <a data-time="1792878000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/152429/eefe43e0-0e5e-4661-be71-ee6414d293ed#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   23:40
-                   <br/>
-                   Sala 7
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -7622,41 +6805,6 @@
                 <div class="time-select__place">
                  <i class="fa fa-calendar">
                  </i>
-                 Sabato 24/10/2026
-                 <br/>
-                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
-                  <i class="fa fa-map-marker fa-lg">
-                  </i>
-                 </a>
-                 Cineplex Moderno Due Carrare Padova
-                </div>
-               </div>
-               <div class="col-lg-12 col-sm-8">
-                <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792860000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761/a9bb4e44-2255-436b-be05-6fa991e5e028#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   18:40
-                   <br/>
-                   Sala 5
-                  </li>
-                 </a>
-                 <a data-time="1792868400000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761/eda24bb2-ea90-41f2-ad35-c41f9f2e0e12#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   21:00
-                   <br/>
-                   Sala 5
-                  </li>
-                 </a>
-                </ul>
-               </div>
-               <div class="col-lg-12 col-sm-4">
-                <div class="time-select__place">
-                 <i class="fa fa-calendar">
-                 </i>
                  Domenica 25/10/2026
                  <br/>
                  <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
@@ -7668,24 +6816,6 @@
                </div>
                <div class="col-lg-12 col-sm-8">
                 <ul class="d-flex flex-wrap pl-0 mb-0">
-                 <a data-time="1792921800000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761/e62fc54d-53ad-45ef-a132-07eb586e0e09#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   10:50
-                   <br/>
-                   Sala 7
-                  </li>
-                 </a>
-                 <a data-time="1792946100000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761/72a7f710-0471-471e-bef7-dced70bad146#theater-init">
-                  <li class="btn btn-md btn--warning">
-                   <i class="fas fa-ticket-alt">
-                   </i>
-                   17:35
-                   <br/>
-                   Sala 6
-                  </li>
-                 </a>
                  <a data-time="1792950000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761/3226b462-af4c-474e-89a5-ef865009a3d4#theater-init">
                   <li class="btn btn-md btn--warning">
                    <i class="fas fa-ticket-alt">
@@ -7702,6 +6832,15 @@
                    21:00
                    <br/>
                    Sala 5
+                  </li>
+                 </a>
+                 <a data-time="1792965000000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761/d15205a8-eaef-4651-926e-71c8fce1a5e4#theater-init">
+                  <li class="btn btn-md btn--warning">
+                   <i class="fas fa-ticket-alt">
+                   </i>
+                   22:50
+                   <br/>
+                   Sala 2
                   </li>
                  </a>
                 </ul>
@@ -7826,6 +6965,101 @@
            </div>
            <div class="col-lg-6 col-sm-12 d-flex flex-start mb-2">
             <a class="btn btn-md btn--info btn-block d-flex justify-content-center align-items-center" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/138761">
+             <i class="fas fa-eye mr-1">
+             </i>
+             Programmazione Completa
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-12 devider mt-2">
+        </div>
+        <div class="movie movie--preview">
+         <div class="row">
+          <div class="col-12">
+           <h6 class="page-heading d-flex justify-content-center">
+            <a class="movie__title" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147705">
+             ALADDIN
+            </a>
+           </h6>
+          </div>
+          <div class="col-12 d-flex flex-column flex-lg-row">
+           <div class="col-lg-6">
+            <div class="movie__images">
+             <a class="movie__title" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147705">
+              <img alt="ALADDIN" class="img-fluid img-thumbnail" src="https://cdn.18tickets.net/impero/uploads/film/playbill/147705/standard_7299b83b-b3af-47ff-8cda-3104de3b2e10.jpg"/>
+              <div class="film-label small-label">
+               M. ANIMATION.
+              </div>
+             </a>
+            </div>
+           </div>
+           <div class="col-lg-6 right-card-column">
+            <p class="movie__option">
+             <strong>
+              Regia:
+             </strong>
+             John Musker, Ron Clements
+            </p>
+            <p class="movie__option">
+             <strong>
+              Con:
+             </strong>
+             Scott Weinger, Robin Williams, Linda Larkin
+            </p>
+            <p class="movie__option">
+             <strong>
+              Lingua:
+             </strong>
+             Italiano
+            </p>
+            <div class="occupations mt-3">
+             <div class="schedule-section-show pb-8" id="schedule-147705">
+              <div class="row">
+               <div class="col-lg-12 col-sm-4">
+                <div class="time-select__place">
+                 <i class="fa fa-calendar">
+                 </i>
+                 Domenica 01/11/2026
+                 <br/>
+                 <a href="http://maps.google.com/?q=Via Antonio de Curtis, 14, 35020, Due Carrare, PD" rel="tooltip" target="_blank" title="Via Antonio de Curtis, 14, 35020, Due Carrare, PD">
+                  <i class="fa fa-map-marker fa-lg">
+                  </i>
+                 </a>
+                 Cineplex Moderno Due Carrare Padova
+                </div>
+               </div>
+               <div class="col-lg-12 col-sm-8">
+                <ul class="d-flex flex-wrap pl-0 mb-0">
+                 <a data-time="1793527200000" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147705/d069c015-7bab-4e00-97bd-1ad225dc9dd7#theater-init">
+                  <li class="btn btn-md btn--warning">
+                   <i class="fas fa-ticket-alt">
+                   </i>
+                   11:00
+                   <br/>
+                   Sala 3
+                   <br/>
+                   MODERNO.. ANIMATION
+                  </li>
+                 </a>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="col-12 d-lg-flex mt-4">
+           <div class="col-lg-6 col-sm-12 d-flex flex-start mb-2">
+            <a class="trailer-sample btn btn-md btn--warning btn-block d-flex justify-content-center align-items-center" href="https://www.youtube.com/watch?v=SQqgDL1IHRE">
+             <i class="fa fa-youtube mr-1">
+             </i>
+             Guarda il trailer
+            </a>
+           </div>
+           <div class="col-lg-6 col-sm-12 d-flex flex-start mb-2">
+            <a class="btn btn-md btn--info btn-block d-flex justify-content-center align-items-center" href="https://pd.cineplexmoderno.cineplexmoderno.it/film/147705">
              <i class="fas fa-eye mr-1">
              </i>
              Programmazione Completa
