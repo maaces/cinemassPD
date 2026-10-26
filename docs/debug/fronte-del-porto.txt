@@ -54,34 +54,10 @@
                   Chi siamo
                  </a>
                 </li>
-                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2817" id="menu-item-2817">
-                 <a aria-expanded="false" class="menu-link" href="#">
-                  Partecipa
-                  <span aria-expanded="false" aria-haspopup="true" aria-label="Toggle Partecipa submenu" class="dropdown-menu-toggle ast-header-navigation-arrow" role="button" tabindex="0">
-                   <span class="ast-icon icon-arrow">
-                   </span>
-                  </span>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346" id="menu-item-1346">
+                 <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
+                  Iscriviti
                  </a>
-                 <button aria-expanded="false" aria-label="Toggle Partecipa submenu" class="ast-menu-toggle">
-                  <span class="ast-icon icon-arrow">
-                  </span>
-                 </button>
-                 <ul class="sub-menu">
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2701" id="menu-item-2701">
-                   <a class="menu-link" href="https://www.frontedelportopadova.it/tessera-del-fronte-del-porto/">
-                    <span class="ast-icon icon-arrow">
-                    </span>
-                    Tessera 26/27
-                   </a>
-                  </li>
-                  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346" id="menu-item-1346">
-                   <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
-                    <span class="ast-icon icon-arrow">
-                    </span>
-                    Iscriviti
-                   </a>
-                  </li>
-                 </ul>
                 </li>
                </ul>
               </div>
@@ -168,34 +144,10 @@
               Chi siamo
              </a>
             </li>
-            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2817">
-             <a aria-expanded="false" class="menu-link" href="#">
-              Partecipa
-              <span aria-expanded="false" aria-haspopup="true" aria-label="Toggle Partecipa submenu" class="dropdown-menu-toggle ast-header-navigation-arrow" role="button" tabindex="0">
-               <span class="ast-icon icon-arrow">
-               </span>
-              </span>
+            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
+             <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
+              Iscriviti
              </a>
-             <button aria-expanded="false" aria-label="Toggle Partecipa submenu" class="ast-menu-toggle">
-              <span class="ast-icon icon-arrow">
-              </span>
-             </button>
-             <ul class="sub-menu">
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2701">
-               <a class="menu-link" href="https://www.frontedelportopadova.it/tessera-del-fronte-del-porto/">
-                <span class="ast-icon icon-arrow">
-                </span>
-                Tessera 26/27
-               </a>
-              </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346">
-               <a class="menu-link" href="https://www.frontedelportopadova.it/iscriviti/">
-                <span class="ast-icon icon-arrow">
-                </span>
-                Iscriviti
-               </a>
-              </li>
-             </ul>
             </li>
            </ul>
           </div>
@@ -327,130 +279,13 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
-            OGGI
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/ultimo-turno/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Ultimo turno" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/ultimo-turno-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  Ultimo turno
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Svizzera, 2025, 92'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=706217" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-vita-segreta-dei-giocattoli/'">
-              <div class="evento-card-new-immagine">
-               <img alt="La vita segreta dei giocattoli" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-vita-segreta-dei-giocattoli-2-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  La vita segreta dei giocattoli
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2026, 60'
-                </div>
-               </div>
-               <div class="evento-card-new-categoria">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:30
-                </span>
-               </div>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
-                 <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/" onclick="event.stopPropagation();">
-              <span class="evento-rassegna-text">
-               Scopri di più sulla rassegna
-               <strong>
-                FP kids – proiezioni per famiglie
-               </strong>
-              </span>
-              <span class="evento-rassegna-arrow">
-              </span>
-             </a>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
             GIOVEDì, 29 OTTOBRE 2026
            </h2>
            <div class="programmazione-lista-new">
             <div class="evento-card-wrapper">
              <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-vita-segreta-dei-giocattoli/'">
               <div class="evento-card-new-immagine">
-               <img alt="La vita segreta dei giocattoli" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-vita-segreta-dei-giocattoli-2-1024x576.jpg" width="1024"/>
+               <img alt="La vita segreta dei giocattoli" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-vita-segreta-dei-giocattoli-2-1024x576.jpg" width="1024"/>
               </div>
               <div class="evento-card-new-content">
                <div class="evento-card-new-top-section">
@@ -1453,6 +1288,256 @@
           </div>
           <div class="programmazione-data-gruppo">
            <h2 class="programmazione-data-titolo">
+            VENERDì, 13 NOVEMBRE 2026
+           </h2>
+           <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/reality/'">
+              <div class="evento-card-new-immagine">
+               <img alt="Reality+" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/reality-1-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  Reality+
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Francia, 2014, 22'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 18:30
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  ingresso libero
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                CineCare Fest
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-ugly-stepsister/'">
+              <div class="evento-card-new-immagine">
+               <img alt="The Ugly Stepsister" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-ugly-stepsister-2-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  The Ugly Stepsister
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Horror, Norvegia/Svezia/Danimarca/Polonia, 2025, 109'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 21:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="http://www.liveticket.it/evento.aspx?Id=708097" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €5,00 intero, €4,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                CineCare Fest
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo">
+           <h2 class="programmazione-data-titolo">
+            SABATO, 14 NOVEMBRE 2026
+           </h2>
+           <div class="programmazione-lista-new">
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/flee/'">
+              <div class="evento-card-new-immagine">
+               <img alt="Flee" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/flee-1-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  Flee
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Biografico, Danimarca/Francia/Norvegia/Svezia, 2021, 89'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 17:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="http://www.liveticket.it/evento.aspx?Id=708099" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €5,00 intero, €4,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                CineCare Fest
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-animal-kingdom/'">
+              <div class="evento-card-new-immagine">
+               <img alt="The Animal Kingdom" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-animal-kingdom-1-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  The Animal Kingdom
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Avventura, Francia/Belgio, 2023, 128'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 21:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="http://www.liveticket.it/evento.aspx?Id=708101" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €5,00 intero, €4,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                CineCare Fest
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo">
+           <h2 class="programmazione-data-titolo">
             DOMENICA, 15 NOVEMBRE 2026
            </h2>
            <div class="programmazione-lista-new">
@@ -1508,6 +1593,126 @@
                Scopri di più sulla rassegna
                <strong>
                 FP kids – proiezioni per famiglie
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/20-000-specie-di-api/'">
+              <div class="evento-card-new-immagine">
+               <img alt="20.000 specie di api" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/20-000-specie-di-api-2-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  20.000 specie di api
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Drammatico, Spagna, 2023, 125'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 17:00
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="http://www.liveticket.it/evento.aspx?Id=708103" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €5,00 intero, €4,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                CineCare Fest
+               </strong>
+              </span>
+              <span class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </div>
+            <div class="evento-card-wrapper">
+             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/sorry-baby/'">
+              <div class="evento-card-new-immagine">
+               <img alt="Sorry, Baby" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/sorry-baby-1-1024x576.jpg" width="1024"/>
+              </div>
+              <div class="evento-card-new-content">
+               <div class="evento-card-new-top-section">
+                <div class="evento-card-new-title-wrapper">
+                 <h2 class="evento-card-new-title">
+                  Sorry, Baby
+                 </h2>
+                 <div class="evento-card-new-arrow">
+                  <span class="material-symbols-outlined">
+                   arrow_outward
+                  </span>
+                 </div>
+                </div>
+                <div class="evento-card-new-caratteristiche">
+                 Drammatico, Stati Uniti, 2025, 103'
+                </div>
+               </div>
+               <div class="evento-card-new-categoria">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="evento-card-new-right-column">
+               <div class="evento-card-ora-grouped">
+                <span class="evento-card-new-ora">
+                 H 21:30
+                </span>
+               </div>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                 <div class="prenota-prog-main">
+                  <a class="btn-prenota-prog" href="http://www.liveticket.it/evento.aspx?Id=708105" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €5,00 intero, €4,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </article>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/" onclick="event.stopPropagation();">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                CineCare Fest
                </strong>
               </span>
               <span class="evento-rassegna-arrow">
@@ -2746,6 +2951,13 @@
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
              <span class="rassegna-nome">
               Imagine the Sound
+             </span>
+             <span class="rassegna-arrow">
+             </span>
+            </a>
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/cinecare-fest/">
+             <span class="rassegna-nome">
+              CineCare Fest
              </span>
              <span class="rassegna-arrow">
              </span>

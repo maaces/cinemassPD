@@ -60,93 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24606 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24606" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/odissea/" title="Odissea">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="886" src="https://www.piccolo-padova.it/wp-content/uploads/odissea.jpg" width="591"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/odissea/">
-              <h2 class="entry-title" itemprop="name headline">
-               Odissea
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 4 novembre ore
-               <strong>
-                <span>
-                 17.30
-                </span>
-               </strong>
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Diretto da Christopher Nolan è un adattamento epico del poema di Omero che trasforma il ritorno di Ulisse in un intenso viaggio di redenzione ed espiazione
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
-         <article class="post-24620 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24620" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/i-due-gemelli-veneziani-2/" title="I DUE GEMELLI VENEZIANI">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-GEMELLI-VENEZIANI-2026-1-pdf-724x1024.jpg" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/i-due-gemelli-veneziani-2/">
-              <h2 class="entry-title" itemprop="name headline">
-               I DUE GEMELLI VENEZIANI
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               venerdì 6 novembre – ore 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Tonino e Zanetto sono due fratelli gemelli separati sin dall’infanzia e molto diversi tra loro: il primo vive a Venezia ed è contraddistinto da una non comune scaltrezza oltre che dalla capacità di esercitare un notevole fascino sulle dame sue …
-              <a href="https://www.piccolo-padova.it/i-due-gemelli-veneziani-2/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Commedia di Carlo Goldoni – Compagnia Stabile del Leonardo – Treviso, Regia di Alberto Moscatelli e Alessandro Pietropoli
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-22963 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-22963" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/opera-lirica-al-cinema/" title="OPERA LIRICA E BALLETTO AL CINEMA – 2026/2027 (I parte)">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" width="734"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" width="734"/>
              </a>
             </div>
            </div>
@@ -185,7 +104,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/falstaff/" title="FALSTAFF">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-FALSTAFF-10.11.2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-FALSTAFF-10.11.2026-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -216,6 +135,134 @@
              <div class="cast">
               <p>
                opera di Giuseppe Verdi – direzione Michele Mariotti –  regia di Tatjana Gürbaca – scene Henrik Ahr – con Luca Salsi, George Petean, Maria Agresta, Carmen Artaza, Violeta Urmana
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24692 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24692" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/un-po-di-luce/" title="Un po’ di luce">
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/luce-683x1024.avif" width="683"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/un-po-di-luce/">
+              <h2 class="entry-title" itemprop="name headline">
+               Un po’ di luce
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               mercoledì 18 novembre ore 21.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              <strong>
+               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
+              </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24646 post type-post status-publish format-standard has-post-thumbnail hentry category-evento-di-terzi" id="post-24646" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/arti-inferiori-23-edizione/" title="Arti Inferiori 23° edizione">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 738px) 100vw, 738px" data-src="https://www.piccolo-padova.it/wp-content/uploads/ARTINFERIORI-2026-27-738x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20738%201024%22%3E%3C/svg%3E" width="738"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/arti-inferiori-23-edizione/">
+              <h2 class="entry-title" itemprop="name headline">
+               Arti Inferiori 23° edizione
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               Dal 19 novembre. Incontro con le compagnie
+               <b data-index-in-node="35" data-path-to-node="8,0">
+                ore 19.30
+               </b>
+               / Inizio spettacoli
+               <b data-index-in-node="65" data-path-to-node="8,0">
+                ore 21.00
+               </b>
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              23ª edizione della rassegna teatrale
+              <b data-index-in-node="53" data-path-to-node="3">
+               ARTI INFERIORI 2026/27
+              </b>
+              .
+             </p>
+             <p>
+              <strong>
+               EVENTO OSPITATO MA NON ORGANIZZATO DAL PICCOLO TEATRO
+              </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24456 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24456" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/" title="APPUNTAMENTI CON IL TEATRO VENETO – 2026">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TEATRO-VENETO-2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/">
+              <h2 class="entry-title" itemprop="name headline">
+               APPUNTAMENTI CON IL TEATRO VENETO – 2026
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               Prevendite dal 7 settembre – Cinque spettacoli, il venerdì sera: 9 e 23 ottobre, 6 e 20 novembre, 4 dicembre – ore 21.15
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Con l’inizio della prevendita da lunedì 7 settembre torna il tempo degli “Appuntamenti con il Teatro Veneto” del Piccolo Teatro: nuova edizione della ormai ventennale rassegna teatrale curata dall’associazione Piccolo Teatro, che ha in programma, come sempre, diversi appuntamenti di …
+              <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/">
+               Continua
+              </a>
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               Con alcune tra le più apprezzate ed acclamate compagnie della nostra regione, tre titoli goldoniani e due titoli contemporanei ambientati in terra veneta…
               </p>
              </div>
             </footer>
@@ -260,6 +307,86 @@
                Commedia di Carlo Goldoni – Compagnia Dell’Orso di Lonigo (VI) – Adattamento e Regia di Paolo Marchetto
               </p>
              </div>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24694 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24694" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/il-silenzio-degli-altri-vos/" title="Il silenzio degli altri (VOS)">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 463px) 100vw, 463px" data-src="https://www.piccolo-padova.it/wp-content/uploads/il-silenzion-degli-altri.jpg" decoding="async" height="662" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20463%20662%22%3E%3C/svg%3E" width="463"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/il-silenzio-degli-altri-vos/">
+              <h2 class="entry-title" itemprop="name headline">
+               Il silenzio degli altri (VOS)
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               mercoledì 25 novembre ore 21.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              <strong>
+               IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
+              </strong>
+              <br/>
+              <strong>
+               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
+              </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24697 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24697" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/fatherland-vos/" title="Fatherland (VOS)">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 691px) 100vw, 691px" data-src="https://www.piccolo-padova.it/wp-content/uploads/fatherland.png" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20691%201024%22%3E%3C/svg%3E" width="691"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/fatherland-vos/">
+              <h2 class="entry-title" itemprop="name headline">
+               Fatherland (VOS)
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               mercoledì 2 dicembre ore 21.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              <strong>
+               IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
+              </strong>
+              <br/>
+              <strong>
+               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
+              </strong>
+             </p>
+            </div>
+            <footer>
             </footer>
            </div>
           </div>
@@ -357,6 +484,12 @@
             <span aria-current="page" class="page-numbers current">
              2
             </span>
+            <a class="page-numbers" href="https://www.piccolo-padova.it/page/3/">
+             3
+            </a>
+            <a class="next page-numbers" href="https://www.piccolo-padova.it/page/3/">
+             »
+            </a>
            </div>
           </nav>
          </div>
@@ -384,18 +517,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_thztx" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_thztx">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_yq5cp" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_yq5cp">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_m2yui" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1vxdk" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_m2yui">
+             <span class="mailpoet_error_1vxdk">
              </span>
             </div>
             <div class="mailpoet_paragraph">
