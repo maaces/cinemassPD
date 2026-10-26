@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1922854044853926238@cinema-scraper.local
+DTSTAMP:20261026T230256Z
+DTSTART:20261101T201500Z
+DTEND:20261101T220800Z
+SUMMARY:Santiago - Un cammino per ricominciare - Yann Samuell
+LOCATION:Piccolo Teatro
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare
+END:VEVENT
+END:VCALENDAR
