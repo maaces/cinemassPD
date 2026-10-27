@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:4611277470423813794@cinema-scraper.local
-DTSTAMP:20261027T103810Z
-DTSTART:20261028T180000Z
-DTEND:20261028T195300Z
-SUMMARY:Santiago - Un cammino per ricominciare - Yann Samuell
-LOCATION:Cinema Rex
-DESCRIPTION:https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:8580483639246038900@cinema-scraper.local
+DTSTAMP:20261027T103923Z
+DTSTART:20261028T180000Z
+DTEND:20261028T195300Z
+SUMMARY:Santiago - Un cammino per ricominciare - Yann Samuell
+LOCATION:Cinema Rex
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare
+END:VEVENT
+END:VCALENDAR

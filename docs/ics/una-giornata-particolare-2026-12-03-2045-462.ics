@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:5166259097920430767@cinema-scraper.local
-DTSTAMP:20261027T103810Z
-DTSTART:20261203T194500Z
-DTEND:20261203T212800Z
-SUMMARY:Una giornata particolare - Ettore Scola
-LOCATION:Cinema Rex
-DESCRIPTION:Cineforum\nhttps://www.cinemarex.it/evento?eventName=una_giornata_particolare
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:2815876763027322537@cinema-scraper.local
+DTSTAMP:20261027T103923Z
+DTSTART:20261203T194500Z
+DTEND:20261203T212800Z
+SUMMARY:Una giornata particolare - Ettore Scola
+LOCATION:Cinema Rex
+DESCRIPTION:Cineforum\nhttps://www.cinemarex.it/evento?eventName=una_giornata_particolare
+END:VEVENT
+END:VCALENDAR
