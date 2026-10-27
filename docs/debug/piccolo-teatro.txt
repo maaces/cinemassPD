@@ -64,7 +64,7 @@
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/yellows-letters/" title="Yellows letters">
+             <a href="https://www.piccolo-padova.it/yellows-letters/" title="Yellow letters">
               <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="529" src="https://www.piccolo-padova.it/wp-content/uploads/yellows.jpg" width="378"/>
              </a>
             </div>
@@ -75,7 +75,7 @@
             <header>
              <a href="https://www.piccolo-padova.it/yellows-letters/">
               <h2 class="entry-title" itemprop="name headline">
-               Yellows letters
+               Yellow letters
               </h2>
              </a>
              <div class="data-evento">
@@ -414,12 +414,12 @@
            </div>
           </div>
          </article>
-         <article class="post-24690 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24690" itemscope="" itemtype="https://schema.org/BlogPosting">
+         <article class="post-24723 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24723" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/calle-malaga/" title="Calle Malaga">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 717px) 100vw, 717px" data-src="https://www.piccolo-padova.it/wp-content/uploads/Calle-Malaga-poster-717x1024-2.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20717%201024%22%3E%3C/svg%3E" width="717"/>
+             <a href="https://www.piccolo-padova.it/il-tempo-di-anne/" title="Il tempo di Anne">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 420px) 100vw, 420px" data-src="https://www.piccolo-padova.it/wp-content/uploads/tempo-anne.jpg" decoding="async" height="600" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20600%22%3E%3C/svg%3E" width="420"/>
              </a>
             </div>
            </div>
@@ -427,22 +427,26 @@
             <div class="postmeta updated color_gray">
             </div>
             <header>
-             <a href="https://www.piccolo-padova.it/calle-malaga/">
+             <a href="https://www.piccolo-padova.it/il-tempo-di-anne/">
               <h2 class="entry-title" itemprop="name headline">
-               Calle Malaga
+               Il tempo di Anne
               </h2>
              </a>
              <div class="data-evento">
               <p>
-               mercoledì 11 novembre ore 21.00
+               sabato 7 novembre ore 18.45
+               <br/>
+               domenica 8 novembre ore 21.15
               </p>
              </div>
             </header>
             <div class="entry-content" itemprop="description">
              <p>
-              <strong>
-               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
-              </strong>
+              <span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto" role="text">
+               <span class="ytAttributedStringLinkInheritColor" dir="auto">
+                Anne (Sophie Marceau) si gode finalmente la sua libertà dopo la partenza dei figli. Ma tutto cambia quando sua figlia Louise torna a vivere con lei in seguito a un fallimento professionale e sentimentale. E siccome le sorprese non arrivano mai da sole, suo figlio Théo le annuncia che sta per diventare nonna. Tra scontri generazionali, sogni in evoluzione e nuovi slanci amorosi, Anne capisce che la vita non segue mai del tutto i piani stabiliti e che, a qualsiasi età, non si smette mai di imparare a crescere.
+               </span>
+              </span>
              </p>
             </div>
             <footer>
@@ -495,18 +499,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_b7fs5" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_b7fs5">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_oe53o" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_oe53o">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_11g1s" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1w0qx" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_11g1s">
+             <span class="mailpoet_error_1w0qx">
              </span>
             </div>
             <div class="mailpoet_paragraph">

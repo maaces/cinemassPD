@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4264920077537131324@cinema-scraper.local
+DTSTAMP:20261027T104125Z
+DTSTART:20261027T195000Z
+DTEND:20261027T215000Z
+SUMMARY:Primetimeingresso A 4\,00 €
+LOCATION:Porto Astra
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR
