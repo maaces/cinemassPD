@@ -1,19 +1,19 @@
-Report generato il 27/10/2026 11:40 (ora italiana)
+Report generato il 27/10/2026 19:11 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
 Film trovati: 29
-Orari trovati: 254 (di cui con data non riconosciuta: 0)
+Orari trovati: 243 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 11
-Orari trovati: 15 (di cui con data non riconosciuta: 0)
+Film trovati: 10
+Orari trovati: 12 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
@@ -28,8 +28,8 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 5
-Orari trovati: 14 (di cui con data non riconosciuta: 0)
+Film trovati: 6
+Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
 
@@ -50,8 +50,11 @@ URL: https://www.cinemarex.it/
 Scraper: cinema_rex
 Film trovati: 19
 Orari trovati: 25 (di cui con data non riconosciuta: 0)
-Errore: nessuno
-HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
+Errore: TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.cinemarex.it/", waiting until "domcontentloaded"
+ (orari presi dall'ultimo aggiornamento riuscito)
+HTML ripulito: non disponibile
 
 ## Cinema Esperia
 URL: https://www.esperiapadova.it/Blog?category=1
