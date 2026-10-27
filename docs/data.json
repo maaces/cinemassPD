@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:52:03.295309",
+  "generated_at": "2026-10-27T23:34:09.598623",
   "movies": [
     {
       "title": "Le Sentinelle di Pietra",
@@ -1863,22 +1863,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154634",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "14:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "16:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "14:25",
           "cinema": "The Space (Limena)",
@@ -1907,70 +1891,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1503762",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154733",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "15:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "16:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "18:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "15:05",
@@ -2049,38 +1969,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154767",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "17:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:15",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "17:25",
           "cinema": "The Space (Limena)",
@@ -2133,86 +2021,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1400940",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/155889",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "15:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "16:20",
@@ -2299,30 +2107,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154702",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "17:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
@@ -2359,70 +2143,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/791523",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154603",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "14:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "15:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "18:15",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "15:55",
@@ -2501,62 +2221,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152324",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "14:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "16:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "18:25",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "15:55",
           "cinema": "The Space (Limena)",
@@ -2634,14 +2298,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152431",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "FILM EVENTO",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "17:15",
           "cinema": "Cineplex (Due Carrare)",
@@ -2671,22 +2327,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152426",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "22:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "22:10",
           "cinema": "Cineplex (Due Carrare)",
@@ -2707,22 +2347,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1153576",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152423",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "21:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "14:10",
@@ -2761,38 +2385,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/148369",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "19:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "14:00",
           "cinema": "The Space (Limena)",
@@ -2829,22 +2421,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1283515",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/145727",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "15:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "14:00",
@@ -2883,46 +2459,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152429",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "14:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "16:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "21:10",
           "cinema": "The Space (Limena)",
@@ -2951,38 +2487,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "14:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "18:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "16:20",
@@ -3058,46 +2562,6 @@
       "detail_url": "https://www.thespacecinema.it/film/l-estranea",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "16:05",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "22:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "16:15",
           "cinema": "The Space (Limena)",
@@ -3151,30 +2615,6 @@
       "detail_url": "https://www.thespacecinema.it/film/caro-mondo-crudele",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "14:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "17:55",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "16:55",
           "cinema": "The Space (Limena)",
@@ -3211,14 +2651,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/36685",
       "detail_url": "https://www.frontedelportopadova.it/eventi/the-rocky-horror-pictur-show/",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "20:31",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "18:30",
@@ -3339,22 +2771,6 @@
       "detail_url": "https://www.cinemarex.it/evento?eventName=naza",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "17:05",
           "cinema": "Porto Astra",
@@ -3452,27 +2868,6 @@
       ]
     },
     {
-      "title": "Se Ami Qualcuno Dilloingresso A 4,00 €",
-      "director": null,
-      "duration_min": null,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Se%20Ami%20Qualcuno%20Dilloingresso%20A%204%2C00%20%E2%82%AC%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/se%20ami%20qualcuno%20dilloingresso%20a%204%2C00%20%E2%82%AC/",
-      "tmdb_url": null,
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Il tempo di Anne",
       "director": "Lisa Azuelos",
       "duration_min": 100,
@@ -3483,14 +2878,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1477170",
       "detail_url": "https://www.piccolo-padova.it/il-tempo-di-anne/",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "17:15",
@@ -3529,30 +2916,6 @@
       "detail_url": "https://www.thespacecinema.it/film/matrix",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "18:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "20:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "21:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 12,99 €",
-          "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "18:55",
           "cinema": "The Space (Limena)",
@@ -3590,14 +2953,6 @@
       "detail_url": "https://www.thespacecinema.it/film/digger",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "20:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-28",
           "time": "15:00",
           "cinema": "The Space (Limena)",
@@ -3611,27 +2966,6 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Primetimeingresso A 4,00 €",
-      "director": null,
-      "duration_min": null,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Primetimeingresso%20A%204%2C00%20%E2%82%AC%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/primetimeingresso%20a%204%2C00%20%E2%82%AC/",
-      "tmdb_url": null,
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "20:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         }
       ]
@@ -3676,22 +3010,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1437696",
       "detail_url": "https://www.movieconnection.it/proiezione/fatherland-5/2026-10-27/5/",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "14:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-27",
-          "time": "19:15",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "14:05",
@@ -3744,27 +3062,6 @@
           "date": "2026-12-02",
           "time": "21:00",
           "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "MATRIX – Larry e Andy Wachowski # Australia/USA (136′)",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/matrix-poster.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=MATRIX%20%E2%80%93%20Larry%20e%20Andy%20Wachowski%20%23%20Australia/USA%20%28136%E2%80%B2%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/matrix%20%E2%80%93%20larry%20e%20andy%20wachowski%20%23%20australia/usa/",
-      "tmdb_url": null,
-      "detail_url": "https://www.movieconnection.it/proiezione/matrix/",
-      "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "21:00",
-          "cinema": "Lux",
           "price": null,
           "note": "V.O.S.",
           "date_uncertain": false
@@ -4676,27 +3973,6 @@
       ]
     },
     {
-      "title": "Txt World Tour Act: Tomorrow",
-      "director": null,
-      "duration_min": 100,
-      "poster_url": "https://image.tmdb.org/t/p/w500/mrV22rd4WxeZgg4Wbl8IsRRDn8X.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Txt%20World%20Tour%20Act%3A%20Tomorrow%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/txt%20world%20tour%20act%3A%20tomorrow/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1288843",
-      "detail_url": "https://www.thespacecinema.it/film/txt-world-tour-act-tomorrow-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "20:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Evento Speciale · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Coyote vs. Acme",
       "director": "Dave Green",
       "duration_min": 101,
@@ -4707,14 +3983,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1204680",
       "detail_url": "https://www.thespacecinema.it/film/coyote-vs-acme",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "14:15",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "14:50",
@@ -4736,14 +4004,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1465063",
       "detail_url": "https://www.thespacecinema.it/film/lisola-dei-ricordi",
       "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "15:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-28",
           "time": "15:25",
@@ -5274,14 +4534,6 @@
       "detail_url": "https://www.cinemarex.it/evento?eventName=calle_malaga",
       "showtimes": [
         {
-          "date": "2026-10-27",
-          "time": "19:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-11",
           "time": "21:00",
           "cinema": "Piccolo Teatro",
@@ -5591,27 +4843,6 @@
           "time": "20:30",
           "cinema": "Cinema Esperia",
           "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fango e Sangue - Le Sang Ert la Boue",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.esperiapadova.it/data/img/877/locandinailsangueeilfangoitaliana.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Fango%20e%20Sangue%20-%20Le%20Sang%20Ert%20la%20Boue%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fango%20e%20sangue%20-%20le%20sang%20ert%20la%20boue/",
-      "tmdb_url": null,
-      "detail_url": "https://www.esperiapadova.it/Post?postid=877",
-      "showtimes": [
-        {
-          "date": "2026-10-27",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
           "note": null,
           "date_uncertain": false
         }
