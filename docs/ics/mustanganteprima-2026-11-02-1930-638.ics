@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4776580621866470228@cinema-scraper.local
+DTSTAMP:20261029T013606Z
+DTSTART:20261102T183000Z
+DTEND:20261102T203000Z
+SUMMARY:Mustanganteprima
+LOCATION:Multiastra
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR
