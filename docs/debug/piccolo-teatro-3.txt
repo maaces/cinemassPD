@@ -60,52 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24697 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24697" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/fatherland-vos/" title="Fatherland (VOS)">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/fatherland.png" width="691"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/fatherland-vos/">
-              <h2 class="entry-title" itemprop="name headline">
-               Fatherland (VOS)
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 2 dicembre ore 21.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              <strong>
-               IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
-              </strong>
-              <br/>
-              <strong>
-               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
-              </strong>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24600 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24600" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/il-teatro-comico/" title="IL TEATRO COMICO">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-IL-TEATRO-COMICO-2026-pdf-724x1024.jpg" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-IL-TEATRO-COMICO-2026-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -183,7 +143,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/i-figli-della-scimmia/" title="I figli della scimmia">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 717px) 100vw, 717px" data-src="https://www.piccolo-padova.it/wp-content/uploads/I-Figli-Della-Scimmia-728x1040-1-717x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20717%201024%22%3E%3C/svg%3E" width="717"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/I-Figli-Della-Scimmia-728x1040-1-717x1024.jpg" width="717"/>
              </a>
             </div>
            </div>
@@ -203,6 +163,49 @@
              </div>
             </header>
             <div class="entry-content" itemprop="description">
+             <p>
+              <strong>
+               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
+              </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24731 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24731" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/minotaur-nel-labirinto-del-potere/" title="Minotaur – Nel labirinto del potere">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 724px) 100vw, 724px" data-src="https://www.piccolo-padova.it/wp-content/uploads/minotaur-1-scaled-1-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/minotaur-nel-labirinto-del-potere/">
+              <h2 class="entry-title" itemprop="name headline">
+               Minotaur – Nel labirinto del potere
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               mercoledì 16 dicembre ore 21.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              <span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto" role="text">
+               <span class="ytAttributedStringLinkInheritColor" dir="auto">
+                Russia, 2022. Quando Gleb, un direttore aziendale di successo, si trova assediato da crescenti pressioni aziendali e da un mondo sempre più instabile, il crollo della sua vita ordinata precipita verso la violenza.
+               </span>
+              </span>
+             </p>
              <p>
               <strong>
                CON VIDEO INTRODUZIONE DI A. PREVEDELLO
@@ -259,18 +262,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_3vayl" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_3vayl">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_150uj" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_150uj">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_c57rz" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1f5u5" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_c57rz">
+             <span class="mailpoet_error_1f5u5">
              </span>
             </div>
             <div class="mailpoet_paragraph">
