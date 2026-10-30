@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:08:35.295057",
+  "generated_at": "2026-10-30T18:12:24.103250",
   "movies": [
     {
       "title": "Fast and Furious",
@@ -14,14 +14,6 @@
       "showtimes": [
         {
           "date": "2026-10-30",
-          "time": "18:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
           "time": "19:15",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -31,6 +23,14 @@
         {
           "date": "2026-10-30",
           "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-30",
+          "time": "22:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -54,7 +54,7 @@
         },
         {
           "date": "2026-10-31",
-          "time": "19:05",
+          "time": "18:55",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -63,6 +63,22 @@
         {
           "date": "2026-10-31",
           "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "10:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "13:35",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -86,7 +102,31 @@
         },
         {
           "date": "2026-11-01",
+          "time": "18:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "20:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
           "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "23:15",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -179,14 +219,6 @@
       "showtimes": [
         {
           "date": "2026-10-30",
-          "time": "19:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
           "time": "20:30",
           "cinema": "Multiastra",
           "price": null,
@@ -206,7 +238,7 @@
           "time": "21:40",
           "cinema": "Porto Astra",
           "price": null,
-          "note": "V.O.S",
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -350,33 +382,9 @@
         {
           "date": "2026-10-30",
           "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "18:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -518,14 +526,6 @@
         {
           "date": "2026-11-03",
           "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-03",
-          "time": "17:00",
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
@@ -534,14 +534,6 @@
         {
           "date": "2026-11-03",
           "time": "18:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-04",
-          "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -730,23 +722,7 @@
         },
         {
           "date": "2026-11-03",
-          "time": "21:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-03",
           "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-04",
-          "time": "21:40",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -2274,14 +2250,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154634",
       "showtimes": [
         {
-          "date": "2026-10-30",
-          "time": "17:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-31",
           "time": "14:45",
           "cinema": "Cineplex (Due Carrare)",
@@ -2334,22 +2302,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1503762",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154733",
       "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "19:50",
@@ -2738,14 +2690,6 @@
       "showtimes": [
         {
           "date": "2026-10-30",
-          "time": "16:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
           "time": "19:20",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -2853,22 +2797,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1438966",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152324",
       "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "19:50",
@@ -2995,14 +2923,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152423",
       "showtimes": [
         {
-          "date": "2026-10-30",
-          "time": "19:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-31",
           "time": "16:50",
           "cinema": "Cineplex (Due Carrare)",
@@ -3041,22 +2961,6 @@
           "price": null,
           "note": null,
           "date_uncertain": false
-        },
-        {
-          "date": "2026-11-03",
-          "time": "19:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-04",
-          "time": "19:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
         }
       ]
     },
@@ -3071,38 +2975,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1506710",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
       "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "16:00",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "19:30",
@@ -3131,14 +3003,6 @@
           "date": "2026-10-30",
           "time": "20:15",
           "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "22:00",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3838,22 +3702,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1678120",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158100",
       "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "17:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "19:25",
@@ -4560,6 +4408,200 @@
       ]
     },
     {
+      "title": "Hunger Games - L'alba sulla mietitura",
+      "director": "Francis Lawrence",
+      "duration_min": 158,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/100844/standard_1105ba9d-1c3f-4dd7-9167-3417373bb402.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JHh7_klJXgk",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Hunger%20Games%20-%20L%27alba%20sulla%20mietitura%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/hunger%20games%20-%20l%27alba%20sulla%20mietitura/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1300968",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/100844",
+      "showtimes": [
+        {
+          "date": "2026-11-19",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-19",
+          "time": "18:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-19",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-19",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-20",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-20",
+          "time": "18:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-20",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-20",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "14:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "18:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "You Can See Everithing",
+      "director": "Nathan Fielder, Lance Oppenheim",
+      "duration_min": null,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/160013/standard_9a17535d-4311-487b-a411-9a47f20c7ce6.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=YOU%20CAN%20SEE%20EVERITHING%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/you%20can%20see%20everithing/",
+      "tmdb_url": null,
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/160013",
+      "showtimes": [
+        {
+          "date": "2026-11-27",
+          "time": "21:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": "FILM EVENTO",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": "FILM EVENTO",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "21:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": "FILM EVENTO",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Minotaur",
       "director": "Jonathan English",
       "duration_min": 93,
@@ -4570,14 +4612,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/18870",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "16:00",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "20:00",
@@ -4688,22 +4722,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-10-30",
-          "time": "16:15",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "18:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-31",
           "time": "15:30",
           "cinema": "Multiastra",
@@ -4756,22 +4774,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1412795",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-30",
-          "time": "18:05",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "19:40",
@@ -4944,27 +4946,6 @@
           "date": "2026-11-04",
           "time": "22:05",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Carla Lonzi - Dentro e fuori dal mondo",
-      "director": "Francesca Archibugi",
-      "duration_min": 90,
-      "poster_url": "https://image.tmdb.org/t/p/w500/xoZsnMCVVO1pWRSUbaJHzTjBCi6.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=IY12u39Xl5I",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Carla%20Lonzi%20-%20Dentro%20e%20fuori%20dal%20mondo%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/carla%20lonzi%20-%20dentro%20e%20fuori%20dal%20mondo/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1735959",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "18:30",
-          "cinema": "Multiastra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -5165,75 +5146,6 @@
       ]
     },
     {
-      "title": "Fatherland",
-      "director": "Pawel Pawlikowski",
-      "duration_min": 82,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-2/2026-10-30/",
-      "showtimes": [
-        {
-          "date": "2026-10-30",
-          "time": "16:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "17:15",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "19:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "19:10",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "20:45",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-12-02",
-          "time": "21:00",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′)",
       "director": "Mélisa Godet",
       "duration_min": 110,
@@ -5296,84 +5208,82 @@
           "price": null,
           "note": "V.O.S.",
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "StoryLab: è un'impresa fare film",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Screenshot-2026-10-23-at-18.54.36.png",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=StoryLab%3A%20%C3%A8%20un%E2%80%99impresa%20fare%20film%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/storylab%3A%20%C3%A8%20un%27impresa%20fare%20film/",
-      "tmdb_url": null,
-      "detail_url": "https://www.frontedelportopadova.it/eventi/storylab-e-unimpresa-fare-film/",
-      "showtimes": [
+        },
         {
-          "date": "2026-10-31",
-          "time": "14:30",
-          "cinema": "Fronte del Porto",
+          "date": "2026-11-02",
+          "time": "20:00",
+          "cinema": "Lux",
           "price": null,
-          "note": "gratuito",
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "Essi vivono",
-      "director": "John Carpenter",
-      "duration_min": 94,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/essi-vivono-4-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=HMemQcPq4aQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Essi%20vivono%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/essi%20vivono/",
-      "tmdb_url": "https://www.themoviedb.org/movie/8337",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/essi-vivono/",
+      "title": "Fatherland",
+      "director": "Pawel Pawlikowski",
+      "duration_min": 82,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-2/2026-10-31/1/",
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "18:30",
-          "cinema": "Fronte del Porto",
+          "time": "15:30",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-31",
+          "time": "17:15",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-31",
+          "time": "19:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         },
         {
           "date": "2026-11-01",
-          "time": "20:30",
-          "cinema": "Fronte del Porto",
+          "time": "19:10",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-11-26",
+          "date": "2026-11-01",
           "time": "20:45",
-          "cinema": "Cinema Rex",
+          "cinema": "Lux",
           "price": null,
-          "note": "V.O.S. · Cineforum",
+          "note": null,
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "The Rocky Horror Picture Show",
-      "director": "Jim Sharman",
-      "duration_min": 95,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-rocky-horror-pictur-show-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=RJbpFGT9RRg",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Rocky%20Horror%20Picture%20Show%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20rocky%20horror%20picture%20show/",
-      "tmdb_url": "https://www.themoviedb.org/movie/36685",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/the-rocky-horror-pictur-show/",
-      "showtimes": [
+        },
         {
-          "date": "2026-10-31",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
+          "date": "2026-11-02",
+          "time": "18:20",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-02",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -5424,6 +5334,64 @@
           "cinema": "Cinema Rex",
           "price": null,
           "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Essi vivono",
+      "director": "John Carpenter",
+      "duration_min": 94,
+      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/essi-vivono-4-1024x576.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HMemQcPq4aQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Essi%20vivono%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/essi%20vivono/",
+      "tmdb_url": "https://www.themoviedb.org/movie/8337",
+      "detail_url": "https://www.frontedelportopadova.it/eventi/essi-vivono/",
+      "showtimes": [
+        {
+          "date": "2026-11-01",
+          "time": "20:30",
+          "cinema": "Fronte del Porto",
+          "price": null,
+          "note": "€6,50 intero, €5,00 ridotto",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-26",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Balcanica",
+      "director": "Nicola Sorcinelli",
+      "duration_min": 86,
+      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/balcanica-1-1024x576.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Balcanica%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/balcanica/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1702462",
+      "detail_url": "https://www.frontedelportopadova.it/eventi/balcanica/",
+      "showtimes": [
+        {
+          "date": "2026-11-05",
+          "time": "18:30",
+          "cinema": "Fronte del Porto",
+          "price": null,
+          "note": "€6,50 intero, €5,00 ridotto",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-08",
+          "time": "20:30",
+          "cinema": "Fronte del Porto",
+          "price": null,
+          "note": "€6,50 intero, €5,00 ridotto",
           "date_uncertain": false
         }
       ]
@@ -5492,22 +5460,22 @@
       ]
     },
     {
-      "title": "Gli Uccelli del Monte Qaf",
-      "director": "Firouzeh Khosrovani, Morteza Ahmadvand",
-      "duration_min": 80,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-1024x576.jpg",
+      "title": "Radiograph of a Family",
+      "director": "Firouzeh Khosrovani",
+      "duration_min": 81,
+      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/01/Still_ROAF_05-scaled-1-1024x553.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=GLI%20UCCELLI%20DEL%20MONTE%20QAF%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/gli%20uccelli%20del%20monte%20qaf/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1510562",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Radiograph%20of%20a%20Family%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/radiograph%20of%20a%20family/",
+      "tmdb_url": "https://www.themoviedb.org/movie/768199",
+      "detail_url": "https://www.frontedelportopadova.it/eventi/radiograph-of-a-family-rassegna-vos/",
       "showtimes": [
         {
           "date": "2026-11-07",
           "time": "20:45",
           "cinema": "Fronte del Porto",
           "price": null,
-          "note": "6,50€ intero, 5€ ridotto",
+          "note": "Intero 6,5; ridotto 5",
           "date_uncertain": false
         },
         {
@@ -5515,7 +5483,7 @@
           "time": "18:00",
           "cinema": "Fronte del Porto",
           "price": null,
-          "note": "6,50€ intero, 5€ ridotto",
+          "note": "Intero 6,5; ridotto 5",
           "date_uncertain": false
         }
       ]
@@ -5815,22 +5783,22 @@
       ]
     },
     {
-      "title": "Radiograph of a Family",
-      "director": "Firouzeh Khosrovani",
-      "duration_min": 81,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/01/Still_ROAF_05-scaled-1-1024x553.jpg",
+      "title": "Gli Uccelli del Monte Qaf",
+      "director": "Firouzeh Khosrovani, Morteza Ahmadvand",
+      "duration_min": 80,
+      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-1024x576.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Radiograph%20of%20a%20Family%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/radiograph%20of%20a%20family/",
-      "tmdb_url": "https://www.themoviedb.org/movie/768199",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/radiograph-of-a-family-rassegna-vos/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=GLI%20UCCELLI%20DEL%20MONTE%20QAF%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/gli%20uccelli%20del%20monte%20qaf/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1510562",
+      "detail_url": "https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/",
       "showtimes": [
         {
           "date": "2026-11-28",
           "time": "20:45",
           "cinema": "Fronte del Porto",
           "price": null,
-          "note": "Intero 6,5; ridotto 5",
+          "note": "6,50€ intero, 5€ ridotto",
           "date_uncertain": false
         },
         {
@@ -5838,7 +5806,7 @@
           "time": "18:00",
           "cinema": "Fronte del Porto",
           "price": null,
-          "note": "Intero 6,5; ridotto 5",
+          "note": "6,50€ intero, 5€ ridotto",
           "date_uncertain": false
         }
       ]
@@ -6144,14 +6112,14 @@
       ]
     },
     {
-      "title": "Bts World Tour Arirang Live in Sao Paulo",
-      "director": null,
+      "title": "BTS WORLD TOUR [ARIRANG] in São Paulo",
+      "director": "Ha Jung-jae",
       "duration_min": 195,
-      "poster_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/kK5wiFE800cMVIjsj2TTyLCQqZo.jpg",
       "trailer_url": null,
       "trailer_search_url": "https://www.youtube.com/results?search_query=Bts%20World%20Tour%20Arirang%20Live%20in%20Sao%20Paulo%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/bts%20world%20tour%20arirang%20live%20in%20sao%20paulo/",
-      "tmdb_url": null,
+      "tmdb_url": "https://www.themoviedb.org/movie/1770234",
       "detail_url": "https://www.thespacecinema.it/film/bts-world-tour-arirang-live-in-sao-paulo-lingua-originale",
       "showtimes": [
         {
@@ -6258,112 +6226,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "The Invite - Il piacere è tutto nostro",
-      "director": "Olivia Wilde",
-      "duration_min": 107,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/invite-656x1024.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
-      "tmdb_url": "https://www.themoviedb.org/movie/950028",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=the_invite___il_piacere_è_tutto_nostro",
-      "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "18:30",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-03",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-07",
-          "time": "21:15",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "18:45",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "18:45",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Zustìssia",
-      "director": "Francesco Piras",
-      "duration_min": 111,
-      "poster_url": "https://image.tmdb.org/t/p/w500/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Zust%C3%ACssia%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/zust%C3%ACssia/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
-      "detail_url": "https://www.thespacecinema.it/film/zustissia",
-      "showtimes": [
-        {
-          "date": "2026-11-01",
-          "time": "18:30",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-03",
-          "time": "19:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
           "date_uncertain": false
         }
       ]
@@ -6489,7 +6351,7 @@
           "time": "21:00",
           "cinema": "Cinema Rex",
           "price": "5€",
-          "note": "V.O.S.",
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -6608,18 +6470,58 @@
       ]
     },
     {
-      "title": "Santiago - Un cammino per ricominciare",
-      "director": "Yann Samuell",
-      "duration_min": 113,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/SANTIAGO-ARTWORK-UBU-700x951-1.webp",
-      "trailer_url": "https://www.youtube.com/watch?v=DYteV8r5qL8",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20cammino%20per%20ricominciare%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare",
+      "title": "The Invite - Il piacere è tutto nostro",
+      "director": "Olivia Wilde",
+      "duration_min": 107,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/invite-656x1024.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
+      "tmdb_url": "https://www.themoviedb.org/movie/950028",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=the_invite___il_piacere_è_tutto_nostro",
       "showtimes": [
         {
+          "date": "2026-10-31",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-31",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
           "date": "2026-11-01",
+          "time": "18:30",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-03",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-07",
           "time": "21:15",
           "cinema": "Piccolo Teatro",
           "price": null,
@@ -6627,10 +6529,47 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-11-11",
-          "time": "18:00",
+          "date": "2026-11-08",
+          "time": "18:45",
           "cinema": "Piccolo Teatro",
           "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Zustìssia",
+      "director": "Francesco Piras",
+      "duration_min": 111,
+      "poster_url": "https://image.tmdb.org/t/p/w500/15IfVZjAiwUkTx7Bib58wJTjOSi.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=y9mbbvKO08o",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Zust%C3%ACssia%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/zust%C3%ACssia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1639616",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=zustìssia",
+      "showtimes": [
+        {
+          "date": "2026-11-01",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-03",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
           "note": null,
           "date_uncertain": false
         }
@@ -6672,6 +6611,35 @@
           "date": "2026-11-14",
           "time": "20:30",
           "cinema": "Cinema Esperia",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Santiago - Un cammino per ricominciare",
+      "director": "Yann Samuell",
+      "duration_min": 113,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/SANTIAGO-ARTWORK-UBU-700x951-1.webp",
+      "trailer_url": "https://www.youtube.com/watch?v=DYteV8r5qL8",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20cammino%20per%20ricominciare%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
+      "detail_url": "https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare/",
+      "showtimes": [
+        {
+          "date": "2026-11-01",
+          "time": "21:15",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-11",
+          "time": "18:00",
+          "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
           "date_uncertain": false
