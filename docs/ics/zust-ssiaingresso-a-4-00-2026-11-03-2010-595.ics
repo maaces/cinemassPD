@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1913441191400030806@cinema-scraper.local
+DTSTAMP:20261030T001133Z
+DTSTART:20261103T191000Z
+DTEND:20261103T211000Z
+SUMMARY:Zustìssiaingresso A 4\,00 €
+LOCATION:Porto Astra
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR

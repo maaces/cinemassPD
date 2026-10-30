@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:28:20.521914",
+  "generated_at": "2026-10-30T00:11:33.598862",
   "movies": [
     {
       "title": "Fast and Furious",
@@ -12,22 +12,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/9799",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153479",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "21:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "18:20",
@@ -364,14 +348,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153711",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "17:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 7,99 €",
-          "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "17:00",
           "cinema": "Porto Astra",
@@ -600,38 +576,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1477712",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158891",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "21:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "21:50",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "21:40",
@@ -2391,30 +2335,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154733",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "20:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
@@ -2676,22 +2596,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/155889",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "21:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "21:40",
           "cinema": "Cineplex (Due Carrare)",
@@ -2950,14 +2854,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152324",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "19:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "17:25",
           "cinema": "Porto Astra",
@@ -3175,46 +3071,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1506710",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "20:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "20:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "16:00",
@@ -3709,14 +3565,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/141434",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "19:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "19:30",
           "cinema": "Porto Astra",
@@ -3801,22 +3649,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "22:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "22:05",
@@ -4006,30 +3838,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1678120",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158100",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "20:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "20:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "17:10",
@@ -4444,38 +4252,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158132",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "19:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "20:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "20:30",
           "cinema": "Cineplex (Due Carrare)",
@@ -4795,14 +4571,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "16:00",
           "cinema": "Multiastra",
@@ -4909,27 +4677,6 @@
       ]
     },
     {
-      "title": "Elon Musk Unveiled. The Tesla Experiment",
-      "director": "Andreas Pichler",
-      "duration_min": 90,
-      "poster_url": "https://image.tmdb.org/t/p/w500/3zQwMGwaqJnYefiMUvTd4bDeokX.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Elon%20Musk%20Unveiled.%20The%20Tesla%20Experiment%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/elon%20musk%20unveiled.%20the%20tesla%20experiment/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1567688",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "20:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Nel silenzio delle stanze",
       "director": "Jérôme Bonnell",
       "duration_min": 103,
@@ -5009,22 +4756,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1412795",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "19:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "17:10",
@@ -5302,14 +5033,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "21:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-10-30",
           "time": "21:15",
           "cinema": "Porto Astra",
@@ -5437,27 +5160,6 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Mio zio Jens",
-      "director": "Brwa Vahabpour",
-      "duration_min": 98,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/mio-zio-jens-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=5duoKAkhXfA",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Mio%20zio%20Jens%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/mio%20zio%20jens/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1422017",
-      "detail_url": "https://www.movieconnection.it/proiezione/mio-zio-jens/",
-      "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "18:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -5708,14 +5410,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1353263",
       "detail_url": "https://www.frontedelportopadova.it/eventi/the-bibi-files/",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "18:15",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-01",
           "time": "18:00",
@@ -6360,64 +6054,6 @@
       ]
     },
     {
-      "title": "Ozzy & Black Sabbath: Back To The Beginning",
-      "director": "Ben Wainwright-Pearce",
-      "duration_min": 145,
-      "poster_url": "https://image.tmdb.org/t/p/w500/iO8vwdtmOivoyUguheJtDLXp2Gq.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Ozzy%20%26%20Black%20Sabbath%3A%20Back%20To%20The%20Beginning%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/ozzy%20%26%20black%20sabbath%3A%20back%20to%20the%20beginning/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1515139",
-      "detail_url": "https://www.thespacecinema.it/film/ozzy-and-black-sabbath-back-to-the-beginning-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "21:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "21:40",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Seventeen World Tour [new_] Encore",
-      "director": "Taehwan Yum",
-      "duration_min": 100,
-      "poster_url": "https://image.tmdb.org/t/p/w500/aourQLTQ57XHpElS299J0X6TETb.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Seventeen%20World%20Tour%20New%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/seventeen%20world%20tour%20new/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1662735",
-      "detail_url": "https://www.thespacecinema.it/film/seventeen-world-tour-new-lingua-originale",
-      "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "20:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 14,99 €",
-          "note": "V.O.S. · Evento Speciale · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Fast & Furious - 25MO Anniversario",
       "director": null,
       "duration_min": 98,
@@ -6428,30 +6064,6 @@
       "tmdb_url": null,
       "detail_url": "https://www.thespacecinema.it/film/fast-and-furious",
       "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "19:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Back On The Big Screen · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "21:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Back On The Big Screen · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-29",
-          "time": "22:30",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Back On The Big Screen · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-30",
           "time": "21:10",
@@ -7007,14 +6619,6 @@
       "detail_url": "https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare",
       "showtimes": [
         {
-          "date": "2026-10-29",
-          "time": "16:00",
-          "cinema": "Cinema Rex",
-          "price": "5€",
-          "note": "Pomeriggio al Rex",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-01",
           "time": "21:15",
           "cinema": "Piccolo Teatro",
@@ -7028,27 +6632,6 @@
           "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Twilight",
-      "director": "Catherine Hardwicke",
-      "duration_min": 120,
-      "poster_url": "https://image.tmdb.org/t/p/w500/n8nYzzKGP30M6u8sUon1YJmCgm8.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=TwdqzhOohYc",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Twilight%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/twilight/",
-      "tmdb_url": "https://www.themoviedb.org/movie/8966",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=twilight",
-      "showtimes": [
-        {
-          "date": "2026-10-29",
-          "time": "20:45",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
