@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T17:20:17.962709",
+  "generated_at": "2026-10-31T17:21:56.297594",
   "movies": [
     {
       "title": "Fast and Furious",
@@ -14,14 +14,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "16:26",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "18:55",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -31,6 +23,14 @@
         {
           "date": "2026-10-31",
           "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-10-31",
+          "time": "23:50",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -178,12 +178,12 @@
       "title": "Dracula di Bram Stoker",
       "director": "F. Ford Coppola",
       "duration_min": 128,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/151401/standard_5428c5bd-fd55-4926-bd5a-74e9b8238cc0.jpg",
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158960/standard_52227953-315a-4dc7-b26e-b77cba5051aa.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=q5ma98a1_h0",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Dracula%20di%20Bram%20Stoker%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/dracula%20di%20bram%20stoker/",
       "tmdb_url": "https://www.themoviedb.org/movie/6114",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/151401",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158960",
       "showtimes": [
         {
           "date": "2026-10-31",
@@ -191,14 +191,6 @@
           "cinema": "Porto Astra",
           "price": null,
           "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "21:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "HORROR NIGHT",
           "date_uncertain": false
         },
         {
@@ -276,35 +268,6 @@
       ]
     },
     {
-      "title": "Coco",
-      "director": "Lee Unkrich",
-      "duration_min": 109,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153677/standard_00a9a716-535b-4edd-b206-78d9f0ad8d90.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=o2mnwYOp50",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Coco%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/coco/",
-      "tmdb_url": "https://www.themoviedb.org/movie/354912",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153677",
-      "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "11:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 3,99 €",
-          "note": "Cinemapark · Proiezione LASER",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Shaun, vita da pecora - Operazione Z.U.C.C.A.",
       "director": "Steve Cox, Matthew Walker",
       "duration_min": 88,
@@ -315,38 +278,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1477104",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153711",
       "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "14:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "14:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "16:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-31",
           "time": "17:00",
@@ -498,14 +429,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "14:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "19:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -538,10 +461,10 @@
         },
         {
           "date": "2026-10-31",
-          "time": "22:00",
+          "time": "23:15",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
-          "note": "HORROR NIGHT",
+          "note": null,
           "date_uncertain": false
         },
         {
@@ -645,7 +568,7 @@
     {
       "title": "Se domani non torno",
       "director": "Paola Randi",
-      "duration_min": 106,
+      "duration_min": 107,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/154172/standard_c8327e1f-43f6-4cb2-9045-d21254e84262.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=M4T73uO9VxQ",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Se%20domani%20non%20torno%20trailer",
@@ -653,6 +576,14 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1583853",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154172",
       "showtimes": [
+        {
+          "date": "2026-11-03",
+          "time": "10:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
         {
           "date": "2026-11-05",
           "time": "17:00",
@@ -2154,14 +2085,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154634",
       "showtimes": [
         {
-          "date": "2026-10-31",
-          "time": "14:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-01",
           "time": "14:20",
           "cinema": "Cineplex (Due Carrare)",
@@ -2208,32 +2131,8 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "15:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "17:50",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "18:05",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2561,22 +2460,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154603",
       "showtimes": [
         {
-          "date": "2026-10-31",
-          "time": "14:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "18:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-01",
           "time": "14:15",
           "cinema": "Cineplex (Due Carrare)",
@@ -2661,14 +2544,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1438966",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/152324",
       "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "16:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-31",
           "time": "17:20",
@@ -2780,14 +2655,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "16:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "18:40",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -2833,46 +2700,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "14:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "16:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "17:40",
           "cinema": "Porto Astra",
           "price": null,
@@ -2915,14 +2742,6 @@
           "date": "2026-10-31",
           "time": "22:20",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "23:50",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3049,6 +2868,14 @@
         },
         {
           "date": "2026-11-02",
+          "time": "18:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-02",
           "time": "19:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3059,14 +2886,6 @@
           "date": "2026-11-02",
           "time": "20:15",
           "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-02",
-          "time": "20:15",
-          "cinema": "Multiastra",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -3323,14 +3142,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "17:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "18:40",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -3496,30 +3307,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "14:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "16:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "18:00",
           "cinema": "Porto Astra",
           "price": null,
@@ -3554,14 +3341,6 @@
           "date": "2026-10-31",
           "time": "22:25",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "23:15",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -4030,6 +3809,27 @@
       ]
     },
     {
+      "title": "Aladdin",
+      "director": "John Musker, Ron Clements",
+      "duration_min": 90,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147705/standard_7299b83b-b3af-47ff-8cda-3104de3b2e10.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=SQqgDL1IHRE",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Aladdin%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/aladdin/",
+      "tmdb_url": "https://www.themoviedb.org/movie/812",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147705",
+      "showtimes": [
+        {
+          "date": "2026-11-01",
+          "time": "11:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": "MODERNO.. ANIMATION",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Il gatto col cappello",
       "director": "Erica Rivinoja, Alessandro Carloni",
       "duration_min": 105,
@@ -4043,25 +3843,9 @@
         {
           "date": "2026-10-31",
           "time": "14:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "14:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K · ANTEPRIMA",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "15:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -4118,27 +3902,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K · ANTEPRIMA",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Aladdin",
-      "director": "John Musker, Ron Clements",
-      "duration_min": 90,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147705/standard_7299b83b-b3af-47ff-8cda-3104de3b2e10.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=SQqgDL1IHRE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Aladdin%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/aladdin/",
-      "tmdb_url": "https://www.themoviedb.org/movie/812",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147705",
-      "showtimes": [
-        {
-          "date": "2026-11-01",
-          "time": "11:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "MODERNO.. ANIMATION",
           "date_uncertain": false
         }
       ]
@@ -4350,14 +4113,6 @@
       "showtimes": [
         {
           "date": "2026-10-31",
-          "time": "15:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
           "time": "17:30",
           "cinema": "Multiastra",
           "price": null,
@@ -4398,7 +4153,7 @@
         },
         {
           "date": "2026-11-02",
-          "time": "20:00",
+          "time": "20:16",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -4431,59 +4186,6 @@
         {
           "date": "2026-11-04",
           "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Nel silenzio delle stanze",
-      "director": "Jérôme Bonnell",
-      "duration_min": 103,
-      "poster_url": "https://image.tmdb.org/t/p/w500/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Iadg1yD_LDM",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Nel%20silenzio%20delle%20stanze%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/nel%20silenzio%20delle%20stanze/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1119548",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "17:50",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "17:50",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-04",
-          "time": "18:30",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -4502,22 +4204,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1412795",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "14:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-31",
           "time": "17:40",
@@ -4665,6 +4351,51 @@
       ]
     },
     {
+      "title": "Nel silenzio delle stanze",
+      "director": "Jérôme Bonnell",
+      "duration_min": 103,
+      "poster_url": "https://image.tmdb.org/t/p/w500/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Iadg1yD_LDM",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Nel%20silenzio%20delle%20stanze%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/nel%20silenzio%20delle%20stanze/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1119548",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-31",
+          "time": "17:50",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "15:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "17:50",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-04",
+          "time": "18:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Mustanganteprima",
       "director": null,
       "duration_min": null,
@@ -4678,6 +4409,14 @@
         {
           "date": "2026-11-02",
           "time": "19:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-02",
+          "time": "19:40",
           "cinema": "Multiastra",
           "price": null,
           "note": null,
@@ -4710,6 +4449,51 @@
           "cinema": "Multiastra",
           "price": null,
           "note": "V.O.S",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Il Gatto Col Cappello - Anteprima",
+      "director": null,
+      "duration_min": null,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Gatto%20Col%20Cappello%20-%20Anteprima%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20gatto%20col%20cappello%20-%20anteprima/",
+      "tmdb_url": null,
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-10-31",
+          "time": "17:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "10:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "14:45",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "17:25",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -4768,59 +4552,6 @@
       ]
     },
     {
-      "title": "Il Gatto Col Cappello - Anteprima",
-      "director": null,
-      "duration_min": null,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Gatto%20Col%20Cappello%20-%20Anteprima%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/il%20gatto%20col%20cappello%20-%20anteprima/",
-      "tmdb_url": null,
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "14:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-10-31",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "10:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "14:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Zustìssiaingresso A 4,00 €",
       "director": null,
       "duration_min": null,
@@ -4850,64 +4581,6 @@
       ]
     },
     {
-      "title": "LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′)",
-      "director": "Mélisa Godet",
-      "duration_min": 110,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/la-maison-des-femmes-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=E3TFEINdnHQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=LA%20CASA%20DELLE%20DONNE-LA%20MAISON%20DES%20FEMMES%20%23%20Melisa%20Godet%20%23%20Francia%202025%20%28110%E2%80%B2%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20casa%20delle%20donne-la%20maison%20des%20femmes%20%23%20melisa%20godet%20%23%20francia%202025/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1318417",
-      "detail_url": "https://www.movieconnection.it/proiezione/la-casa-delle-donne-2/2026-10-30/",
-      "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "20:40",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "15:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-01",
-          "time": "17:10",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Possible Love",
-      "director": "Lee Chang-dong",
-      "duration_min": 164,
-      "poster_url": "https://image.tmdb.org/t/p/w500/uPOpXBUMtMslIBAxldQwJwBQkad.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=nEVXK29ed94",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Possible%20Love%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/possible%20love/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1483525",
-      "detail_url": "https://www.movieconnection.it/proiezione/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/2026-10-30/",
-      "showtimes": [
-        {
-          "date": "2026-11-02",
-          "time": "20:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Fatherland",
       "director": "Pawel Pawlikowski",
       "duration_min": 82,
@@ -4916,16 +4589,8 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
       "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-2/2026-10-31/1/",
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-2/2026-10-31/2/",
       "showtimes": [
-        {
-          "date": "2026-10-31",
-          "time": "15:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-10-31",
           "time": "17:15",
@@ -4967,6 +4632,22 @@
           "date_uncertain": false
         },
         {
+          "date": "2026-11-03",
+          "time": "17:40",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-03",
+          "time": "19:20",
+          "cinema": "Lux",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
           "date": "2026-12-02",
           "time": "21:00",
           "cinema": "Piccolo Teatro",
@@ -4977,80 +4658,59 @@
       ]
     },
     {
-      "title": "Le avventure di Ichabod e Mr. Toad",
-      "director": "Clyde Geronimi, James Algar, Jack Kinney",
-      "duration_min": 68,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/le-avventure-di-ichabod-e-mr-toad-1.png",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Le%20avventure%20di%20Ichabod%20e%20Mr.%20Toad%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/le%20avventure%20di%20ichabod%20e%20mr.%20toad/",
-      "tmdb_url": "https://www.themoviedb.org/movie/13465",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/le-avventure-di-ichabod-e-mr-toad/",
+      "title": "LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′)",
+      "director": "Mélisa Godet",
+      "duration_min": 110,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/la-maison-des-femmes-poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=E3TFEINdnHQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=LA%20CASA%20DELLE%20DONNE-LA%20MAISON%20DES%20FEMMES%20%23%20Melisa%20Godet%20%23%20Francia%202025%20%28110%E2%80%B2%29%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20casa%20delle%20donne-la%20maison%20des%20femmes%20%23%20melisa%20godet%20%23%20francia%202025/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1318417",
+      "detail_url": "https://www.movieconnection.it/proiezione/la-casa-delle-donne-2/2026-10-31/",
       "showtimes": [
         {
-          "date": "2026-11-01",
-          "time": "10:00",
-          "cinema": "Fronte del Porto",
+          "date": "2026-10-31",
+          "time": "20:40",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "15:00",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-01",
+          "time": "17:10",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "The Bibi Files",
-      "director": "Alexis Bloom",
-      "duration_min": 83,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-bibi-files-1-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Bibi%20Files%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20bibi%20files/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1353263",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/the-bibi-files/",
+      "title": "Possible Love",
+      "director": "Lee Chang-dong",
+      "duration_min": 164,
+      "poster_url": "https://image.tmdb.org/t/p/w500/uPOpXBUMtMslIBAxldQwJwBQkad.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=nEVXK29ed94",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Possible%20Love%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/possible%20love/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1483525",
+      "detail_url": "https://www.movieconnection.it/proiezione/possible-love-lee-chang-dong-corea-del-sud-2026-164-v-o-s/2026-11-02/",
       "showtimes": [
-        {
-          "date": "2026-11-01",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-02",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
+          "time": "20:00",
+          "cinema": "Lux",
           "price": null,
           "note": "V.O.S.",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Essi vivono",
-      "director": "John Carpenter",
-      "duration_min": 94,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/essi-vivono-4-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=HMemQcPq4aQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Essi%20vivono%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/essi%20vivono/",
-      "tmdb_url": "https://www.themoviedb.org/movie/8337",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/essi-vivono/",
-      "showtimes": [
-        {
-          "date": "2026-11-01",
-          "time": "20:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-26",
-          "time": "20:45",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "V.O.S. · Cineforum",
           "date_uncertain": false
         }
       ]
@@ -5689,6 +5349,27 @@
       ]
     },
     {
+      "title": "Coco",
+      "director": "Lee Unkrich",
+      "duration_min": 109,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153677/standard_00a9a716-535b-4edd-b206-78d9f0ad8d90.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=o2mnwYOp50",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Coco%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/coco/",
+      "tmdb_url": "https://www.themoviedb.org/movie/354912",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153677",
+      "showtimes": [
+        {
+          "date": "2026-11-01",
+          "time": "11:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 3,99 €",
+          "note": "Cinemapark · Proiezione LASER",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "HYBE CHEERING PARTY - In 3D e Lingua originale",
       "director": null,
       "duration_min": 60,
@@ -5894,6 +5575,27 @@
       "showtimes": [
         {
           "date": "2026-12-10",
+          "time": "20:46",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Essi vivono",
+      "director": "John Carpenter",
+      "duration_min": 93,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qZEuNUlUWzzaVpSgnHDtxYZJH7g.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HMemQcPq4aQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Essi%20vivono%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/essi%20vivono/",
+      "tmdb_url": "https://www.themoviedb.org/movie/8337",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=essi_vivono",
+      "showtimes": [
+        {
+          "date": "2026-11-26",
           "time": "20:45",
           "cinema": "Cinema Rex",
           "price": null,
@@ -6002,7 +5704,7 @@
           "time": "21:00",
           "cinema": "Cinema Rex",
           "price": "5€",
-          "note": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -6020,7 +5722,7 @@
       "showtimes": [
         {
           "date": "2026-12-03",
-          "time": "20:50",
+          "time": "20:45",
           "cinema": "Cinema Rex",
           "price": null,
           "note": "Cineforum",
@@ -6116,6 +5818,27 @@
           "cinema": "Cinema Esperia",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "The Bibi Files",
+      "director": "Alexis Bloom",
+      "duration_min": 115,
+      "poster_url": "https://image.tmdb.org/t/p/w500/aZTt7g857dGU9YUIIMHd5yNSKnY.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Bibi%20Files%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20bibi%20files/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1353263",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=the_bibi_files",
+      "showtimes": [
+        {
+          "date": "2026-11-02",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]

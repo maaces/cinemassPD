@@ -1,19 +1,19 @@
-Report generato il 30/10/2026 19:11 (ora italiana)
+Report generato il 31/10/2026 18:20 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 30
-Orari trovati: 413 (di cui con data non riconosciuta: 0)
+Film trovati: 27
+Orari trovati: 372 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 8
-Orari trovati: 36 (di cui con data non riconosciuta: 0)
+Film trovati: 7
+Orari trovati: 31 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
@@ -21,14 +21,14 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
 Film trovati: 13
-Orari trovati: 123 (di cui con data non riconosciuta: 0)
+Orari trovati: 103 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 3
+Film trovati: 4
 Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
@@ -36,14 +36,14 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
 ## Fronte del Porto
 URL: https://www.frontedelportopadova.it/eventi/
 Scraper: fronte_del_porto
-Film trovati: 34
-Orari trovati: 35 (di cui con data non riconosciuta: 0)
+Film trovati: 31
+Orari trovati: 32 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto.txt
 
 ## The Space (Limena)
 URL: https://www.thespacecinema.it/cinema/limena/al-cinema
-STATO: aggiornato in locale (run_space_only.py), 40 orari salvati
+STATO: aggiornato in locale (run_space_only.py), 33 orari salvati
 
 ## Cinema Rex
 URL: https://www.cinemarex.it/
