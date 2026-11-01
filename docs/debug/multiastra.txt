@@ -383,15 +383,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               31/10
-               <br/>
-               <b>
-                Sabato
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                01/11
                <br/>
                <b>
@@ -400,7 +391,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                02/11
                <br/>
                <b>
@@ -409,7 +400,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
                03/11
                <br/>
                <b>
@@ -418,7 +409,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
                04/11
                <br/>
                <b>
@@ -438,110 +429,7 @@
                 </b>
                </li>
                <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-9e699720-053a-49ef-838b-9744d37a2aea/861197#sala" target="_blank">
-                   <span class="">
-                    17.30
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-9e699720-053a-49ef-838b-9744d37a2aea/861196#sala" target="_blank">
-                   <span class="">
-                    20.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13475">
-                  l'estranea
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/861313#sala" target="_blank">
-                   <span class="">
-                    17.40
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/l-estranea_2026-7587b919-da32-47ce-9268-2a4e19978d9c/861314#sala" target="_blank">
-                   <span class="">
-                    20.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13549">
-                  nel silenzio delle stanze
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/nel-silenzio-delle-stanze_2025/861165#sala" target="_blank">
-                   <span class="">
-                    17.50
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13485">
-                  dio ride
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/dio-ride_2026-2526016c-83d3-40a5-9004-5d6b9df50dad/861276#sala" target="_blank">
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13389">
-                  minotaur
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
                 <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-9e699720-053a-49ef-838b-9744d37a2aea/861205#sala" target="_blank">
-                   <span class="">
-                    15.00
-                   </span>
-                  </a>
-                 </span>
                  <span class="x-column x-sm">
                   <a href="https://astra.multiastra.18tickets.it/film/minotaur-nel-labirinto-del-potere-minotaure-_2026-9e699720-053a-49ef-838b-9744d37a2aea/861204#sala" target="_blank">
                    <span class="">
@@ -556,63 +444,6 @@
                     <span class="nb nb1">
                      V.O.S
                     </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13485">
-                  dio ride
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_Dom">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/dio-ride_2026-2526016c-83d3-40a5-9004-5d6b9df50dad/861277#sala" target="_blank">
-                   <span class="">
-                    15.15
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/dio-ride_2026-2526016c-83d3-40a5-9004-5d6b9df50dad/861278#sala" target="_blank">
-                   <span class="time_Dom">
-                    20.15
-                    <span class="nb time_Dom nb1">
-                     Ingresso 5,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13549">
-                  nel silenzio delle stanze
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/nel-silenzio-delle-stanze_2025/861166#sala" target="_blank">
-                   <span class="">
-                    15.30
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/nel-silenzio-delle-stanze_2025/861167#sala" target="_blank">
-                   <span class="">
-                    17.50
                    </span>
                   </a>
                  </span>
@@ -649,8 +480,51 @@
                 </b>
                </li>
               </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13549">
+                  nel silenzio delle stanze
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/nel-silenzio-delle-stanze_2025/861167#sala" target="_blank">
+                   <span class="">
+                    17.50
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13485">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
+                  <a href="https://astra.multiastra.18tickets.it/film/dio-ride_2026-2526016c-83d3-40a5-9004-5d6b9df50dad/861278#sala" target="_blank">
+                   <span class="time_Dom">
+                    20.15
+                    <span class="nb time_Dom nb1">
+                     Ingresso 5,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -722,7 +596,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -811,7 +685,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1302,14 +1176,8 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="9a9c8e716d80beaea80f71c1559f035b" data-token-time="1793467257" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="0b7d4698807c2e30ab22737dc2aa9f1e" data-token-time="1793556182" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
-                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
-                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Privacy Informativa Email
-                 </label>
-                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
-                </div>
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-10219-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_2">
                   Email
@@ -1318,6 +1186,12 @@
                   </span>
                  </label>
                  <input class="wpforms-field-large wpforms-field-required" id="wpforms-10219-field_2" name="wpforms[fields][2]" required="" spellcheck="false" type="email"/>
+                </div>
+                <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
+                 <label class="wpforms-field-label" for="wpforms-10219-field_1">
+                  Privacy Informativa Email
+                 </label>
+                 <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
                 <div class="wpforms-field wpforms-field-gdpr-checkbox" data-field-id="3" data-field-type="gdpr-checkbox" id="wpforms-10219-field_3-container">
                  <label class="wpforms-field-label">
