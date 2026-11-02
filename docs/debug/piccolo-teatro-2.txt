@@ -5,7 +5,7 @@
    Piccolo Teatro Padova - Cinema Teatro Musica
   </title>
  </head>
- <body class="home blog paged wp-embed-responsive paged-2 wp-theme-virtue rttpg rttpg-7.9.7 radius-frontend rttpg-body-wrap rttpg-flaticon wide wpb-js-composer js-comp-ver-8.5 vc_responsive">
+ <body class="home blog paged wp-embed-responsive paged-2 wp-theme-virtue rttpg rttpg-7.9.8 radius-frontend rttpg-body-wrap rttpg-flaticon wide wpb-js-composer js-comp-ver-8.5 vc_responsive">
   <div id="kt-skip-link">
    <a href="#content">
     Skip to Main Content
@@ -60,86 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24721 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24721" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare-2/" title="Santiago – Un cammino per ricominciare">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="951" src="https://www.piccolo-padova.it/wp-content/uploads/SANTIAGO-ARTWORK-UBU-700x951-1.webp" width="700"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare-2/">
-              <h2 class="entry-title" itemprop="name headline">
-               Santiago – Un cammino per ricominciare
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 11 novembre ore 18.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              <span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto" role="text">
-               <span class="ytAttributedStringLinkInheritColor" dir="auto">
-                Adam, un adolescente dalla vita turbolenta, e Fred, una professoressa che sta attraversando un periodo difficile, non si conoscono. Eppure, grazie a un’associazione, intraprendono insieme il Cammino di Santiago di Compostela. Lei ha bisogno di rimettere ordine nella sua vita, lui di placare la propria rabbia e il senso di abbandono. Chilometro dopo chilometro, tra scontri, stanchezza e momenti felici, nasce un legame destinato a cambiare profondamente entrambi. Perché ogni passo può diventare una rinascita e, a volte, gli incontri più improbabili sono quelli che cambiano davvero la vita.
-               </span>
-              </span>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
-         <article class="post-24690 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24690" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/calle-malaga/" title="Calle Malaga">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/Calle-Malaga-poster-717x1024-2.jpg" width="717"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/calle-malaga/">
-              <h2 class="entry-title" itemprop="name headline">
-               Calle Malaga
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 11 novembre ore 21.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              <strong>
-               CON ANALISI DEL FILM IN SALA DI A. PREVEDELLO
-              </strong>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-22963 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-22963" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/opera-lirica-al-cinema/" title="OPERA LIRICA E BALLETTO AL CINEMA – 2026/2027 (I parte)">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" width="734"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" width="734"/>
              </a>
             </div>
            </div>
@@ -178,7 +104,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/falstaff/" title="FALSTAFF">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-FALSTAFF-10.11.2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-FALSTAFF-10.11.2026-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -220,7 +146,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/un-po-di-luce/" title="Un po’ di luce">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 683px) 100vw, 683px" data-src="https://www.piccolo-padova.it/wp-content/uploads/luce-683x1024.avif" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20683%201024%22%3E%3C/svg%3E" width="683"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/luce-683x1024.avif" width="683"/>
              </a>
             </div>
            </div>
@@ -240,6 +166,9 @@
              </div>
             </header>
             <div class="entry-content" itemprop="description">
+             <p>
+              Ali Asgari è ormai di casa come regista ai Mercoledì d’essai. Avete visto tanti suoi film ambientati ogni volta a Teheran. Stavolta c’è qualche grammo in meno di ironia per virare verso la luce del titolo, ovvero un film che lentamente rigenera il nostro corpo verso una forma di speranza abbastanza rara e una voglia di vivere irrefrenabile. Avvisati, serata spa!
+             </p>
              <p>
               <strong>
                CON VIDEO INTRODUZIONE DI A. PREVEDELLO
@@ -411,6 +340,9 @@
             </header>
             <div class="entry-content" itemprop="description">
              <p>
+              Eccolo, finalmente il film capolavoro spagnolo di Eva Libertad approda al Piccolo. Siete bravi che avete pazienza, ma poi i film imperdibili arrivano e come sempre hanno girato pochissimo. Con questo accontentiamo chi vuole i film esteticamente altissimi, coraggiosi in termini sociali, zeppi in termini di emozioni, avanguardistici sul piano dei diritti e pure per i puristi del Vos. Una serata che porterà ad un finale carico di senso!
+             </p>
+             <p>
               <strong>
                IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
               </strong>
@@ -451,6 +383,9 @@
             </header>
             <div class="entry-content" itemprop="description">
              <p>
+              Si può perdere un film sul legame tra Thomas Mann, si proprio quello, e la figlia Erika diretto dal regista di Ida con Sandra Huller ambientato nel periodo della Guerra Fredda? Domanda retorica, ci vediamo in sala!
+             </p>
+             <p>
               <strong>
                IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
               </strong>
@@ -458,6 +393,84 @@
               <strong>
                CON VIDEO INTRODUZIONE DI A. PREVEDELLO
               </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24600 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24600" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/il-teatro-comico/" title="IL TEATRO COMICO">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-IL-TEATRO-COMICO-2026-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/il-teatro-comico/">
+              <h2 class="entry-title" itemprop="name headline">
+               IL TEATRO COMICO
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               venerdì 4 dicembre ore 21.15
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Torna al Piccolo La Graticcia, guidata dal “pupillo” del compianto Roberto Puliero, e formata da molti attori de “La Barcaccia” che tante volte abbiamo applaudito nella nostra sala. Il testo di questo spettacolo è uno dei più affascinanti e dei …
+              <a href="https://www.piccolo-padova.it/il-teatro-comico/">
+               Continua
+              </a>
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               commedia da Carlo Goldoni – Compagnia “La Graticcia” (Verona) – adattamento e regia di Giovanni Vit
+              </p>
+              <p>
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24640 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-24640" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/otello-la-prima-della-scala/" title="OTELLO (LA “PRIMA” DELLA SCALA)">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-OTELLO-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/otello-la-prima-della-scala/">
+              <h2 class="entry-title" itemprop="name headline">
+               OTELLO (LA “PRIMA” DELLA SCALA)
+              </h2>
+             </a>
+             <div class="data-evento">
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              E’ tradizione dal 2009 al Piccolo Teatro proiettare in diretta la “prima” della Scala sullo schermo cinematografico. La stagione 2026/27 del Teatro alla Scala si apre lunedì 7 dicembre con Otello di Giuseppe Verdi. Myung-Whun Chung dirige una nuova produzione …
+              <a href="https://www.piccolo-padova.it/otello-la-prima-della-scala/">
+               Continua
+              </a>
              </p>
             </div>
             <footer>
@@ -513,18 +526,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_qsnwq" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_qsnwq">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1tzzr" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_1tzzr">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_3p2cw" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_3h7hd" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_3p2cw">
+             <span class="mailpoet_error_3h7hd">
              </span>
             </div>
             <div class="mailpoet_paragraph">
