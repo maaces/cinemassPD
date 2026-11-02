@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:3151817959101123656@cinema-scraper.local
-DTSTAMP:20261102T162244Z
-DTSTART:20261127T200000Z
-DTEND:20261127T220000Z
-SUMMARY:You Can See Everithing - Nathan Fielder\, Lance Oppenheim
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:FILM EVENTO\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/160013
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:6781522431095245055@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261127T200000Z
+DTEND:20261127T220000Z
+SUMMARY:You Can See Everithing - Nathan Fielder\, Lance Oppenheim
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:FILM EVENTO\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/160013
+END:VEVENT
+END:VCALENDAR

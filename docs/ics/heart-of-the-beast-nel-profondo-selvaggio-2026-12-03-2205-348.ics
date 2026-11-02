@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:523715092439999609@cinema-scraper.local
-DTSTAMP:20261102T162244Z
-DTSTART:20261203T210500Z
-DTEND:20261203T224000Z
-SUMMARY:Heart of the Beast - Nel profondo selvaggio - David Ayer
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/138761
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:380244854320534912@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261203T210500Z
+DTEND:20261203T224000Z
+SUMMARY:Heart of the Beast - Nel profondo selvaggio - David Ayer
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/138761
+END:VEVENT
+END:VCALENDAR

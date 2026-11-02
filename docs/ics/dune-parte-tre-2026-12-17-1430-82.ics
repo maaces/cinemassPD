@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:257936896083464588@cinema-scraper.local
-DTSTAMP:20261102T162243Z
-DTSTART:20261217T133000Z
-DTEND:20261217T160000Z
-SUMMARY:Dune - Parte tre - Denis Villeneuve
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/136517
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:5151142391088187567@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261217T133000Z
+DTEND:20261217T160000Z
+SUMMARY:Dune - Parte tre - Denis Villeneuve
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/136517
+END:VEVENT
+END:VCALENDAR

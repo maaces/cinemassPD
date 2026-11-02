@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:8955581882823687679@cinema-scraper.local
-DTSTAMP:20261102T162244Z
-DTSTART:20261103T161000Z
-DTEND:20261103T174800Z
-SUMMARY:Un tranquillo funerale di famiglia - Massimiliano Bruno
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/158100
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:5095247981788949342@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261103T161000Z
+DTEND:20261103T174800Z
+SUMMARY:Un tranquillo funerale di famiglia - Massimiliano Bruno
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/158100
+END:VEVENT
+END:VCALENDAR

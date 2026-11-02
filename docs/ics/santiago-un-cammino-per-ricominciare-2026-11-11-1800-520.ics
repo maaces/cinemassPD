@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:7273764856500155284@cinema-scraper.local
-DTSTAMP:20261102T162245Z
-DTSTART:20261111T170000Z
-DTEND:20261111T185300Z
-SUMMARY:Santiago - Un cammino per ricominciare - Yann Samuell
-LOCATION:Piccolo Teatro
-DESCRIPTION:https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare/
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1184022818545211518@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261111T170000Z
+DTEND:20261111T185300Z
+SUMMARY:Santiago - Un cammino per ricominciare - Yann Samuell
+LOCATION:Piccolo Teatro
+DESCRIPTION:https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare/
+END:VEVENT
+END:VCALENDAR

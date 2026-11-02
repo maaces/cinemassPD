@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:7326428837883374217@cinema-scraper.local
-DTSTAMP:20261102T162244Z
-DTSTART:20261121T133000Z
-DTEND:20261121T160800Z
-SUMMARY:Hunger Games - L'alba sulla mietitura - Francis Lawrence
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/100844
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1281852977759108220@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261121T133000Z
+DTEND:20261121T160800Z
+SUMMARY:Hunger Games - L'alba sulla mietitura - Francis Lawrence
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/100844
+END:VEVENT
+END:VCALENDAR

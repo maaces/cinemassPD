@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:283929561380663678@cinema-scraper.local
-DTSTAMP:20261102T162245Z
-DTSTART:20261108T174500Z
-DTEND:20261108T193200Z
-SUMMARY:The Invite - Il piacere è tutto nostro - Olivia Wilde
-LOCATION:Piccolo Teatro
-DESCRIPTION:https://www.cinemarex.it/evento?eventName=the_invite___il_piacere_è_tutto_nostro
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:3396550640240286876@cinema-scraper.local
+DTSTAMP:20261102T162723Z
+DTSTART:20261108T174500Z
+DTEND:20261108T193200Z
+SUMMARY:The Invite - Il piacere è tutto nostro - Olivia Wilde
+LOCATION:Piccolo Teatro
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=the_invite___il_piacere_è_tutto_nostro
+END:VEVENT
+END:VCALENDAR
