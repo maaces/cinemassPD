@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:7089049227649398779@cinema-scraper.local
+DTSTAMP:20261103T194604Z
+DTSTART:20261105T150000Z
+DTEND:20261105T165100Z
+SUMMARY:Zustìssia - Francesco Piras
+LOCATION:Cinema Rex
+DESCRIPTION:Prezzo: 5€\nPomeriggio al Rex\nhttps://www.cinemarex.it/evento?eventName=zustìssia
+END:VEVENT
+END:VCALENDAR

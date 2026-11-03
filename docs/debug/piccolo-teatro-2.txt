@@ -99,6 +99,45 @@
            </div>
           </div>
          </article>
+         <article class="post-24745 post type-post status-publish format-standard has-post-thumbnail hentry category-evento-di-terzi" id="post-24745" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/jerry-cala-band-non-sono-bello-piaccio/" title="JERRY CALA’ &amp; BAND “NON SONO BELLO…PIACCIO!”">
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/Non-sono-bello-piaccio_hi-pdf-726x1024.jpg" width="726"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/jerry-cala-band-non-sono-bello-piaccio/">
+              <h2 class="entry-title" itemprop="name headline">
+               JERRY CALA’ &amp; BAND “NON SONO BELLO…PIACCIO!”
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               venerdì 27 novembre – ore 21 – Evento Benefico
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Con il nuovo evento organizzato da Tempi e Ritmi per Fondazione Celeghin ETS arriva al Piccolo Teatro di Padova Jerry Calà, uno dei più famosi e popolari personaggi dello spettacolo italiano. Jerry Calà, che con il suo nuovo entusiasmante show ripercorre i suoi oltre 50 anni di carriera… Una storia che ha scritto alcune pagine del Cinema della grande commedia all’Italiana.
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               (Una vita da libidine) spettacolo musicale con Jerry Calà e Suber Band – organizzato per la Fondazione Giovanni Celeghin contro i tumori cerebrali
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
          <article class="post-24630 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-24630" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
@@ -146,7 +185,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/un-po-di-luce/" title="Un po’ di luce">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/luce-683x1024.avif" width="683"/>
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 683px) 100vw, 683px" data-src="https://www.piccolo-padova.it/wp-content/uploads/luce-683x1024.avif" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20683%201024%22%3E%3C/svg%3E" width="683"/>
              </a>
             </div>
            </div>
@@ -444,40 +483,6 @@
            </div>
           </div>
          </article>
-         <article class="post-24640 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-24640" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/otello-la-prima-della-scala/" title="OTELLO (LA “PRIMA” DELLA SCALA)">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-OTELLO-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/otello-la-prima-della-scala/">
-              <h2 class="entry-title" itemprop="name headline">
-               OTELLO (LA “PRIMA” DELLA SCALA)
-              </h2>
-             </a>
-             <div class="data-evento">
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              E’ tradizione dal 2009 al Piccolo Teatro proiettare in diretta la “prima” della Scala sullo schermo cinematografico. La stagione 2026/27 del Teatro alla Scala si apre lunedì 7 dicembre con Otello di Giuseppe Verdi. Myung-Whun Chung dirige una nuova produzione …
-              <a href="https://www.piccolo-padova.it/otello-la-prima-della-scala/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
          <div class="wp-pagenavi">
           <nav aria-label="Paginazione degli articoli" class="navigation pagination">
            <h2 class="screen-reader-text">
@@ -526,18 +531,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1tzzr" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_1tzzr">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_z7f5e" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_z7f5e">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_3h7hd" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1eyc1" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_3h7hd">
+             <span class="mailpoet_error_1eyc1">
              </span>
             </div>
             <div class="mailpoet_paragraph">
