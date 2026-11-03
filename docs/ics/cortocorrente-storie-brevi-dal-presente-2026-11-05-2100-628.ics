@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:7494145146747280417@cinema-scraper.local
+DTSTAMP:20261103T033835Z
+DTSTART:20261105T200000Z
+DTEND:20261105T213000Z
+SUMMARY:Cortocorrente -Storie brevi dal presente - Progetto Giovani
+LOCATION:Cinema Rex
+DESCRIPTION:Ingresso libero\nhttps://www.cinemarex.it/evento?eventName=cortocorrente__storie_brevi_dal_presente
+END:VEVENT
+END:VCALENDAR
