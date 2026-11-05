@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:2452589011746286117@cinema-scraper.local
+DTSTAMP:20261105T014214Z
+DTSTART:20261105T170000Z
+DTEND:20261105T190000Z
+SUMMARY:Il critico cinematografico Giuseppe Ghigi presenta il suo libro VENEZIA E IL CINEMA. ALLE RADICI DEL MITO
+LOCATION:Lux
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://www.movieconnection.it/proiezione/il-critico-cinematografico-giuseppe-ghigi-presenta-il-suo-libro-venezia-e-il-cinema-alle-radici-del-mito/
+END:VEVENT
+END:VCALENDAR
