@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T18:01:38.590675",
+  "generated_at": "2026-11-08T18:03:07.062059",
   "movies": [
     {
       "title": "Heart of the Beast - Nel profondo selvaggio",
@@ -12,22 +12,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1263337",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/161729",
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "00:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "10:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-08",
           "time": "19:15",
@@ -95,27 +79,6 @@
       ]
     },
     {
-      "title": "Il mago di Oz",
-      "director": "Victor Fleming",
-      "duration_min": 101,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/147707/standard_c804fe98-2ad8-4a2d-8921-829240d26e81.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=dfpIHArL-zM",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20mago%20di%20Oz%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/il%20mago%20di%20oz/",
-      "tmdb_url": "https://www.themoviedb.org/movie/630",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/147707",
-      "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "11:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "MODERNO.. ANIMATION",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Se domani non torno",
       "director": "Paola Randi",
       "duration_min": 107,
@@ -126,62 +89,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1583853",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154172",
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "10:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "10:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-08",
           "time": "17:50",
@@ -196,14 +103,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "18:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -259,6 +158,14 @@
           "time": "21:40",
           "cinema": "Porto Astra",
           "price": "6,50 €",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-08",
+          "time": "22:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
           "note": null,
           "date_uncertain": false
         },
@@ -477,50 +384,10 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "10:35",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "11:10",
           "cinema": "The Space (Limena)",
           "price": "da 7,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:35",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -751,66 +618,10 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "10:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "10:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "15:30",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -898,30 +709,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1058424",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/160682",
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "10:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "18:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-09",
           "time": "17:45",
@@ -1030,22 +817,6 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "00:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "13:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "21:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -1123,30 +894,6 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "10:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "10:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "19:10",
           "cinema": "Porto Astra",
           "price": null,
@@ -1222,62 +969,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1506710",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "10:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "10:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "13:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:10",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-08",
           "time": "19:20",
@@ -1429,22 +1120,6 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "00:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "19:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "21:20",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -1488,46 +1163,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1678120",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158100",
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "10:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "18:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-08",
           "time": "19:25",
@@ -1670,70 +1305,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153711",
       "showtimes": [
         {
-          "date": "2026-11-08",
-          "time": "11:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "11:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "15:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "17:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "18:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-09",
           "time": "17:15",
           "cinema": "Cineplex (Due Carrare)",
@@ -1794,38 +1365,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/791523",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154603",
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "11:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "14:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "16:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-09",
           "time": "19:30",
@@ -2035,23 +1574,7 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "00:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "20:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
-          "time": "21:35",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -2084,6 +1607,51 @@
         {
           "date": "2026-11-11",
           "time": "22:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Scrooge e gli spiriti del Natale",
+      "director": "Ti West",
+      "duration_min": 115,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/162686/standard_8c3b6e03-be2c-445f-b5f2-be2fc8c1cb71.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=FATCofGu-6k",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Scrooge%20e%20gli%20spiriti%20del%20Natale%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/scrooge%20e%20gli%20spiriti%20del%20natale/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1567605",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/162686",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -3732,14 +3300,6 @@
       "showtimes": [
         {
           "date": "2026-11-08",
-          "time": "15:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-08",
           "time": "17:30",
           "cinema": "Multiastra",
           "price": null,
@@ -3810,27 +3370,6 @@
       ]
     },
     {
-      "title": "Nel silenzio delle stanze",
-      "director": "Jérôme Bonnell",
-      "duration_min": 103,
-      "poster_url": "https://image.tmdb.org/t/p/w500/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Iadg1yD_LDM",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Nel%20silenzio%20delle%20stanze%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/nel%20silenzio%20delle%20stanze/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1119548",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "15:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "L'estranea",
       "director": "Paolo Strippoli",
       "duration_min": 115,
@@ -3841,14 +3380,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1412795",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "16:55",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-08",
           "time": "19:15",
@@ -4066,27 +3597,6 @@
       ]
     },
     {
-      "title": "LA CASA DELLE DONNE-LA MAISON DES FEMMES # Melisa Godet # Francia 2025 (110′)",
-      "director": "Mélisa Godet",
-      "duration_min": 110,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/10/la-maison-des-femmes-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=E3TFEINdnHQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=LA%20CASA%20DELLE%20DONNE-LA%20MAISON%20DES%20FEMMES%20%23%20Melisa%20Godet%20%23%20Francia%202025%20%28110%E2%80%B2%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20casa%20delle%20donne-la%20maison%20des%20femmes%20%23%20melisa%20godet%20%23%20francia%202025/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1318417",
-      "detail_url": "https://www.movieconnection.it/proiezione/la-casa-delle-donne-la-maison-des-femmes-melisa-godet-francia-2025-110/2026-11-07/",
-      "showtimes": [
-        {
-          "date": "2026-11-08",
-          "time": "16:00",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Fatherland",
       "director": "Pawel Pawlikowski",
       "duration_min": 82,
@@ -4095,7 +3605,7 @@
       "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
       "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-4/2026-11-07/2/",
+      "detail_url": "https://www.movieconnection.it/proiezione/fatherland-4/2026-11-08/",
       "showtimes": [
         {
           "date": "2026-11-08",
@@ -4180,7 +3690,7 @@
     },
     {
       "title": "Trieste è bella di notte",
-      "director": "Stefano Collizzolli, Andrea Segre, Matteo Calore",
+      "director": "Matteo Calore, Stefano Collizzolli, Andrea Segre",
       "duration_min": 75,
       "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/11/trieste-e-bella-di-notte-1-1024x576.jpg",
       "trailer_url": null,
@@ -5367,11 +4877,11 @@
       "title": "Una storia vera",
       "director": "David Lynch",
       "duration_min": 111,
-      "poster_url": "https://image.tmdb.org/t/p/w500/pQq7fzLSrowAz4EYVSDZwKVX2Hr.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JNi-Osdmkh0",
+      "poster_url": "https://image.tmdb.org/t/p/w500/9XHto8CtWnX0gijkYAXRCEJUznb.jpg",
+      "trailer_url": null,
       "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20storia%20vera%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/una%20storia%20vera/",
-      "tmdb_url": "https://www.themoviedb.org/movie/404",
+      "tmdb_url": "https://www.themoviedb.org/movie/1427610",
       "detail_url": "https://www.cinemarex.it/evento?eventName=una_storia_vera",
       "showtimes": [
         {
