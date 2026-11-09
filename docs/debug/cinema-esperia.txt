@@ -71,7 +71,7 @@
         </a>
         <a href="?category=1">
          <div class="Bcategorylist">
-          Programmazione cinematografica (9)
+          Programmazione cinematografica (7)
          </div>
         </a>
         <a href="?category=2">
@@ -79,117 +79,16 @@
           Rappresentazioni teatrali (2)
          </div>
         </a>
+        <a href="?category=0">
+         <div class="Bcategorylist">
+          Nessuna categoria (1)
+         </div>
+        </a>
        </div>
       </div>
      </div>
      <div class="blog_view">
       <div id="post_table">
-       <div class="blog_post">
-        <a class="show" href="./Post?postid=896">
-         <img class="Bfotopost" src="data/img/896/locandina.jpg"/>
-        </a>
-        <a href="?category=1">
-         <div class="Bcategorybutton">
-          Programmazione cinematografica
-         </div>
-        </a>
-        <div class="news_article">
-         <a class="show" href="./Post?postid=896">
-          <div class="Btitle">
-           Maigret, l′amore e la morte
-          </div>
-          <div class="Bsubtitle">
-           Venerdì 06 Novembre ore 21:00 e Domenica 08 Novembre ore 18:30 - Biglietto intero 6 euro, ridotto 5 euro
-          </div>
-         </a>
-         <a class="show" href="./Post?postid=896">
-          <div class="readmore-content" data-truncated-length="300">
-           <div class="Btext">
-            <br/>
-            <strong>
-             <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
-              ACQUISTA BIGLIETTO INTERO ONLINE
-             </a>
-            </strong>
-            <br/>
-            <br/>
-            Regia di Pascal Bonitzer. Con Denis Podalydès, Anne Alvaro,...
-           </div>
-          </div>
-         </a>
-         <div class="news_date">
-          <div class="news_date_icon">
-          </div>
-          <div class="Btext">
-           06-11-2026
-          </div>
-         </div>
-         <div class="Bsocial">
-          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D896" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D896" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D896" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="blog_post">
-        <a class="show" href="./Post?postid=897">
-         <img class="Bfotopost" src="data/img/897/locandina.jpg"/>
-        </a>
-        <a href="?category=1">
-         <div class="Bcategorybutton">
-          Programmazione cinematografica
-         </div>
-        </a>
-        <div class="news_article">
-         <a class="show" href="./Post?postid=897">
-          <div class="Btitle">
-           Il canto di Alina
-          </div>
-          <div class="Bsubtitle">
-           Sabato 07 e Domenica 08 Novembre ore 21:00 - Biglietto intero 6 euro, ridotto 5 euro
-          </div>
-         </a>
-         <a class="show" href="./Post?postid=897">
-          <div class="readmore-content" data-truncated-length="300">
-           <div class="Btext">
-            <br/>
-            <strong>
-             <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
-              ACQUISTA BIGLIETTO INTERO ONLINE
-             </a>
-            </strong>
-            <br/>
-            <br/>
-            PRIMA VISIONE CITTADINA - Film Patrocinato e promosso da AM...
-           </div>
-          </div>
-         </a>
-         <div class="news_date">
-          <div class="news_date_icon">
-          </div>
-          <div class="Btext">
-           06-11-2026
-          </div>
-         </div>
-         <div class="Bsocial">
-          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D897" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D897" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D897" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
-          </a>
-         </div>
-        </div>
-       </div>
        <div class="blog_post">
         <a class="show" href="./Post?postid=888">
          <img class="Bfotopost" src="data/img/888/palestina.jpg"/>
@@ -229,7 +128,7 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           06-11-2026
+           09-11-2026
           </div>
          </div>
          <div class="Bsocial">
@@ -284,7 +183,7 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           06-11-2026
+           09-11-2026
           </div>
          </div>
          <div class="Bsocial">
@@ -295,6 +194,104 @@
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
           </a>
           <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D895" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=884">
+         <img class="Bfotopost" src="data/img/884/festa.avif"/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=884">
+          <div class="Btitle">
+           CINEMA ESPERIA IN FESTA
+          </div>
+          <div class="Bsubtitle">
+           SABATO 14 NOVEMBRE ore 20:30 - biglietto offerto
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=884">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            Se siete venuti nel nostro Cinema dopo la riapertura di settembre vi siete accorti di alcune importanti novità. Allinterno la tappezzeria delle poltroncine è stata rifatta adottando un elegante color ...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           09-11-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=900">
+         <img class="Bfotopost" src="data/img/900/santiagouncamminoperricominciare.jpeg"/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=900">
+          <div class="Btitle">
+           SANTIAGO. UN CAMMINO PER RICOMINCIARE
+          </div>
+          <div class="Bsubtitle">
+           Sabato 14 nov ore 20:30 (Esperia in festa) - Domenica 15 nov ore 18:30 (interi 6 euro; ridotti: 5 euro) - Martedì 17 nov ore 21:00 (biglietto 4 euro: La Regione ti porta al cinema)
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=900">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            <br/>
+            <strong>
+             <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
+              ACQUISTA ONLINE DOMENICA E MARTEDi′
+             </a>
+            </strong>
+            <br/>
+            <br/>
+            Di Yann Samuell con Alexandra Lamy, Julien Le Berre, Mal...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           09-11-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
           </a>
          </div>
@@ -331,7 +328,7 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           06-11-2026
+           09-11-2026
           </div>
          </div>
          <div class="Bsocial">
@@ -342,51 +339,6 @@
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
           </a>
           <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D883" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="blog_post">
-        <a class="show" href="./Post?postid=884">
-         <img class="Bfotopost" src="data/img/884/festa.avif"/>
-        </a>
-        <a href="?category=1">
-         <div class="Bcategorybutton">
-          Programmazione cinematografica
-         </div>
-        </a>
-        <div class="news_article">
-         <a class="show" href="./Post?postid=884">
-          <div class="Btitle">
-           CINEMA ESPERIA IN FESTA
-          </div>
-          <div class="Bsubtitle">
-           SABATO 14 NOVEMBRE ore 20:30 - biglietto offerto
-          </div>
-         </a>
-         <a class="show" href="./Post?postid=884">
-          <div class="readmore-content" data-truncated-length="300">
-           <div class="Btext">
-            Se siete venuti nel nostro Cinema dopo la riapertura di settembre vi siete accorti di alcune importanti novità. Allinterno la tappezzeria delle poltroncine è stata rifatta adottando un elegante color ...
-           </div>
-          </div>
-         </a>
-         <div class="news_date">
-          <div class="news_date_icon">
-          </div>
-          <div class="Btext">
-           06-11-2026
-          </div>
-         </div>
-         <div class="Bsocial">
-          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
           </a>
          </div>
@@ -435,51 +387,6 @@
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
           </a>
           <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D899" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="blog_post">
-        <a class="show" href="./Post?postid=187">
-         <img class="Bfotopost" src="data/img/187/europacinemascreativelogowhitebluebackground.jpg"/>
-        </a>
-        <a href="?category=1">
-         <div class="Bcategorybutton">
-          Programmazione cinematografica
-         </div>
-        </a>
-        <div class="news_article">
-         <a class="show" href="./Post?postid=187">
-          <div class="Btitle">
-           EUROPA CINEMAS
-          </div>
-          <div class="Bsubtitle">
-           Europa Cinemas Creative Europe / MEDIA - Il Cinema Esperia ne fa parte
-          </div>
-         </a>
-         <a class="show" href="./Post?postid=187">
-          <div class="readmore-content" data-truncated-length="300">
-           <div class="Btext">
-            ...
-           </div>
-          </div>
-         </a>
-         <div class="news_date">
-          <div class="news_date_icon">
-          </div>
-          <div class="Btext">
-           11-02-2026
-          </div>
-         </div>
-         <div class="Bsocial">
-          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D187" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D187" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D187" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
           </a>
          </div>

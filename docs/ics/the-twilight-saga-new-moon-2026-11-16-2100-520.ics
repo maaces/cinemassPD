@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1296478251509951683@cinema-scraper.local
+DTSTAMP:20261109T224140Z
+DTSTART:20261116T200000Z
+DTEND:20261116T221100Z
+SUMMARY:The Twilight Saga: New Moon - Chris Weitz
+LOCATION:Cinema Rex
+DESCRIPTION:V.O.S.\nhttps://www.cinemarex.it/evento?eventName=the_twilight_saga__new_moon
+END:VEVENT
+END:VCALENDAR
