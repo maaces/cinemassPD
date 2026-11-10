@@ -217,6 +217,42 @@
            </div>
           </div>
          </article>
+         <article class="post-24777 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24777" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/digger/" title="Digger">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 591px) 100vw, 591px" data-src="https://www.piccolo-padova.it/wp-content/uploads/digger-1.jpg" decoding="async" height="877" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20591%20877%22%3E%3C/svg%3E" width="591"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/digger/">
+              <h2 class="entry-title" itemprop="name headline">
+               Digger
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               sabato 14 novembre ore 21.15
+               <br/>
+               domenica 15 novembre ore 18.45
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Diretto da Alejandro González Iñárritu con protagostina Tom Cruise, nel ruolo del magnate petrolifero Digger Rockwell, che deve salvare la Terra da un disastro ambientale causato accidentalmente dalla sua stessa azienda.
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
          <article class="post-24688 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24688" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
@@ -433,48 +469,6 @@
            </div>
           </div>
          </article>
-         <article class="post-24627 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24627" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/la-locandiera-2/" title="LA LOCANDIERA">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-LOCANDIERA-2026-1-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/la-locandiera-2/">
-              <h2 class="entry-title" itemprop="name headline">
-               LA LOCANDIERA
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               venerdì 20 ottobre – ore 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Tutti i clienti che frequentano la locanda di Mirandolina sono destinati a perdere la testa per lei: le sue studiate premure, la sua calcolata cortesia, i suoi modi astutamente amabili e seducenti le garantiscono la totale devozione degli uomini che …
-              <a href="https://www.piccolo-padova.it/la-locandiera-2/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Commedia di Carlo Goldoni – Compagnia Dell’Orso di Lonigo (VI) – Adattamento e Regia di Paolo Marchetto
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
          <div class="wp-pagenavi">
           <nav aria-label="Paginazione degli articoli" class="navigation pagination">
            <h2 class="screen-reader-text">
@@ -520,18 +514,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1bjtm" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_1bjtm">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1l88c" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_1l88c">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_ctitf" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_7b2l1" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_ctitf">
+             <span class="mailpoet_error_7b2l1">
              </span>
             </div>
             <div class="mailpoet_paragraph">

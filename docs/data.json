@@ -1,35 +1,216 @@
 {
-  "generated_at": "2026-11-10T19:56:57.687014",
+  "generated_at": "2026-11-10T19:58:51.856385",
   "movies": [
     {
-      "title": "Heart of the Beast - Nel profondo selvaggio",
-      "director": "David Ayer",
-      "duration_min": 95,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/161729/standard_b4a2a590-1a92-4573-8812-50888a1ebb17.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Heart%20of%20the%20Beast%20-%20Nel%20profondo%20selvaggio%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/heart%20of%20the%20beast%20-%20nel%20profondo%20selvaggio/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/161729",
+      "title": "Hexe - Il regno delle streghe",
+      "director": "Jason Hand",
+      "duration_min": 103,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/162224/standard_5261409a-0283-4d12-8a55-182bcb5989e4.jpeg",
+      "trailer_url": "https://www.youtube.com/watch?v=_FGDMkwxuHY",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Hexe%20-%20Il%20regno%20delle%20streghe%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/hexe%20-%20il%20regno%20delle%20streghe/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1538497",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/162224",
       "showtimes": [
         {
-          "date": "2026-11-10",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "MARTEDÌ A 4€",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "22:05",
+          "date": "2026-11-26",
+          "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-11-11",
+          "date": "2026-11-26",
+          "time": "19:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-26",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-27",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-27",
+          "time": "19:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-27",
+          "time": "21:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "14:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "15:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "16:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "17:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "19:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "14:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "15:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "16:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "17:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "21:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Scrooge e gli spiriti del Natale",
+      "director": "Ti West",
+      "duration_min": 115,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/162686/standard_8c3b6e03-be2c-445f-b5f2-be2fc8c1cb71.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=FATCofGu-6k",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Scrooge%20e%20gli%20spiriti%20del%20Natale%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/scrooge%20e%20gli%20spiriti%20del%20natale/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1567605",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/162686",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
           "time": "20:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -37,8 +218,484 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-11-11",
-          "time": "22:05",
+          "date": "2026-11-13",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "14:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "22:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "23:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "10:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "14:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "22:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "23:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Come rapinare una banca",
+      "director": "David Leitch",
+      "duration_min": 90,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163479/standard_397eda6c-5a67-4762-9f04-41081d982137.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=wLDWeYRP9JY",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Come%20rapinare%20una%20banca%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/come%20rapinare%20una%20banca/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1437511",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163479",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "22:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "22:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "21:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Il rumore delle cose nuove",
+      "director": "Paolo Genovese",
+      "duration_min": 113,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163445/standard_c9062dcf-09ee-4456-a2ec-96502d68a3f6.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=KKWO4jLB24U",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20rumore%20delle%20cose%20nuove%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20rumore%20delle%20cose%20nuove/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1544126",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163445",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "17:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "15:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "23:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "15:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Look Back",
+      "director": "Hirokazu Kore Eda",
+      "duration_min": 62,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163481/standard_ccbee47e-2c37-4ae8-98f0-186d48795302.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=i7sRLxcbakE",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Look%20Back%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/look%20back/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1244492",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163481",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "19:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "20:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "16:05",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "10:55",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "16:05",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Godzilla Minus Zero",
+      "director": "Takashi Yamazaki",
+      "duration_min": 135,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163447/standard_6616c300-768d-4b99-8151-c166d5b23018.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=WR32RzMzVJc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Godzilla%20Minus%20Zero%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/godzilla%20minus%20zero/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1381071",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163447",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "19:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "22:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "19:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "22:50",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "14:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "19:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "22:35",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "10:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "14:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "19:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "22:35",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -59,48 +716,8 @@
       "showtimes": [
         {
           "date": "2026-11-10",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "19:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
           "time": "20:00",
           "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "20:10",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -312,22 +929,6 @@
       "showtimes": [
         {
           "date": "2026-11-10",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
           "time": "20:30",
           "cinema": "Porto Astra",
           "price": null,
@@ -433,32 +1034,149 @@
       ]
     },
     {
+      "title": "Un weekend artificiale",
+      "director": "Leonardo Pieraccioni",
+      "duration_min": null,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163446/standard_893b50e5-ee95-4e88-8213-e5318da09b1e.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=fQMjHeEQ-f4",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20weekend%20artificiale%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/un%20weekend%20artificiale/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1723882",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163446",
+      "showtimes": [
+        {
+          "date": "2026-11-12",
+          "time": "17:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-12",
+          "time": "22:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "17:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-13",
+          "time": "22:15",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "16:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:55",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "23:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "11:05",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "16:25",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:40",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:55",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "23:10",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Il gatto col cappello",
       "director": "Erica Rivinoja, Alessandro Carloni",
       "duration_min": 91,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158101/standard_bfacd588-c7fb-45be-9bc6-572cdb96adcc.jpg",
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158101/standard_e3f5543b-09dc-46e9-b77a-d514617a474b.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=bCZo-8YVjgs",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20gatto%20col%20cappello%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/il%20gatto%20col%20cappello/",
       "tmdb_url": "https://www.themoviedb.org/movie/1117898",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158101",
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-11",
           "time": "16:50",
@@ -577,21 +1295,13 @@
       "title": "Hope",
       "director": "Na Hong Jin",
       "duration_min": 157,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/160682/standard_b7cb4f6c-001f-4288-82a9-6d12b7d943b6.jpg",
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/160682/standard_96b44631-ddd9-4b63-91ae-bfa55c33d236.jpeg",
       "trailer_url": "https://www.youtube.com/watch?v=uV3s51ivuVI",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Hope%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/hope/",
       "tmdb_url": "https://www.themoviedb.org/movie/1058424",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/160682",
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-10",
           "time": "20:00",
@@ -760,22 +1470,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154733",
       "showtimes": [
         {
-          "date": "2026-11-10",
-          "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-11",
           "time": "17:00",
           "cinema": "Porto Astra",
@@ -804,38 +1498,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1506710",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "18:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "20:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-10",
           "time": "20:40",
@@ -1023,37 +1685,13 @@
       "title": "Un tranquillo funerale di famiglia",
       "director": "Massimiliano Bruno",
       "duration_min": 98,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158100/standard_6a420052-979d-4e82-82eb-bccbbdb882f3.jpg",
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158100/standard_b6383acf-d97b-4af1-8788-463a6447e7e9.jpeg",
       "trailer_url": "https://www.youtube.com/watch?v=B1KICaU-WgA",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20tranquillo%20funerale%20di%20famiglia%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/un%20tranquillo%20funerale%20di%20famiglia/",
       "tmdb_url": "https://www.themoviedb.org/movie/1678120",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158100",
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "20:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-10",
           "time": "20:50",
@@ -1164,22 +1802,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153711",
       "showtimes": [
         {
-          "date": "2026-11-10",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-10",
-          "time": "18:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-11",
           "time": "17:15",
           "cinema": "Cineplex (Due Carrare)",
@@ -1237,7 +1859,7 @@
         },
         {
           "date": "2026-11-15",
-          "time": "11:55",
+          "time": "11:15",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -1280,14 +1902,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/791523",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154603",
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-11",
           "time": "19:20",
@@ -1493,6 +2107,43 @@
       ]
     },
     {
+      "title": "Heart of the Beast - Nel profondo selvaggio",
+      "director": "David Ayer",
+      "duration_min": 95,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/138761/standard_2c70c723-e29d-4b0d-a0ce-0b015d3b6a0b.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=kS2XC1wx_Mc",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Heart%20of%20the%20Beast%20-%20Nel%20profondo%20selvaggio%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/heart%20of%20the%20beast%20-%20nel%20profondo%20selvaggio/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1263337",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/138761",
+      "showtimes": [
+        {
+          "date": "2026-11-10",
+          "time": "22:05",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-11",
+          "time": "20:00",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-11",
+          "time": "22:05",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Clayface",
       "director": "James Watkins",
       "duration_min": 109,
@@ -1546,652 +2197,6 @@
         {
           "date": "2026-11-15",
           "time": "20:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Godzilla Minus Zero",
-      "director": "Takashi Yamazaki",
-      "duration_min": 135,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163447/standard_10ab8f14-8527-424b-bf64-71e8e4ed7277.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=WR32RzMzVJc",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Godzilla%20Minus%20Zero%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/godzilla%20minus%20zero/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1381071",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163447",
-      "showtimes": [
-        {
-          "date": "2026-11-12",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "22:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "22:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "14:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "19:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "22:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "10:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "14:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "19:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "22:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Scrooge e gli spiriti del Natale",
-      "director": "Ti West",
-      "duration_min": 115,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/162686/standard_8c3b6e03-be2c-445f-b5f2-be2fc8c1cb71.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=FATCofGu-6k",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Scrooge%20e%20gli%20spiriti%20del%20Natale%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/scrooge%20e%20gli%20spiriti%20del%20natale/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1567605",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/162686",
-      "showtimes": [
-        {
-          "date": "2026-11-12",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "14:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "18:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "22:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "23:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "10:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "14:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "18:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "22:35",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "23:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Il rumore delle cose nuove",
-      "director": "Paolo Genovese",
-      "duration_min": 113,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163445/standard_dd9b0e13-abfb-4190-a68c-c207b27cf4fd.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=KKWO4jLB24U",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20rumore%20delle%20cose%20nuove%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/il%20rumore%20delle%20cose%20nuove/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1544126",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163445",
-      "showtimes": [
-        {
-          "date": "2026-11-12",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "17:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "15:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "23:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "15:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Un weekend artificiale",
-      "director": "Leonardo Pieraccioni",
-      "duration_min": null,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163446/standard_eaf82c60-fee4-4607-bfa4-34169a95c685.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=fQMjHeEQ-f4",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20weekend%20artificiale%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/un%20weekend%20artificiale/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1723882",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163446",
-      "showtimes": [
-        {
-          "date": "2026-11-12",
-          "time": "17:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "17:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "16:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "18:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "20:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "23:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "11:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "16:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "18:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "20:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "23:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Look Back",
-      "director": "Hirokazu Kore Eda",
-      "duration_min": 62,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163481/standard_245de886-d55b-4d92-a146-c34291956fc5.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=i7sRLxcbakE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Look%20Back%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/look%20back/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1244492",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163481",
-      "showtimes": [
-        {
-          "date": "2026-11-12",
-          "time": "19:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-12",
-          "time": "20:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "19:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "20:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "16:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "18:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "10:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "16:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "18:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Come rapinare una banca",
-      "director": "David Leitch",
-      "duration_min": 90,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163479/standard_db488a33-7a31-4da6-8c84-6e38ac66a441.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=wLDWeYRP9JY",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Come%20rapinare%20una%20banca%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/come%20rapinare%20una%20banca/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1437511",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163479",
-      "showtimes": [
-        {
-          "date": "2026-11-12",
-          "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-13",
-          "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "21:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "21:45",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -2349,195 +2354,6 @@
         {
           "date": "2026-11-22",
           "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Hexe - Il regno delle streghe",
-      "director": "Jason Hand",
-      "duration_min": 103,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/162224/standard_23667479-6a9e-4dfa-9143-d2a133ed0550.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=_FGDMkwxuHY",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Hexe%20-%20Il%20regno%20delle%20streghe%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/hexe%20-%20il%20regno%20delle%20streghe/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1538497",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/162224",
-      "showtimes": [
-        {
-          "date": "2026-11-26",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-26",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-26",
-          "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-27",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-27",
-          "time": "19:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-27",
-          "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "14:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "15:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "16:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "19:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "21:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "21:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "14:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "15:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "16:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "19:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "21:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-29",
-          "time": "21:45",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -3828,35 +3644,6 @@
       ]
     },
     {
-      "title": "Minotaur",
-      "director": "Jonathan English",
-      "duration_min": 93,
-      "poster_url": "https://image.tmdb.org/t/p/w500/nwSYtZNc42WaqOzkMpSuZ4NElJr.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=jpP7wSw9nww",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Minotaur%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/minotaur/",
-      "tmdb_url": "https://www.themoviedb.org/movie/18870",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-11",
-          "time": "19:45",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Primetimeingresso A 4,00 €",
       "director": null,
       "duration_min": null,
@@ -3867,14 +3654,6 @@
       "tmdb_url": null,
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-10",
           "time": "20:15",
@@ -3917,14 +3696,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1412795",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-10",
           "time": "20:15",
@@ -3981,6 +3752,27 @@
       ]
     },
     {
+      "title": "Minotaur",
+      "director": "Jonathan English",
+      "duration_min": 93,
+      "poster_url": "https://image.tmdb.org/t/p/w500/nwSYtZNc42WaqOzkMpSuZ4NElJr.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=jpP7wSw9nww",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Minotaur%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/minotaur/",
+      "tmdb_url": "https://www.themoviedb.org/movie/18870",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-11",
+          "time": "19:45",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Minnie e Moskowitz",
       "director": "John Cassavetes",
       "duration_min": 114,
@@ -4010,6 +3802,48 @@
       ]
     },
     {
+      "title": "Una giornata maledettamente buona",
+      "director": "Andrea Castoldi",
+      "duration_min": 82,
+      "poster_url": "https://image.tmdb.org/t/p/w500/iB6hezm0fVIxlbGDtefCw8sNSXA.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=jfITS6N9kIo",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20giornata%20maledettamente%20buona%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/una%20giornata%20maledettamente%20buona/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1821032",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-16",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Fjordanteprima",
+      "director": null,
+      "duration_min": null,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fjordanteprima%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fjordanteprima/",
+      "tmdb_url": null,
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-18",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Diggeringresso A 4,00 €",
       "director": null,
       "duration_min": null,
@@ -4020,14 +3854,6 @@
       "tmdb_url": null,
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-10",
           "time": "20:40",
@@ -4891,6 +4717,67 @@
       ]
     },
     {
+      "title": "Digger",
+      "director": "Alejandro G. Iñárritu",
+      "duration_min": 129,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/digger-1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=D6uG0z-rhkg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Digger%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/digger/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1248832",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=digger",
+      "showtimes": [
+        {
+          "date": "2026-11-14",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "21:15",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "20:50",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-16",
+          "time": "18:50",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Essi vivono",
       "director": "John Carpenter",
       "duration_min": 93,
@@ -4928,27 +4815,6 @@
           "cinema": "Cinema Rex",
           "price": null,
           "note": "Cineforum",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "IN SHORTS Digital Cinema Night",
-      "director": "Università di Padova",
-      "duration_min": 90,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=IN%20SHORTS%20Digital%20Cinema%20Night%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/in%20shorts%20digital%20cinema%20night/",
-      "tmdb_url": null,
-      "detail_url": "https://www.cinemarex.it/evento?eventName=in_shorts_digital_cinema_night",
-      "showtimes": [
-        {
-          "date": "2026-11-10",
-          "time": "20:30",
-          "cinema": "Cinema Rex",
-          "price": null,
-          "note": "Regista in sala · Ingresso libero",
           "date_uncertain": false
         }
       ]
@@ -5112,8 +4978,8 @@
       "detail_url": "https://www.cinemarex.it/evento?eventName=naza",
       "showtimes": [
         {
-          "date": "2026-11-10",
-          "time": "19:00",
+          "date": "2026-11-12",
+          "time": "18:15",
           "cinema": "Cinema Rex",
           "price": "4€",
           "note": null,
@@ -5125,6 +4991,43 @@
           "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Nel silenzio delle stanze",
+      "director": "Jérôme Bonnell",
+      "duration_min": 103,
+      "poster_url": "https://image.tmdb.org/t/p/w500/r47BxFNFATfapHfQ2m4iHYgZwVc.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Iadg1yD_LDM",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Nel%20silenzio%20delle%20stanze%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/nel%20silenzio%20delle%20stanze/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1119548",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=nel_silenzio_delle_stanze",
+      "showtimes": [
+        {
+          "date": "2026-11-15",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-19",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
           "date_uncertain": false
         }
       ]
@@ -5159,22 +5062,75 @@
       ]
     },
     {
-      "title": "The Invite - Il piacere è tutto nostro",
-      "director": "Olivia Wilde",
-      "duration_min": 107,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/invite-656x1024.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
-      "tmdb_url": "https://www.themoviedb.org/movie/950028",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=the_invite___il_piacere_è_tutto_nostro",
+      "title": "Santiago - Un cammino per ricominciare",
+      "director": "Yann Samuell",
+      "duration_min": 113,
+      "poster_url": "https://www.esperiapadova.it/data/img/900/santiagouncamminoperricominciare.jpeg",
+      "trailer_url": "https://www.youtube.com/watch?v=DYteV8r5qL8",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20cammino%20per%20ricominciare%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=santiago___un_cammino_per_ricominciare",
       "showtimes": [
         {
-          "date": "2026-11-14",
-          "time": "18:45",
+          "date": "2026-11-11",
+          "time": "18:00",
           "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-14",
+          "time": "20:30",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-15",
+          "time": "18:30",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": "6 € (rid. 5 €)",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Spezie e bugie - La piccola cucina di Mehdi",
+      "director": "Amine Adjina",
+      "duration_min": 104,
+      "poster_url": "https://image.tmdb.org/t/p/w500/mOZyiorBFLBiHopLsyLpFmgiGzx.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Y5S5WGhGD7c",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Spezie%20e%20bugie%20-%20La%20piccola%20cucina%20di%20Mehdi%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/spezie%20e%20bugie%20-%20la%20piccola%20cucina%20di%20mehdi/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1266826",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=spezie_e_bugie___la_piccola_cucina_di_me",
+      "showtimes": [
+        {
+          "date": "2026-11-26",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
           "date_uncertain": false
         }
       ]
@@ -5254,11 +5210,11 @@
       "title": "Una storia vera",
       "director": "David Lynch",
       "duration_min": 111,
-      "poster_url": "https://image.tmdb.org/t/p/w500/9XHto8CtWnX0gijkYAXRCEJUznb.jpg",
-      "trailer_url": null,
+      "poster_url": "https://image.tmdb.org/t/p/w500/pQq7fzLSrowAz4EYVSDZwKVX2Hr.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JNi-Osdmkh0",
       "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20storia%20vera%20trailer",
       "letterboxd_url": "https://letterboxd.com/search/films/una%20storia%20vera/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1427610",
+      "tmdb_url": "https://www.themoviedb.org/movie/404",
       "detail_url": "https://www.cinemarex.it/evento?eventName=una_storia_vera",
       "showtimes": [
         {
@@ -5286,7 +5242,7 @@
           "date": "2026-11-11",
           "time": "18:50",
           "cinema": "Cinema Rex",
-          "price": "5€",
+          "price": null,
           "note": null,
           "date_uncertain": false
         }
@@ -5335,51 +5291,6 @@
       ]
     },
     {
-      "title": "Santiago - Un cammino per ricominciare",
-      "director": "Yann Samuell",
-      "duration_min": 113,
-      "poster_url": "https://www.esperiapadova.it/data/img/900/santiagouncamminoperricominciare.jpeg",
-      "trailer_url": "https://www.youtube.com/watch?v=DYteV8r5qL8",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Santiago%20-%20Un%20cammino%20per%20ricominciare%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/santiago%20-%20un%20cammino%20per%20ricominciare/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1404604",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=900",
-      "showtimes": [
-        {
-          "date": "2026-11-11",
-          "time": "18:00",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-14",
-          "time": "20:30",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-15",
-          "time": "18:30",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": "6 € (rid. 5 €)",
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Calle Malaga",
       "director": "Maryam Touzani",
       "duration_min": 116,
@@ -5393,6 +5304,27 @@
         {
           "date": "2026-11-11",
           "time": "21:00",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "The Invite - Il piacere è tutto nostro",
+      "director": "Olivia Wilde",
+      "duration_min": 107,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/invite-656x1024.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=xVn866BbWAU",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Invite%20-%20Il%20piacere%20%C3%A8%20tutto%20nostro%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20invite%20-%20il%20piacere%20%C3%A8%20tutto%20nostro/",
+      "tmdb_url": "https://www.themoviedb.org/movie/950028",
+      "detail_url": "https://www.piccolo-padova.it/the-invite-il-piacere-e-tutto-nostro/",
+      "showtimes": [
+        {
+          "date": "2026-11-14",
+          "time": "18:45",
           "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
