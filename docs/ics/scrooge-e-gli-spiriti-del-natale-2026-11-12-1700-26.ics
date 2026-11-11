@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:2720929563829248523@cinema-scraper.local
-DTSTAMP:20261111T170605Z
-DTSTART:20261112T160000Z
-DTEND:20261112T175500Z
-SUMMARY:Scrooge e gli spiriti del Natale - Ti West
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/162686
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1726278806259291055@cinema-scraper.local
+DTSTAMP:20261111T194757Z
+DTSTART:20261112T160000Z
+DTEND:20261112T175500Z
+SUMMARY:Scrooge e gli spiriti del Natale - Ti West
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/162686
+END:VEVENT
+END:VCALENDAR

@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:6621191594106712709@cinema-scraper.local
-DTSTAMP:20261111T170605Z
-DTSTART:20261111T181500Z
-DTEND:20261111T202700Z
-SUMMARY:Ragione e sentimento - Georgia Oakley
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/154733
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:3634764184832256879@cinema-scraper.local
+DTSTAMP:20261111T194757Z
+DTSTART:20261111T181500Z
+DTEND:20261111T202700Z
+SUMMARY:Ragione e sentimento - Georgia Oakley
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/154733
+END:VEVENT
+END:VCALENDAR
