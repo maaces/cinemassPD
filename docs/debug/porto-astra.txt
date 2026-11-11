@@ -5,7 +5,7 @@
    Cinema Porto Astra | Via Santa Maria Assunta, 20 – PADOVA
   </title>
  </head>
- <body class="home wp-singular page-template page-template-template-blank-4 page-template-template-blank-4-php page page-id-16717 wp-theme-pro wp-child-theme-pro-child x-integrity x-integrity-light x-child-theme-active x-full-width-layout-active x-content-sidebar-active x-post-meta-disabled pro-v6_9_2">
+ <body class="home wp-singular page-template page-template-template-blank-4 page-template-template-blank-4-php page page-id-16717 wp-theme-pro wp-child-theme-pro-child x-integrity x-integrity-light x-child-theme-active x-full-width-layout-active x-content-sidebar-active x-post-meta-disabled pro-v6_9_8">
   <div class="x-root" id="x-root">
    <div class="x-site site" id="x-site">
     <header class="x-masthead" role="banner">
@@ -23,7 +23,7 @@
           info@portoastra.it
          </a>
         </div>
-        <ul class="x-menu-first-level x-menu x-menu-inline e439-e6 mc7-w mc7-x mc7-z mc7-10 responsive" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}'>
+        <ul class="x-menu-first-level x-menu x-menu-inline e439-e6 mc7-w mc7-x mc7-z mc7-10 responsive" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16717 current_page_item menu-item-16738" id="menu-item-16738">
           <a class="x-anchor x-anchor-menu-item has-particle mc7-13 mc7-14 mc7-15 mc7-16 mc7-17 mc7-18 x-always-active" href="https://portoastra.it/" tabindex="0">
            <span aria-hidden="true" class="x-particle is-primary" data-x-particle="scale-y inside-b_c">
@@ -86,7 +86,7 @@
           <img alt="Segui la nostra pagina Instagram" border="0" class="social" decoding="async" src="https://portoastra.it/wp-content/uploads/2021/12/instagram.png"/>
          </a>
         </div>
-        <ul class="x-menu-first-level x-menu x-menu-inline e439-e9 mc7-w mc7-y mc7-z mc7-10 responsive" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}'>
+        <ul class="x-menu-first-level x-menu x-menu-inline e439-e9 mc7-w mc7-y mc7-z mc7-10 responsive" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454" id="menu-item-454">
           <a class="x-anchor x-anchor-menu-item has-particle mc7-13 mc7-14 mc7-15 mc7-18 mc7-1a mc7-1d mc7-1e" href="https://portoastra.it/il-cinema/" tabindex="0">
            <span aria-hidden="true" class="x-particle is-primary" data-x-particle="scale-y inside-b_c">
@@ -204,7 +204,7 @@
       </div>
      </div>
     </header>
-    <div class="x-main full" role="main">
+    <div class="x-main full" id="x-main" role="main" tabindex="-1">
      <article class="post-16717 page type-page status-publish hentry no-post-thumbnail" id="post-16717">
       <div class="entry-content content">
        <div class="cs-content" id="cs-content">
@@ -215,12 +215,6 @@
             <div class="x-slide-container-viewport is-loading e16717-e4 mcwd-o" data-x-slide-container='{"keyboardNavigation":true,"autoplayStartInView":true,"snap":true,"scrollBySlide":true,"int":"drag off","direction":"forward","startingSlide":1,"autoplay":"interval","scrollWheel":true}'>
              <div class="x-slide-container-content">
               <div class="x-slide-container is-inline is-paged">
-               <div class="x-slide e16717-e5 mcwd-p" data-x-slide="">
-                <div aria-hidden="true" class="x-bg">
-                 <div class="x-bg-layer-lower-image">
-                 </div>
-                </div>
-               </div>
                <div class="x-slide e16717-e5 mcwd-p" data-x-slide="">
                 <div aria-hidden="true" class="x-bg">
                  <div class="x-bg-layer-lower-image">
@@ -280,22 +274,6 @@
             <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
-               <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/digger-1.jpg"/>
-               <h5 class="filmTitle" id="titleHeight">
-                Digger
-               </h5>
-               <p class="desc">
-                L’uomo più potente del mondo intraprende una missione disperata per dimostrare di essere il salvatore dell’umanità, prima che il disastro da lui stesso provocato distrugga ogni cosa.
-               </p>
-               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="https://portoastra.it/film/digger" title="Digger">
-                <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
-                </i>
-                Scheda completa
-               </a>
-              </div>
-             </li>
-             <li class="x-block-grid-item">
-              <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/dioridelocandina-1.jpg"/>
                <h5 class="filmTitle" id="titleHeight">
                 Dio ride
@@ -312,22 +290,20 @@
              </li>
              <li class="x-block-grid-item">
               <div class="col3Min">
-               <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/08/Lestranea-locandina.jpg"/>
+               <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/10/itends.jpg"/>
                <h5 class="filmTitle" id="titleHeight">
-                L'estranea
+                It ends
                </h5>
                <p class="desc">
-                Anna rivela alla figlia Alice di aver stretto vent’anni prima un misterioso patto per salvarla, causando una serie di eventi terribili. Ora solo Alice può rimediare, ma dovrà pagarne il prezzo.
+                Quattro amici appena diplomati restano intrappolati su una misteriosa strada senza fine. Tra fenomeni inspiegabili e presenze terrificanti, dovranno tentare una fuga che sembra impossibile.
                </p>
-               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="https://portoastra.it/film/lestranea">
+               <a class="x-btn buttonFilm x-btn-mini" data-options="thumbnail: ''" href="https://portoastra.it/film/it-ends" title="It ends">
                 <i aria-hidden="true" class="x-icon x-icon-arrow-right" data-x-icon-s="">
                 </i>
                 Scheda completa
                </a>
               </div>
              </li>
-            </ul>
-            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/sedomaninontornolocandina.jpg"/>
@@ -344,6 +320,8 @@
                </a>
               </div>
              </li>
+            </ul>
+            <ul class="x-block-grid three-up">
              <li class="x-block-grid-item">
               <div class="col3Min">
                <img class="x-img" decoding="async" src="https://appalcinema.it/wp-content/uploads/2026/09/untranquillofuneraledifamiglia.jpg"/>
@@ -391,7 +369,61 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               10/11
+               11/11
+               <br/>
+               <b>
+                Mercoledì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
+               12/11
+               <br/>
+               <b>
+                Giovedì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+               13/11
+               <br/>
+               <b>
+                Venerdì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+               14/11
+               <br/>
+               <b>
+                Sabato
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
+               15/11
+               <br/>
+               <b>
+                Domenica
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
+               16/11
+               <br/>
+               <b>
+                Lunedì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-7" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-7" id="x-legacy-tab-7" role="tab">
+               17/11
                <br/>
                <b>
                 Martedì
@@ -399,11 +431,20 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
-               11/11
+              <a aria-controls="x-legacy-panel-8" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-8" id="x-legacy-tab-8" role="tab">
+               18/11
                <br/>
                <b>
                 Mercoledì
+               </b>
+              </a>
+             </li>
+             <li class="x-nav-tabs-item active" role="presentation">
+              <a aria-controls="x-legacy-panel-9" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-9" id="x-legacy-tab-9" role="tab">
+               19/11
+               <br/>
+               <b>
+                Giovedì
                </b>
               </a>
              </li>
@@ -413,46 +454,6 @@
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17019">
-                  l'estranea
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231712" ,"all")'>
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
-                  se domani non torno
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231700" ,"all")'>
-                   <span class="">
-                    20.20
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
                  <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
                   wild horse nine
                  </a>
@@ -460,253 +461,6 @@
                </li>
                <li class="block_grid_item">
                 <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231718" ,"all")'>
-                   <span class="time_OV">
-                    20.30
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231731" ,"all")'>
-                   <span class="">
-                    21.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
-                  dio ride
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231703" ,"all")'>
-                   <span class="">
-                    20.40
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item titolo">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16673">
-                  digger
-                  <span class="nb">
-                   Ingresso a 4,00 €
-                  </span>
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item ore">
-                <b>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6511&amp;performanceId=231739" ,"all")'>
-                   <span class="time_OV">
-                    20.40
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
-                  un tranquillo funerale di famiglia
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231724" ,"all")'>
-                   <span class="">
-                    20.50
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="http://portoastra.it/?post_type=remotefilm&amp;p=15670">
-                  il gatto col cappello
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6559&amp;performanceId=231735" ,"all")'>
-                   <span class="">
-                    16.50
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16778">
-                  ragione e sentimento
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6541&amp;performanceId=231719" ,"all")'>
-                   <span class="">
-                    17.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17019">
-                  l'estranea
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231713" ,"all")'>
-                   <span class="">
-                    17.10
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231714" ,"all")'>
-                   <span class="">
-                    19.40
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
-                  se domani non torno
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231701" ,"all")'>
-                   <span class="">
-                    17.15
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231702" ,"all")'>
-                   <span class="">
-                    20.10
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231706" ,"all")'>
-                   <span class="">
-                    22.25
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
-                  dio ride
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231696" ,"all")'>
-                   <span class="">
-                    17.20
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231704" ,"all")'>
-                   <span class="">
-                    20.00
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231705" ,"all")'>
-                   <span class="">
-                    22.20
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
-                  wild horse nine
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231732" ,"all")'>
-                   <span class="">
-                    17.25
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231733" ,"all")'>
-                   <span class="">
-                    20.05
-                   </span>
-                  </a>
-                 </span>
                  <span class="x-column x-sm">
                   <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231740" ,"all")'>
                    <span class="time_OV">
@@ -721,83 +475,6 @@
                   <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231734" ,"all")'>
                    <span class="">
                     22.30
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
-                  un tranquillo funerale di famiglia
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231725" ,"all")'>
-                   <span class="">
-                    17.30
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231726" ,"all")'>
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231727" ,"all")'>
-                   <span class="">
-                    22.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17028">
-                  wildwood - i segreti del bosco proibito
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6543&amp;performanceId=231736" ,"all")'>
-                   <span class="">
-                    19.20
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16915">
-                  george michael - the faith tour
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6558&amp;performanceId=231743" ,"all")'>
-                   <span class="time_OV">
-                    20.30
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
                    </span>
                   </a>
                  </span>
@@ -824,6 +501,2151 @@
                 </b>
                </li>
               </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231727" ,"all")'>
+                   <span class="">
+                    22.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231705" ,"all")'>
+                   <span class="">
+                    22.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231706" ,"all")'>
+                   <span class="">
+                    22.25
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231839" ,"all")'>
+                   <span class="">
+                    16.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231840" ,"all")'>
+                   <span class="">
+                    19.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231816" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231841" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231793" ,"all")'>
+                   <span class="">
+                    17.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231794" ,"all")'>
+                   <span class="">
+                    19.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231795" ,"all")'>
+                   <span class="">
+                    22.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231910" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231911" ,"all")'>
+                   <span class="">
+                    20.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231912" ,"all")'>
+                   <span class="">
+                    22.25
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231862" ,"all")'>
+                   <span class="">
+                    17.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231863" ,"all")'>
+                   <span class="">
+                    19.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231864" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231770" ,"all")'>
+                   <span class="">
+                    17.25
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231771" ,"all")'>
+                   <span class="">
+                    20.05
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231772" ,"all")'>
+                   <span class="">
+                    22.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231888" ,"all")'>
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231889" ,"all")'>
+                   <span class="">
+                    20.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6565&amp;performanceId=231818" ,"all")'>
+                   <span class="time_OV">
+                    21.10
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231890" ,"all")'>
+                   <span class="">
+                    22.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231817" ,"all")'>
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231842" ,"all")'>
+                   <span class="">
+                    16.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231843" ,"all")'>
+                   <span class="">
+                    19.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231819" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231844" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231796" ,"all")'>
+                   <span class="">
+                    17.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231797" ,"all")'>
+                   <span class="">
+                    19.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231798" ,"all")'>
+                   <span class="">
+                    22.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231913" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231914" ,"all")'>
+                   <span class="">
+                    20.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231915" ,"all")'>
+                   <span class="">
+                    22.25
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231865" ,"all")'>
+                   <span class="">
+                    17.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231866" ,"all")'>
+                   <span class="">
+                    19.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231867" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231773" ,"all")'>
+                   <span class="">
+                    17.25
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231774" ,"all")'>
+                   <span class="">
+                    20.05
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231775" ,"all")'>
+                   <span class="time_OV">
+                    22.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231891" ,"all")'>
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231892" ,"all")'>
+                   <span class="">
+                    20.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6565&amp;performanceId=231821" ,"all")'>
+                   <span class="time_OV">
+                    21.10
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231893" ,"all")'>
+                   <span class="">
+                    22.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231820" ,"all")'>
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231822" ,"all")'>
+                   <span class="">
+                    14.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231799" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231800" ,"all")'>
+                   <span class="">
+                    19.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231801" ,"all")'>
+                   <span class="">
+                    22.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231883" ,"all")'>
+                   <span class="">
+                    14.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231847" ,"all")'>
+                   <span class="">
+                    19.40
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231825" ,"all")'>
+                   <span class="">
+                    21.50
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231900" ,"all")'>
+                   <span class="">
+                    15.05
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231916" ,"all")'>
+                   <span class="">
+                    17.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231917" ,"all")'>
+                   <span class="">
+                    20.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231918" ,"all")'>
+                   <span class="">
+                    22.25
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231845" ,"all")'>
+                   <span class="">
+                    15.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231848" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17019">
+                  l'estranea
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231823" ,"all")'>
+                   <span class="">
+                    17.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="http://portoastra.it/?post_type=remotefilm&amp;p=15670">
+                  il gatto col cappello
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6559&amp;performanceId=231846" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231776" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231777" ,"all")'>
+                   <span class="">
+                    20.05
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231778" ,"all")'>
+                   <span class="time_OV">
+                    22.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231868" ,"all")'>
+                   <span class="">
+                    17.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231869" ,"all")'>
+                   <span class="">
+                    19.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231870" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231894" ,"all")'>
+                   <span class="">
+                    18.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231895" ,"all")'>
+                   <span class="">
+                    20.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6565&amp;performanceId=231896" ,"all")'>
+                   <span class="time_OV">
+                    22.20
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231824" ,"all")'>
+                   <span class="">
+                    19.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231791" ,"all")'>
+                   <span class="">
+                    10.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231792" ,"all")'>
+                   <span class="">
+                    14.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231779" ,"all")'>
+                   <span class="">
+                    16.55
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231780" ,"all")'>
+                   <span class="">
+                    19.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231781" ,"all")'>
+                   <span class="time_OV">
+                    21.35
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231814" ,"all")'>
+                   <span class="">
+                    10.40
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231815" ,"all")'>
+                   <span class="">
+                    14.35
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231802" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231803" ,"all")'>
+                   <span class="">
+                    19.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231804" ,"all")'>
+                   <span class="time_Dom">
+                    21.40
+                    <span class="nb time_Dom nb1">
+                     Ingresso 6,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231884" ,"all")'>
+                   <span class="">
+                    10.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231871" ,"all")'>
+                   <span class="">
+                    17.05
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231872" ,"all")'>
+                   <span class="">
+                    19.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231873" ,"all")'>
+                   <span class="time_Dom">
+                    21.25
+                    <span class="nb time_Dom nb1">
+                     Ingresso 6,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231922" ,"all")'>
+                   <span class="">
+                    10.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231923" ,"all")'>
+                   <span class="">
+                    15.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231919" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231920" ,"all")'>
+                   <span class="">
+                    19.25
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231921" ,"all")'>
+                   <span class="time_Dom">
+                    21.35
+                    <span class="nb time_Dom nb1">
+                     Ingresso 6,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231901" ,"all")'>
+                   <span class="">
+                    11.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231897" ,"all")'>
+                   <span class="">
+                    17.40
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231898" ,"all")'>
+                   <span class="">
+                    19.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6565&amp;performanceId=231899" ,"all")'>
+                   <span class="time_OV">
+                    21.45
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231849" ,"all")'>
+                   <span class="">
+                    14.40
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231852" ,"all")'>
+                   <span class="">
+                    21.25
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231829" ,"all")'>
+                   <span class="">
+                    14.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231827" ,"all")'>
+                   <span class="">
+                    19.05
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_Dom">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231885" ,"all")'>
+                   <span class="">
+                    14.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231851" ,"all")'>
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231828" ,"all")'>
+                   <span class="time_Dom">
+                    21.10
+                    <span class="nb time_Dom nb1">
+                     Ingresso 6,50 €
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17028">
+                  wildwood - i segreti del bosco proibito
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6543&amp;performanceId=231902" ,"all")'>
+                   <span class="">
+                    14.55
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="http://portoastra.it/?post_type=remotefilm&amp;p=15670">
+                  il gatto col cappello
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6559&amp;performanceId=231850" ,"all")'>
+                   <span class="">
+                    16.35
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17019">
+                  l'estranea
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231826" ,"all")'>
+                   <span class="">
+                    16.45
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231853" ,"all")'>
+                   <span class="">
+                    16.50
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231830" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231805" ,"all")'>
+                   <span class="">
+                    17.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231806" ,"all")'>
+                   <span class="">
+                    20.50
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231903" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231904" ,"all")'>
+                   <span class="">
+                    20.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231874" ,"all")'>
+                   <span class="">
+                    17.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231875" ,"all")'>
+                   <span class="">
+                    20.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231782" ,"all")'>
+                   <span class="">
+                    17.25
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231783" ,"all")'>
+                   <span class="time_OV">
+                    20.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231924" ,"all")'>
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6565&amp;performanceId=231832" ,"all")'>
+                   <span class="time_OV">
+                    21.10
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231831" ,"all")'>
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17248">
+                  in un battito
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6567&amp;performanceId=231854" ,"all")'>
+                   <span class="">
+                    19.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17266">
+                  2001: odissea nello spazio
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6569&amp;performanceId=231925" ,"all")'>
+                   <span class="time_OV">
+                    20.15
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17089">
+                  la storia infinita
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6568&amp;performanceId=231855" ,"all")'>
+                   <span class="">
+                    21.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-7" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-7" id="x-legacy-panel-7" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231856" ,"all")'>
+                   <span class="">
+                    16.50
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231833" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231808" ,"all")'>
+                   <span class="">
+                    17.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231809" ,"all")'>
+                   <span class="">
+                    20.50
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231905" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231906" ,"all")'>
+                   <span class="">
+                    20.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item titolo">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17019">
+                  l'estranea
+                  <span class="nb">
+                   Ingresso a 4,00 €
+                  </span>
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item ore">
+                <b>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231886" ,"all")'>
+                   <span class="">
+                    17.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6525&amp;performanceId=231887" ,"all")'>
+                   <span class="">
+                    20.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231785" ,"all")'>
+                   <span class="">
+                    17.25
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231786" ,"all")'>
+                   <span class="">
+                    20.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231926" ,"all")'>
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231835" ,"all")'>
+                   <span class="">
+                    21.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16808">
+                  un tranquillo funerale di famiglia
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6551&amp;performanceId=231834" ,"all")'>
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17248">
+                  in un battito
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6567&amp;performanceId=231857" ,"all")'>
+                   <span class="">
+                    19.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17266">
+                  2001: odissea nello spazio
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6569&amp;performanceId=231927" ,"all")'>
+                   <span class="time_OV">
+                    20.15
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17089">
+                  la storia infinita
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6568&amp;performanceId=231858" ,"all")'>
+                   <span class="">
+                    21.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-8" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-8" id="x-legacy-panel-8" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16872">
+                  scrooge e gli spiriti del natale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231859" ,"all")'>
+                   <span class="">
+                    16.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6563&amp;performanceId=231860" ,"all")'>
+                   <span class="">
+                    19.40
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16875">
+                  un weekend artificiale
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231836" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6562&amp;performanceId=231861" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16873">
+                  il rumore delle cose nuove
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231811" ,"all")'>
+                   <span class="">
+                    17.10
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231812" ,"all")'>
+                   <span class="">
+                    19.50
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6566&amp;performanceId=231813" ,"all")'>
+                   <span class="">
+                    22.15
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231928" ,"all")'>
+                   <span class="">
+                    17.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231929" ,"all")'>
+                   <span class="">
+                    19.30
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17029">
+                  dio ride
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231880" ,"all")'>
+                   <span class="">
+                    17.20
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231881" ,"all")'>
+                   <span class="">
+                    19.45
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6552&amp;performanceId=231882" ,"all")'>
+                   <span class="">
+                    22.10
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16869">
+                  wild horse nine
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231788" ,"all")'>
+                   <span class="">
+                    17.25
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6556&amp;performanceId=231789" ,"all")'>
+                   <span class="">
+                    20.05
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6557&amp;performanceId=231790" ,"all")'>
+                   <span class="time_OV">
+                    22.30
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17155">
+                  look back
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231907" ,"all")'>
+                   <span class="">
+                    17.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231908" ,"all")'>
+                   <span class="">
+                    20.15
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6565&amp;performanceId=231838" ,"all")'>
+                   <span class="time_OV">
+                    21.10
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6564&amp;performanceId=231909" ,"all")'>
+                   <span class="">
+                    22.20
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17089">
+                  la storia infinita
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6568&amp;performanceId=231837" ,"all")'>
+                   <span class="">
+                    19.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=17266">
+                  2001: odissea nello spazio
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6569&amp;performanceId=231930" ,"all")'>
+                   <span class="time_OV">
+                    21.40
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-9" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-9" id="x-legacy-panel-9" role="tabpanel">
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16877">
+                  hunger games - l'alba sulla mietitura
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="time_OV">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6560&amp;performanceId=231744" ,"all")'>
+                   <span class="">
+                    17.00
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6560&amp;performanceId=231745" ,"all")'>
+                   <span class="">
+                    20.30
+                   </span>
+                  </a>
+                 </span>
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6561&amp;performanceId=231748" ,"all")'>
+                   <span class="time_OV">
+                    21.00
+                    <span class="nb nb1">
+                     V.O.S
+                    </span>
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
+              <ul class="x-block-grid two-up orariUl">
+               <li class="block_grid_item">
+                <b>
+                 <a href="https://portoastra.it/?post_type=remotefilm&amp;p=16866">
+                  se domani non torno
+                 </a>
+                </b>
+               </li>
+               <li class="block_grid_item">
+                <b class="">
+                 <span class="x-column x-sm">
+                  <a href='javascript:frameWebTic( "http://www.webtic.it/mobile/?trackid=41&amp;action=loadPerformance&amp;localId=5082&amp;eventId=6555&amp;performanceId=231769" ,"all")'>
+                   <span class="">
+                    20.00
+                   </span>
+                  </a>
+                 </span>
+                </b>
+               </li>
+              </ul>
              </div>
              <div id="webticFrame">
              </div>
@@ -842,6 +2664,9 @@
                </span>
               </div>
              </div>
+             <span class="x-new-tab-notice">
+              (opens in a new tab)
+             </span>
             </a>
             <div class="x-text x-text-headline e16717-e15 mcwd-r mcwd-s mcwd-v mcwd-w mcwd-x mcwd-10 mcwd-11 mcwd-12">
              <div class="x-text-content">
@@ -854,6 +2679,55 @@
             </div>
             <div class="x-row e16717-e16 mcwd-8 mcwd-9 mcwd-d mcwd-f mcwd-j">
              <div class="x-row-inner">
+              <a class="x-col e16717-e17 mcwd-l mcwd-n mcwd-5 mcwd-6" data-x-effect='{"durationBase":"400ms"}' data-x-effect-provider="colors particles effects" href="https://portoastra.it/se-domani-non-torno-incontro-con-il-cast/">
+               <figure class="x-div e16717-e18 mcwd-1f mcwd-1g">
+                <span class="x-image e16717-e19 mcwd-1i">
+                 <img alt="Featured image for “Se domani non torno: incontro con il cast”" decoding="async" height="157" loading="lazy" src="https://portoastra.it/wp-content/uploads/2026/03/Cara-Giulia.png" width="425"/>
+                </span>
+               </figure>
+               <article class="x-div e16717-e20 mcwd-1g mcwd-1h">
+                <div class="x-text x-text-headline e16717-e21 mcwd-q mcwd-r mcwd-t mcwd-v mcwd-x mcwd-11 mcwd-12 mcwd-13 mcwd-14 mcwd-5 mcwd-7">
+                 <div class="x-text-content">
+                  <div class="x-text-content-text">
+                   <h2 class="x-text-content-text-primary">
+                    Se domani non torno: incontro con il cast
+                   </h2>
+                  </div>
+                 </div>
+                </div>
+                <div class="x-text x-content e16717-e22 mcwd-17 mcwd-18 mcwd-1b">
+                 Giovedì 19 Novembre alle ore 20.00 saranno presenti in sala la regista Paola Randi e i tre giovani protagonisti del…
+                </div>
+                <div class="x-text x-text-headline has-graphic e16717-e23 mcwd-r mcwd-t mcwd-v mcwd-y mcwd-11 mcwd-14 mcwd-15 mcwd-5 mcwd-7">
+                 <div class="x-text-content">
+                  <span aria-hidden="true" class="x-graphic">
+                   <i aria-hidden="true" class="x-icon x-graphic-child x-graphic-icon x-graphic-primary x-flip-y" data-x-icon-o="">
+                   </i>
+                   <i aria-hidden="true" class="x-icon x-graphic-child x-graphic-icon x-graphic-secondary x-flip-y" data-x-icon-s="">
+                   </i>
+                  </span>
+                  <div class="x-text-content-text">
+                   <h1 class="x-text-content-text-primary">
+                    arianna.abriani
+                   </h1>
+                  </div>
+                 </div>
+                </div>
+               </article>
+               <span class="x-anchor x-anchor-button has-graphic e16717-e24 mcwd-1d mcwd-1e" tabindex="0">
+                <div class="x-anchor-content">
+                 <span aria-hidden="true" class="x-graphic">
+                  <i aria-hidden="true" class="x-icon x-graphic-child x-graphic-icon x-graphic-primary" data-x-icon-s="">
+                  </i>
+                 </span>
+                 <div class="x-anchor-text">
+                  <span class="x-anchor-text-primary">
+                   LEGGI TUTTO
+                  </span>
+                 </div>
+                </div>
+               </span>
+              </a>
               <a class="x-col e16717-e17 mcwd-l mcwd-n mcwd-5 mcwd-6" data-x-effect='{"durationBase":"400ms"}' data-x-effect-provider="colors particles effects" href="https://portoastra.it/la-domenica-mattina-al-portoastra/">
                <figure class="x-div e16717-e18 mcwd-1f mcwd-1g">
                 <span class="x-image e16717-e19 mcwd-1i">
@@ -871,7 +2745,7 @@
                  </div>
                 </div>
                 <div class="x-text x-content e16717-e22 mcwd-17 mcwd-18 mcwd-1b">
-                 8 novembre, le proiezioni della domenica mattina…
+                 15 Novembre, le proiezioni della domenica mattina…
                 </div>
                 <div class="x-text x-text-headline has-graphic e16717-e23 mcwd-r mcwd-t mcwd-v mcwd-y mcwd-11 mcwd-14 mcwd-15 mcwd-5 mcwd-7">
                  <div class="x-text-content">
@@ -920,7 +2794,7 @@
                  </div>
                 </div>
                 <div class="x-text x-content e16717-e22 mcwd-17 mcwd-18 mcwd-1b">
-                 Clicca su LEGGI TUTTO per scoprire titoli, giorni e orari dal 5 all’11 Novembre e per capire come acquistare il…
+                 Clicca su LEGGI TUTTO per scoprire titoli, giorni e orari dal 12 al 18 Novembre e per capire come acquistare…
                 </div>
                 <div class="x-text x-text-headline has-graphic e16717-e23 mcwd-r mcwd-t mcwd-v mcwd-y mcwd-11 mcwd-14 mcwd-15 mcwd-5 mcwd-7">
                  <div class="x-text-content">
@@ -1117,7 +2991,7 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e16717-e30 mcwd-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-13852">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="13852" data-token="7c975b8594c5a9287b00ae23dc7b73f4" data-token-time="1794340669" enctype="multipart/form-data" id="wpforms-form-13852" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="13852" data-token="b5ab120ce6712faddab0895bd77cc10f" data-token-time="1794426526" enctype="multipart/form-data" id="wpforms-form-13852" method="post">
                <div class="wpforms-field-container">
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-13852-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-13852-field_2">
@@ -1130,7 +3004,7 @@
                 </div>
                 <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-13852-field_1-container">
                  <label class="wpforms-field-label" for="wpforms-13852-field_1">
-                  Privacy Informativa Email
+                  Informativa Privacy Email
                  </label>
                  <input class="wpforms-field-medium" id="wpforms-13852-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>
@@ -1184,7 +3058,7 @@
          <br/>
          P. IVA 03378270288
         </div>
-        <ul class="x-menu-first-level x-menu x-menu-inline e541-e4 mf1-9 mf1-a mf1-c mf1-d" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}'>
+        <ul class="x-menu-first-level x-menu x-menu-inline e541-e4 mf1-9 mf1-a mf1-c mf1-d" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-538" id="menu-item-538">
           <a class="x-anchor x-anchor-menu-item has-particle mf1-f mf1-g mf1-h mf1-i mf1-j mf1-k mf1-l" href="https://portoastra.it/lavora-con-noi/" tabindex="0">
            <span aria-hidden="true" class="x-particle is-primary" data-x-particle="scale-x_y inside-b_c">
@@ -1277,7 +3151,7 @@
      <div class="x-bar x-bar-footer x-bar-h x-bar-relative x-bar-outer-spacers x-hide-lg x-hide-md x-hide-xl e541-e5 mf1-1 mf1-2" data-x-bar='{"id":"e541-e5","region":"footer","height":"15em"}'>
       <div class="e541-e5 x-bar-content">
        <div class="x-bar-container e541-e6 mf1-3 mf1-5">
-        <ul class="x-menu-first-level x-menu x-menu-inline e541-e7 mf1-a mf1-b mf1-d mf1-e" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}'>
+        <ul class="x-menu-first-level x-menu x-menu-inline e541-e7 mf1-a mf1-b mf1-d mf1-e" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' role="navigation">
          <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-538">
           <a class="x-anchor x-anchor-menu-item mf1-g mf1-h mf1-k mf1-l mf1-o mf1-p" href="https://portoastra.it/lavora-con-noi/" tabindex="0">
            <div class="x-anchor-content">
@@ -1351,7 +3225,7 @@
       </div>
      </div>
     </footer>
-    <ul aria-hidden="true" class="x-dropdown x-menu x-menu-dropdown mc7-11 mc7-z mc7-12 e439-e14" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' data-x-stem="" data-x-stem-root="" data-x-toggleable="e439-e14" id="e439-e14-dropdown">
+    <ul aria-hidden="true" class="x-dropdown x-menu x-menu-dropdown mc7-11 mc7-z mc7-12 e439-e14" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' data-x-stem="" data-x-stem-root="" data-x-toggleable="e439-e14" id="e439-e14-dropdown" role="navigation">
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16717 current_page_item menu-item-16735" id="menu-item-16735">
       <a class="x-anchor x-anchor-menu-item mc7-13 mc7-14 mc7-16 mc7-18 mc7-19 mc7-1a mc7-1e x-always-active" href="https://portoastra.it/" tabindex="0">
        <div class="x-anchor-content">
@@ -1444,7 +3318,7 @@
       </a>
      </li>
     </ul>
-    <ul aria-hidden="true" class="x-dropdown x-menu x-menu-dropdown mc7-11 mc7-z mc7-12 e439-e19" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' data-x-stem="" data-x-stem-root="" data-x-toggleable="e439-e19" id="e439-e19-dropdown">
+    <ul aria-hidden="true" class="x-dropdown x-menu x-menu-dropdown mc7-11 mc7-z mc7-12 e439-e19" data-x-hoverintent='{"interval":50,"timeout":500,"sensitivity":9}' data-x-stem="" data-x-stem-root="" data-x-toggleable="e439-e19" id="e439-e19-dropdown" role="navigation">
      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16717 current_page_item menu-item-16735">
       <a class="x-anchor x-anchor-menu-item mc7-13 mc7-14 mc7-16 mc7-19 mc7-1a mc7-1e mc7-1j x-always-active" href="https://portoastra.it/" tabindex="0">
        <div class="x-anchor-content">
