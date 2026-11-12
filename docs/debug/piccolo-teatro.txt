@@ -60,89 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24721 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24721" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare-2/" title="Santiago – Un cammino per ricominciare">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="951" src="https://www.piccolo-padova.it/wp-content/uploads/SANTIAGO-ARTWORK-UBU-700x951-1.webp" width="700"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/santiago-un-cammino-per-ricominciare-2/">
-              <h2 class="entry-title" itemprop="name headline">
-               Santiago – Un cammino per ricominciare
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 11 novembre ore 18.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              <span class="ytAttributedStringHost ytAttributedStringWhiteSpacePreWrap" dir="auto" role="text">
-               <span class="ytAttributedStringLinkInheritColor" dir="auto">
-                Adam, un adolescente dalla vita turbolenta, e Fred, una professoressa che sta attraversando un periodo difficile, non si conoscono. Eppure, grazie a un’associazione, intraprendono insieme il Cammino di Santiago di Compostela. Lei ha bisogno di rimettere ordine nella sua vita, lui di placare la propria rabbia e il senso di abbandono. Chilometro dopo chilometro, tra scontri, stanchezza e momenti felici, nasce un legame destinato a cambiare profondamente entrambi. Perché ogni passo può diventare una rinascita e, a volte, gli incontri più improbabili sono quelli che cambiano davvero la vita.
-               </span>
-              </span>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
-         <article class="post-24690 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24690" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/calle-malaga/" title="Calle Malaga">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/Calle-Malaga-poster-717x1024-2.jpg" width="717"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/calle-malaga/">
-              <h2 class="entry-title" itemprop="name headline">
-               Calle Malaga
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 11 novembre ore 21.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Il caftano blu è un film che è entrato nel cuore del pubblico dei mercoledì d’essai. Ha un posto speciale nei vostri ricordi. Quei film che rimangono, stop! E quindi non vorrai mica perderti il suo nuovo film ambientato a Tangeri in questa via che realmente esiste? Non ti serve sapere altro.
-              <br/>
-              <strong>
-               <br/>
-               CON ANALISI DEL FILM IN SALA DI A. PREVEDELLO
-              </strong>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24718 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24718" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/the-invite-il-piacere-e-tutto-nostro/" title="The Invite – Il piacere è tutto nostro">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/invite-656x1024.jpg" width="656"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/invite-656x1024.jpg" width="656"/>
              </a>
             </div>
            </div>
@@ -180,7 +103,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/digger/" title="Digger">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 591px) 100vw, 591px" data-src="https://www.piccolo-padova.it/wp-content/uploads/digger-1.jpg" decoding="async" height="877" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20591%20877%22%3E%3C/svg%3E" width="591"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="877" src="https://www.piccolo-padova.it/wp-content/uploads/digger-1.jpg" width="591"/>
              </a>
             </div>
            </div>
@@ -216,7 +139,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/naza/" title="Naza">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 374px) 100vw, 374px" data-src="https://www.piccolo-padova.it/wp-content/uploads/naza.jpg" decoding="async" height="534" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20374%20534%22%3E%3C/svg%3E" width="374"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="534" src="https://www.piccolo-padova.it/wp-content/uploads/naza.jpg" width="374"/>
              </a>
             </div>
            </div>
@@ -469,6 +392,91 @@
            </div>
           </div>
          </article>
+         <article class="post-24627 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24627" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/la-locandiera-2/" title="LA LOCANDIERA">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-LOCANDIERA-2026-1-pdf-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/la-locandiera-2/">
+              <h2 class="entry-title" itemprop="name headline">
+               LA LOCANDIERA
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               venerdì 20 novembre ore 21.15
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Tutti i clienti che frequentano la locanda di Mirandolina sono destinati a perdere la testa per lei: le sue studiate premure, la sua calcolata cortesia, i suoi modi astutamente amabili e seducenti le garantiscono la totale devozione degli uomini che …
+              <a href="https://www.piccolo-padova.it/la-locandiera-2/">
+               Continua
+              </a>
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               Commedia di Carlo Goldoni – Compagnia Dell’Orso di Lonigo (VI) – Adattamento e Regia di Paolo Marchetto
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-24694 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24694" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/il-silenzio-degli-altri-vos/" title="Il silenzio degli altri (VOS)">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 463px) 100vw, 463px" data-src="https://www.piccolo-padova.it/wp-content/uploads/il-silenzion-degli-altri.jpg" decoding="async" height="662" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20463%20662%22%3E%3C/svg%3E" width="463"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/il-silenzio-degli-altri-vos/">
+              <h2 class="entry-title" itemprop="name headline">
+               Il silenzio degli altri (VOS)
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               mercoledì 25 novembre ore 21.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Eccolo, finalmente il film capolavoro spagnolo di Eva Libertad approda al Piccolo. Siete bravi che avete pazienza, ma poi i film imperdibili arrivano e come sempre hanno girato pochissimo. Con questo accontentiamo chi vuole i film esteticamente altissimi, coraggiosi in termini sociali, zeppi in termini di emozioni, avanguardistici sul piano dei diritti e pure per i puristi del Vos. Una serata che porterà ad un finale carico di senso!
+             </p>
+             <p>
+              <strong>
+               IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
+              </strong>
+              <br/>
+              <strong>
+               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
+              </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
          <div class="wp-pagenavi">
           <nav aria-label="Paginazione degli articoli" class="navigation pagination">
            <h2 class="screen-reader-text">
@@ -514,18 +522,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_bx8no" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_bx8no">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1t1nm" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_1t1nm">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1am9c" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_14pmg" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_1am9c">
+             <span class="mailpoet_error_14pmg">
              </span>
             </div>
             <div class="mailpoet_paragraph">
