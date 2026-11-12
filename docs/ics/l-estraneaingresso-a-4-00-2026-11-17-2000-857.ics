@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:7478074865384584872@cinema-scraper.local
+DTSTAMP:20261112T031443Z
+DTSTART:20261117T190000Z
+DTEND:20261117T210000Z
+SUMMARY:L'Estraneaingresso A 4\,00 €
+LOCATION:Multiastra
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1445399176957971149@cinema-scraper.local
+DTSTAMP:20261112T031443Z
+DTSTART:20261217T194500Z
+DTEND:20261217T211500Z
+SUMMARY:Cleo dalle 5 alle 7 - Agnès Varda
+LOCATION:Cinema Rex
+DESCRIPTION:V.O.S. · Cineforum\nhttps://www.cinemarex.it/evento?eventName=cleo_dalle_5_alle_7
+END:VEVENT
+END:VCALENDAR
