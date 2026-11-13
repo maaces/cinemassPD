@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4488010889520422564@cinema-scraper.local
+DTSTAMP:20261113T005506Z
+DTSTART:20261210T150000Z
+DTEND:20261210T165100Z
+SUMMARY:Una storia vera - David Lynch
+LOCATION:Cinema Rex
+DESCRIPTION:Prezzo: 5€\nPomeriggio al Rex\nhttps://www.cinemarex.it/evento?eventName=una_storia_vera
+END:VEVENT
+END:VCALENDAR
