@@ -84,6 +84,11 @@
           Nessuna categoria (1)
          </div>
         </a>
+        <a href="?category=3">
+         <div class="Bcategorylist">
+          Concerti ed eventi vari (1)
+         </div>
+        </a>
        </div>
       </div>
      </div>
@@ -128,7 +133,7 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           12-11-2026
+           13-11-2026
           </div>
          </div>
          <div class="Bsocial">
@@ -145,8 +150,8 @@
         </div>
        </div>
        <div class="blog_post">
-        <a class="show" href="./Post?postid=900">
-         <img class="Bfotopost" src="data/img/900/santiagouncamminoperricominciare.jpeg"/>
+        <a class="show" href="./Post?postid=884">
+         <img class="Bfotopost" src="data/img/884/festa.avif"/>
         </a>
         <a href="?category=1">
          <div class="Bcategorybutton">
@@ -154,26 +159,20 @@
          </div>
         </a>
         <div class="news_article">
-         <a class="show" href="./Post?postid=900">
+         <a class="show" href="./Post?postid=884">
           <div class="Btitle">
-           SANTIAGO. UN CAMMINO PER RICOMINCIARE
+           CINEMA ESPERIA IN FESTA
           </div>
           <div class="Bsubtitle">
-           Sabato 14 nov ore 20:30 (Esperia in festa) - Domenica 15 nov ore 18:30 (interi 6 euro; ridotti: 5 euro) - Martedì 17 nov ore 21:00 (biglietto 4 euro: La Regione ti porta al cinema)
+           SABATO 14 NOVEMBRE ore 20:30 - biglietto offerto
           </div>
          </a>
-         <a class="show" href="./Post?postid=900">
+         <a class="show" href="./Post?postid=884">
           <div class="readmore-content" data-truncated-length="300">
            <div class="Btext">
+            LE PRENOTAZIONI CHIUDONO ALLE ORE 24:00 di Venerdì 13.11 - Saranno RITENUTE VALIDE fino alle ore 22.20 di SABATO 14 nov - Il RITIRO dei biglietti va fatto a nome del PRIMO PENOTANTE . Grazie
             <br/>
-            <strong>
-             <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
-              ACQUISTA ONLINE DOMENICA E MARTEDi′
-             </a>
-            </strong>
-            <br/>
-            <br/>
-            Di Yann Samuell con Alexandra Lamy, Julien Le Berre, Mal...
+            Se ...
            </div>
           </div>
          </a>
@@ -181,17 +180,17 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           12-11-2026
+           13-11-2026
           </div>
          </div>
          <div class="Bsocial">
-          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
           </a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
           </a>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
           </a>
          </div>
@@ -236,7 +235,7 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           12-11-2026
+           13-11-2026
           </div>
          </div>
          <div class="Bsocial">
@@ -247,6 +246,59 @@
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
           </a>
           <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D894" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
+          </a>
+         </div>
+        </div>
+       </div>
+       <div class="blog_post">
+        <a class="show" href="./Post?postid=900">
+         <img class="Bfotopost" src="data/img/900/santiagouncamminoperricominciare.jpeg"/>
+        </a>
+        <a href="?category=1">
+         <div class="Bcategorybutton">
+          Programmazione cinematografica
+         </div>
+        </a>
+        <div class="news_article">
+         <a class="show" href="./Post?postid=900">
+          <div class="Btitle">
+           SANTIAGO. UN CAMMINO PER RICOMINCIARE
+          </div>
+          <div class="Bsubtitle">
+           Sabato 14 nov ore 20:30 (Esperia in festa) - Domenica 15 nov ore 18:30 (interi 6 euro; ridotti: 5 euro) - Martedì 17 nov ore 21:00 (biglietto 4 euro: La Regione ti porta al cinema)
+          </div>
+         </a>
+         <a class="show" href="./Post?postid=900">
+          <div class="readmore-content" data-truncated-length="300">
+           <div class="Btext">
+            <br/>
+            <strong>
+             <a href="http://www.2tickets.it/titoliese.aspx?ide=1633&amp;set=c" target="_blank">
+              ACQUISTA ONLINE DOMENICA E MARTEDi′
+             </a>
+            </strong>
+            <br/>
+            <br/>
+            Di Yann Samuell con Alexandra Lamy, Julien Le Berre, Mal...
+           </div>
+          </div>
+         </a>
+         <div class="news_date">
+          <div class="news_date_icon">
+          </div>
+          <div class="Btext">
+           13-11-2026
+          </div>
+         </div>
+         <div class="Bsocial">
+          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
+           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
+          </a>
+          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D900" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
           </a>
          </div>
@@ -267,7 +319,7 @@
            LE SENTINELLE DI PIETRA
           </div>
           <div class="Bsubtitle">
-           MERCOLEDI 18 novembre - ore 21:00 - Biglietto intero: 6 euro; ridotto: 5 euro (anche CAI); con video-saluto della protagonista
+           MERCOLEDI 18 novembre - ore 21:00 - Biglietto intero: 6 euro; ridotto: 5 euro (anche CAI); Con Regista e Protagonista
           </div>
          </a>
          <a class="show" href="./Post?postid=646">
@@ -283,7 +335,7 @@
             </p>
             <br/>
             <br/>
-            Regia: Francesco Gozzo, Daniele Gobbin - C...
+            Saranno presenti il regista FRANCESCO GOZZ...
            </div>
           </div>
          </a>
@@ -291,7 +343,7 @@
           <div class="news_date_icon">
           </div>
           <div class="Btext">
-           12-11-2026
+           13-11-2026
           </div>
          </div>
          <div class="Bsocial">
@@ -302,51 +354,6 @@
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
           </a>
           <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D646" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
-          </a>
-         </div>
-        </div>
-       </div>
-       <div class="blog_post">
-        <a class="show" href="./Post?postid=884">
-         <img class="Bfotopost" src="data/img/884/festa.avif"/>
-        </a>
-        <a href="?category=1">
-         <div class="Bcategorybutton">
-          Programmazione cinematografica
-         </div>
-        </a>
-        <div class="news_article">
-         <a class="show" href="./Post?postid=884">
-          <div class="Btitle">
-           CINEMA ESPERIA IN FESTA
-          </div>
-          <div class="Bsubtitle">
-           SABATO 14 NOVEMBRE ore 20:30 - biglietto offerto
-          </div>
-         </a>
-         <a class="show" href="./Post?postid=884">
-          <div class="readmore-content" data-truncated-length="300">
-           <div class="Btext">
-            Se siete venuti nel nostro Cinema dopo la riapertura di settembre vi siete accorti di alcune importanti novità. Allinterno la tappezzeria delle poltroncine è stata rifatta adottando un elegante color ...
-           </div>
-          </div>
-         </a>
-         <div class="news_date">
-          <div class="news_date_icon">
-          </div>
-          <div class="Btext">
-           09-11-2026
-          </div>
-         </div>
-         <div class="Bsocial">
-          <a href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Facebook.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
-           <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Linkedin.svg.php?Color=0,0,0"/>
-          </a>
-          <a href="https://twitter.com/share?url=https%3A%2F%2Fwww.esperiapadova.it%2F./Post%3Fpostid%3D884" target="_blank">
            <img class="Bsocialicon" src="https://www.esperiapadova.it/img/Twitter.svg.php?Color=0,0,0"/>
           </a>
          </div>
