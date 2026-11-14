@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1747447487035933503@cinema-scraper.local
+DTSTAMP:20261114T182814Z
+DTSTART:20261117T194000Z
+DTEND:20261117T214000Z
+SUMMARY:L'Estraneaingresso A 4\,00 €
+LOCATION:Porto Astra
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.
+END:VEVENT
+END:VCALENDAR

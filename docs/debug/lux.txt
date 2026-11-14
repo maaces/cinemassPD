@@ -624,7 +624,7 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-7d65271d" id="el-7d65271d">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="43ae1cd5-fbe1-48c5-a6fe-01045f670224" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="2390630f-727d-4d31-a9ba-8e2a901b5e27" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
@@ -719,8 +719,8 @@
                         </a>
                        </li>
                        <li class="tribe-events-c-top-bar__nav-list-item">
-                        <a aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" title="Prossimi eventi">
-                        </a>
+                        <button aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" disabled="" title="Prossimi eventi">
+                        </button>
                        </li>
                       </ul>
                      </nav>
@@ -729,30 +729,19 @@
                      </a>
                      <div class="tribe-events-c-top-bar__datepicker">
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-11-13">
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-11-14">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         Ora
+                         Prossimi eventi
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ora
-                        </span>
-                       </time>
-                       <span class="tribe-events-c-top-bar__datepicker-separator">
-                        -
-                       </span>
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-11-17">
-                        <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         11/17/2026
-                        </span>
-                        <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Novembre 17
+                         Prossimi eventi
                         </span>
                        </time>
                       </button>
                       <label class="tribe-events-c-top-bar__datepicker-label tribe-common-a11y-visual-hide" for="tribe-events-top-bar-date">
                        Seleziona la data.
                       </label>
-                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="11/13/2026"/>
+                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="11/14/2026"/>
                       <div class="tribe-events-c-top-bar__datepicker-container" data-js="tribe-events-top-bar-datepicker-container">
                       </div>
                       <template class="tribe-events-c-top-bar__datepicker-template-prev-icon">
@@ -772,119 +761,6 @@
                        Novembre 2026
                       </time>
                      </h3>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000926 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-13">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Ven
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        13
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000926 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-13">
-                           <span class="tribe-event-date-start">
-                            Novembre 13/ 20:30
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000933 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-14">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Sab
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        14
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000933 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-3/2026-11-14/5/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-14">
-                           <span class="tribe-event-date-start">
-                            Novembre 14/ 15:40
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-2/">
-                            <span class="tec_series_marker__title">
-                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-3/2026-11-14/5/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
                      <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000928 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
@@ -1443,6 +1319,109 @@
                       </article>
                      </div>
                     </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000931 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-18">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Mer
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        18
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000931 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2023/07/un-dollaro-donore-poster.jpg" title="un-dollaro-donore-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/un-dollaro-donore-howard-hawks-usa-1959-141%e2%80%b2-vos/" rel="bookmark" title="UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*">
+                           UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-18">
+                           <span class="tribe-event-date-start">
+                            Novembre 18/ 20:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Rio Bravo, Texas. Lo sceriffo Chance dopo aver arrestato Joe Burdett per omicidio deve fronteggiare il fratello Nathan, ricco possidente terriero, che con i suoi uomini tenta di liberarlo. Chance può contare solo sul vecchio Stumpy che staziona nella prigione e su Dude, ex vicesceriffo che ha ripreso il suo ruolo dopo anni passati a ...
+                          <a aria-label="Per saperne di più su UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*" class="read-more" href="https://www.movieconnection.it/proiezione/un-dollaro-donore-howard-hawks-usa-1959-141%e2%80%b2-vos/" title="UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000935 tribe_events type-tribe_events status-publish hentry">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-19">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Gio
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        19
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000935 tribe_events type-tribe_events status-publish hentry">
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/i-custodi-della-memoria-la-natura-al-tempo-del-fuoco-francesco-conversano-nene-grignaffini-italia-2026-80/" rel="bookmark" title="CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)">
+                           CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-19">
+                           <span class="tribe-event-date-start">
+                            Novembre 19/ 21:00
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Gli incendi boschivi hanno devastato quasi 5 milioni di ettari nella British Columbia, in Canada tra il 2023 e il 2025. Attraverso le testimonianze dei popoli indigeni, le voci delle foreste e i racconti di chi ha vissuto il disastro ambientale, il documentario invita a riscoprire l’antica connessione tra esseri umani e natura e il ...
+                          <a aria-label="Per saperne di più su CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)" class="read-more" href="https://www.movieconnection.it/proiezione/i-custodi-della-memoria-la-natura-al-tempo-del-fuoco-francesco-conversano-nene-grignaffini-italia-2026-80/" title="CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
                    </ul>
                    <nav aria-label="Bottom eventi list pagination" class="tribe-events-calendar-list-nav tribe-events-c-nav">
                     <ul class="tribe-events-c-nav__list">
@@ -1462,11 +1441,11 @@
                       </a>
                      </li>
                      <li class="tribe-events-c-nav__list-item tribe-events-c-nav__list-item--next">
-                      <a aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" rel="next" title="Prossimi eventi">
+                      <button aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" disabled="" title="Prossimi eventi">
                        <span class="tribe-events-c-nav__next-label">
                         Prossimi eventi
                        </span>
-                      </a>
+                      </button>
                      </li>
                     </ul>
                    </nav>
@@ -1547,7 +1526,7 @@
                </div>
                <div class="vce-shortcode">
                 <div class="vce-shortcode-wrapper vce" data-vce-do-apply="all el-34e65818" id="el-34e65818">
-                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="b5d53ef3-7a2a-4d66-9e88-70b665fcc2d0" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
+                 <div class="tribe-common tribe-events tribe-events-view tribe-events-view--list alignwide tribe-events-view--shortcode tribe-events-view--shortcode-24f53d40" data-js="tribe-events-view" data-view-breakpoint-pointer="25eafd22-378d-4b8a-8fb7-fdf31c56775f" data-view-manage-url="" data-view-rest-method="GET" data-view-rest-url="https://www.movieconnection.it/wp-json/tribe/views/v2/html" data-view-shortcode="24f53d40">
                   <section class="tribe-common-l-container tribe-events-l-container">
                    <div aria-live="polite" class="tribe-events-view-loader tribe-common-a11y-hidden" role="alert">
                     <span class="tribe-events-view-loader__text tribe-common-a11y-visual-hide">
@@ -1642,8 +1621,8 @@
                         </a>
                        </li>
                        <li class="tribe-events-c-top-bar__nav-list-item">
-                        <a aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" title="Prossimi eventi">
-                        </a>
+                        <button aria-label="Prossimi eventi" class="tribe-common-c-btn-icon tribe-common-c-btn-icon--caret-right tribe-events-c-top-bar__nav-link tribe-events-c-top-bar__nav-link--next" disabled="" title="Prossimi eventi">
+                        </button>
                        </li>
                       </ul>
                      </nav>
@@ -1652,30 +1631,19 @@
                      </a>
                      <div class="tribe-events-c-top-bar__datepicker">
                       <button aria-description="Cliccare per aprire/chiudere il selettore della data" class="tribe-common-c-btn__clear tribe-common-h3 tribe-common-h--alt tribe-events-c-top-bar__datepicker-button" data-js="tribe-events-top-bar-datepicker-button" type="button">
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-11-13">
+                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-11-14">
                         <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         Ora
+                         Prossimi eventi
                         </span>
                         <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Ora
-                        </span>
-                       </time>
-                       <span class="tribe-events-c-top-bar__datepicker-separator">
-                        -
-                       </span>
-                       <time class="tribe-events-c-top-bar__datepicker-time" datetime="2026-11-17">
-                        <span class="tribe-events-c-top-bar__datepicker-mobile">
-                         11/17/2026
-                        </span>
-                        <span class="tribe-events-c-top-bar__datepicker-desktop tribe-common-a11y-hidden">
-                         Novembre 17
+                         Prossimi eventi
                         </span>
                        </time>
                       </button>
                       <label class="tribe-events-c-top-bar__datepicker-label tribe-common-a11y-visual-hide" for="tribe-events-top-bar-date">
                        Seleziona la data.
                       </label>
-                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="11/13/2026"/>
+                      <input autocomplete="off" class="tribe-events-c-top-bar__datepicker-input tribe-common-a11y-visual-hide" data-js="tribe-events-top-bar-date" id="tribe-events-top-bar-date" name="tribe-events-views[tribe-bar-date]" readonly="readonly" tabindex="-1" type="text" value="11/14/2026"/>
                       <div class="tribe-events-c-top-bar__datepicker-container" data-js="tribe-events-top-bar-datepicker-container">
                       </div>
                       <template class="tribe-events-c-top-bar__datepicker-template-prev-icon">
@@ -1695,119 +1663,6 @@
                        Novembre 2026
                       </time>
                      </h3>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000926 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-13">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Ven
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        13
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000926 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-13">
-                           <span class="tribe-event-date-start">
-                            Novembre 13/ 20:30
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-vos/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′) *VOS*">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
-                    </li>
-                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
-                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000933 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-14">
-                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
-                        Sab
-                       </span>
-                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
-                        14
-                       </span>
-                      </time>
-                     </div>
-                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
-                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000933 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
-                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
-                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2026/10/fatherland-poster.jpg" title="fatherland-poster" width="560"/>
-                       </div>
-                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
-                        <header class="tribe-events-calendar-list__event-header">
-                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
-                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-3/2026-11-14/5/" rel="bookmark" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
-                           FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)
-                          </a>
-                         </h4>
-                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
-                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-14">
-                           <span class="tribe-event-date-start">
-                            Novembre 14/ 15:40
-                           </span>
-                           <span class="tribe-event-time">
-                           </span>
-                          </time>
-                          <span class="tribe-events-calendar-series-archive__container">
-                           <a aria-label="Serie di eventi: FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="tribe-events-calendar-series-archive__link" href="https://www.movieconnection.it/series/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-2/">
-                            <span class="tec_series_marker__title">
-                             FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)
-                            </span>
-                           </a>
-                          </span>
-                         </div>
-                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
-                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
-                           cinema Lux
-                          </span>
-                          <span class="tribe-events-calendar-list__event-venue-address">
-                           via Cavallotti,9, Padova, Italy
-                          </span>
-                         </address>
-                        </header>
-                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
-                         <p>
-                          1949, all’apice della Guerra Fredda. Thomas Mann (Hanns Zischler), scrittore Premio Nobel, e la figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally compiono insieme un viaggio in auto attraversando la Germania in rovina, ancora devastata dal Secondo conflitto mondiale: da Francoforte, dominata dagli americani, raggiungono Weimar, controllata invece dai sovietici. Tornato a casa ...
-                          <a aria-label="Per saperne di più su FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)" class="read-more" href="https://www.movieconnection.it/proiezione/fatherland-pawel-pawlikowski-italia-pol-fra-ger-2026-82-3/2026-11-14/5/" title="FATHERLAND – Pawel Pawlikowski # Italia/Pol/Fra/Ger 2026 (82′)">
-                           Leggi tutto
-                          </a>
-                         </p>
-                        </div>
-                       </div>
-                      </article>
-                     </div>
                     </li>
                     <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
                      <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000928 tribe_events type-tribe_events status-publish has-post-thumbnail hentry tribe-recurring-event tribe-recurring-event-parent">
@@ -2366,6 +2221,109 @@
                       </article>
                      </div>
                     </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000931 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-18">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Mer
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        18
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000931 tribe_events type-tribe_events status-publish has-post-thumbnail hentry">
+                       <div class="tribe-events-calendar-list__event-featured-image-wrapper tribe-common-g-col">
+                        <img alt="" class="tribe-events-calendar-list__event-featured-image" height="800" src="https://www.movieconnection.it/wp-content/uploads/2023/07/un-dollaro-donore-poster.jpg" title="un-dollaro-donore-poster" width="560"/>
+                       </div>
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/un-dollaro-donore-howard-hawks-usa-1959-141%e2%80%b2-vos/" rel="bookmark" title="UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*">
+                           UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-18">
+                           <span class="tribe-event-date-start">
+                            Novembre 18/ 20:30
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Rio Bravo, Texas. Lo sceriffo Chance dopo aver arrestato Joe Burdett per omicidio deve fronteggiare il fratello Nathan, ricco possidente terriero, che con i suoi uomini tenta di liberarlo. Chance può contare solo sul vecchio Stumpy che staziona nella prigione e su Dude, ex vicesceriffo che ha ripreso il suo ruolo dopo anni passati a ...
+                          <a aria-label="Per saperne di più su UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*" class="read-more" href="https://www.movieconnection.it/proiezione/un-dollaro-donore-howard-hawks-usa-1959-141%e2%80%b2-vos/" title="UN DOLLARO D’ONORE – Howard Hawks # USA 1959 (141′)  *VOS*">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
+                    <li class="tribe-common-g-row tribe-events-calendar-list__event-row">
+                     <div class="tribe-events-calendar-list__event-date-tag tribe-common-g-col post-10000935 tribe_events type-tribe_events status-publish hentry">
+                      <time aria-hidden="true" class="tribe-events-calendar-list__event-date-tag-datetime" datetime="2026-11-19">
+                       <span class="tribe-events-calendar-list__event-date-tag-weekday">
+                        Gio
+                       </span>
+                       <span class="tribe-events-calendar-list__event-date-tag-daynum tribe-common-h5 tribe-common-h4--min-medium">
+                        19
+                       </span>
+                      </time>
+                     </div>
+                     <div class="tribe-events-calendar-list__event-wrapper tribe-common-g-col">
+                      <article class="tribe-events-calendar-list__event tribe-common-g-row tribe-common-g-row--gutters post-10000935 tribe_events type-tribe_events status-publish hentry">
+                       <div class="tribe-events-calendar-list__event-details tribe-common-g-col">
+                        <header class="tribe-events-calendar-list__event-header">
+                         <h4 class="tribe-events-calendar-list__event-title tribe-common-h6 tribe-common-h4--min-medium">
+                          <a class="tribe-events-calendar-list__event-title-link tribe-common-anchor-thin" href="https://www.movieconnection.it/proiezione/i-custodi-della-memoria-la-natura-al-tempo-del-fuoco-francesco-conversano-nene-grignaffini-italia-2026-80/" rel="bookmark" title="CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)">
+                           CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)
+                          </a>
+                         </h4>
+                         <div class="tribe-events-calendar-list__event-datetime-wrapper tribe-common-b2">
+                          <time class="tribe-events-calendar-list__event-datetime" datetime="2026-11-19">
+                           <span class="tribe-event-date-start">
+                            Novembre 19/ 21:00
+                           </span>
+                           <span class="tribe-event-time">
+                           </span>
+                          </time>
+                         </div>
+                         <address class="tribe-events-calendar-list__event-venue tribe-common-b2">
+                          <span class="tribe-events-calendar-list__event-venue-title tribe-common-b2--bold">
+                           cinema Lux
+                          </span>
+                          <span class="tribe-events-calendar-list__event-venue-address">
+                           via Cavallotti,9, Padova, Italy
+                          </span>
+                         </address>
+                        </header>
+                        <div class="tribe-events-calendar-list__event-description tribe-common-b2 tribe-common-a11y-hidden">
+                         <p>
+                          Gli incendi boschivi hanno devastato quasi 5 milioni di ettari nella British Columbia, in Canada tra il 2023 e il 2025. Attraverso le testimonianze dei popoli indigeni, le voci delle foreste e i racconti di chi ha vissuto il disastro ambientale, il documentario invita a riscoprire l’antica connessione tra esseri umani e natura e il ...
+                          <a aria-label="Per saperne di più su CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)" class="read-more" href="https://www.movieconnection.it/proiezione/i-custodi-della-memoria-la-natura-al-tempo-del-fuoco-francesco-conversano-nene-grignaffini-italia-2026-80/" title="CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO   Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)">
+                           Leggi tutto
+                          </a>
+                         </p>
+                        </div>
+                       </div>
+                      </article>
+                     </div>
+                    </li>
                    </ul>
                    <nav aria-label="Bottom eventi list pagination" class="tribe-events-calendar-list-nav tribe-events-c-nav">
                     <ul class="tribe-events-c-nav__list">
@@ -2385,11 +2343,11 @@
                       </a>
                      </li>
                      <li class="tribe-events-c-nav__list-item tribe-events-c-nav__list-item--next">
-                      <a aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" data-js="tribe-events-view-link" href="https://www.movieconnection.it/proiezioni/elenco/pagina/2/?shortcode=24f53d40" rel="next" title="Prossimi eventi">
+                      <button aria-label="Prossimi eventi" class="tribe-events-c-nav__next tribe-common-b2 tribe-common-b1--min-medium" disabled="" title="Prossimi eventi">
                        <span class="tribe-events-c-nav__next-label">
                         Prossimi eventi
                        </span>
-                      </a>
+                      </button>
                      </li>
                     </ul>
                    </nav>

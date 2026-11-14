@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//cinema-scraper//IT
 BEGIN:VEVENT
-UID:539211851894338657@cinema-scraper.local
-DTSTAMP:20261114T182503Z
+UID:3207603313842248048@cinema-scraper.local
+DTSTAMP:20261114T182814Z
 DTSTART:20261128T161500Z
 DTEND:20261128T175800Z
 SUMMARY:Hexe - Il regno delle streghe - Jason Hand
 LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.18tickets.it/film/162224
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/162224
 END:VEVENT
 END:VCALENDAR
