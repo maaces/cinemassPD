@@ -1,13 +1,13 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//cinema-scraper//IT
-BEGIN:VEVENT
-UID:8064791068330839149@cinema-scraper.local
-DTSTAMP:20261116T003124Z
-DTSTART:20261118T190000Z
-DTEND:20261118T205300Z
-SUMMARY:Il rumore delle cose nuove - Paolo Genovese
-LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/163445
-END:VEVENT
-END:VCALENDAR
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:2340438064598111646@cinema-scraper.local
+DTSTAMP:20261116T003258Z
+DTSTART:20261118T190000Z
+DTEND:20261118T205300Z
+SUMMARY:Il rumore delle cose nuove - Paolo Genovese
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/163445
+END:VEVENT
+END:VCALENDAR
