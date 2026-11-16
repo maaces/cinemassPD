@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//cinema-scraper//IT
 BEGIN:VEVENT
-UID:2912268025013438611@cinema-scraper.local
-DTSTAMP:20261116T003258Z
+UID:9142790660528888433@cinema-scraper.local
+DTSTAMP:20261116T003617Z
 DTSTART:20261116T190000Z
-DTEND:20261116T210000Z
+DTEND:20261116T204000Z
 SUMMARY:Un weekend artificiale - Leonardo Pieraccioni
 LOCATION:Cineplex (Due Carrare)
-DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/163446
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/163446
 END:VEVENT
 END:VCALENDAR

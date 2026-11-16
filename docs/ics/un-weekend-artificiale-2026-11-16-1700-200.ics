@@ -2,12 +2,12 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//cinema-scraper//IT
 BEGIN:VEVENT
-UID:1359899984191244970@cinema-scraper.local
-DTSTAMP:20261116T003258Z
+UID:1783294661758619842@cinema-scraper.local
+DTSTAMP:20261116T003617Z
 DTSTART:20261116T160000Z
-DTEND:20261116T180000Z
+DTEND:20261116T174000Z
 SUMMARY:Un weekend artificiale - Leonardo Pieraccioni
 LOCATION:Porto Astra
-DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://pd.cineplexmoderno.cineplexmoderno.it/film/163446
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/163446
 END:VEVENT
 END:VCALENDAR
