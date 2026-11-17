@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T21:14:31.960959",
+  "generated_at": "2026-11-17T21:16:12.032120",
   "movies": [
     {
       "title": "Hexe - Il regno delle streghe",
@@ -227,22 +227,6 @@
         },
         {
           "date": "2026-11-17",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
           "time": "17:55",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -255,22 +239,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -685,22 +653,6 @@
         },
         {
           "date": "2026-11-17",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
           "time": "17:45",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -713,14 +665,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -891,25 +835,9 @@
         {
           "date": "2026-11-17",
           "time": "17:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:30",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "19:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -918,14 +846,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1047,14 +967,6 @@
         },
         {
           "date": "2026-11-17",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
           "time": "17:45",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -1067,14 +979,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1264,6 +1168,147 @@
       ]
     },
     {
+      "title": "Wild Horse Nine",
+      "director": "Martin Mc Donagh",
+      "duration_min": 117,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158099/standard_a43f79e7-4d06-4335-b7be-690e99c40b74.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=djscxQOf8bo",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Wild%20Horse%20Nine%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/wild%20horse%20nine/",
+      "tmdb_url": "https://www.themoviedb.org/movie/891621",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158099",
+      "showtimes": [
+        {
+          "date": "2026-11-17",
+          "time": "14:55",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "18:10",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "20:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "21:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "14:35",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "14:45",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER 4K",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "17:25",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "20:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "20:20",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Proiezione LASER",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "22:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "22:30",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-19",
+          "time": "22:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-20",
+          "time": "22:20",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:30",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Se domani non torno",
       "director": "Paola Randi",
       "duration_min": 106,
@@ -1292,34 +1337,10 @@
         },
         {
           "date": "2026-11-17",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
           "time": "19:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": "MARTEDÌ A 4€",
           "date_uncertain": false
         },
         {
@@ -1332,34 +1353,10 @@
         },
         {
           "date": "2026-11-17",
-          "time": "20:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
           "time": "21:40",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "21:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1701,155 +1698,6 @@
       ]
     },
     {
-      "title": "Wild Horse Nine",
-      "director": "Martin Mc Donagh",
-      "duration_min": 117,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/158099/standard_a43f79e7-4d06-4335-b7be-690e99c40b74.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=djscxQOf8bo",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Wild%20Horse%20Nine%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/wild%20horse%20nine/",
-      "tmdb_url": "https://www.themoviedb.org/movie/891621",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158099",
-      "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "14:55",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "18:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "21:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "14:35",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "14:45",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:20",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "22:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "22:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-20",
-          "time": "22:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "19:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Un weekend artificiale",
       "director": "Leonardo Pieraccioni",
       "duration_min": 100,
@@ -1871,25 +1719,9 @@
         {
           "date": "2026-11-17",
           "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -1898,22 +1730,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2052,25 +1868,9 @@
         {
           "date": "2026-11-17",
           "time": "17:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:20",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2160,14 +1960,6 @@
         },
         {
           "date": "2026-11-17",
-          "time": "21:55",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
           "time": "22:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
@@ -2196,6 +1988,14 @@
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-30",
+          "time": "18:20",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -2254,22 +2054,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2427,25 +2211,17 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158100",
       "showtimes": [
         {
-          "date": "2026-11-17",
-          "time": "19:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "21:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-18",
           "time": "21:45",
           "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2469,14 +2245,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 7,99 €",
           "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2546,14 +2314,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 7,99 €",
           "note": "Proiezione LASER 4K · Prezzo Family",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "17:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2668,6 +2428,35 @@
       ]
     },
     {
+      "title": "Clayface",
+      "director": "James Watkins",
+      "duration_min": 109,
+      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153050/standard_011ab426-cc56-4897-a12e-1c6ff0af8c1d.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=PiqMoq2gmBs",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Clayface%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/clayface/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1400940",
+      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153050",
+      "showtimes": [
+        {
+          "date": "2026-11-17",
+          "time": "22:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-18",
+          "time": "22:45",
+          "cinema": "Cineplex (Due Carrare)",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "La storia infinita",
       "director": "Wolfgang Petersen",
       "duration_min": 102,
@@ -2684,14 +2473,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 12,99 €",
           "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "19:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -2756,35 +2537,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 12,99 €",
           "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Clayface",
-      "director": "James Watkins",
-      "duration_min": 109,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/153050/standard_011ab426-cc56-4897-a12e-1c6ff0af8c1d.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=PiqMoq2gmBs",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Clayface%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/clayface/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1400940",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/153050",
-      "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "22:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "22:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         }
       ]
@@ -4979,6 +4731,35 @@
       ]
     },
     {
+      "title": "L'Estraneaingresso A 4,00 €",
+      "director": null,
+      "duration_min": null,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27Estraneaingresso%20A%204%2C00%20%E2%82%AC%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27estraneaingresso%20a%204%2C00%20%E2%82%AC/",
+      "tmdb_url": null,
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-17",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-17",
+          "time": "20:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Minotaur",
       "director": "NEL LABIRINTO DEL POTERE – Andrej Petrovič Zvjagincev",
       "duration_min": 135,
@@ -4989,14 +4770,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/18870",
       "detail_url": "https://www.movieconnection.it/proiezione/minotaur-nel-labirinto-del-potere-andrej-petrovic-zvjagincev-fra-lett-ger-2026-135/2026-11-20/",
       "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "17:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-18",
           "time": "17:00",
@@ -5032,6 +4805,27 @@
       ]
     },
     {
+      "title": "L'essere amato",
+      "director": "Rodrigo Sorogoyen",
+      "duration_min": 136,
+      "poster_url": "https://image.tmdb.org/t/p/w500/aV3dZ2xlUoGHT0N6a47ZZOACZmv.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27essere%20amato%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%27essere%20amato/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1074074",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-18",
+          "time": "20:00",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Ragione e sentimento",
       "director": "Georgia Oakley",
       "duration_min": 132,
@@ -5051,14 +4845,6 @@
           "date_uncertain": false
         },
         {
-          "date": "2026-11-17",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-18",
           "time": "15:05",
           "cinema": "The Space (Limena)",
@@ -5073,92 +4859,50 @@
           "price": null,
           "note": null,
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "L'Estraneaingresso A 4,00 €",
-      "director": null,
-      "duration_min": null,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27Estraneaingresso%20A%204%2C00%20%E2%82%AC%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27estraneaingresso%20a%204%2C00%20%E2%82%AC/",
-      "tmdb_url": null,
-      "detail_url": null,
-      "showtimes": [
+        },
         {
-          "date": "2026-11-17",
-          "time": "17:20",
-          "cinema": "Porto Astra",
+          "date": "2026-11-21",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-11-17",
-          "time": "17:30",
-          "cinema": "Multiastra",
+          "date": "2026-11-22",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
           "price": null,
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-11-17",
-          "time": "20:30",
-          "cinema": "Multiastra",
-          "price": null,
+          "date": "2026-11-24",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
           "note": null,
           "date_uncertain": false
         },
         {
-          "date": "2026-11-17",
-          "time": "20:40",
-          "cinema": "Porto Astra",
+          "date": "2026-11-25",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
           "price": null,
-          "note": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "L'essere amato",
-      "director": "Rodrigo Sorogoyen",
-      "duration_min": 136,
-      "poster_url": "https://image.tmdb.org/t/p/w500/LdKLipXCdKHNXxUxn8l7UTdnXJ.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27essere%20amato%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27essere%20amato/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1074074",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fjordanteprima",
-      "director": null,
-      "duration_min": null,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Fjordanteprima%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fjordanteprima/",
-      "tmdb_url": null,
+      "title": "Fjord",
+      "director": "Cristian Mungiu",
+      "duration_min": 146,
+      "poster_url": "https://image.tmdb.org/t/p/w500/e6qR7qbqxe66vh2ONZ8d5pCphA6.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=4L8XzvLxyuY",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fjord%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fjord/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1401459",
       "detail_url": null,
       "showtimes": [
         {
@@ -5193,43 +4937,6 @@
       ]
     },
     {
-      "title": "In un battito",
-      "director": "Giovanni Troilo",
-      "duration_min": 97,
-      "poster_url": "https://image.tmdb.org/t/p/w500/cuYB8P1i9iySjMop9HJaGlMywE6.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=sFNpzHgUoI0",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=In%20un%20Battito%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/in%20un%20battito/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1795686",
-      "detail_url": "https://www.thespacecinema.it/film/in-un-battito",
-      "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "19:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Extra · Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-18",
-          "time": "20:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Extra · Proiezione LASER",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "2001: Odissea nello spazio",
       "director": "Stanley Kubrick",
       "duration_min": 148,
@@ -5246,22 +4953,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 12,99 €",
           "note": "Back On The Big Screen · Extra · Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-17",
-          "time": "20:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
           "date_uncertain": false
         },
         {
@@ -5302,67 +4993,6 @@
           "cinema": "Cinema Rex",
           "price": null,
           "note": "V.O.S. · Cineforum",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Il canto della foresta",
-      "director": "Vincent Munier",
-      "duration_min": 95,
-      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/11/il-canto-della-foresta-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Hg84mjAvwyQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20canto%20della%20foresta%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/il%20canto%20della%20foresta/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1309373",
-      "detail_url": "https://www.movieconnection.it/proiezione/il-canto-della-foresta-vincent-munier-francia-2025-95-vos/",
-      "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "18:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-20",
-          "time": "20:45",
-          "cinema": "Lux",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "16:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "18:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "15:30",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "20:15",
-          "cinema": "Lux",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         }
       ]
@@ -5410,120 +5040,52 @@
       ]
     },
     {
-      "title": "Ritorno a Buenos Aires",
-      "director": "Marco Bechis",
-      "duration_min": 104,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=ATjUWojp42k",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Ritorno%20a%20Buenos%20Aires%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/ritorno%20a%20buenos%20aires/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1597199",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/",
-      "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "18:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-20",
-          "time": "18:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Eternal You",
-      "director": "Moritz Riesewick, Hans Block",
-      "duration_min": 87,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/eternal-you-1-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Eternal%20You%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/eternal%20you/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1214502",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/eternal-you/",
-      "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "Evento gratuito",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "La sala professori",
-      "director": "İlker Çatak",
-      "duration_min": 98,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-sala-professori-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=Z6Tee35be3c",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20sala%20professori%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20sala%20professori/",
-      "tmdb_url": "https://www.themoviedb.org/movie/998022",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/la-sala-professori/",
+      "title": "Il canto della foresta",
+      "director": "Vincent Munier",
+      "duration_min": 95,
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/11/il-canto-della-foresta-poster.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Hg84mjAvwyQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20canto%20della%20foresta%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20canto%20della%20foresta/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1309373",
+      "detail_url": "https://www.movieconnection.it/proiezione/il-canto-della-foresta-vos/",
       "showtimes": [
         {
           "date": "2026-11-20",
           "time": "20:45",
-          "cinema": "Fronte del Porto",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": "V.O.S.",
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Cinema per le orecchie",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Altri-Suoni_evento-Centro-dArte-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=cinema%20per%20le%20orecchie%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/cinema%20per%20le%20orecchie/",
-      "tmdb_url": null,
-      "detail_url": "https://www.frontedelportopadova.it/eventi/cinema-per-le-orecchie/",
-      "showtimes": [
+        },
         {
           "date": "2026-11-21",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
+          "time": "16:30",
+          "cinema": "Lux",
           "price": null,
-          "note": "€12 intero, €10 ridotto",
+          "note": null,
           "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Principi e principesse",
-      "director": "Michel Ocelot",
-      "duration_min": 67,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/personnages-Princes-et-princesse-scaled-e1669304039950-800x800-1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=H8-FjKT_jN8",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Principi%20e%20principesse%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/principi%20e%20principesse/",
-      "tmdb_url": "https://www.themoviedb.org/movie/65592",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/principi-e-principesse/",
-      "showtimes": [
+        },
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
         {
           "date": "2026-11-22",
-          "time": "10:00",
-          "cinema": "Fronte del Porto",
+          "time": "15:30",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "20:15",
+          "cinema": "Lux",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -5531,112 +5093,41 @@
       ]
     },
     {
-      "title": "Prosfygika",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/11/Screenshot-2026-11-15-at-10.43.46.jpg",
+      "title": "Minnie e Moskowitz",
+      "director": "John Cassavetes",
+      "duration_min": 114,
+      "poster_url": "https://image.tmdb.org/t/p/w500/pufOqUEeEzbUma3WfnLS0AHiMl5.jpg",
       "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Prosfygika%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/prosfygika/",
-      "tmdb_url": null,
-      "detail_url": "https://www.frontedelportopadova.it/eventi/prosfygika/",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Minnie%20e%20Moskowitz%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/minnie%20e%20moskowitz/",
+      "tmdb_url": "https://www.themoviedb.org/movie/24349",
+      "detail_url": "https://www.movieconnection.it/proiezione/minnie-e-moskowitz-john-cassavetes-usa-1971-114-vos-2/",
       "showtimes": [
         {
-          "date": "2026-11-22",
-          "time": "15:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "ingresso libero",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Le mani sulla città",
-      "director": "Francesco Rosi",
-      "duration_min": 105,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/11/le-mani-sulla-citta-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=NI2BfPGEzEw",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Le%20mani%20sulla%20citt%C3%A0%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/le%20mani%20sulla%20citt%C3%A0/",
-      "tmdb_url": "https://www.themoviedb.org/movie/58383",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/le-mani-sulla-citta/",
-      "showtimes": [
-        {
-          "date": "2026-11-22",
+          "date": "2026-11-23",
           "time": "18:00",
-          "cinema": "Fronte del Porto",
+          "cinema": "Lux",
           "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
     },
     {
-      "title": "Per silenzio e vento",
-      "director": "Marco Zuin",
+      "title": "Nodo alla gola",
+      "director": "Alfred Hitchcock",
       "duration_min": 80,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/11/per-silenzio-e-vento-2-1800x1084-1-1024x617.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=JEb6MdWQViY",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Per%20silenzio%20e%20vento%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/per%20silenzio%20e%20vento/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1652113",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/per-silenzio-e-vento-2/",
+      "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/11/nodo-alla-gola-poster-1.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Nodo%20alla%20gola%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/nodo%20alla%20gola/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1580",
+      "detail_url": "https://www.movieconnection.it/proiezione/nodo-alla-gola-alfred-hitchcock-usa-1948-80/",
       "showtimes": [
         {
-          "date": "2026-11-22",
+          "date": "2026-11-23",
           "time": "20:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "Intero 6,5 ridotto under 30 5 Intero CAI ed Intellighenzia 5 ridotto CAI ed Intellighenzia  4",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fabulaetiem",
-      "director": "Vittorio Antonacci",
-      "duration_min": 51,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/11/fabulaetiem-1-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=FABULAETIEM%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fabulaetiem/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1799831",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/fabulaetiem/",
-      "showtimes": [
-        {
-          "date": "2026-11-26",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-28",
-          "time": "18:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Niente di antico sotto il sole: La fotografia di Luigi Ghirri",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/FOTO-ARTISTA_LUIGI-GHIRRI-1024x671.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Niente%20di%20antico%20sotto%20il%20sole%3A%20La%20fotografia%20di%20Luigi%20Ghirri%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/niente%20di%20antico%20sotto%20il%20sole%3A%20la%20fotografia%20di%20luigi%20ghirri/",
-      "tmdb_url": null,
-      "detail_url": "https://www.frontedelportopadova.it/eventi/niente-di-antico-sotto-il-sole-la-fotografia-di-luigi-ghirri/",
-      "showtimes": [
-        {
-          "date": "2026-11-27",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
+          "cinema": "Lux",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -5644,298 +5135,30 @@
       ]
     },
     {
-      "title": "La scuola non è secondaria",
-      "director": null,
-      "duration_min": 45,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/La-scuola-non-e-secondaria-1.png",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20scuola%20non%20%C3%A8%20secondaria%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20scuola%20non%20%C3%A8%20secondaria/",
-      "tmdb_url": null,
-      "detail_url": "https://www.frontedelportopadova.it/eventi/la-scuola-non-e-secondaria/",
+      "title": "In un battito",
+      "director": "Giovanni Troilo",
+      "duration_min": 97,
+      "poster_url": "https://image.tmdb.org/t/p/w500/cuYB8P1i9iySjMop9HJaGlMywE6.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=sFNpzHgUoI0",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=In%20un%20Battito%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/in%20un%20battito/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1795686",
+      "detail_url": "https://www.thespacecinema.it/film/in-un-battito",
       "showtimes": [
         {
-          "date": "2026-12-04",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Gli Uccelli del Monte Qaf",
-      "director": "Firouzeh Khosrovani, Morteza Ahmadvand",
-      "duration_min": 80,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=GLI%20UCCELLI%20DEL%20MONTE%20QAF%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/gli%20uccelli%20del%20monte%20qaf/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1510562",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/",
-      "showtimes": [
-        {
-          "date": "2026-12-05",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "6,50€ intero, 5€ ridotto",
+          "date": "2026-11-17",
+          "time": "20:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Extra · Proiezione LASER",
           "date_uncertain": false
         },
-        {
-          "date": "2026-12-10",
-          "time": "18:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "6,50€ intero, 5€ ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Sun Ra: Do the Impossible",
-      "director": "Christine Turner",
-      "duration_min": 84,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/sun-ra-do-the-impossible-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Sun%20Ra%3A%20Do%20the%20Impossible%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/sun%20ra%3A%20do%20the%20impossible/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1465849",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/sun-ra-do-the-impossible/",
-      "showtimes": [
-        {
-          "date": "2026-12-06",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "The last act",
-      "director": "Gooseworx",
-      "duration_min": 86,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-last-act-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=QL7f5U8KdoQ",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20last%20act%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20last%20act/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1667198",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/the-last-act/",
-      "showtimes": [
-        {
-          "date": "2026-12-12",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-12-17",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Lost Highway",
-      "director": "David Lynch",
-      "duration_min": 135,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Lost-Highway-1997-imdb-tt0116922-Bluray-1080pEAC3-5.1x264-PTer-0006-1024x429.png",
-      "trailer_url": "https://www.youtube.com/watch?v=myJv_2lEOHM",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Lost%20Highway%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/lost%20highway/",
-      "tmdb_url": "https://www.themoviedb.org/movie/638",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/lost-highway/",
-      "showtimes": [
-        {
-          "date": "2026-12-13",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Un anno di scuola",
-      "director": "Laura Samani",
-      "duration_min": 102,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/un-anno-di-scuola-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=9DVb0yOvbAk",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20anno%20di%20scuola%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/un%20anno%20di%20scuola/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1442922",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/un-anno-di-scuola/",
-      "showtimes": [
         {
           "date": "2026-11-18",
-          "time": "18:00",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-12-18",
-          "time": "20:45",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "L'estate di Cléo",
-      "director": "Marie Amachoukeli",
-      "duration_min": 84,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/AH_lestatedicleo_foto_4-1024x540.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=HiEkJL9xkN4",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=L%27estate%20di%20Cl%C3%A9o%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/l%27estate%20di%20cl%C3%A9o/",
-      "tmdb_url": "https://www.themoviedb.org/movie/803688",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/lestate-di-cle0/",
-      "showtimes": [
-        {
-          "date": "2026-12-19",
-          "time": "16:30",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "ingresso cineforum CIF",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "The Goonies",
-      "director": "Richard Donner",
-      "duration_min": 114,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-goonies-2-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=pAz0V1gF3LU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Goonies%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20goonies/",
-      "tmdb_url": "https://www.themoviedb.org/movie/9340",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/the-goonies/",
-      "showtimes": [
-        {
-          "date": "2026-12-20",
-          "time": "18:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Berlino - sinfonia di una grande città",
-      "director": "Walter Ruttmann",
-      "duration_min": 69,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/berlino_notext_full_1530x2048-765x1024.png",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Berlino%20-%20sinfonia%20di%20una%20grande%20citt%C3%A0%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/berlino%20-%20sinfonia%20di%20una%20grande%20citt%C3%A0/",
-      "tmdb_url": "https://www.themoviedb.org/movie/222",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/berlino-sinfonia-di-una-grande-citta/",
-      "showtimes": [
-        {
-          "date": "2027-01-15",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€12 intero, €10 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Lee",
-      "director": "Lee Cronin",
-      "duration_min": 116,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/lee-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=f47FMs62J8Q",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Lee%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/lee/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1304313",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/lee/",
-      "showtimes": [
-        {
-          "date": "2027-01-22",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Gincana – minimal duo",
-      "director": null,
-      "duration_min": null,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/10/COPERTINA-FUNAMBOLO-1024x1024.webp",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=gincana%20%E2%80%93%20minimal%20duo%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/gincana%20%E2%80%93%20minimal%20duo/",
-      "tmdb_url": null,
-      "detail_url": "https://www.frontedelportopadova.it/eventi/gincana-minimal-duo/",
-      "showtimes": [
-        {
-          "date": "2027-02-19",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€12,50 intero, €10,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "I'm Not Everything I Want to Be",
-      "director": "Klára Tasovská",
-      "duration_min": 90,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/i-m-not-everything-i-want-to-be-1-1024x576.jpg",
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=I%27m%20Not%20Everything%20I%20Want%20to%20Be%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/i%27m%20not%20everything%20i%20want%20to%20be/",
-      "tmdb_url": "https://www.themoviedb.org/movie/883126",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/im-not-everything-i-want-to-be/",
-      "showtimes": [
-        {
-          "date": "2027-03-12",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "The Act of Killing",
-      "director": "Joshua Oppenheimer",
-      "duration_min": 159,
-      "poster_url": "https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-act-of-killing-1-1024x576.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=QwuJaxs9KDE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Act%20of%20Killing%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/the%20act%20of%20killing/",
-      "tmdb_url": "https://www.themoviedb.org/movie/123678",
-      "detail_url": "https://www.frontedelportopadova.it/eventi/the-act-of-killing/",
-      "showtimes": [
-        {
-          "date": "2027-05-07",
-          "time": "21:00",
-          "cinema": "Fronte del Porto",
-          "price": null,
-          "note": "€6,50 intero, €5,00 ridotto",
+          "time": "20:00",
+          "cinema": "The Space (Limena)",
+          "price": "da 9,99 €",
+          "note": "Extra · Proiezione LASER",
           "date_uncertain": false
         }
       ]
@@ -6099,43 +5322,6 @@
       ]
     },
     {
-      "title": "Digger",
-      "director": "Alejandro G. Iñárritu",
-      "duration_min": 129,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/digger-1.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=D6uG0z-rhkg",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Digger%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/digger/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1248832",
-      "detail_url": "https://www.cinemarex.it/evento?eventName=digger",
-      "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "21:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "18:45",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "21:15",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Essi vivono",
       "director": "John Carpenter",
       "duration_min": 93,
@@ -6152,6 +5338,67 @@
           "cinema": "Cinema Rex",
           "price": null,
           "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Fatherland",
+      "director": "Pawe? Pawlikowski",
+      "duration_min": 82,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/fatherland.png",
+      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=fatherland",
+      "showtimes": [
+        {
+          "date": "2026-11-19",
+          "time": "18:15",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-23",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-25",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-02",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -6194,6 +5441,51 @@
           "cinema": "Cinema Rex",
           "price": null,
           "note": "Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L&#039;estranea",
+      "director": "Paolo Strippoli",
+      "duration_min": 115,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%26%23039%3Bestranea%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%26%23039%3Bestranea/",
+      "tmdb_url": null,
+      "detail_url": "https://www.cinemarex.it/evento?eventName=l__039_estranea",
+      "showtimes": [
+        {
+          "date": "2026-11-26",
+          "time": "18:15",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-01",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
           "date_uncertain": false
         }
       ]
@@ -6293,14 +5585,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1119548",
       "detail_url": "https://www.cinemarex.it/evento?eventName=nel_silenzio_delle_stanze",
       "showtimes": [
-        {
-          "date": "2026-11-17",
-          "time": "19:00",
-          "cinema": "Cinema Rex",
-          "price": "4€",
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-19",
           "time": "16:00",
@@ -6446,6 +5730,27 @@
       ]
     },
     {
+      "title": "Un anno di scuola",
+      "director": "Laura Samani",
+      "duration_min": 102,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/anno-scuola.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9DVb0yOvbAk",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20anno%20di%20scuola%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/un%20anno%20di%20scuola/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1442922",
+      "detail_url": "https://www.piccolo-padova.it/un-anno-di-scuola/",
+      "showtimes": [
+        {
+          "date": "2026-11-18",
+          "time": "18:00",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Un po' di luce",
       "director": "Ali Asgari",
       "duration_min": 87,
@@ -6459,6 +5764,35 @@
         {
           "date": "2026-11-18",
           "time": "21:00",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Digger",
+      "director": "Alejandro G. Iñárritu",
+      "duration_min": 129,
+      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/digger-1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=D6uG0z-rhkg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Digger%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/digger/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1248832",
+      "detail_url": "https://www.piccolo-padova.it/digger/",
+      "showtimes": [
+        {
+          "date": "2026-11-21",
+          "time": "18:45",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "21:15",
           "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
@@ -6508,27 +5842,6 @@
       "showtimes": [
         {
           "date": "2026-11-25",
-          "time": "21:00",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": "V.O.S.",
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fatherland",
-      "director": "Paweł Pawlikowski",
-      "duration_min": 82,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/fatherland.png",
-      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.piccolo-padova.it/fatherland-vos/",
-      "showtimes": [
-        {
-          "date": "2026-12-02",
           "time": "21:00",
           "cinema": "Piccolo Teatro",
           "price": null,

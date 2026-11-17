@@ -179,159 +179,603 @@
        </header>
        <div class="filtri-programmazione-container">
         <div class="filtri-riga-principale">
-         <button aria-expanded="false" aria-label="Apri filtri" class="filtri-mobile-toggle" id="filtri-mobile-toggle">
-          <span class="material-symbols-outlined">
+         <button aria-controls="filtri-pannello" aria-expanded="false" aria-label="Filtri" class="filtri-mobile-toggle" id="filtri-mobile-toggle" type="button">
+          <span aria-hidden="true" class="material-symbols-outlined">
            tune
           </span>
-          <span class="filtri-toggle-badge" id="filtri-toggle-badge">
+          <span aria-hidden="true" class="filtri-toggle-badge" id="filtri-toggle-badge">
+          </span>
+         </button>
+         <button aria-controls="prezzi-pannello" aria-expanded="false" aria-label="Prezzi dei biglietti" class="prezzi-mobile-toggle" id="prezzi-mobile-toggle" type="button">
+          <span aria-hidden="true" class="material-symbols-outlined">
+           confirmation_number
           </span>
          </button>
          <div class="filtro-ricerca-wrapper">
-          <span class="material-symbols-outlined ricerca-icona">
+          <label class="screen-reader-text" for="filtro-ricerca">
+           Cerca un evento
+          </label>
+          <span aria-hidden="true" class="material-symbols-outlined ricerca-icona">
            search
           </span>
-          <input autocomplete="off" class="filtro-ricerca-input" id="filtro-ricerca" placeholder="Cerca..." type="text"/>
-         </div>
-         <div class="filtro-data-wrapper">
-          <button aria-label="Filtra per data" class="filtro-data-btn" id="filtro-data-toggle">
-           <span class="material-symbols-outlined filtro-data-icon">
-            calendar_month
-           </span>
-           <span class="filtro-data-label">
-            Data
-           </span>
-           <span aria-hidden="true" class="filtro-data-attivo-x">
-            ✕
-           </span>
-          </button>
-          <div class="filtro-calendario-popup" id="filtro-calendario-popup">
-           <div class="calendario-header">
-            <button class="calendario-nav" id="calendario-prev">
-             ‹
-            </button>
-            <span class="calendario-mese-anno" id="calendario-mese-anno">
-            </span>
-            <button class="calendario-nav" id="calendario-next">
-             ›
-            </button>
-           </div>
-           <div class="calendario-giorni-settimana">
-            <span>
-             Lun
-            </span>
-            <span>
-             Mar
-            </span>
-            <span>
-             Mer
-            </span>
-            <span>
-             Gio
-            </span>
-            <span>
-             Ven
-            </span>
-            <span>
-             Sab
-            </span>
-            <span>
-             Dom
-            </span>
-           </div>
-           <div class="calendario-giorni" id="calendario-giorni">
-           </div>
-          </div>
+          <input autocomplete="off" class="filtro-ricerca-input" id="filtro-ricerca" placeholder="Cerca..." type="search"/>
          </div>
         </div>
-        <div class="filtri-categoria-wrapper">
-         <button class="filtro-categoria-btn" data-categoria="cinema" data-categoria-name="Cinema">
+        <div class="filtri-categoria-wrapper" id="filtri-pannello">
+         <button aria-pressed="false" class="filtro-categoria-btn" data-categoria="cinema" data-categoria-name="Cinema" type="button">
           Cinema
           <span aria-hidden="true" class="filtro-pill-x">
            ✕
           </span>
          </button>
-         <button class="filtro-categoria-btn" data-categoria="musica" data-categoria-name="Musica">
+         <button aria-pressed="false" class="filtro-categoria-btn" data-categoria="musica" data-categoria-name="Musica" type="button">
           Musica
           <span aria-hidden="true" class="filtro-pill-x">
            ✕
           </span>
          </button>
-         <button class="filtro-categoria-btn" data-categoria="talk" data-categoria-name="Talk">
+         <button aria-pressed="false" class="filtro-categoria-btn" data-categoria="talk" data-categoria-name="Talk" type="button">
           Talk
           <span aria-hidden="true" class="filtro-pill-x">
            ✕
           </span>
          </button>
-         <button class="filtro-particolarita-btn" data-particolarita="78" data-particolarita-name="★ Autore in sala">
+         <button aria-pressed="false" class="filtro-particolarita-btn" data-particolarita="78" data-particolarita-name="★ Autore in sala" type="button">
           ★ Autore in sala
           <span aria-hidden="true" class="filtro-pill-x">
            ✕
           </span>
          </button>
-         <button class="filtro-particolarita-btn" data-particolarita="81" data-particolarita-name="☺ per Bambini">
+         <button aria-pressed="false" class="filtro-particolarita-btn" data-particolarita="81" data-particolarita-name="☺ per Bambini" type="button">
           ☺ per Bambini
           <span aria-hidden="true" class="filtro-pill-x">
            ✕
           </span>
          </button>
-         <button class="filtri-cancella-tutto" id="filtri-cancella-tutto">
+         <button class="filtri-cancella-tutto" id="filtri-cancella-tutto" type="button">
           Cancella tutto
          </button>
         </div>
+        <div class="prezzi-pannello sidebar-prezzi" hidden="" id="prezzi-pannello">
+         <h2 class="prezzi-pannello__titolo">
+          Prezzo biglietti cinema*
+         </h2>
+         <div class="prezzo-item">
+          <span class="prezzo-label">
+           Intero:
+          </span>
+          <span class="prezzo-value">
+           €6,50
+          </span>
+         </div>
+         <div class="prezzo-item">
+          <span class="prezzo-label">
+           Ridotto:
+          </span>
+          <span class="prezzo-value">
+           €5,00
+          </span>
+          <span class="prezzo-note">
+           Under 30, accompagnatori disabili.
+          </span>
+         </div>
+         <div class="prezzo-item">
+          <span class="prezzo-label">
+           Bambini:
+          </span>
+          <span class="prezzo-value">
+           €4,00
+          </span>
+          <span class="prezzo-note">
+           Bambini dai 4 ai 12 anni.
+          </span>
+         </div>
+         <div class="prezzo-note-special">
+          Bambini sotto i 4 anni e persone con disabilità hanno diritto all'omaggio.
+         </div>
+         <div class="prezzo-note-special">
+          <a class="link-prog" href="/politica-prezzi-biglietti">
+           *Vedi la nostra politica sui prezzi
+          </a>
+         </div>
+        </div>
+        <p class="filtri-conteggio screen-reader-text" id="filtri-conteggio" role="status">
+        </p>
        </div>
        <div class="filtri-nessun-risultato" id="filtri-nessun-risultato">
         <p>
          Nessun evento trovato con i filtri selezionati.
         </p>
        </div>
+       <details class="tendina sidebar-rassegne tendina--mobile">
+        <summary class="tendina__titolo">
+         Rassegne in corso
+         <span class="tendina__numero">
+          (10)
+         </span>
+        </summary>
+        <div class="rassegne-lista">
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/">
+          <span class="rassegna-nome">
+           Il Buono, il Lutto e il Cattivo
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
+          <span class="rassegna-nome">
+           Questioni di classe?
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/">
+          <span class="rassegna-nome">
+           sonorizzazioni
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
+          <span class="rassegna-nome">
+           FP kids – proiezioni per famiglie
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/personal-classics/">
+          <span class="rassegna-nome">
+           Personal Classics
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/in-cinema-2-farsela-in-braghe/">
+          <span class="rassegna-nome">
+           In ci(ne)ma 2 – farsela in braghe
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/">
+          <span class="rassegna-nome">
+           Prisma – Sguardi di Cinema e Fotografia
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/">
+          <span class="rassegna-nome">
+           Altrove: Iran
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
+          <span class="rassegna-nome">
+           Imagine the Sound
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+         <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/">
+          <span class="rassegna-nome">
+           Cineforum CIF
+          </span>
+          <span class="rassegna-arrow">
+          </span>
+         </a>
+        </div>
+       </details>
        <div class="programmazione-wrapper-columns">
         <div class="programmazione-main-column">
+         <nav aria-label="Vai al giorno" class="striscia-giorni">
+          <button aria-label="Giorni precedenti" class="striscia-giorni__freccia striscia-giorni__freccia--prev" hidden="" type="button">
+          </button>
+          <ul class="striscia-giorni__lista">
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261119" href="#giorno-20261119">
+             <span class="striscia-giorni__nome">
+              Gio
+             </span>
+             <span class="striscia-giorni__numero">
+              19
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261120" href="#giorno-20261120">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              20
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261121" href="#giorno-20261121">
+             <span class="striscia-giorni__nome">
+              Sab
+             </span>
+             <span class="striscia-giorni__numero">
+              21
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261122" href="#giorno-20261122">
+             <span class="striscia-giorni__nome">
+              Dom
+             </span>
+             <span class="striscia-giorni__numero">
+              22
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261126" href="#giorno-20261126">
+             <span class="striscia-giorni__nome">
+              Gio
+             </span>
+             <span class="striscia-giorni__numero">
+              26
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261127" href="#giorno-20261127">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              27
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261128" href="#giorno-20261128">
+             <span class="striscia-giorni__nome">
+              Sab
+             </span>
+             <span class="striscia-giorni__numero">
+              28
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261204" href="#giorno-20261204">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              4
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261205" href="#giorno-20261205">
+             <span class="striscia-giorni__nome">
+              Sab
+             </span>
+             <span class="striscia-giorni__numero">
+              5
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261206" href="#giorno-20261206">
+             <span class="striscia-giorni__nome">
+              Dom
+             </span>
+             <span class="striscia-giorni__numero">
+              6
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261210" href="#giorno-20261210">
+             <span class="striscia-giorni__nome">
+              Gio
+             </span>
+             <span class="striscia-giorni__numero">
+              10
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261212" href="#giorno-20261212">
+             <span class="striscia-giorni__nome">
+              Sab
+             </span>
+             <span class="striscia-giorni__numero">
+              12
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261213" href="#giorno-20261213">
+             <span class="striscia-giorni__nome">
+              Dom
+             </span>
+             <span class="striscia-giorni__numero">
+              13
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261217" href="#giorno-20261217">
+             <span class="striscia-giorni__nome">
+              Gio
+             </span>
+             <span class="striscia-giorni__numero">
+              17
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261218" href="#giorno-20261218">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              18
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261219" href="#giorno-20261219">
+             <span class="striscia-giorni__nome">
+              Sab
+             </span>
+             <span class="striscia-giorni__numero">
+              19
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261220" href="#giorno-20261220">
+             <span class="striscia-giorni__nome">
+              Dom
+             </span>
+             <span class="striscia-giorni__numero">
+              20
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Dic
+             </span>
+             <span class="screen-reader-text">
+              dicembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20270115" href="#giorno-20270115">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              15
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Gen
+             </span>
+             <span class="screen-reader-text">
+              gennaio
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20270122" href="#giorno-20270122">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              22
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Gen
+             </span>
+             <span class="screen-reader-text">
+              gennaio
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20270219" href="#giorno-20270219">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              19
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Feb
+             </span>
+             <span class="screen-reader-text">
+              febbraio
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20270312" href="#giorno-20270312">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              12
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Mar
+             </span>
+             <span class="screen-reader-text">
+              marzo
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20270507" href="#giorno-20270507">
+             <span class="striscia-giorni__nome">
+              Ven
+             </span>
+             <span class="striscia-giorni__numero">
+              7
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Mag
+             </span>
+             <span class="screen-reader-text">
+              maggio
+             </span>
+            </a>
+           </li>
+          </ul>
+          <button aria-label="Giorni successivi" class="striscia-giorni__freccia striscia-giorni__freccia--next" hidden="" type="button">
+          </button>
+         </nav>
          <div class="programmazione-lista-grouped">
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261119">
            <h2 class="programmazione-data-titolo">
-            GIOVEDì, 19 NOVEMBRE 2026
+            GIOVEDì, 19 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Ritorno a Buenos Aires" class="attachment-large size-large wp-post-image" decoding="async" fetchpriority="high" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="ritorno a buenos aires drammatico, italia, 2026, 104'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="high" height="432" loading="eager" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/">
                   Ritorno a Buenos Aires
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Italia, 2026, 104'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Italia, 2026, 104'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:30
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-19T18:30">
+                 18:30
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Ritorno a Buenos Aires (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Ritorno a Buenos Aires" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -340,48 +784,49 @@
                 </div>
                </div>
               </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/eternal-you/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Eternal You" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/eternal-you-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+             </div>
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="eternal you documentario, germania/usa, 2024, 87'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/eternal-you-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/eternal-you/">
                   Eternal You
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Germania/USA, 2024, 87'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Germania/USA, 2024, 87'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-19T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.eventbrite.it/e/eternal-you-film-di-di-moritz-riesewieck-hans-block-germania-2024-87-tickets-2002840821813" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Eternal You (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.eventbrite.it/e/eternal-you-film-di-di-moritz-riesewieck-hans-block-germania-2024-87-tickets-2002840821813" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Eternal You" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -390,65 +835,66 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Il Buono, il Lutto e il Cattivo
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261120">
            <h2 class="programmazione-data-titolo">
-            VENERDì, 20 NOVEMBRE 2026
+            VENERDì, 20 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Ritorno a Buenos Aires" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="ritorno a buenos aires drammatico, italia, 2026, 104'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/">
                   Ritorno a Buenos Aires
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Italia, 2026, 104'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Italia, 2026, 104'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:30
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-20T18:30">
+                 18:30
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Ritorno a Buenos Aires (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Ritorno a Buenos Aires" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -457,48 +903,49 @@
                 </div>
                </div>
               </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-sala-professori/'">
-              <div class="evento-card-new-immagine">
-               <img alt="La sala professori" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-sala-professori-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+             </div>
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="la sala professori drammatico, germania, 2023, 98'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/la-sala-professori-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/la-sala-professori/">
                   La sala professori
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Germania, 2023, 98'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Germania, 2023, 98'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-20T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=713869" rel="noopener" target="_blank">
+                  <a aria-label="Prenota La sala professori (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=713869" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di La sala professori" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -507,65 +954,66 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Questioni di classe?
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261121">
            <h2 class="programmazione-data-titolo">
-            SABATO, 21 NOVEMBRE 2026
+            SABATO, 21 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Ritorno a Buenos Aires" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="ritorno a buenos aires drammatico, italia, 2026, 104'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/">
                   Ritorno a Buenos Aires
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Italia, 2026, 104'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Italia, 2026, 104'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-21T18:00">
+                 18:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Ritorno a Buenos Aires (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Ritorno a Buenos Aires" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -574,93 +1022,98 @@
                 </div>
                </div>
               </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/cinema-per-le-orecchie/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Altri-Suoni_evento-Centro-dArte-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+             </div>
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="musica" data-particolarita="" data-testo="cinema per le orecchie concerto con live visual">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Altri-Suoni_evento-Centro-dArte-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/cinema-per-le-orecchie/">
                   cinema per le orecchie
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Concerto con live visual
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Concerto con live visual
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Musica
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-21T21:00">
+                 21:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
+                 <div class="prenota-prog-main">
+                  <a aria-label="Prenota cinema per le orecchie (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=714643" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di cinema per le orecchie" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €12 intero, €10 ridotto
                  </div>
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 sonorizzazioni
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261122">
            <h2 class="programmazione-data-titolo">
-            DOMENICA, 22 NOVEMBRE 2026
+            DOMENICA, 22 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/principi-e-principesse/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Principi e principesse" class="attachment-large size-large wp-post-image" decoding="async" height="800" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/personnages-Princes-et-princesse-scaled-e1669304039950-800x800-1.jpg" width="800"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  principi e Principesse
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Animazione, Francia, 1999, 67'
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="81" data-testo="principi e principesse animazione, francia, 1999, 67'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="768" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/personnages-Princes-et-princesse-scaled-e1669304039950-800x800-1-768x768.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/principi-e-principesse/">
+                  Principi e Principesse
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Animazione, Francia, 1999, 67'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
@@ -669,69 +1122,76 @@
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 10:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-22T10:00">
+                 10:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=713988" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Principi e Principesse (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=713988" rel="noopener" target="_blank">
                    Prenota
                   </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Principi e Principesse" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
                  </div>
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 FP kids – proiezioni per famiglie
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/prosfygika/'">
-              <div class="evento-card-new-immagine">
-               <img alt="https://network23.org/prosfygika-community/" class="attachment-large size-large wp-post-image" decoding="async" height="1000" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/Screenshot-2026-11-15-at-10.43.46.jpg" width="860"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+            </article>
+            <article class="card-evento" data-categorie="talk" data-particolarita="" data-testo="prosfygika incontro pubblico - talk, proiezione ed azione teatrale">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="893" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/Screenshot-2026-11-15-at-10.43.46-768x893.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/prosfygika/">
                   Prosfygika
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Incontro pubblico - talk, proiezione ed azione teatrale
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Incontro pubblico - talk, proiezione ed azione teatrale
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Talk
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 15:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-22T15:00">
+                 15:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -741,48 +1201,49 @@
                 </div>
                </div>
               </div>
-             </article>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/le-mani-sulla-citta/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Le mani sulla città" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/le-mani-sulla-citta-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+             </div>
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="le mani sulla citta drammatico, italia, 1963, 105'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/le-mani-sulla-citta-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/le-mani-sulla-citta/">
                   Le mani sulla città
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Italia, 1963, 105'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Italia, 1963, 105'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-22T18:00">
+                 18:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=713990" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Le mani sulla città (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=713990" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Le mani sulla città" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -791,58 +1252,59 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/personal-classics/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/personal-classics/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Personal Classics
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/per-silenzio-e-vento-2/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Per Silenzio e Vento" class="attachment-large size-large wp-post-image" decoding="async" height="617" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/per-silenzio-e-vento-2-1800x1084-1-1024x617.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="per silenzio e vento documentario, italia, 2026, 80'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="463" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/per-silenzio-e-vento-2-1800x1084-1-768x463.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/per-silenzio-e-vento-2/">
                   Per silenzio e vento
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2026, 80'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Italia, 2026, 80'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:30
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-22T20:30">
+                 20:30
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                  <a aria-label="Prenota Per silenzio e vento (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Per silenzio e vento" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -851,47 +1313,47 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/in-cinema/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/in-cinema-2-farsela-in-braghe/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
-                In CI(ne)MA
+                In ci(ne)ma 2 – farsela in braghe
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261126">
            <h2 class="programmazione-data-titolo">
-            GIOVEDì, 26 NOVEMBRE 2026
+            GIOVEDì, 26 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/fabulaetiem/'">
-              <div class="evento-card-new-immagine">
-               <img alt="FABULAETIEM" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/fabulaetiem-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento" data-categorie="cinema" data-particolarita="78" data-testo="fabulaetiem documentario, italia, 2026, 51'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/fabulaetiem-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/fabulaetiem/">
                   FABULAETIEM
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2026, 51'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Italia, 2026, 51'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
@@ -900,14 +1362,15 @@
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-26T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -917,103 +1380,105 @@
                 </div>
                </div>
               </div>
-             </article>
-            </div>
+             </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261127">
            <h2 class="programmazione-data-titolo">
-            VENERDì, 27 NOVEMBRE 2026
+            VENERDì, 27 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/niente-di-antico-sotto-il-sole-la-fotografia-di-luigi-ghirri/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="671" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/FOTO-ARTISTA_LUIGI-GHIRRI-1024x671.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="talk" data-particolarita="" data-testo="niente di antico sotto il sole: la fotografia di luigi ghirri evento speciale">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="503" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/FOTO-ARTISTA_LUIGI-GHIRRI-768x503.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/niente-di-antico-sotto-il-sole-la-fotografia-di-luigi-ghirri/">
                   Niente di antico sotto il sole: La fotografia di Luigi Ghirri
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Evento speciale
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Evento speciale
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Talk
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-27T21:00">
+                 21:00
+                </time>
+               </p>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Prisma – Sguardi di Cinema e Fotografia
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261128">
            <h2 class="programmazione-data-titolo">
-            SABATO, 28 NOVEMBRE 2026
+            SABATO, 28 NOVEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/fabulaetiem/'">
-              <div class="evento-card-new-immagine">
-               <img alt="FABULAETIEM" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/fabulaetiem-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="fabulaetiem documentario, italia, 2026, 51'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/fabulaetiem-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/fabulaetiem/">
                   FABULAETIEM
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2026, 51'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Italia, 2026, 51'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:30
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-28T18:30">
+                 18:30
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1023,37 +1488,37 @@
                 </div>
                </div>
               </div>
-             </article>
-            </div>
+             </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261204">
            <h2 class="programmazione-data-titolo">
-            VENERDì, 4 DICEMBRE 2026
+            VENERDì, 4 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/la-scuola-non-e-secondaria/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="187" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/La-scuola-non-e-secondaria-1.png" width="562"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="78" data-testo="la scuola non e secondaria documentario, italia, 2021, 45'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="187" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/La-scuola-non-e-secondaria-1.png" width="562"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/la-scuola-non-e-secondaria/">
                   La scuola non è secondaria
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Italia, 2021, 45'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Italia, 2021, 45'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
@@ -1062,14 +1527,15 @@
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-04T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1079,47 +1545,47 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Questioni di classe?
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261205">
            <h2 class="programmazione-data-titolo">
-            SABATO, 5 DICEMBRE 2026
+            SABATO, 5 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Gli uccelli del monte Qaf - Sala Civica Fronte del Porto -Padova" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema musica" data-particolarita="" data-testo="gli uccelli del monte qaf finzione, iran/norvegia/italia, 80', 2025">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/">
                   GLI UCCELLI DEL MONTE QAF
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Finzione, Iran/Norvegia/Italia, 80', 2025
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Finzione, Iran/Norvegia/Italia, 80', 2025
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
@@ -1128,19 +1594,20 @@
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-05T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                  <a aria-label="Prenota GLI UCCELLI DEL MONTE QAF (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di GLI UCCELLI DEL MONTE QAF" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -1149,60 +1616,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Altrove: Iran
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261206">
            <h2 class="programmazione-data-titolo">
-            DOMENICA, 6 DICEMBRE 2026
+            DOMENICA, 6 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/sun-ra-do-the-impossible/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/sun-ra-do-the-impossible-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="sun ra: do the impossible documentario, stati uniti d'america, 2024, 84'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/sun-ra-do-the-impossible-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/sun-ra-do-the-impossible/">
                   sun ra: do the impossible
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Stati Uniti d'America, 2024, 84'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Stati Uniti d'America, 2024, 84'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-06T18:00">
+                 18:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1212,47 +1680,47 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Imagine the Sound
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261210">
            <h2 class="programmazione-data-titolo">
-            GIOVEDì, 10 DICEMBRE 2026
+            GIOVEDì, 10 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Gli uccelli del monte Qaf - Sala Civica Fronte del Porto -Padova" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema musica" data-particolarita="" data-testo="gli uccelli del monte qaf finzione, iran/norvegia/italia, 80', 2025">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/Gli-uccelli-del-monte-Qaf-4-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/gli-uccelli-del-monte-qaf/">
                   GLI UCCELLI DEL MONTE QAF
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Finzione, Iran/Norvegia/Italia, 80', 2025
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Finzione, Iran/Norvegia/Italia, 80', 2025
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
@@ -1261,19 +1729,20 @@
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:30
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-10T18:30">
+                 18:30
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                  <a aria-label="Prenota GLI UCCELLI DEL MONTE QAF (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di GLI UCCELLI DEL MONTE QAF" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -1282,60 +1751,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Altrove: Iran
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261212">
            <h2 class="programmazione-data-titolo">
-            SABATO, 12 DICEMBRE 2026
+            SABATO, 12 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-last-act/'">
-              <div class="evento-card-new-immagine">
-               <img alt="The last act" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-last-act-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="the last act drammatico, iran, 2024, 86'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-last-act-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/the-last-act/">
                   The last act
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Iran, 2024, 86'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Iran, 2024, 86'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-12T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1345,60 +1815,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Altrove: Iran
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261213">
            <h2 class="programmazione-data-titolo">
-            DOMENICA, 13 DICEMBRE 2026
+            DOMENICA, 13 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/lost-highway/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="429" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Lost-Highway-1997-imdb-tt0116922-Bluray-1080pEAC3-5.1x264-PTer-0006-1024x429.png" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="lost highway finzione, stati uniti d'america/francia, 1997, 135'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="321" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/Lost-Highway-1997-imdb-tt0116922-Bluray-1080pEAC3-5.1x264-PTer-0006-767x321.png" width="767"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/lost-highway/">
                   lost highway
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Finzione, Stati Uniti d'America/Francia, 1997, 135'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Finzione, Stati Uniti d'America/Francia, 1997, 135'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-13T18:00">
+                 18:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1408,60 +1879,122 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/imagine-the-sound-2/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Imagine the Sound
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo">
-           <h2 class="programmazione-data-titolo">
-            GIOVEDì, 17 DICEMBRE 2026
-           </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-last-act/'">
-              <div class="evento-card-new-immagine">
-               <img alt="The last act" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-last-act-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
-                  The last act
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Iran, 2024, 86'
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="marsara documentario, italia, 2026, 57">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="511" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/125-768x511.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/marsara/">
+                  MArsarà
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Italia, 2026, 57
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-13T20:30">
+                 20:30
+                </time>
+               </p>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
+                 <div class="prenota-prog-main">
+                  <a aria-label="Prenota MArsarà (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di MArsarà" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  6,50€ intero, 5€ ridotto - RIDUZIONI CAI ED INTELLI
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/in-cinema-2-farsela-in-braghe/">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                In ci(ne)ma 2 – farsela in braghe
+               </strong>
+              </span>
+              <span aria-hidden="true" class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </article>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo" id="giorno-20261217">
+           <h2 class="programmazione-data-titolo">
+            GIOVEDì, 17 DICEMBRE
+           </h2>
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="the last act drammatico, iran, 2024, 86'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/the-last-act-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/the-last-act/">
+                  The last act
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
+                </div>
+               </div>
+               <p class="card-evento__caratteristica">
+                Drammatico, Iran, 2024, 86'
+               </p>
+               <div class="card-evento__etichette">
+                <span class="categoria-label-prog">
+                 Cinema
                 </span>
                </div>
+              </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-17T18:00">
+                 18:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1471,60 +2004,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/altrove-iran/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Altrove: Iran
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261218">
            <h2 class="programmazione-data-titolo">
-            VENERDì, 18 DICEMBRE 2026
+            VENERDì, 18 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/un-anno-di-scuola/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Un anno di scuola" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/un-anno-di-scuola-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="un anno di scuola drammatico, italia/francia, 2025, 102'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/un-anno-di-scuola-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/un-anno-di-scuola/">
                   Un anno di scuola
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Drammatico, Italia/Francia, 2025, 102'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Drammatico, Italia/Francia, 2025, 102'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 20:45
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-18T20:45">
+                 20:45
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1534,65 +2068,66 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/questioni-di-classe/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Questioni di classe?
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261219">
            <h2 class="programmazione-data-titolo">
-            SABATO, 19 DICEMBRE 2026
+            SABATO, 19 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/lestate-di-cle0/'">
-              <div class="evento-card-new-immagine">
-               <img alt="L'estate di Cleo" class="attachment-large size-large wp-post-image" decoding="async" height="540" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/AH_lestatedicleo_foto_4-1024x540.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="l’estate di cleo finzione, francia, 2023, 84'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="405" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/AH_lestatedicleo_foto_4-768x405.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/lestate-di-cle0/">
                   L’estate di Cléo
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Finzione, Francia, 2023, 84'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Finzione, Francia, 2023, 84'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 16:30
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-19T16:30">
+                 16:30
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://docs.google.com/forms/d/e/1FAIpQLSe1CWHgbgEVCDNBfXX6Vk44gUQ8rMIPlpJMaOgzE7Dj2lqEpg/viewform" rel="noopener" target="_blank">
+                  <a aria-label="Prenota L’estate di Cléo (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://docs.google.com/forms/d/e/1FAIpQLSe1CWHgbgEVCDNBfXX6Vk44gUQ8rMIPlpJMaOgzE7Dj2lqEpg/viewform" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di L’estate di Cléo" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -1601,65 +2136,66 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/cineforum-cif/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Cineforum CIF
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20261220">
            <h2 class="programmazione-data-titolo">
-            DOMENICA, 20 DICEMBRE 2026
+            DOMENICA, 20 DICEMBRE
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-goonies/'">
-              <div class="evento-card-new-immagine">
-               <img alt="The Goonies" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-goonies-2-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="the goonies commedia, usa, 1985, 114'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-goonies-2-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/the-goonies/">
                   The Goonies
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Commedia, USA, 1985, 114'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Commedia, USA, 1985, 114'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 18:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-20T18:00">
+                 18:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
                  <div class="prenota-prog-main">
-                  <a class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=703943" rel="noopener" target="_blank">
+                  <a aria-label="Prenota The Goonies (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=703943" rel="noopener" target="_blank">
                    Prenota
                   </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo" class="btn-prenota-prog-toggle" type="button">
+                  <button aria-expanded="false" aria-label="Mostra prezzo di The Goonies" class="btn-prenota-prog-toggle" type="button">
                   </button>
                  </div>
                  <div class="prenota-prog-prezzo" hidden="">
@@ -1668,47 +2204,47 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/personal-classics/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/personal-classics/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Personal Classics
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20270115">
            <h2 class="programmazione-data-titolo">
             VENERDì, 15 GENNAIO 2027
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/berlino-sinfonia-di-una-grande-citta/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="1024" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/berlino_notext_full_1530x2048-765x1024.png" width="765"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema musica" data-particolarita="" data-testo="berlino – sinfonia di una grande citta documentario, germania, 1927">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="1028" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/berlino_notext_full_1530x2048-768x1028.png" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/berlino-sinfonia-di-una-grande-citta/">
                   Berlino – Sinfonia di una grande città
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Germania, 1927
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Germania, 1927
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
@@ -1717,14 +2253,15 @@
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2027-01-15T21:00">
+                 21:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1734,60 +2271,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 sonorizzazioni
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20270122">
            <h2 class="programmazione-data-titolo">
             VENERDì, 22 GENNAIO 2027
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/lee/'">
-              <div class="evento-card-new-immagine">
-               <img alt="Lee" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/lee-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="lee biografico, gran bretagna/stati uniti, 2023, 116'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/lee-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/lee/">
                   Lee
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Biografico, Gran Bretagna/Stati Uniti, 2023, 116'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Biografico, Gran Bretagna/Stati Uniti, 2023, 116'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2027-01-22T21:00">
+                 21:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1797,60 +2335,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Prisma – Sguardi di Cinema e Fotografia
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20270219">
            <h2 class="programmazione-data-titolo">
             VENERDì, 19 FEBBRAIO 2027
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/gincana-minimal-duo/'">
-              <div class="evento-card-new-immagine">
-               <img alt="" class="attachment-large size-large wp-post-image" decoding="async" height="1024" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/COPERTINA-FUNAMBOLO-1024x1024.webp" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="musica" data-particolarita="" data-testo="gincana – minimal duo concerto con live visual">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="768" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/10/COPERTINA-FUNAMBOLO-768x768.webp" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/gincana-minimal-duo/">
                   gincana – minimal duo
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Concerto con live visual
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Concerto con live visual
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Musica
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2027-02-19T21:00">
+                 21:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1860,60 +2399,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/sonorizzazioni/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 sonorizzazioni
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20270312">
            <h2 class="programmazione-data-titolo">
             VENERDì, 12 MARZO 2027
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/im-not-everything-i-want-to-be/'">
-              <div class="evento-card-new-immagine">
-               <img alt="I'm not everything I want to be" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/i-m-not-everything-i-want-to-be-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="i’m not everything i want to be documentario, repubblica ceca/slovacchia/austria, 2024, 90'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/i-m-not-everything-i-want-to-be-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/im-not-everything-i-want-to-be/">
                   I’m not everything I want to be
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Repubblica Ceca/Slovacchia/Austria, 2024, 90'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Repubblica Ceca/Slovacchia/Austria, 2024, 90'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2027-03-12T21:00">
+                 21:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1923,60 +2463,61 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Prisma – Sguardi di Cinema e Fotografia
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
-          <div class="programmazione-data-gruppo">
+          <div class="programmazione-data-gruppo" id="giorno-20270507">
            <h2 class="programmazione-data-titolo">
             VENERDì, 7 MAGGIO 2027
            </h2>
-           <div class="programmazione-lista-new">
-            <div class="evento-card-wrapper">
-             <article class="evento-card-new evento-card-grouped" onclick="window.location.href='https://www.frontedelportopadova.it/eventi/the-act-of-killing/'">
-              <div class="evento-card-new-immagine">
-               <img alt="The act of killing" class="attachment-large size-large wp-post-image" decoding="async" height="576" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-act-of-killing-1-1024x576.jpg" width="1024"/>
-              </div>
-              <div class="evento-card-new-content">
-               <div class="evento-card-new-top-section">
-                <div class="evento-card-new-title-wrapper">
-                 <h2 class="evento-card-new-title">
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="the act of killing documentario, regno unito/norvegia/danimarca/finlandia, 2012, 159'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/the-act-of-killing-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/the-act-of-killing/">
                   The act of killing
-                 </h2>
-                 <div class="evento-card-new-arrow">
-                  <span class="material-symbols-outlined">
-                   arrow_outward
-                  </span>
-                 </div>
-                </div>
-                <div class="evento-card-new-caratteristiche">
-                 Documentario, Regno Unito/Norvegia/Danimarca/Finlandia, 2012, 159'
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
                 </div>
                </div>
-               <div class="evento-card-new-categoria">
+               <p class="card-evento__caratteristica">
+                Documentario, Regno Unito/Norvegia/Danimarca/Finlandia, 2012, 159'
+               </p>
+               <div class="card-evento__etichette">
                 <span class="categoria-label-prog">
                  Cinema
                 </span>
                </div>
               </div>
-              <div class="evento-card-new-right-column">
-               <div class="evento-card-ora-grouped">
-                <span class="evento-card-new-ora">
-                 H 21:00
-                </span>
-               </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2027-05-07T21:00">
+                 21:00
+                </time>
+               </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo" onclick="event.stopPropagation();">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
                  <button aria-expanded="false" class="btn-biglietto-prog" type="button">
                   Biglietto
                  </button>
@@ -1986,18 +2527,18 @@
                 </div>
                </div>
               </div>
-             </article>
-             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/" onclick="event.stopPropagation();">
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/prisma-cinema-e-fotografia/">
               <span class="evento-rassegna-text">
                Scopri di più sulla rassegna
                <strong>
                 Prisma – Sguardi di Cinema e Fotografia
                </strong>
               </span>
-              <span class="evento-rassegna-arrow">
+              <span aria-hidden="true" class="evento-rassegna-arrow">
               </span>
              </a>
-            </div>
+            </article>
            </div>
           </div>
          </div>
@@ -2012,53 +2553,61 @@
         </div>
         <div class="programmazione-sidebar-column">
          <aside class="sidebar-programmazione">
-          <div class="sidebar-section sidebar-prezzi">
-           <h3 class="sidebar-title">
-            Prezzo Biglietti Cinema*
-           </h3>
-           <div class="prezzo-item">
-            <span class="prezzo-label">
-             Intero:
+          <details class="tendina tendina--sidebar tendina--prezzi sidebar-prezzi">
+           <summary class="tendina__titolo">
+            <span aria-hidden="true" class="material-symbols-outlined tendina__icona">
+             confirmation_number
             </span>
-            <span class="prezzo-value">
-             €6,50
-            </span>
+            Prezzo biglietti cinema*
+           </summary>
+           <div class="tendina__contenuto">
+            <div class="prezzo-item">
+             <span class="prezzo-label">
+              Intero:
+             </span>
+             <span class="prezzo-value">
+              €6,50
+             </span>
+            </div>
+            <div class="prezzo-item">
+             <span class="prezzo-label">
+              Ridotto:
+             </span>
+             <span class="prezzo-value">
+              €5,00
+             </span>
+             <span class="prezzo-note">
+              Under 30, accompagnatori disabili.
+             </span>
+            </div>
+            <div class="prezzo-item">
+             <span class="prezzo-label">
+              Bambini:
+             </span>
+             <span class="prezzo-value">
+              €4,00
+             </span>
+             <span class="prezzo-note">
+              Bambini dai 4 ai 12 anni.
+             </span>
+            </div>
+            <div class="prezzo-note-special">
+             Bambini sotto i 4 anni e persone con disabilità hanno diritto all'omaggio.
+            </div>
+            <div class="prezzo-note-special">
+             <a class="link-prog" href="/politica-prezzi-biglietti">
+              *Vedi la nostra politica sui prezzi
+             </a>
+            </div>
            </div>
-           <div class="prezzo-item">
-            <span class="prezzo-label">
-             Ridotto:
+          </details>
+          <details class="tendina sidebar-rassegne tendina--sidebar" open="">
+           <summary class="tendina__titolo">
+            Rassegne in corso
+            <span class="tendina__numero">
+             (10)
             </span>
-            <span class="prezzo-value">
-             €5,00
-            </span>
-            <span class="prezzo-note">
-             Under 30, accompagnatori disabili.
-            </span>
-           </div>
-           <div class="prezzo-item">
-            <span class="prezzo-label">
-             Bambini:
-            </span>
-            <span class="prezzo-value">
-             €4,00
-            </span>
-            <span class="prezzo-note">
-             Bambini dai 4 ai 12 anni.
-            </span>
-           </div>
-           <div class="prezzo-note-special">
-            Bambini sotto i 4 anni e persone con disabilità hanno diritto all'omaggio.
-           </div>
-           <div class="prezzo-note-special">
-            <a class="link-prog" href="/politica-prezzi-biglietti">
-             *Vedi la nostra politica sui prezzi
-            </a>
-           </div>
-          </div>
-          <div class="sidebar-section sidebar-rassegne">
-           <h3 class="sidebar-title">
-            Rassegne in Corso
-           </h3>
+           </summary>
            <div class="rassegne-lista">
             <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/il-buono-il-lutto-e-il-cattivo/">
              <span class="rassegna-nome">
@@ -2095,9 +2644,9 @@
              <span class="rassegna-arrow">
              </span>
             </a>
-            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/in-cinema/">
+            <a class="rassegna-item" href="https://www.frontedelportopadova.it/rassegne/in-cinema-2-farsela-in-braghe/">
              <span class="rassegna-nome">
-              In CI(ne)MA
+              In ci(ne)ma 2 – farsela in braghe
              </span>
              <span class="rassegna-arrow">
              </span>
@@ -2131,7 +2680,7 @@
              </span>
             </a>
            </div>
-          </div>
+          </details>
          </aside>
         </div>
        </div>
