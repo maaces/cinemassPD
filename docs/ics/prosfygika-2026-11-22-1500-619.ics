@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:4017341049220063461@cinema-scraper.local
+DTSTAMP:20261117T005812Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:Prosfygika
+LOCATION:Fronte del Porto
+DESCRIPTION:ingresso libero\nDurata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://www.frontedelportopadova.it/eventi/prosfygika/
+END:VEVENT
+END:VCALENDAR
