@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:55:33.717377",
+  "generated_at": "2026-11-19T23:25:36.958404",
   "movies": [
     {
       "title": "Hunger Games - L'alba sulla mietitura",
@@ -12,54 +12,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1300968",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/100844",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "18:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": null,
-          "note": "Proiezione LASER",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "21:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:00",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-20",
           "time": "17:00",
@@ -847,22 +799,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/162686",
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "22:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:40",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-20",
           "time": "17:15",
           "cinema": "Cineplex (Due Carrare)",
@@ -1275,14 +1211,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1401459",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/167900",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "20:00",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-20",
           "time": "16:30",
@@ -1709,14 +1637,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1124142",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/166481",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "22:25",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-20",
           "time": "16:00",
@@ -2170,22 +2090,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158099",
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "22:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-20",
           "time": "17:25",
           "cinema": "Porto Astra",
@@ -2398,46 +2302,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1583853",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/154172",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "19:00",
-          "cinema": "The Space (Limena)",
-          "price": null,
-          "note": "Proiezione LASER 4K · OSPITI IN SALA",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:10",
-          "cinema": "The Space (Limena)",
-          "price": "da 9,99 €",
-          "note": "Proiezione LASER 4K · OSPITI IN SALA",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "22:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-20",
           "time": "17:01",
@@ -3034,14 +2898,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1506710",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "21:45",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-20",
           "time": "17:05",
@@ -4885,14 +4741,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-21",
           "time": "20:30",
           "cinema": "Multiastra",
@@ -5160,14 +5008,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "21:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-20",
           "time": "16:50",
           "cinema": "Porto Astra",
@@ -5301,14 +5141,6 @@
       "detail_url": null,
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "21:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-22",
           "time": "14:30",
           "cinema": "Porto Astra",
@@ -5439,27 +5271,6 @@
           "date": "2026-11-25",
           "time": "21:50",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "CUSTODI DELLA MEMORIA. LA NATURA AL TEMPO DEL FUOCO Francesco Conversano, Nene Grignaffini # Italia 2026 (80′)",
-      "director": "Francesco Conversano, Nene Grignaffini",
-      "duration_min": 80,
-      "poster_url": null,
-      "trailer_url": null,
-      "trailer_search_url": "https://www.youtube.com/results?search_query=CUSTODI%20DELLA%20MEMORIA.%20LA%20NATURA%20AL%20TEMPO%20DEL%20FUOCO%20%20%20Francesco%20Conversano%2C%20Nene%20Grignaffini%20%23%20Italia%202026%20%2880%E2%80%B2%29%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/custodi%20della%20memoria.%20la%20natura%20al%20tempo%20del%20fuoco%20francesco%20conversano%2C%20nene%20grignaffini%20%23%20italia%202026/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1794000",
-      "detail_url": "https://www.movieconnection.it/proiezione/i-custodi-della-memoria-la-natura-al-tempo-del-fuoco-francesco-conversano-nene-grignaffini-italia-2026-80/",
-      "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "21:00",
-          "cinema": "Lux",
           "price": null,
           "note": null,
           "date_uncertain": false
