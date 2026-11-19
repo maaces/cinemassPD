@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.14.2 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.14.3 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -380,9 +380,9 @@
           </button>
           <ul class="striscia-giorni__lista">
            <li>
-            <a class="striscia-giorni__giorno" data-giorno="20261119" href="#giorno-20261119">
+            <a class="striscia-giorni__giorno striscia-giorni__giorno--oggi" data-giorno="20261119" href="#giorno-20261119">
              <span class="striscia-giorni__nome">
-              Domani
+              Oggi
              </span>
              <span class="striscia-giorni__numero">
               19
@@ -398,7 +398,7 @@
            <li>
             <a class="striscia-giorni__giorno" data-giorno="20261120" href="#giorno-20261120">
              <span class="striscia-giorni__nome">
-              Ven
+              Domani
              </span>
              <span class="striscia-giorni__numero">
               20
@@ -482,6 +482,22 @@
              </span>
              <span class="striscia-giorni__numero">
               28
+             </span>
+             <span aria-hidden="true" class="striscia-giorni__mese">
+              Nov
+             </span>
+             <span class="screen-reader-text">
+              novembre
+             </span>
+            </a>
+           </li>
+           <li>
+            <a class="striscia-giorni__giorno" data-giorno="20261129" href="#giorno-20261129">
+             <span class="striscia-giorni__nome">
+              Dom
+             </span>
+             <span class="striscia-giorni__numero">
+              29
              </span>
              <span aria-hidden="true" class="striscia-giorni__mese">
               Nov
@@ -754,63 +770,12 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo" id="giorno-20261119">
            <h2 class="programmazione-data-titolo">
-            DOMANI
+            OGGI
            </h2>
            <div class="programmazione-lista-new programmazione-lista-card">
-            <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="ritorno a buenos aires drammatico, italia, 2026, 104'">
-             <div class="card-evento__immagine">
-              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="high" height="432" loading="eager" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/ritorno-a-buenos-aires-1-768x432.jpg" width="768"/>
-             </div>
-             <div class="card-evento__corpo">
-              <div class="card-evento__principale">
-               <div class="card-evento__titolo-riga">
-                <h3 class="card-evento__titolo">
-                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/ritorno-a-buenos-aires/">
-                  Ritorno a Buenos Aires
-                 </a>
-                </h3>
-                <div aria-hidden="true" class="evento-card-new-arrow">
-                 <span class="material-symbols-outlined">
-                  arrow_outward
-                 </span>
-                </div>
-               </div>
-               <p class="card-evento__caratteristica">
-                Drammatico, Italia, 2026, 104'
-               </p>
-               <div class="card-evento__etichette">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-               </div>
-              </div>
-              <div class="card-evento__lato">
-               <p class="card-evento__ora">
-                H
-                <time datetime="2026-11-19T18:30">
-                 18:30
-                </time>
-               </p>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
-                 <div class="prenota-prog-main">
-                  <a aria-label="Prenota Ritorno a Buenos Aires (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo di Ritorno a Buenos Aires" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </article>
             <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="87" data-testo="eternal you documentario, germania/usa, 2024, 87'">
              <div class="card-evento__immagine">
-              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/eternal-you-1-768x432.jpg" width="768"/>
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="high" height="432" loading="eager" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/eternal-you-1-768x432.jpg" width="768"/>
              </div>
              <div class="card-evento__corpo">
               <div class="card-evento__principale">
@@ -876,7 +841,7 @@
           </div>
           <div class="programmazione-data-gruppo" id="giorno-20261120">
            <h2 class="programmazione-data-titolo">
-            VENERDì, 20 NOVEMBRE
+            DOMANI
            </h2>
            <div class="programmazione-lista-new programmazione-lista-card">
             <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="ritorno a buenos aires drammatico, italia, 2026, 104'">
@@ -1661,6 +1626,73 @@
                </div>
               </div>
              </div>
+            </article>
+           </div>
+          </div>
+          <div class="programmazione-data-gruppo" id="giorno-20261129">
+           <h2 class="programmazione-data-titolo">
+            DOMENICA, 29 NOVEMBRE
+           </h2>
+           <div class="programmazione-lista-new programmazione-lista-card">
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="81" data-testo="il mago di oz musicale, usa, 1939, 101'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/il-mago-di-oz-1-768x432.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/il-mago-di-oz/">
+                  Il Mago di Oz
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
+                </div>
+               </div>
+               <p class="card-evento__caratteristica">
+                Musicale, USA, 1939, 101'
+               </p>
+               <div class="card-evento__etichette">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+                <span class="particolarita-label-prog">
+                 ☺ per Bambini
+                </span>
+               </div>
+              </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-11-29T10:00">
+                 10:00
+                </time>
+               </p>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/fp-kids-proiezioni-per-famiglie-26/">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                FP kids – proiezioni per famiglie
+               </strong>
+              </span>
+              <span aria-hidden="true" class="evento-rassegna-arrow">
+              </span>
+             </a>
             </article>
            </div>
           </div>

@@ -1,34 +1,34 @@
-Report generato il 18/11/2026 21:50 (ora italiana)
+Report generato il 19/11/2026 21:54 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 32
-Orari trovati: 456 (di cui con data non riconosciuta: 0)
+Film trovati: 27
+Orari trovati: 423 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 11
-Orari trovati: 50 (di cui con data non riconosciuta: 0)
+Film trovati: 10
+Orari trovati: 45 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
 ## Porto Astra
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
-Film trovati: 15
-Orari trovati: 154 (di cui con data non riconosciuta: 0)
+Film trovati: 14
+Orari trovati: 133 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 6
+Film trovati: 5
 Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
@@ -43,15 +43,15 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto.txt
 
 ## The Space (Limena)
 URL: https://www.thespacecinema.it/cinema/limena/al-cinema
-STATO: aggiornato in locale (run_space_only.py), 76 orari salvati
+STATO: aggiornato in locale (run_space_only.py), 25 orari salvati
 
 ## Cinema Rex
 URL: https://www.cinemarex.it/
 Scraper: cinema_rex
-Film trovati: 0
-Orari trovati: 0 (di cui con data non riconosciuta: 0)
+Film trovati: 17
+Orari trovati: 28 (di cui con data non riconosciuta: 0)
 Errore: nessuno
-HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt, https://maaces.github.io/cinemassPD/debug/cinema-rex-2.txt
+HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
 
 ## Cinema Esperia
 URL: https://www.esperiapadova.it/Blog?category=1

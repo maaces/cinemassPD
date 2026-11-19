@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:54:05.757608",
+  "generated_at": "2026-11-19T20:55:33.717377",
   "movies": [
     {
       "title": "Hunger Games - L'alba sulla mietitura",
@@ -12,30 +12,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1300968",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/100844",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "18:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-19",
           "time": "18:00",
@@ -54,42 +30,10 @@
         },
         {
           "date": "2026-11-19",
-          "time": "20:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "21:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
           "time": "21:00",
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -904,54 +848,6 @@
       "showtimes": [
         {
           "date": "2026-11-19",
-          "time": "17:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:20",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "18:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "18:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
           "time": "22:15",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
@@ -1381,22 +1277,6 @@
       "showtimes": [
         {
           "date": "2026-11-19",
-          "time": "17:10",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:15",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
           "time": "20:00",
           "cinema": "Multiastra",
           "price": null,
@@ -1593,38 +1473,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163445",
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "17:10",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:30",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:15",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-20",
           "time": "17:10",
           "cinema": "Porto Astra",
@@ -1716,6 +1564,14 @@
           "date": "2026-11-22",
           "time": "10:35",
           "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:00",
+          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -1853,22 +1709,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1124142",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/166481",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "17:00",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-19",
           "time": "22:25",
@@ -2019,22 +1859,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163447",
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-20",
           "time": "17:00",
           "cinema": "Cineplex (Due Carrare)",
@@ -2085,14 +1909,6 @@
         {
           "date": "2026-11-22",
           "time": "11:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "13:30",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -2326,14 +2142,6 @@
         },
         {
           "date": "2026-11-25",
-          "time": "17:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-25",
           "time": "19:40",
           "cinema": "Porto Astra",
           "price": null,
@@ -2342,24 +2150,8 @@
         },
         {
           "date": "2026-11-25",
-          "time": "19:45",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-25",
           "time": "21:55",
           "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-25",
-          "time": "22:05",
-          "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -2377,22 +2169,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/891621",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/158099",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "17:25",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-19",
           "time": "22:20",
@@ -2624,22 +2400,6 @@
       "showtimes": [
         {
           "date": "2026-11-19",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:15",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
           "time": "19:00",
           "cinema": "The Space (Limena)",
           "price": null,
@@ -2652,30 +2412,6 @@
           "cinema": "The Space (Limena)",
           "price": "da 9,99 €",
           "note": "Proiezione LASER 4K · OSPITI IN SALA",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "20:05",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
           "date_uncertain": false
         },
         {
@@ -3132,14 +2868,6 @@
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163446",
       "showtimes": [
         {
-          "date": "2026-11-19",
-          "time": "17:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
           "date": "2026-11-20",
           "time": "17:50",
           "cinema": "Cineplex (Due Carrare)",
@@ -3259,14 +2987,14 @@
       ]
     },
     {
-      "title": "You Can See Everithing",
+      "title": "You Can See Everything",
       "director": "Nathan Fielder, Lance Oppenheim",
-      "duration_min": null,
+      "duration_min": 175,
       "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/160013/standard_9a17535d-4311-487b-a411-9a47f20c7ce6.jpg",
       "trailer_url": "https://www.youtube.com/watch?v=APL01D_3BRU",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=YOU%20CAN%20SEE%20EVERITHING%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/you%20can%20see%20everithing/",
-      "tmdb_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=You%20Can%20See%20Everything%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/you%20can%20see%20everything/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1765072",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/160013",
       "showtimes": [
         {
@@ -3306,30 +3034,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1506710",
       "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/143348",
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "17:20",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-19",
-          "time": "19:50",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-19",
           "time": "21:45",
@@ -4054,35 +3758,6 @@
         {
           "date": "2026-12-20",
           "time": "21:30",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Spider-Man: Brand New Day",
-      "director": "D.D. Cretton",
-      "duration_min": 144,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/168164/standard_90950b7d-3622-4f2e-abcb-8551d6a127e4.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=CIc5RY4quRI",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Spider-Man%3A%20Brand%20New%20Day%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/spider-man%3A%20brand%20new%20day/",
-      "tmdb_url": "https://www.themoviedb.org/movie/969681",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/168164",
-      "showtimes": [
-        {
-          "date": "2026-12-03",
-          "time": "17:00",
-          "cinema": "Cineplex (Due Carrare)",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-12-03",
-          "time": "20:00",
           "cinema": "Cineplex (Due Carrare)",
           "price": null,
           "note": null,
@@ -5199,6 +4874,43 @@
       ]
     },
     {
+      "title": "La Gradiva",
+      "director": "Marine Atlan",
+      "duration_min": 145,
+      "poster_url": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=9vD0Euyk0a4",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20Gradiva%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20gradiva/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1154730",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-19",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-21",
+          "time": "20:30",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-25",
+          "time": "20:15",
+          "cinema": "Multiastra",
+          "price": null,
+          "note": "V.O.S",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "L'essere amato",
       "director": "Rodrigo Sorogoyen",
       "duration_min": 136,
@@ -5209,14 +4921,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1074074",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "17:30",
-          "cinema": "Multiastra",
-          "price": "4,50 €",
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-20",
           "time": "16:15",
@@ -5303,43 +5007,6 @@
           "cinema": "Multiastra",
           "price": null,
           "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "La Gradiva",
-      "director": "Marine Atlan",
-      "duration_min": 145,
-      "poster_url": "https://image.tmdb.org/t/p/w500/aFrhFiIhdf2klvXq8VFcB06b5pS.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=9vD0Euyk0a4",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20Gradiva%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/la%20gradiva/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1154730",
-      "detail_url": null,
-      "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "20:30",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-25",
-          "time": "20:15",
-          "cinema": "Multiastra",
-          "price": null,
-          "note": "V.O.S",
           "date_uncertain": false
         }
       ]
@@ -5482,75 +5149,6 @@
       ]
     },
     {
-      "title": "Look Back",
-      "director": "Hirokazu Kore Eda",
-      "duration_min": 62,
-      "poster_url": "https://cdn.18tickets.net/impero/uploads/film/playbill/163481/standard_ccbee47e-2c37-4ae8-98f0-186d48795302.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=i7sRLxcbakE",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Look%20Back%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/look%20back/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1244492",
-      "detail_url": "https://pd.cineplexmoderno.cineplexmoderno.it/film/163481",
-      "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "19:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-21",
-          "time": "20:00",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "10:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "14:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-22",
-          "time": "19:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-23",
-          "time": "20:40",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-24",
-          "time": "17:05",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
       "title": "Il fuoco che ti porti dentro",
       "director": "Edoardo De Angelis",
       "duration_min": 93,
@@ -5561,14 +5159,6 @@
       "tmdb_url": "https://www.themoviedb.org/movie/1632188",
       "detail_url": null,
       "showtimes": [
-        {
-          "date": "2026-11-19",
-          "time": "16:50",
-          "cinema": "Porto Astra",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
         {
           "date": "2026-11-19",
           "time": "21:15",
@@ -5729,6 +5319,67 @@
       ]
     },
     {
+      "title": "Look Back",
+      "director": "押山清高",
+      "duration_min": 62,
+      "poster_url": "https://image.tmdb.org/t/p/w500/9GCNAcMo2EyEu1PCC8T0iQk2mm3.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=lXWUUWbzbW4",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Look%20Back%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/look%20back/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1244492",
+      "detail_url": null,
+      "showtimes": [
+        {
+          "date": "2026-11-21",
+          "time": "20:00",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "10:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "14:50",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "19:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-23",
+          "time": "20:40",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-24",
+          "time": "17:05",
+          "cinema": "Porto Astra",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "Un Tranquillo Funerale Di Famigliaingresso A 4,00 €",
       "director": null,
       "duration_min": null,
@@ -5816,14 +5467,14 @@
       ]
     },
     {
-      "title": "Minotaur",
+      "title": "Minotaure",
       "director": "NEL LABIRINTO DEL POTERE – Andrej Petrovič Zvjagincev",
       "duration_min": 135,
       "poster_url": "https://www.movieconnection.it/wp-content/uploads/2026/11/minotaur-poster.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=jpP7wSw9nww",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Minotaur%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/minotaur/",
-      "tmdb_url": "https://www.themoviedb.org/movie/18870",
+      "trailer_url": "https://www.youtube.com/watch?v=tNAeYB9yDSo",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Minotaure%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/minotaure/",
+      "tmdb_url": "https://www.themoviedb.org/movie/848700",
       "detail_url": "https://www.movieconnection.it/proiezione/minotaur-nel-labirinto-del-potere-andrej-petrovic-zvjagincev-fra-lett-ger-2026-135/2026-11-20/",
       "showtimes": [
         {
@@ -5846,6 +5497,14 @@
           "date": "2026-11-22",
           "time": "17:30",
           "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-16",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro",
           "price": null,
           "note": null,
           "date_uncertain": false
@@ -5898,6 +5557,14 @@
         {
           "date": "2026-11-22",
           "time": "20:15",
+          "cinema": "Lux",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-24",
+          "time": "18:30",
           "cinema": "Lux",
           "price": null,
           "note": null,
@@ -6019,6 +5686,475 @@
       ]
     },
     {
+      "title": "2001: Odissea nello spazio",
+      "director": "Stanley Kubrick",
+      "duration_min": 141,
+      "poster_url": "https://image.tmdb.org/t/p/w500/uvSRVMXGHaCeYAj2pCYNdC31b2u.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=ivPu3t2j4Fg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=2001%3A%20Odissea%20nello%20spazio%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/2001%3A%20odissea%20nello%20spazio/",
+      "tmdb_url": "https://www.themoviedb.org/movie/62",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=2001__odissea_nello_spazio",
+      "showtimes": [
+        {
+          "date": "2026-12-10",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Cleo dalle 5 alle 7",
+      "director": "Agnès Varda",
+      "duration_min": 90,
+      "poster_url": "https://image.tmdb.org/t/p/w500/z50gvTngGZth0N3tiR972xuZyP2.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Cleo%20dalle%205%20alle%207%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/cleo%20dalle%205%20alle%207/",
+      "tmdb_url": "https://www.themoviedb.org/movie/499",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=cleo_dalle_5_alle_7",
+      "showtimes": [
+        {
+          "date": "2026-12-17",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Essi vivono",
+      "director": "John Carpenter",
+      "duration_min": 93,
+      "poster_url": "https://image.tmdb.org/t/p/w500/qZEuNUlUWzzaVpSgnHDtxYZJH7g.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=HMemQcPq4aQ",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Essi%20vivono%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/essi%20vivono/",
+      "tmdb_url": "https://www.themoviedb.org/movie/8337",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=essi_vivono",
+      "showtimes": [
+        {
+          "date": "2026-11-26",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Fatherland",
+      "director": "Pawe? Pawlikowski",
+      "duration_min": 82,
+      "poster_url": "https://www.esperiapadova.it/data/img/905/fatherland.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=fatherland",
+      "showtimes": [
+        {
+          "date": "2026-11-22",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-23",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-24",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:00",
+          "cinema": "Cinema Esperia",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-25",
+          "time": "19:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-02",
+          "time": "21:00",
+          "cinema": "Piccolo Teatro",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Hope",
+      "director": "???",
+      "duration_min": 157,
+      "poster_url": "https://image.tmdb.org/t/p/w500/fbFxZSSw2kQoAkyXosVoOyBX0Z4.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=uV3s51ivuVI",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Hope%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/hope/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1058424",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=hope",
+      "showtimes": [
+        {
+          "date": "2026-11-30",
+          "time": "18:20",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Il Divo",
+      "director": "Paolo Sorrentino",
+      "duration_min": 110,
+      "poster_url": "https://image.tmdb.org/t/p/w500/6Rb4Uel3gziuDEgJ71xfZelayVP.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=T3AUilk7cvs",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Il%20Divo%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/il%20divo/",
+      "tmdb_url": "https://www.themoviedb.org/movie/8832",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=il_divo",
+      "showtimes": [
+        {
+          "date": "2027-01-21",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L&#039;estranea",
+      "director": "Paolo Strippoli",
+      "duration_min": 115,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%26%23039%3Bestranea%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%26%23039%3Bestranea/",
+      "tmdb_url": null,
+      "detail_url": "https://www.cinemarex.it/evento?eventName=l__039_estranea",
+      "showtimes": [
+        {
+          "date": "2026-11-26",
+          "time": "18:15",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-28",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-29",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-01",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "L&#039;innocenza",
+      "director": "H. Kore-eda",
+      "duration_min": 125,
+      "poster_url": null,
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=L%26%23039%3Binnocenza%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/l%26%23039%3Binnocenza/",
+      "tmdb_url": null,
+      "detail_url": "https://www.cinemarex.it/evento?eventName=l__039_innocenza",
+      "showtimes": [
+        {
+          "date": "2027-01-28",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "La chimera",
+      "director": "Alice Rohrwacher",
+      "duration_min": 133,
+      "poster_url": "https://image.tmdb.org/t/p/w500/hpL03rfX1UXqyGxtXljl8A5HIKr.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=syCSULYnDsg",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20chimera%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20chimera/",
+      "tmdb_url": "https://www.themoviedb.org/movie/837335",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=la_chimera",
+      "showtimes": [
+        {
+          "date": "2026-12-03",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "La parola ai giurati",
+      "director": "Sidney Lumet",
+      "duration_min": 96,
+      "poster_url": "https://image.tmdb.org/t/p/w500/6lvkCuYuqpbmK1OPcv5oKleWbgV.jpg",
+      "trailer_url": null,
+      "trailer_search_url": "https://www.youtube.com/results?search_query=La%20parola%20ai%20giurati%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/la%20parola%20ai%20giurati/",
+      "tmdb_url": "https://www.themoviedb.org/movie/389",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=la_parola_ai_giurati",
+      "showtimes": [
+        {
+          "date": "2027-01-14",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Mad God",
+      "director": "Phil Tippett",
+      "duration_min": 84,
+      "poster_url": "https://image.tmdb.org/t/p/w500/105stT9GkiENXiYqvWYKoAuHKQL.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=OLWjJvL52ec",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Mad%20God%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/mad%20god/",
+      "tmdb_url": "https://www.themoviedb.org/movie/846867",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=mad_god",
+      "showtimes": [
+        {
+          "date": "2027-02-04",
+          "time": "20:45",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S. · Cineforum",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Ragione e sentimento",
+      "director": "Georgia Oakley",
+      "duration_min": 132,
+      "poster_url": "https://image.tmdb.org/t/p/w500/bwZCHb0qCFP2QT3QylGixpsNo8D.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=DKwPSComY6k",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Ragione%20e%20sentimento%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/ragione%20e%20sentimento/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1503762",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=ragione_e_sentimento",
+      "showtimes": [
+        {
+          "date": "2026-11-21",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-22",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-24",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": "4€",
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-11-25",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Spezie e bugie - La piccola cucina di Mehdi",
+      "director": "Amine Adjina",
+      "duration_min": 104,
+      "poster_url": "https://image.tmdb.org/t/p/w500/mOZyiorBFLBiHopLsyLpFmgiGzx.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=Y5S5WGhGD7c",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Spezie%20e%20bugie%20-%20La%20piccola%20cucina%20di%20Mehdi%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/spezie%20e%20bugie%20-%20la%20piccola%20cucina%20di%20mehdi/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1266826",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=spezie_e_bugie___la_piccola_cucina_di_me",
+      "showtimes": [
+        {
+          "date": "2026-11-26",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "The Twilight Saga - Eclipse",
+      "director": "David Slade",
+      "duration_min": 124,
+      "poster_url": "https://image.tmdb.org/t/p/w500/smOfIKy6RASxhjjMDK5Tje55xT5.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=jtDP_mNIcIM",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Twilight%20Saga%20-%20Eclipse%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20twilight%20saga%20-%20eclipse/",
+      "tmdb_url": "https://www.themoviedb.org/movie/24021",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=the_twilight_saga___eclipse",
+      "showtimes": [
+        {
+          "date": "2026-11-23",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "The Twilight Saga: Breaking Dawn - Parte 2",
+      "director": "Bill Condon",
+      "duration_min": 116,
+      "poster_url": "https://image.tmdb.org/t/p/w500/jggdHu4vvm5v7mBYhb8VwV35ZtG.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=0h4by8RyNDI",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=The%20Twilight%20Saga%3A%20Breaking%20Dawn%20-%20Parte%202%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/the%20twilight%20saga%3A%20breaking%20dawn%20-%20parte%202/",
+      "tmdb_url": "https://www.themoviedb.org/movie/50620",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=the_twilight_saga__breaking_dawn___parte",
+      "showtimes": [
+        {
+          "date": "2026-11-30",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-14",
+          "time": "21:00",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": "V.O.S.",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Un tranquillo funerale di famiglia",
+      "director": "Massimiliano Bruno",
+      "duration_min": 98,
+      "poster_url": "https://image.tmdb.org/t/p/w500/iXtZ4Y28GTw1BJFHgcmHrICoyL1.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=B1KICaU-WgA",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Un%20tranquillo%20funerale%20di%20famiglia%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/un%20tranquillo%20funerale%20di%20famiglia/",
+      "tmdb_url": "https://www.themoviedb.org/movie/1678120",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=un_tranquillo_funerale_di_famiglia",
+      "showtimes": [
+        {
+          "date": "2026-11-21",
+          "time": "18:30",
+          "cinema": "Cinema Rex",
+          "price": null,
+          "note": null,
+          "date_uncertain": false
+        },
+        {
+          "date": "2026-12-03",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
+      "title": "Una storia vera",
+      "director": "David Lynch",
+      "duration_min": 111,
+      "poster_url": "https://image.tmdb.org/t/p/w500/pQq7fzLSrowAz4EYVSDZwKVX2Hr.jpg",
+      "trailer_url": "https://www.youtube.com/watch?v=JNi-Osdmkh0",
+      "trailer_search_url": "https://www.youtube.com/results?search_query=Una%20storia%20vera%20trailer",
+      "letterboxd_url": "https://letterboxd.com/search/films/una%20storia%20vera/",
+      "tmdb_url": "https://www.themoviedb.org/movie/404",
+      "detail_url": "https://www.cinemarex.it/evento?eventName=una_storia_vera",
+      "showtimes": [
+        {
+          "date": "2026-12-10",
+          "time": "16:00",
+          "cinema": "Cinema Rex",
+          "price": "5€",
+          "note": "Pomeriggio al Rex",
+          "date_uncertain": false
+        }
+      ]
+    },
+    {
       "title": "L'estranea",
       "director": "Paolo",
       "duration_min": 115,
@@ -6051,43 +6187,6 @@
           "cinema": "Cinema Esperia",
           "price": null,
           "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Fatherland",
-      "director": "Pawel Pawl",
-      "duration_min": 82,
-      "poster_url": "https://www.esperiapadova.it/data/img/905/fatherland.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=OpYxGTTKA0s",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Fatherland%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/fatherland/",
-      "tmdb_url": "https://www.themoviedb.org/movie/1437696",
-      "detail_url": "https://www.esperiapadova.it/Post?postid=905",
-      "showtimes": [
-        {
-          "date": "2026-11-22",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-11-24",
-          "time": "21:00",
-          "cinema": "Cinema Esperia",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        },
-        {
-          "date": "2026-12-02",
-          "time": "21:00",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": "V.O.S.",
           "date_uncertain": false
         }
       ]
@@ -6205,27 +6304,6 @@
       "showtimes": [
         {
           "date": "2026-12-09",
-          "time": "21:00",
-          "cinema": "Piccolo Teatro",
-          "price": null,
-          "note": null,
-          "date_uncertain": false
-        }
-      ]
-    },
-    {
-      "title": "Minotaur - Nel labirinto del potere",
-      "director": "Andrej Zvjagincev",
-      "duration_min": 142,
-      "poster_url": "https://www.piccolo-padova.it/wp-content/uploads/minotaur-1-scaled-1-724x1024.jpg",
-      "trailer_url": "https://www.youtube.com/watch?v=tNAeYB9yDSo",
-      "trailer_search_url": "https://www.youtube.com/results?search_query=Minotaur%20-%20Nel%20labirinto%20del%20potere%20trailer",
-      "letterboxd_url": "https://letterboxd.com/search/films/minotaur%20-%20nel%20labirinto%20del%20potere/",
-      "tmdb_url": "https://www.themoviedb.org/movie/848700",
-      "detail_url": "https://www.piccolo-padova.it/minotaur-nel-labirinto-del-potere/",
-      "showtimes": [
-        {
-          "date": "2026-12-16",
           "time": "21:00",
           "cinema": "Piccolo Teatro",
           "price": null,
