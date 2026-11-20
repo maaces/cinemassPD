@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1599553484024997916@cinema-scraper.local
+DTSTAMP:20261120T204102Z
+DTSTART:20261123T193000Z
+DTEND:20261123T205000Z
+SUMMARY:Nodo alla gola - Alfred Hitchcock
+LOCATION:Lux
+DESCRIPTION:https://www.movieconnection.it/proiezione/nodo-alla-gola-alfred-hitchcock-usa-1948-80/
+END:VEVENT
+END:VCALENDAR
