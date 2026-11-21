@@ -1,19 +1,19 @@
-Report generato il 20/11/2026 21:40 (ora italiana)
+Report generato il 21/11/2026 20:40 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
 Film trovati: 27
-Orari trovati: 392 (di cui con data non riconosciuta: 0)
+Orari trovati: 359 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 10
-Orari trovati: 37 (di cui con data non riconosciuta: 0)
+Film trovati: 9
+Orari trovati: 28 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
@@ -21,14 +21,14 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
 Film trovati: 14
-Orari trovati: 114 (di cui con data non riconosciuta: 0)
+Orari trovati: 94 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
 ## Lux
 URL: https://www.movieconnection.it/lux/
 Scraper: movieconnection
-Film trovati: 5
+Film trovati: 8
 Orari trovati: 24 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/lux.txt
@@ -43,15 +43,18 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/fronte-del-porto.txt
 
 ## The Space (Limena)
 URL: https://www.thespacecinema.it/cinema/limena/al-cinema
-STATO: aggiornato in locale (run_space_only.py), 19 orari salvati
+STATO: aggiornato in locale (run_space_only.py), 15 orari salvati
 
 ## Cinema Rex
 URL: https://www.cinemarex.it/
 Scraper: cinema_rex
 Film trovati: 17
 Orari trovati: 28 (di cui con data non riconosciuta: 0)
-Errore: nessuno
-HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
+Errore: TimeoutError: Page.goto: Timeout 60000ms exceeded.
+Call log:
+  - navigating to "https://www.cinemarex.it/", waiting until "domcontentloaded"
+ (orari presi dall'ultimo aggiornamento riuscito)
+HTML ripulito: non disponibile
 
 ## Cinema Esperia
 URL: https://www.esperiapadova.it/Blog?category=1
@@ -64,7 +67,7 @@ HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-esperia.txt
 ## Piccolo Teatro
 URL: https://www.piccolo-padova.it/
 Scraper: piccolo
-Film trovati: 8
-Orari trovati: 10 (di cui con data non riconosciuta: 0)
+Film trovati: 7
+Orari trovati: 12 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/piccolo-teatro.txt, https://maaces.github.io/cinemassPD/debug/piccolo-teatro-2.txt, https://maaces.github.io/cinemassPD/debug/piccolo-teatro-3.txt
