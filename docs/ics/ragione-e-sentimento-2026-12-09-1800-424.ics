@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1446024541732311015@cinema-scraper.local
+DTSTAMP:20261124T224240Z
+DTSTART:20261209T170000Z
+DTEND:20261209T191200Z
+SUMMARY:Ragione e sentimento - Georgia Oakley
+LOCATION:Piccolo Teatro
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=ragione_e_sentimento
+END:VEVENT
+END:VCALENDAR

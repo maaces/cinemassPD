@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:263394908951645474@cinema-scraper.local
+DTSTAMP:20261124T224240Z
+DTSTART:20261125T200000Z
+DTEND:20261125T221200Z
+SUMMARY:Ragione e sentimento - Georgia Oakley
+LOCATION:Cinema Rex
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=ragione_e_sentimento
+END:VEVENT
+END:VCALENDAR
