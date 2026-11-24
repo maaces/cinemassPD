@@ -60,97 +60,12 @@
       <div class="main col-lg-9 col-md-8" role="main">
        <div class="entry-content" itemprop="mainContentOfPage" itemscope="" itemtype="https://schema.org/WebPageElement">
         <div class="homecontent postlist clearfix home-margin">
-         <article class="post-24697 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24697" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/fatherland-vos/" title="Fatherland (VOS)">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/fatherland.png" width="691"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/fatherland-vos/">
-              <h2 class="entry-title" itemprop="name headline">
-               Fatherland (VOS)
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               mercoledì 2 dicembre ore 21.00
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Si può perdere un film sul legame tra Thomas Mann, si proprio quello, e la figlia Erika diretto dal regista di Ida con Sandra Huller ambientato nel periodo della Guerra Fredda? Domanda retorica, ci vediamo in sala!
-             </p>
-             <p>
-              <strong>
-               IN VERSIONE ORIGINALE CON SOTTOTITOLI IN ITALIANO
-              </strong>
-              <br/>
-              <strong>
-               CON ANALISI DEL FILM IN SALA DI A. PREVEDELLO
-              </strong>
-             </p>
-            </div>
-            <footer>
-            </footer>
-           </div>
-          </div>
-         </article>
-         <article class="post-24456 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24456" itemscope="" itemtype="https://schema.org/BlogPosting">
-          <div class="row">
-           <div class="col-md-5 post-image-container">
-            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
-             <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/" title="APPUNTAMENTI CON IL TEATRO VENETO – 2026">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-TEATRO-VENETO-2026-pdf-724x1024.jpg" width="724"/>
-             </a>
-            </div>
-           </div>
-           <div class="col-md-7 post-text-container postcontent">
-            <div class="postmeta updated color_gray">
-            </div>
-            <header>
-             <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/">
-              <h2 class="entry-title" itemprop="name headline">
-               APPUNTAMENTI CON IL TEATRO VENETO – 2026
-              </h2>
-             </a>
-             <div class="data-evento">
-              <p>
-               Prevendite dal 7 settembre – Cinque spettacoli, il venerdì sera: 9 e 23 ottobre, 6 e 20 novembre, 4 dicembre – ore 21.15
-              </p>
-             </div>
-            </header>
-            <div class="entry-content" itemprop="description">
-             <p>
-              Con l’inizio della prevendita da lunedì 7 settembre torna il tempo degli “Appuntamenti con il Teatro Veneto” del Piccolo Teatro: nuova edizione della ormai ventennale rassegna teatrale curata dall’associazione Piccolo Teatro, che ha in programma, come sempre, diversi appuntamenti di …
-              <a href="https://www.piccolo-padova.it/appuntamenti-con-il-teatro-veneto/">
-               Continua
-              </a>
-             </p>
-            </div>
-            <footer>
-             <div class="cast">
-              <p>
-               Con alcune tra le più apprezzate ed acclamate compagnie della nostra regione, tre titoli goldoniani e due titoli contemporanei ambientati in terra veneta…
-              </p>
-             </div>
-            </footer>
-           </div>
-          </div>
-         </article>
          <article class="post-24600 post type-post status-publish format-standard has-post-thumbnail hentry category-teatro" id="post-24600" itemscope="" itemtype="https://schema.org/BlogPosting">
           <div class="row">
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/il-teatro-comico/" title="IL TEATRO COMICO">
-              <img alt="" class="img-responsive wp-post-image" decoding="async" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-IL-TEATRO-COMICO-2026-pdf-724x1024.jpg" width="724"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" fetchpriority="high" height="1024" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-IL-TEATRO-COMICO-2026-pdf-724x1024.jpg" width="724"/>
              </a>
             </div>
            </div>
@@ -194,7 +109,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/betoneghe-d-o-c/" title="BETONEGHE D.O.C.">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 863px) 100vw, 863px" data-src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-100-dpi-BETONEGHE-DOC-2027.jpg" decoding="async" height="914" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20863%20914%22%3E%3C/svg%3E" width="863"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="914" src="https://www.piccolo-padova.it/wp-content/uploads/LOCANDINA-100-dpi-BETONEGHE-DOC-2027.jpg" width="863"/>
              </a>
             </div>
            </div>
@@ -236,7 +151,7 @@
            <div class="col-md-5 post-image-container">
             <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
              <a href="https://www.piccolo-padova.it/lestranea/" title="L’estranea">
-              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 420px) 100vw, 420px" data-src="https://www.piccolo-padova.it/wp-content/uploads/Lestranea-locandina.jpg" decoding="async" height="601" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20420%20601%22%3E%3C/svg%3E" width="420"/>
+              <img alt="" class="img-responsive wp-post-image" decoding="async" height="601" src="https://www.piccolo-padova.it/wp-content/uploads/Lestranea-locandina.jpg" width="420"/>
              </a>
             </div>
            </div>
@@ -476,6 +391,84 @@
            </div>
           </div>
          </article>
+         <article class="post-24731 post type-post status-publish format-standard has-post-thumbnail hentry category-cinema" id="post-24731" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/minotaur-nel-labirinto-del-potere/" title="Minotaur – Nel labirinto del potere">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 724px) 100vw, 724px" data-src="https://www.piccolo-padova.it/wp-content/uploads/minotaur-1-scaled-1-724x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20724%201024%22%3E%3C/svg%3E" width="724"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/minotaur-nel-labirinto-del-potere/">
+              <h2 class="entry-title" itemprop="name headline">
+               Minotaur – Nel labirinto del potere
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               mercoledì 16 dicembre ore 21.00
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              Dopo Fatherland vedere anche Minotaur è l’estasi del cinema. Dopo Pawlikowski pure il regista Zvyagintsev: vi abituate troppo bene, ma questo mese dedicato all’albero di Natale va così di generosità. Il regista di Il ritorno e Loveless ambienta il remake Stéphane, una moglie infedele (1969) di Claude Chabrol in una Russia contemporanea che incolla alla poltrona. Grande cinema!
+             </p>
+             <p>
+              <strong>
+               CON VIDEO INTRODUZIONE DI A. PREVEDELLO
+              </strong>
+             </p>
+            </div>
+            <footer>
+            </footer>
+           </div>
+          </div>
+         </article>
+         <article class="post-22963 post type-post status-publish format-standard has-post-thumbnail hentry category-musica" id="post-22963" itemscope="" itemtype="https://schema.org/BlogPosting">
+          <div class="row">
+           <div class="col-md-5 post-image-container">
+            <div class="imghoverclass img-margin-center" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject">
+             <a href="https://www.piccolo-padova.it/opera-lirica-al-cinema/" title="OPERA LIRICA E BALLETTO AL CINEMA – 2026/2027 (I parte)">
+              <img alt="" class="lazyload img-responsive wp-post-image" data-sizes="(max-width: 734px) 100vw, 734px" data-src="https://www.piccolo-padova.it/wp-content/uploads/LIRICA-AUTUNNO-2026-734x1024.jpg" decoding="async" height="1024" src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20734%201024%22%3E%3C/svg%3E" width="734"/>
+             </a>
+            </div>
+           </div>
+           <div class="col-md-7 post-text-container postcontent">
+            <div class="postmeta updated color_gray">
+            </div>
+            <header>
+             <a href="https://www.piccolo-padova.it/opera-lirica-al-cinema/">
+              <h2 class="entry-title" itemprop="name headline">
+               OPERA LIRICA E BALLETTO AL CINEMA – 2026/2027 (I parte)
+              </h2>
+             </a>
+             <div class="data-evento">
+              <p>
+               Sottoscrizione della “Fedelissimi Liri-Card” presso la segreteria del teatro (prendere appuntamento). Prevendita dei biglietti attiva.
+              </p>
+             </div>
+            </header>
+            <div class="entry-content" itemprop="description">
+             <p>
+              OPERA AL CINEMA  – LIRICA IN DIGITALE è un progetto dell’Associazione Piccolo Teatro che, nel 25° anno di attività, intende dedicare le proprie risorse economiche e umane per realizzare comunque quattro appuntamenti sul grande schermo cinematografico, tre opere ed un balletto, due delle quali proposte quali “operazioni culturali” (e pertanto ad ingresso gratuito) in partnership con Rai Com.
+             </p>
+            </div>
+            <footer>
+             <div class="cast">
+              <p>
+               In calendario da ottobre a dicembre Carmen, Otello, Falstaff e Giselle
+              </p>
+             </div>
+            </footer>
+           </div>
+          </div>
+         </article>
          <div class="wp-pagenavi">
           <nav aria-label="Paginazione degli articoli" class="navigation pagination">
            <h2 class="screen-reader-text">
@@ -524,18 +517,18 @@
              </strong>
             </p>
             <div class="mailpoet_paragraph">
-             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_1prhw" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
-             <span class="mailpoet_error_1prhw">
+             <input aria-label="Email *" aria-required="true" autocomplete="email" class="mailpoet_text" data-automation-id="form_email" data-parsley-errors-container=".mailpoet_error_u9zw5" data-parsley-maxlength="150" data-parsley-minlength="6" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." data-parsley-type-message="Questo valore dovrebbe essere un indirizzo email valido." id="form_email_1" name="data[form_field_M2QyMTljODBhNzlmX2VtYWls]" placeholder="Email *" required="" title="Email" type="email" value=""/>
+             <span class="mailpoet_error_u9zw5">
              </span>
             </div>
             <div class="mailpoet_paragraph">
              <fieldset>
               <label class="mailpoet_checkbox_label" for="mailpoet_checkbox_1">
-               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1fi77" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
+               <input aria-required="true" class="mailpoet_checkbox" data-parsley-errors-container=".mailpoet_error_1jhm8" data-parsley-group="custom_field_1" data-parsley-required="true" data-parsley-required-message="Questo campo è obbligatorio." id="mailpoet_checkbox_1" name="data[cf_1]" required="" type="checkbox" value="1"/>
                Autorizzo al trattamento dei dati personali ai sensi del regolamento UE 2016/679
               </label>
              </fieldset>
-             <span class="mailpoet_error_1fi77">
+             <span class="mailpoet_error_1jhm8">
              </span>
             </div>
             <div class="mailpoet_paragraph">

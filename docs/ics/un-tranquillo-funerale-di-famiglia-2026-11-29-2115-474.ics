@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1026590926143369010@cinema-scraper.local
+DTSTAMP:20261124T001624Z
+DTSTART:20261129T201500Z
+DTEND:20261129T215300Z
+SUMMARY:Un tranquillo funerale di famiglia - Massimiliano Bruno
+LOCATION:Piccolo Teatro
+DESCRIPTION:https://www.cinemarex.it/evento?eventName=un_tranquillo_funerale_di_famiglia
+END:VEVENT
+END:VCALENDAR
