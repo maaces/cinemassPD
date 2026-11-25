@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.14.3 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.14.3 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -385,7 +385,7 @@
            <li>
             <a class="striscia-giorni__giorno" data-giorno="20261126" href="#giorno-20261126">
              <span class="striscia-giorni__nome">
-              Gio
+              Domani
              </span>
              <span class="striscia-giorni__numero">
               26
@@ -725,7 +725,7 @@
          <div class="programmazione-lista-grouped">
           <div class="programmazione-data-gruppo" id="giorno-20261126">
            <h2 class="programmazione-data-titolo">
-            GIOVEDì, 26 NOVEMBRE
+            DOMANI
            </h2>
            <div class="programmazione-lista-new programmazione-lista-card">
             <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="un giorno senza donne documentario, islanda/stati uniti, 2024, 70'">

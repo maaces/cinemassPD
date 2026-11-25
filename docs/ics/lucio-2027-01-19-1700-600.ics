@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:8227352289596604639@cinema-scraper.local
+DTSTAMP:20261125T215725Z
+DTSTART:20270119T160000Z
+DTEND:20270119T180000Z
+SUMMARY:Lucio - Ambrogio Lo Giudice
+LOCATION:Piccolo Teatro
+DESCRIPTION:Durata non nota: evento impostato a 2h di default\, verifica sul sito del cinema.\nhttps://www.piccolo-padova.it/lucio-dalla-film/
+END:VEVENT
+END:VCALENDAR

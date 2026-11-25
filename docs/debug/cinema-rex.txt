@@ -411,47 +411,6 @@
    ]
   },
   {
-   "titolo": "Fatherland",
-   "autore": "Pawe? Pawlikowski",
-   "link_esterno": "",
-   "durata": "82",
-   "descrizione": "Il rapporto tra lo scrittore Thomas Mann (Hanns Zischler) e sua figlia Erika (Sandra Hüller), attrice, giornalista e pilota di rally. A bordo di una Buick nera intraprendono un viaggio attraverso una Germania in macerie: da Francoforte, sotto l'influenza statunitense, fino a Weimar, controllata dai sovietici. Per la prima volta dopo la guerra, Mann torna nella sua nativa Germania, dopo aver preso la difficile decisione di fuggire negli Stati Uniti per mettersi in salvo.",
-   "categoria_film": "y",
-   "categoria_teatro": "n",
-   "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
-   "categoria_vos": "n",
-   "categoria_cineforum": "n",
-   "eventi": [
-    {
-     "id_orario_evento": "3213",
-     "inizio": 1795629600000,
-     "id_cinebot": "1364",
-     "tipo_prezzo_1": "Ridotto generico",
-     "valore_prezzo_1": "6",
-     "valore_prevendita_1": "0.5",
-     "tipo_prezzo_2": "Intero",
-     "valore_prezzo_2": "7",
-     "valore_prevendita_2": "0.5",
-     "tipo_prezzo_3": "",
-     "valore_prezzo_3": "0",
-     "valore_prevendita_3": "0",
-     "tipo_prezzo_4": "",
-     "valore_prezzo_4": "0",
-     "valore_prevendita_4": "0",
-     "tipo_prezzo_5": "",
-     "valore_prezzo_5": "0",
-     "valore_prevendita_5": "0",
-     "fl_film_vos": "n",
-     "fl_cast": "n",
-     "fl_ospiti_in_sala": "n",
-     "fl_tessera_noi": "y",
-     "cast": "n"
-    }
-   ]
-  },
-  {
    "titolo": "Fortunato e i 3 capelli dell'Orco",
    "autore": "De Bastiani",
    "link_esterno": "",
@@ -527,7 +486,7 @@
      "valore_prevendita_5": "0",
      "fl_film_vos": "n",
      "fl_cast": "n",
-     "fl_ospiti_in_sala": "y",
+     "fl_ospiti_in_sala": "n",
      "fl_tessera_noi": "n",
      "cast": "n"
     }
@@ -650,7 +609,7 @@
      "valore_prevendita_5": "0",
      "fl_film_vos": "n",
      "fl_cast": "n",
-     "fl_ospiti_in_sala": "y",
+     "fl_ospiti_in_sala": "n",
      "fl_tessera_noi": "n",
      "cast": "n"
     }
@@ -813,7 +772,7 @@
     },
     {
      "id_orario_evento": "3224",
-     "inizio": 1796234400000,
+     "inizio": 1796233200000,
      "id_cinebot": "1367",
      "tipo_prezzo_1": "Ridotto generico",
      "valore_prezzo_1": "6",
@@ -912,7 +871,7 @@
      "tipo_prezzo_5": "",
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
-     "fl_film_vos": "y",
+     "fl_film_vos": "n",
      "fl_cast": "n",
      "fl_ospiti_in_sala": "n",
      "fl_tessera_noi": "n",
@@ -1101,7 +1060,7 @@
      "tipo_prezzo_5": "",
      "valore_prezzo_5": "0",
      "valore_prevendita_5": "0",
-     "fl_film_vos": "n",
+     "fl_film_vos": "y",
      "fl_cast": "n",
      "fl_ospiti_in_sala": "n",
      "fl_tessera_noi": "n",
@@ -1185,7 +1144,7 @@
      "valore_prevendita_5": "0",
      "fl_film_vos": "n",
      "fl_cast": "n",
-     "fl_ospiti_in_sala": "y",
+     "fl_ospiti_in_sala": "n",
      "fl_tessera_noi": "n",
      "cast": "n"
     }
@@ -1207,7 +1166,7 @@
    "eventi": [
     {
      "id_orario_evento": "3225",
-     "inizio": 1796241600000,
+     "inizio": 1796240700000,
      "id_cinebot": "1371",
      "tipo_prezzo_1": "Omaggio generico",
      "valore_prezzo_1": "0",
@@ -1228,7 +1187,7 @@
      "fl_cast": "n",
      "fl_ospiti_in_sala": "y",
      "fl_tessera_noi": "n",
-     "cast": "n"
+     "cast": "y"
     }
    ]
   },
@@ -1267,7 +1226,7 @@
      "valore_prevendita_5": "0",
      "fl_film_vos": "n",
      "fl_cast": "n",
-     "fl_ospiti_in_sala": "y",
+     "fl_ospiti_in_sala": "n",
      "fl_tessera_noi": "n",
      "cast": "n"
     }
@@ -1297,47 +1256,6 @@
      "tipo_prezzo_2": "",
      "valore_prezzo_2": "0",
      "valore_prevendita_2": "0",
-     "tipo_prezzo_3": "",
-     "valore_prezzo_3": "0",
-     "valore_prevendita_3": "0",
-     "tipo_prezzo_4": "",
-     "valore_prezzo_4": "0",
-     "valore_prevendita_4": "0",
-     "tipo_prezzo_5": "",
-     "valore_prezzo_5": "0",
-     "valore_prevendita_5": "0",
-     "fl_film_vos": "n",
-     "fl_cast": "n",
-     "fl_ospiti_in_sala": "n",
-     "fl_tessera_noi": "n",
-     "cast": "n"
-    }
-   ]
-  },
-  {
-   "titolo": "Ragione e sentimento",
-   "autore": "Georgia Oakley",
-   "link_esterno": "",
-   "durata": "132",
-   "descrizione": "La storia segue le vicende delle sorelle Elinor e Marianne Dashwood che, insieme alla madre e alla sorella minore Margaret, si ritrovano improvvisamente in ristrettezze economiche dopo la morte del padre, la cui eredità passa interamente al fratellastro John a causa delle leggi dell’epoca. Sfrattate dalla loro casa di famiglia nel Sussex, le donne Dashwood si trasferiscono in un modesto cottage nel Devonshire. Qui le due sorelle maggiori, profondamente diverse per temperamento – Elinor è guidata dalla prudenza e dal controllo delle emozioni (sense, la ragione), Marianne dall’impulso e dalla passione romantica (sensibility, il sentimento) –, dovranno navigare tra le rigide convenzioni sociali e i dolori dei loro rispettivi e tormentati primi amori, incarnati dalle figure di Edward Ferrars, John Willoughby e del colonnello Brandon.",
-   "categoria_film": "y",
-   "categoria_teatro": "n",
-   "categoria_musica": "n",
-   "categoria_teatroragazzi": "n",
-   "categoria_kids": "n",
-   "categoria_vos": "n",
-   "categoria_cineforum": "n",
-   "eventi": [
-    {
-     "id_orario_evento": "3214",
-     "inizio": 1795636800000,
-     "id_cinebot": "1365",
-     "tipo_prezzo_1": "Intero",
-     "valore_prezzo_1": "7",
-     "valore_prevendita_1": "0.5",
-     "tipo_prezzo_2": "Ridotto generico",
-     "valore_prezzo_2": "5",
-     "valore_prevendita_2": "0.5",
      "tipo_prezzo_3": "",
      "valore_prezzo_3": "0",
      "valore_prevendita_3": "0",

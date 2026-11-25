@@ -1,27 +1,27 @@
-Report generato il 24/11/2026 23:41 (ora italiana)
+Report generato il 25/11/2026 22:56 (ora italiana)
 ============================================================
 
 ## Cineplex (Due Carrare)
 URL: https://pd.cineplexmoderno.cineplexmoderno.it/
 Scraper: tickets18
-Film trovati: 31
-Orari trovati: 364 (di cui con data non riconosciuta: 0)
+Film trovati: 24
+Orari trovati: 336 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cineplex-due-carrare.txt
 
 ## Multiastra
 URL: https://multiastra.it/
 Scraper: wp_remotefilm
-Film trovati: 6
-Orari trovati: 8 (di cui con data non riconosciuta: 0)
+Film trovati: 7
+Orari trovati: 47 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/multiastra.txt
 
 ## Porto Astra
 URL: https://portoastra.it/
 Scraper: wp_remotefilm
-Film trovati: 9
-Orari trovati: 19 (di cui con data non riconosciuta: 0)
+Film trovati: 17
+Orari trovati: 156 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/porto-astra.txt
 
@@ -48,8 +48,8 @@ STATO: aggiornato in locale (run_space_only.py), 0 orari salvati
 ## Cinema Rex
 URL: https://www.cinemarex.it/
 Scraper: cinema_rex
-Film trovati: 17
-Orari trovati: 23 (di cui con data non riconosciuta: 0)
+Film trovati: 15
+Orari trovati: 21 (di cui con data non riconosciuta: 0)
 Errore: nessuno
 HTML ripulito: https://maaces.github.io/cinemassPD/debug/cinema-rex.txt
 
