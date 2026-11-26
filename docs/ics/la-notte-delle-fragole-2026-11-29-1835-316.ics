@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cinema-scraper//IT
+BEGIN:VEVENT
+UID:1604125725151043557@cinema-scraper.local
+DTSTAMP:20261126T215305Z
+DTSTART:20261129T173500Z
+DTEND:20261129T190600Z
+SUMMARY:La notte delle fragole - Alessandro Genovesi
+LOCATION:Cineplex (Due Carrare)
+DESCRIPTION:https://pd.cineplexmoderno.cineplexmoderno.it/film/169518
+END:VEVENT
+END:VCALENDAR
