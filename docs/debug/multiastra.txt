@@ -389,15 +389,6 @@
             <ul class="x-nav x-nav-tabs seven-up top" data-x-element="tab_nav" data-x-params='{"orientation":"vertical"}' id="someList" role="tablist">
              <li class="x-nav-tabs-item active" role="presentation">
               <a aria-controls="x-legacy-panel-1" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-1" id="x-legacy-tab-1" role="tab">
-               27/11
-               <br/>
-               <b>
-                Venerdì
-               </b>
-              </a>
-             </li>
-             <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                28/11
                <br/>
                <b>
@@ -406,7 +397,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
+              <a aria-controls="x-legacy-panel-2" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-2" id="x-legacy-tab-2" role="tab">
                29/11
                <br/>
                <b>
@@ -415,7 +406,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
+              <a aria-controls="x-legacy-panel-3" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-3" id="x-legacy-tab-3" role="tab">
                30/11
                <br/>
                <b>
@@ -424,7 +415,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
+              <a aria-controls="x-legacy-panel-4" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-4" id="x-legacy-tab-4" role="tab">
                01/12
                <br/>
                <b>
@@ -433,7 +424,7 @@
               </a>
              </li>
              <li class="x-nav-tabs-item active" role="presentation">
-              <a aria-controls="x-legacy-panel-6" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-6" id="x-legacy-tab-6" role="tab">
+              <a aria-controls="x-legacy-panel-5" aria-selected="false" data-x-toggle="tab" data-x-toggle-group="orariGroup" data-x-toggleable="x-legacy-tab-5" id="x-legacy-tab-5" role="tab">
                02/12
                <br/>
                <b>
@@ -444,141 +435,6 @@
             </ul>
             <div class="x-tab-content orari">
              <div aria-hidden="false" aria-labelledby="x-legacy-tab-1" class="x-tab-pane fade in active" data-x-toggleable="x-legacy-tab-1" id="x-legacy-panel-1" role="tabpanel">
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13769">
-                  mustang
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/mustang_2026-c7b60894-70fc-45bc-b423-75d9f2e46739/882263#sala" target="_blank">
-                   <span class="time_Ven">
-                    16.00
-                    <span class="nb time_Ven nb1">
-                     Ingresso 4,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/mustang_2026-c7b60894-70fc-45bc-b423-75d9f2e46739/882265#sala" target="_blank">
-                   <span class="">
-                    18.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13759">
-                  il fuoco che ti porti dentro
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-4e87d492-e195-489f-a07d-ac02695db394/882246#sala" target="_blank">
-                   <span class="time_Ven">
-                    16.20
-                    <span class="nb time_Ven nb1">
-                     Ingresso 4,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/il-fuoco-che-ti-porti-dentro_2026-4e87d492-e195-489f-a07d-ac02695db394/882247#sala" target="_blank">
-                   <span class="">
-                    18.20
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13343">
-                  storie parallele
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/storie-parallele-histoires-paralleles-_2026-523b3a75-c34f-4cfa-a79d-412007581f9f/882172#sala" target="_blank">
-                   <span class="time_Ven">
-                    16.30
-                    <span class="nb time_Ven nb1">
-                     Ingresso 4,50 €
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/storie-parallele-histoires-paralleles-_2026-523b3a75-c34f-4cfa-a79d-412007581f9f/882183#sala" target="_blank">
-                   <span class="">
-                    20.15
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13390">
-                  fjord
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/fjord-v-o-_2026-72fbd982-a6d3-4c31-9b1d-9cf9a761bca9/882229#sala" target="_blank">
-                   <span class="">
-                    20.00
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-              <ul class="x-block-grid two-up orariUl">
-               <li class="block_grid_item">
-                <b>
-                 <a href="https://multiastra.it/?post_type=remotefilm&amp;p=13340">
-                  wild horse nine
-                 </a>
-                </b>
-               </li>
-               <li class="block_grid_item">
-                <b class="time_OV">
-                 <span class="x-column x-sm">
-                  <a href="https://astra.multiastra.18tickets.it/film/wild-horse-nine_2026-596c7732-6a93-4063-8473-9d06e46c30af/882278#sala" target="_blank">
-                   <span class="time_OV">
-                    20.30
-                    <span class="nb nb1">
-                     V.O.S
-                    </span>
-                   </span>
-                  </a>
-                 </span>
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -695,7 +551,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-2" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-2" id="x-legacy-panel-2" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -834,7 +690,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-3" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-3" id="x-legacy-panel-3" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -899,7 +755,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-4" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-4" id="x-legacy-panel-4" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1001,7 +857,7 @@
                </li>
               </ul>
              </div>
-             <div aria-hidden="true" aria-labelledby="x-legacy-tab-6" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-6" id="x-legacy-panel-6" role="tabpanel">
+             <div aria-hidden="true" aria-labelledby="x-legacy-tab-5" class="x-tab-pane fade in" data-x-toggleable="x-legacy-tab-5" id="x-legacy-panel-5" role="tabpanel">
               <ul class="x-block-grid two-up orariUl">
                <li class="block_grid_item">
                 <b>
@@ -1361,7 +1217,7 @@
             <hr class="x-hr lineTitle"/>
             <div class="x-form-integration x-form-integration-wpforms e13246-e30 ma7y-1j">
              <div class="wpforms-container wpforms-container-full" id="wpforms-10219">
-              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="2b607a82e696e71d9ee54a7dbb841136" data-token-time="1795729861" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
+              <form action="/" class="wpforms-validate wpforms-form wpforms-ajax-form" data-formid="10219" data-token="a5cd39e66daf37a185b48755c456456f" data-token-time="1795815244" enctype="multipart/form-data" id="wpforms-form-10219" method="post">
                <div class="wpforms-field-container">
                 <div class="wpforms-field wpforms-field-email" data-field-id="2" data-field-type="email" id="wpforms-10219-field_2-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_2">
@@ -1374,7 +1230,7 @@
                 </div>
                 <div class="wpforms-field wpforms-field-text" data-field-id="1" data-field-type="text" id="wpforms-10219-field_1-container">
                  <label class="wpforms-field-label" for="wpforms-10219-field_1">
-                  Privacy Email Informativa
+                  Informativa Privacy Email
                  </label>
                  <input class="wpforms-field-medium" id="wpforms-10219-field_1" name="wpforms[fields][1]" type="text"/>
                 </div>

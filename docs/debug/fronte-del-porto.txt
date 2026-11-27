@@ -5,7 +5,7 @@
    Eventi - Fronte del Porto
   </title>
  </head>
- <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-header-break-point ast-page-builder-template ast-no-sidebar astra-4.14.3 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+ <body class="archive post-type-archive post-type-archive-evento wp-custom-logo wp-embed-responsive wp-theme-astra wp-child-theme-astra-child ast-desktop ast-page-builder-template ast-no-sidebar astra-4.14.3 ast-inherit-site-logo-transparent ast-hfb-header ast-full-width-primary-header" data-rsssl="1" itemscope="itemscope" itemtype="https://schema.org/Blog">
   <a class="skip-link screen-reader-text" href="#content">
    Vai al contenuto
   </a>
@@ -383,25 +383,9 @@
           </button>
           <ul class="striscia-giorni__lista">
            <li>
-            <a class="striscia-giorni__giorno striscia-giorni__giorno--oggi" data-giorno="20261126" href="#giorno-20261126">
+            <a class="striscia-giorni__giorno striscia-giorni__giorno--oggi" data-giorno="20261127" href="#giorno-20261127">
              <span class="striscia-giorni__nome">
               Oggi
-             </span>
-             <span class="striscia-giorni__numero">
-              26
-             </span>
-             <span aria-hidden="true" class="striscia-giorni__mese">
-              Nov
-             </span>
-             <span class="screen-reader-text">
-              novembre
-             </span>
-            </a>
-           </li>
-           <li>
-            <a class="striscia-giorni__giorno" data-giorno="20261127" href="#giorno-20261127">
-             <span class="striscia-giorni__nome">
-              Domani
              </span>
              <span class="striscia-giorni__numero">
               27
@@ -417,7 +401,7 @@
            <li>
             <a class="striscia-giorni__giorno" data-giorno="20261128" href="#giorno-20261128">
              <span class="striscia-giorni__nome">
-              Sab
+              Domani
              </span>
              <span class="striscia-giorni__numero">
               28
@@ -723,129 +707,14 @@
           </button>
          </nav>
          <div class="programmazione-lista-grouped">
-          <div class="programmazione-data-gruppo" id="giorno-20261126">
+          <div class="programmazione-data-gruppo" id="giorno-20261127">
            <h2 class="programmazione-data-titolo">
             OGGI
            </h2>
            <div class="programmazione-lista-new programmazione-lista-card">
-            <article class="card-evento" data-categorie="cinema" data-particolarita="78" data-testo="fabulaetiem documentario, italia, 2026, 51'">
-             <div class="card-evento__immagine">
-              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="high" height="432" loading="eager" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/fabulaetiem-1-768x432.jpg" width="768"/>
-             </div>
-             <div class="card-evento__corpo">
-              <div class="card-evento__principale">
-               <div class="card-evento__titolo-riga">
-                <h3 class="card-evento__titolo">
-                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/fabulaetiem/">
-                  FABULAETIEM
-                 </a>
-                </h3>
-                <div aria-hidden="true" class="evento-card-new-arrow">
-                 <span class="material-symbols-outlined">
-                  arrow_outward
-                 </span>
-                </div>
-               </div>
-               <p class="card-evento__caratteristica">
-                Documentario, Italia, 2026, 51'
-               </p>
-               <div class="card-evento__etichette">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-                <span class="particolarita-label-prog">
-                 ★ Autore in sala
-                </span>
-               </div>
-              </div>
-              <div class="card-evento__lato">
-               <p class="card-evento__ora">
-                H
-                <time datetime="2026-11-26T20:45">
-                 20:45
-                </time>
-               </p>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
-                 <div class="prenota-prog-main">
-                  <a aria-label="Prenota FABULAETIEM (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo di FABULAETIEM" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </article>
-           </div>
-          </div>
-          <div class="programmazione-data-gruppo" id="giorno-20261127">
-           <h2 class="programmazione-data-titolo">
-            DOMANI
-           </h2>
-           <div class="programmazione-lista-new programmazione-lista-card">
-            <article class="card-evento" data-categorie="cinema" data-particolarita="87" data-testo="un giorno senza donne documentario, islanda/stati uniti, 2024, 70'">
-             <div class="card-evento__immagine">
-              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="432" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/un-giorno-senza-donne-1-768x432.jpg" width="768"/>
-             </div>
-             <div class="card-evento__corpo">
-              <div class="card-evento__principale">
-               <div class="card-evento__titolo-riga">
-                <h3 class="card-evento__titolo">
-                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/un-giorno-senza-donne/">
-                  Un giorno senza donne
-                 </a>
-                </h3>
-                <div aria-hidden="true" class="evento-card-new-arrow">
-                 <span class="material-symbols-outlined">
-                  arrow_outward
-                 </span>
-                </div>
-               </div>
-               <p class="card-evento__caratteristica">
-                Documentario, Islanda/Stati Uniti, 2024, 70'
-               </p>
-               <div class="card-evento__etichette">
-                <span class="categoria-label-prog">
-                 Cinema
-                </span>
-                <span class="particolarita-label-prog">
-                 con ospiti
-                </span>
-               </div>
-              </div>
-              <div class="card-evento__lato">
-               <p class="card-evento__ora">
-                H
-                <time datetime="2026-11-27T18:30">
-                 18:30
-                </time>
-               </p>
-               <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
-                 <div class="prenota-prog-main">
-                  <a aria-label="Prenota Un giorno senza donne (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
-                   Prenota
-                  </a>
-                  <button aria-expanded="false" aria-label="Mostra prezzo di Un giorno senza donne" class="btn-prenota-prog-toggle" type="button">
-                  </button>
-                 </div>
-                 <div class="prenota-prog-prezzo" hidden="">
-                  €6,50 intero, €5,00 ridotto
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </article>
             <article class="card-evento card-evento--rassegna" data-categorie="talk" data-particolarita="" data-testo="niente di antico sotto il sole: la fotografia di luigi ghirri evento speciale">
              <div class="card-evento__immagine">
-              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="503" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/FOTO-ARTISTA_LUIGI-GHIRRI-768x503.jpg" width="768"/>
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="high" height="503" loading="eager" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/09/FOTO-ARTISTA_LUIGI-GHIRRI-768x503.jpg" width="768"/>
              </div>
              <div class="card-evento__corpo">
               <div class="card-evento__principale">
@@ -908,7 +777,7 @@
           </div>
           <div class="programmazione-data-gruppo" id="giorno-20261128">
            <h2 class="programmazione-data-titolo">
-            SABATO, 28 NOVEMBRE
+            DOMANI
            </h2>
            <div class="programmazione-lista-new programmazione-lista-card">
             <article class="card-evento" data-categorie="cinema" data-particolarita="" data-testo="fabulaetiem documentario, italia, 2026, 51'">
@@ -1182,15 +1051,19 @@
               <div class="card-evento__lato">
                <p class="card-evento__ora">
                 H
-                <time datetime="2026-12-03T20:30">
-                 20:30
+                <time datetime="2026-12-03T20:45">
+                 20:45
                 </time>
                </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
+                 <div class="prenota-prog-main">
+                  <a aria-label="Prenota Fatherland (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Fatherland" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -1241,10 +1114,14 @@
                 </time>
                </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
+                 <div class="prenota-prog-main">
+                  <a aria-label="Prenota Fatherland (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Fatherland" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -1291,10 +1168,14 @@
                 </time>
                </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
+                 <div class="prenota-prog-main">
+                  <a aria-label="Prenota La scuola non è secondaria (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/evento.aspx?Id=717507" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di La scuola non è secondaria" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -1355,10 +1236,14 @@
                 </time>
                </p>
                <div class="evento-card-new-prenota">
-                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
-                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
-                  Biglietto
-                 </button>
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo">
+                 <div class="prenota-prog-main">
+                  <a aria-label="Prenota Fatherland (si apre in una nuova scheda)" class="btn-prenota-prog" href="https://www.liveticket.it/frontedelporto" rel="noopener" target="_blank">
+                   Prenota
+                  </a>
+                  <button aria-expanded="false" aria-label="Mostra prezzo di Fatherland" class="btn-prenota-prog-toggle" type="button">
+                  </button>
+                 </div>
                  <div class="prenota-prog-prezzo" hidden="">
                   €6,50 intero, €5,00 ridotto
                  </div>
@@ -1617,6 +1502,63 @@
                Scopri di più sulla rassegna
                <strong>
                 Altrove: Iran
+               </strong>
+              </span>
+              <span aria-hidden="true" class="evento-rassegna-arrow">
+              </span>
+             </a>
+            </article>
+            <article class="card-evento card-evento--rassegna" data-categorie="cinema" data-particolarita="" data-testo="va’ sentiero documentario, italia, 2026, 100'">
+             <div class="card-evento__immagine">
+              <img alt="" class="attachment-medium_large size-medium_large wp-post-image" decoding="async" fetchpriority="auto" height="329" loading="lazy" src="https://www.frontedelportopadova.it/wp-content/uploads/2026/11/va-sentiero-1-e1795727640861-768x329.jpg" width="768"/>
+             </div>
+             <div class="card-evento__corpo">
+              <div class="card-evento__principale">
+               <div class="card-evento__titolo-riga">
+                <h3 class="card-evento__titolo">
+                 <a class="evento-card-link" href="https://www.frontedelportopadova.it/eventi/va-sentiero/">
+                  Va’ Sentiero
+                 </a>
+                </h3>
+                <div aria-hidden="true" class="evento-card-new-arrow">
+                 <span class="material-symbols-outlined">
+                  arrow_outward
+                 </span>
+                </div>
+               </div>
+               <p class="card-evento__caratteristica">
+                Documentario, Italia, 2026, 100'
+               </p>
+               <div class="card-evento__etichette">
+                <span class="categoria-label-prog">
+                 Cinema
+                </span>
+               </div>
+              </div>
+              <div class="card-evento__lato">
+               <p class="card-evento__ora">
+                H
+                <time datetime="2026-12-10T20:45">
+                 20:45
+                </time>
+               </p>
+               <div class="evento-card-new-prenota">
+                <div class="prenota-prog-wrap prenota-prog-wrap--has-prezzo prenota-prog-wrap--solo-prezzo">
+                 <button aria-expanded="false" class="btn-biglietto-prog" type="button">
+                  Biglietto
+                 </button>
+                 <div class="prenota-prog-prezzo" hidden="">
+                  €6,50 intero, €5,00 ridotto
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <a class="evento-rassegna-banner" href="https://www.frontedelportopadova.it/rassegne/in-cinema-2-farsela-in-braghe/">
+              <span class="evento-rassegna-text">
+               Scopri di più sulla rassegna
+               <strong>
+                In CI(ne)MA 2 – Farsela in braghe
                </strong>
               </span>
               <span aria-hidden="true" class="evento-rassegna-arrow">
